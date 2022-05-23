@@ -13,7 +13,18 @@
   }
 }
 
-.App-header {
+.App-header{
+  background-color: Orange;
+
+}
+
+.Header-contents{
+  display: flex;
+  justify-content: space-between ;
+  margin: auto 10px;
+}
+
+.App-body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,6 +37,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-footer {
+  background-color: orange;
+}
+
+.Navigator{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+
 }
 
 @keyframes App-logo-spin {
