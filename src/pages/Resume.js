@@ -1,11 +1,12 @@
 import React from 'react'
+import resume from 'resume.png'
 
 const Resume = () => {
 
     return(
         <div>
             <p>Resume!!!</p>
-            <a href="../resume.png" download><img src="../resume.png" width="50"/>
+            <a href={resume} download><img src={resume} width="50"/>
             </a>
         </div>
     )
