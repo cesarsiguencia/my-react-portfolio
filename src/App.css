@@ -58,6 +58,10 @@ a:visited{
   text-decoration: none;
 }
 
+a:active{
+  color: white
+}
+
 
 @keyframes App-logo-spin {
   from {
