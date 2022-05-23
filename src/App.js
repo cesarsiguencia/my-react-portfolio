@@ -3,8 +3,13 @@ import './App.css';
 
 import Nav from './Components/Nav/Nav'
 
-import Contact from './Components/Contact/Contact'
+import Contact from './pages/Contact'
+import Portfolio from './pages/Portfolio';
+import Home from './pages/Home'
+import Resume from './pages/Resume'
 // import Portfolio from './Components/Portfolio/Portfolio';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -14,6 +19,7 @@ function App() {
 
 
   return (
+    <Router>
     <div className="App">
       <header className="App-header">
         <div className="Header-contents">
@@ -34,21 +40,30 @@ function App() {
         </div>
       </header>
       <div className="App-body">
-            <p> test</p>
-        
-        
-            <Contact contactSelected={contactSelected}></Contact>
+        <Routes>
+          <Route
+            path="/"
+            element={<Home />}
+          />
+    
+          <Route
+            path="/portfolio"
+            element={<Portfolio />}
+          />
+
+
+          <Route
+            path="/contact"
+            element={<Contact />}
+          />
+
+          <Route
+            path="/resume"
+            element={<Resume />}
+          />
+
+        </Routes>
           
-
-
-
-   
-
-
-            
-        
-
-
       </div>
 
 
@@ -56,6 +71,7 @@ function App() {
         <a href="https://github.com/cesarsiguencia">GITHUB: cesarsiguencia</a> <a href="https://www.linkedin.com/in/cesar-siguencia-b71aabba">LINKEDIN: Cesar Siguencia</a>
       </footer>
     </div>
+    </Router>
   );
 }
 
