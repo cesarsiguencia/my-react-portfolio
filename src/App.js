@@ -4,7 +4,7 @@ import './App.css';
 import Nav from './Components/Nav/Nav'
 
 import Contact from './Components/Contact/Contact'
-import Portfolio from './Components/Portfolio/Portfolio';
+// import Portfolio from './Components/Portfolio/Portfolio';
 
 function App() {
 
@@ -25,8 +25,8 @@ function App() {
         <Nav
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
-          portfolioSelected={portfolioSelected}
-          setPortfolioSelected={setPortfolioSelected}
+          // portfolioSelected={portfolioSelected}
+          // setPortfolioSelected={setPortfolioSelected}
           >
 
 
@@ -34,17 +34,11 @@ function App() {
         </div>
       </header>
       <div className="App-body">
-      
-        {contactSelected 
-        ? (
-          <>
-              <p>hello</p>
-            </>
-            ) :
-            
-            (
-            <Contact></Contact>
-          )}
+            <p> test</p>
+        
+        
+            <Contact contactSelected={contactSelected}></Contact>
+          
 
 
 
