@@ -9,22 +9,22 @@ const Nav = (props) => {
     //   } = props; 
     return(
         <nav className="Navigator">
-            <p className="links">
+            <h2 className="links">
               <Link to="/">About Me
               </Link>
-            </p>
-            <p className="links">
+            </h2>
+            <h2 className="links">
               <Link to="/portfolio">Portfolio
               </Link>
-            </p>
-            <p className="links"> 
+            </h2>
+            <h2 className="links"> 
               <Link to="/contact">Contact
               </Link>
-            </p>
-            <p className="links">
+            </h2>
+            <h2 className="links">
               <Link to="/resume">Resume
               </Link>
-            </p>
+            </h2>
         
         </nav>
     )
