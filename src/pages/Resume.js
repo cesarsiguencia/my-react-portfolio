@@ -16,7 +16,7 @@ const Resume = () => {
                 <h3>Web Development Skills</h3>
                 <div className="skill-lists">
                     <div className="list-divs">
-                    <p clasName="body-texts">Front End</p>
+                    <p className="body-texts">Front End</p>
                 
                         <li>HTML</li>
                         <li>CSS</li>
@@ -28,7 +28,7 @@ const Resume = () => {
                     </div>
 
                     <div className="list-divs">
-                    <p clasName="body-texts">Back End</p>
+                    <p className="body-texts">Back End</p>
                     
                         <li>APIs</li>
                         <li>Node</li>

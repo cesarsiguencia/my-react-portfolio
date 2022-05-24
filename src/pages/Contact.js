@@ -47,16 +47,16 @@ const Contact= () => {
          
                 <div className="body-divs">
               <h3>Contact me</h3>
-              <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
+              <form className="contact-form" id="contact-form" onSubmit={handleSubmit}>
+                <div className="label-divs">
+                    <label  htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onChange={handleChange}/>
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
+                <div className="label-divs">
+                    <label className="label-fonts" htmlFor="email">Email address:</label>
                     <input type="email" name="email" defaultValue={email} onChange={handleChange} />
                 </div>
-                <div>
+                <div className="label-divs">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onChange={handleChange}/>
                         {errorMessage && (
@@ -71,14 +71,6 @@ const Contact= () => {
               </div>
 
           )
-        
-        // }
-
-    // return(
-    //     <div>
-    //         <p>Contact!!!!</p>
-    //     </div>
-    // )
 }
 
 export default Contact

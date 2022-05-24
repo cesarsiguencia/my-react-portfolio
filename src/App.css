@@ -32,8 +32,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -100,11 +98,32 @@ a:active{
   text-align: left;
 }
 
-@keyframes App-logo-spin {
+.contact-form{
+  align-items: center;
+
+}
+
+.label-divs{
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+input{
+  width: 75%;
+}
+
+textarea{
+  width: 75%;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
