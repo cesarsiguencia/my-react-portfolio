@@ -2,26 +2,32 @@ import React from "react";
 
 import { Link } from 'react-router-dom';
 
-const Nav = (props) => {
-    // const {
-    //     contactSelected,
-    //     setContactSelected
-    //   } = props; 
+const Nav = () => {
+
+
+
+    
+      
+  
+    
+    // if(tabName)
+  
+ 
     return(
         <nav className="Navigator">
             <h2 className="links">
-              <Link to="/">About Me
+              <Link id="navtab" to="/">About Me
               </Link>
             </h2>
-            <h2 className="links">
+            <h2 id="navtab" className="links">
               <Link to="/portfolio">Portfolio
               </Link>
             </h2>
-            <h2 className="links"> 
+            <h2 id="navtab" className="links"> 
               <Link to="/contact">Contact
               </Link>
             </h2>
-            <h2 className="links">
+            <h2 id="navtab" className="links">
               <Link to="/resume">Resume
               </Link>
             </h2>

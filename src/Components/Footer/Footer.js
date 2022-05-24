@@ -8,19 +8,19 @@ import instagram from '../../media/icons/instagram.png'
 const Footer = () => {
     return(
         <footer className="App-footer">
-          <p>Cesar Siguencia 2022</p>
+          <p>By Cesar Siguencia,  Powered by React</p>
           <div className="logos">
             <a href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
               <img src={github} width="50"/>
             </a> 
-            <a href="https://www.instagram.coom/cezzienyc" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/cezzienyc" target="_blank" rel="noopener noreferrer">
               <img src={instagram} width="50"/>
             </a>
             <a href="https://www.linkedin.com/in/cesar-siguencia-b71aabba" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} width="50"/>
             </a>
           </div>
-          <p>Copyright, All Rights Reserved</p>
+          <p>©Copyright 2022, All Rights Reserved</p>
 
       </footer>
     )
