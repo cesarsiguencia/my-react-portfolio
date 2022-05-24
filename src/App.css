@@ -91,6 +91,15 @@ a:active{
   width: 25%
 }
 
+.skill-lists{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-divs{
+  text-align: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

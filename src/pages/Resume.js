@@ -11,6 +11,36 @@ const Resume = () => {
             <p className="body-texts">Click on the image below to download the PDF version</p>
             <a href={resume} download><img src={image} width="50%"/>
             </a>
+
+            <div>
+                <h3>Web Development Skills</h3>
+                <div className="skill-lists">
+                    <div className="list-divs">
+                    <p clasName="body-texts">Front End</p>
+                
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Jquery</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+        
+                    </div>
+
+                    <div className="list-divs">
+                    <p clasName="body-texts">Back End</p>
+                    
+                        <li>APIs</li>
+                        <li>Node</li>
+                        <li>Express</li>
+                        <li>MySQL, Sequelize</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose</li>
+                        <li>REST</li>
+                        <li>GraphQL</li>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
