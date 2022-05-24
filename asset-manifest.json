@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.1d56b622.css",
-    "main.js": "/my-react-portfolio/static/js/main.e68c4016.js",
+    "main.css": "/my-react-portfolio/static/css/main.ebd5b11f.css",
+    "main.js": "/my-react-portfolio/static/js/main.069ca0e8.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/IMG_2178-copy.png": "/my-react-portfolio/static/media/IMG_2178-copy.f7952c15599144d8003c.png",
     "static/media/resume.png": "/my-react-portfolio/static/media/resume.e878db82c36058315ed0.png",
+    "static/media/Dine-N-Wine.png": "/my-react-portfolio/static/media/Dine-N-Wine.fa3756b9a5337e4a8a20.png",
+    "static/media/cesar-siguencia-resume.pdf": "/my-react-portfolio/static/media/cesar-siguencia-resume.f6b2ec6d55a41e11921a.pdf",
+    "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.2fb7862bdad5cb0594e1.png",
+    "static/media/linkedin.png": "/my-react-portfolio/static/media/linkedin.8aada17d367e0db35ddf.png",
+    "static/media/instagram.png": "/my-react-portfolio/static/media/instagram.85e3dfbe2d9d019d957a.png",
+    "static/media/github.svg": "/my-react-portfolio/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/my-react-portfolio/index.html",
-    "main.1d56b622.css.map": "/my-react-portfolio/static/css/main.1d56b622.css.map",
-    "main.e68c4016.js.map": "/my-react-portfolio/static/js/main.e68c4016.js.map",
+    "main.ebd5b11f.css.map": "/my-react-portfolio/static/css/main.ebd5b11f.css.map",
+    "main.069ca0e8.js.map": "/my-react-portfolio/static/js/main.069ca0e8.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d56b622.css",
-    "static/js/main.e68c4016.js"
+    "static/css/main.ebd5b11f.css",
+    "static/js/main.069ca0e8.js"
   ]
 }
