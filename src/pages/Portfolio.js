@@ -8,9 +8,9 @@ const Portfolio = () => {
           name: 'Dine-N-Wine',
 
         },
-        { name: 'Organizer' },
-        { name: 'food', description: 'Delicious delicacies' },
-        { name: 'Hello' },
+        { name: 'Robot-Gladiators' },
+        // { name: 'food' },
+        // { name: 'Hello' },
       ]);
 
       const [app, setApp] = useState(projects[0]);
