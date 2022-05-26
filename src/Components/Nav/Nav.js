@@ -3,15 +3,6 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
-
-
-
-    // const [currentNav, setCurrentNav ] = useState()
-      
-  
-    
-    // if(tabName)
-  
  
     return(
         <nav className="Navigator">
@@ -37,5 +28,3 @@ const Nav = () => {
 }
 
 export default Nav
-
-//className={`mx-2 ${contactSelected && 'navActive'}`}
