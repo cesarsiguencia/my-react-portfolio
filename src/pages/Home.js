@@ -2,6 +2,8 @@ import React from 'react'
 
 import image from '../media/me/IMG_2178-copy.png'
 
+import landscape from '../media/me/landscape.png'
+
 const Home= () => {
 
     return(
@@ -14,6 +16,11 @@ const Home= () => {
             <br/>
             <br/>
             Outside of my job and hobbies, you can find me weight training at the gym, running, cycling, cooking with loved ones, trying various ethnic cuisines around the city, or relaxing at uptown parks birdwatching and sightseeing.</p>
+            <br/>
+            <br/>
+            <div>
+                <img src={landscape} width="75%"/>
+            </div>
         </div>
     )
 }

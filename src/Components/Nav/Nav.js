@@ -6,7 +6,7 @@ const Nav = () => {
 
 
 
-    
+    // const [currentNav, setCurrentNav ] = useState()
       
   
     

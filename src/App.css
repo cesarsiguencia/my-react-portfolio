@@ -13,13 +13,7 @@
   }
 }
 
-.App-header{
-  background-color: Orange;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 
-}
 
 .Header-contents{
   display: flex;
@@ -59,7 +53,7 @@ h2{
   color: black;
 }
 
-/* no a links in Nav bar, but CSS still detects them */
+
 a:link{
   text-decoration: none;
   color: black;
@@ -126,7 +120,7 @@ textarea{
 
 
 .container{
-  position: relative;
+
   opacity: 0.5;
   border-radius: 5px;
 
@@ -134,16 +128,31 @@ textarea{
 
 .container:hover{
   opacity: 1.00;
+  border-radius: 5px;
   transition: all 250ms ease-in-out;
 }
 
-h4{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:black
+
+
+.App-header{
+  background-color: Orange;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+
 }
+
+.app-name{
+  margin-top: 5px;
+  padding-bottom: 15px;
+
+  border-bottom: 3px solid orange;
+}
+
+/* h5{
+  margin-bottom: 10px;
+} */
+
 
 
 
