@@ -19,9 +19,10 @@ const Portfolio = () => {
                     <h5>NFT-y</h5>
                     </div>
                 </div>
+                <Apps ></Apps>
             </div>
  
-            <Apps ></Apps>
+            
         </div>
     )
 }
