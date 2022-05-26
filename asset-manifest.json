@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.e339bb40.css",
-    "main.js": "/my-react-portfolio/static/js/main.f3f425b5.js",
+    "main.css": "/my-react-portfolio/static/css/main.63dd6f6b.css",
+    "main.js": "/my-react-portfolio/static/js/main.e432edf5.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/IMG_2178-copy.png": "/my-react-portfolio/static/media/IMG_2178-copy.f7952c15599144d8003c.png",
-    "static/media/horiseon.png": "/my-react-portfolio/static/media/horiseon.31a4b6327373b3142576.png",
-    "static/media/runbuddy.png": "/my-react-portfolio/static/media/runbuddy.bbd6888b371ac41f53cb.png",
+    "static/media/Run-Buddy.png": "/my-react-portfolio/static/media/Run-Buddy.bbd6888b371ac41f53cb.png",
     "static/media/resume.png": "/my-react-portfolio/static/media/resume.e878db82c36058315ed0.png",
+    "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.611691e35e48a0c6d587.png",
     "static/media/nft-y.png": "/my-react-portfolio/static/media/nft-y.830b2d17859f7aa19e92.png",
     "static/media/Dine-N-Wine.png": "/my-react-portfolio/static/media/Dine-N-Wine.fa3756b9a5337e4a8a20.png",
+    "static/media/Taskmaster-Pro.png": "/my-react-portfolio/static/media/Taskmaster-Pro.2cefbdca1fe014553b43.png",
     "static/media/cesar-siguencia-resume.pdf": "/my-react-portfolio/static/media/cesar-siguencia-resume.f6b2ec6d55a41e11921a.pdf",
     "static/media/Robot-Gladiators.png": "/my-react-portfolio/static/media/Robot-Gladiators.2fb7862bdad5cb0594e1.png",
     "static/media/landscape.png": "/my-react-portfolio/static/media/landscape.c3484d44d7217361c163.png",
@@ -16,12 +17,12 @@
     "static/media/instagram.png": "/my-react-portfolio/static/media/instagram.85e3dfbe2d9d019d957a.png",
     "static/media/github.svg": "/my-react-portfolio/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/my-react-portfolio/index.html",
-    "main.e339bb40.css.map": "/my-react-portfolio/static/css/main.e339bb40.css.map",
-    "main.f3f425b5.js.map": "/my-react-portfolio/static/js/main.f3f425b5.js.map",
+    "main.63dd6f6b.css.map": "/my-react-portfolio/static/css/main.63dd6f6b.css.map",
+    "main.e432edf5.js.map": "/my-react-portfolio/static/js/main.e432edf5.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e339bb40.css",
-    "static/js/main.f3f425b5.js"
+    "static/css/main.63dd6f6b.css",
+    "static/js/main.e432edf5.js"
   ]
 }
