@@ -12,15 +12,9 @@ import Footer from './Components/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 
-function App(e) {
-  
-  const element = document.getElementsByTagName("h3")
-  console.log(element[0])
-  const tabName = element[0]
-  console.log(tabName)
+function App() {
 
-  // const hello = e.target.id
-  // console.log(hello)
+
   return (
     <Router>
     <div className="App">
@@ -29,6 +23,11 @@ function App(e) {
         <Routes>
           <Route
             path="/"
+            element={<Home />}
+          />
+
+          <Route
+            path="/my-react-portfolio"
             element={<Home />}
           />
     

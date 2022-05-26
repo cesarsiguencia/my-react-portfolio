@@ -1,12 +1,5 @@
 import React from 'react';
 
-// const Apps= (props) => {
-// //   const { app } = props;
-
-  
-
-
-
     const displayApp = () => {
         const applications = [
             { name: 'Dine-N-Wine',},
@@ -45,17 +38,3 @@ import React from 'react';
      
 }
 export default displayApp;
-
-// {/* <p>{currentCategory.description}</p>
-// <PhotoList category={currentCategory.name} /> */}
-
-{/* <div >
-    
-      
-<a  target="_blank" href={`https://cesarsiguencia.github.io/${lowercaseName}`} >
-    <img className="container" src={require(`../../media/app-images/${app.name}.png`)} width="45%" />
-</a>
-<div>
-    <h4>{app.name}</h4>
-</div>
-</div> */}

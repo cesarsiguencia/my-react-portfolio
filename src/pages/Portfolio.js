@@ -15,13 +15,14 @@ const Portfolio = () => {
                         <img  className="container" src={require(`../../src/media/app-images/nft-y.png`)} width="45%"></img>    
                         
                     </a>
-                    <div className='app-name'>
-                    <h5>NFT-y</h5>
-                    </div>
+                    <div>
+                    <h5 className='app-name'>NFT-y</h5>
                 </div>
-                <Apps ></Apps>
             </div>
- 
+
+                
+            </div>
+            <Apps ></Apps>
             
         </div>
     )
