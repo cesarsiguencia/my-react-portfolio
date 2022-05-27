@@ -14,11 +14,13 @@ return(
         <a href="/">
         Cesar Siguencia
         </a>
+
       </h1>
       <Nav>
 
 
       </Nav>
+      
       </div>
     </header>
     )

@@ -47,6 +47,7 @@
   width: 50%;
   margin: auto 10px;
 
+
 }
 
 h2{
@@ -136,10 +137,9 @@ textarea{
 
 .App-header{
   background-color: Orange;
-  /* position: -webkit-sticky;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0; */
-
+  top: 0;
 }
 
 .app-name{
