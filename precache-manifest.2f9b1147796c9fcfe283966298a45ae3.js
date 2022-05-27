@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "521e7d6b894998a708c8",
-    "url": "/my-react-portfolio/static/css/main.783645bf.chunk.css"
+    "revision": "4c53ee81800552e59963",
+    "url": "/my-react-portfolio/static/css/main.ef3697af.chunk.css"
   },
   {
-    "revision": "521e7d6b894998a708c8",
-    "url": "/my-react-portfolio/static/js/main.521e7d6b.chunk.js"
+    "revision": "4c53ee81800552e59963",
+    "url": "/my-react-portfolio/static/js/main.4c53ee81.chunk.js"
   },
   {
     "revision": "6a7bfa4df9242b40edff",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png"
   },
   {
-    "revision": "b91aec2ceba048e2c858810fd564e86f",
+    "revision": "a32e87d25943c6e5c628f30496814dfd",
     "url": "/my-react-portfolio/index.html"
   }
 ];
