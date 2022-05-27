@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.63dd6f6b.css",
-    "main.js": "/my-react-portfolio/static/js/main.e432edf5.js",
+    "main.js": "/my-react-portfolio/static/js/main.51808e0f.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/IMG_2178-copy.png": "/my-react-portfolio/static/media/IMG_2178-copy.f7952c15599144d8003c.png",
     "static/media/Run-Buddy.png": "/my-react-portfolio/static/media/Run-Buddy.bbd6888b371ac41f53cb.png",
     "static/media/resume.png": "/my-react-portfolio/static/media/resume.e878db82c36058315ed0.png",
     "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.611691e35e48a0c6d587.png",
     "static/media/nft-y.png": "/my-react-portfolio/static/media/nft-y.830b2d17859f7aa19e92.png",
+    "static/media/Bootcamp-Social.png": "/my-react-portfolio/static/media/Bootcamp-Social.28fce0a7c884ae56d2c4.png",
     "static/media/Dine-N-Wine.png": "/my-react-portfolio/static/media/Dine-N-Wine.fa3756b9a5337e4a8a20.png",
     "static/media/Taskmaster-Pro.png": "/my-react-portfolio/static/media/Taskmaster-Pro.2cefbdca1fe014553b43.png",
     "static/media/cesar-siguencia-resume.pdf": "/my-react-portfolio/static/media/cesar-siguencia-resume.f6b2ec6d55a41e11921a.pdf",
@@ -18,11 +19,11 @@
     "static/media/github.svg": "/my-react-portfolio/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/my-react-portfolio/index.html",
     "main.63dd6f6b.css.map": "/my-react-portfolio/static/css/main.63dd6f6b.css.map",
-    "main.e432edf5.js.map": "/my-react-portfolio/static/js/main.e432edf5.js.map",
+    "main.51808e0f.js.map": "/my-react-portfolio/static/js/main.51808e0f.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63dd6f6b.css",
-    "static/js/main.e432edf5.js"
+    "static/js/main.51808e0f.js"
   ]
 }
