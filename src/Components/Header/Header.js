@@ -11,7 +11,7 @@ return(
 
       
       <h1>
-        <a href="/my-react-portfolio">
+        <a href="https://cesarsiguencia.github.io/my-react-portfolio/">
         Cesar Siguencia
         </a>
 
