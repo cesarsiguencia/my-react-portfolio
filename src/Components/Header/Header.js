@@ -11,7 +11,7 @@ return(
 
       
       <h1>
-        <a href="/">
+        <a href="/my-react-portfolio/">
         Cesar Siguencia
         </a>
 
