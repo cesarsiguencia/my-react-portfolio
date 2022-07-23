@@ -16,7 +16,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/cezzienyc" target="_blank" rel="noopener noreferrer">
               <img src={instagram} width="50"/>
             </a>
-            <a href="https://www.linkedin.com/in/cesar-siguencia-b71aabba" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/c%C3%A9sar-siguencia-b71aabba/" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} width="50"/>
             </a>
           </div>
