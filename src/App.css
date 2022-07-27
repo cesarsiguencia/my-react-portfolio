@@ -58,6 +58,11 @@ h2{
   color: black;
 }
 
+a {
+  /* text-align: center; */
+  position: relative;
+
+}
 
 a:link{
   text-decoration: none;
@@ -123,20 +128,33 @@ textarea{
   width: 75%;
 }
 
+.wrapper {
+  margin: 0px auto;
+  width: 45%
+} 
 
 .container{
-
-  opacity: 0.5;
+  opacity: 1.00;
   border-radius: 5px;
+  transition: all 250ms ease-in-out;
 
 }
 
 .container:hover{
-  opacity: 1.00;
+  opacity: 0.25;
   border-radius: 5px;
-  transition: all 250ms ease-in-out;
 }
 
+.container-blurb{
+  position: absolute;
+  /* top: 1px; */
+  /* color: black;   */
+  
+}
+
+.container-blurb:hover{
+  opacity: 1.00;
+}
 
 
 .App-header{

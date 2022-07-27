@@ -11,10 +11,16 @@ const Portfolio = () => {
 
             <div>
                 <div>
-                    <a  target="_blank" href='https://nft-y.herokuapp.com/' >
-                        <img  className="container" src={require(`../../src/media/app-images/nft-y.png`)} width="45%"></img>    
-                        
-                    </a>
+          
+                        <div className="wrapper">
+                            <a  target="_blank" href='https://nft-y.herokuapp.com/'>
+                                <p className="container-blurb"> This is a test for NFT-Y, lets see if this actually works, and if does, I'm going to be so phycsed! Please do!</p>  
+                                <img  className="container" src={require(`../../src/media/app-images/nft-y.png`)} width="100%">
+                                </img>  
+    
+                            </a>
+                        </div>
+                  
                     <div>
                         <h5 className='app-name'>NFT-y</h5>
                     </div>

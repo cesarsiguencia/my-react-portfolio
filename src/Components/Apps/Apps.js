@@ -3,7 +3,7 @@ import React from 'react';
     const displayApp = () => {
         const applications = [
             { name: 'Dine-N-Wine',},
-            { name: 'Robot-Gladiators' },
+            // { name: 'Robot-Gladiators' },
             { name: 'Run-Buddy'},
             { name: 'Weather-Dashboard'},
             { name: 'Taskmaster-Pro'}
