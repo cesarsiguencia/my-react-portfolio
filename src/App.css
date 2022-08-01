@@ -89,6 +89,7 @@ a:hover{
 
 .body-texts{
   font-size: 18px;
+  margin: 25px;
   
 }
 
@@ -116,7 +117,6 @@ a:hover{
   margin: 25px;
   display: flex;
   justify-content: space-between;
-
 }
 
 
@@ -198,7 +198,17 @@ textarea{
 
 
 .links{
-  color: white
+  color: white;
+  font-family: copperplate;
+  font-size: 25px;
+}
+
+h1, h3{
+  font-family: fantasy;
+}
+
+li {
+  font-size: 20px;
 }
 
 /* h5{

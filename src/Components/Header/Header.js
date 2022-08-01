@@ -12,7 +12,7 @@ return(
       
       <h1>
         <a href="https://cesarsiguencia.github.io/my-react-portfolio/">
-        Cesar Siguencia
+        César Siguencia
         </a>
 
       </h1>
