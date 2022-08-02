@@ -8,7 +8,10 @@ import instagram from '../../media/icons/instagram.png'
 const Footer = () => {
     return(
         <footer className="App-footer">
-          <p>By Cesar Siguencia,  Powered by React</p>
+          <div className="footer-font">
+            <p>By Cesar Siguencia,  Powered by React</p>
+          </div>
+          
           <div className="logos">
             <a href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
               <img src={github} width="50"/>
@@ -20,8 +23,10 @@ const Footer = () => {
               <img src={linkedin} width="50"/>
             </a>
           </div>
-          <p>©Copyright 2022, All Rights Reserved</p>
 
+          <div className="footer-font">
+            <p>©Copyright 2022, All Rights Reserved</p>
+          </div>
       </footer>
     )
 }
