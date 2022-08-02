@@ -10,13 +10,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
 
 .Header-contents{
   display: flex;
@@ -144,10 +137,6 @@ textarea{
   text-align: left;
 }
 
-.app_image{
-
-}
-
 .container--picture{
   width: 100%
 }
@@ -173,7 +162,8 @@ textarea{
 .container---blurb{
   color: white;
   margin: 0px auto;
-  width: 80%
+  width: 80%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .App-header{
@@ -211,18 +201,54 @@ li {
   font-size: 20px;
 }
 
-/* h5{
-  margin-bottom: 10px;
-} */
 
 
+@media screen and (max-width: 950px){
 
+    .Header-contents{
+      display: flex;
+    }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    .Navigator{
+      justify-content: space-around;
+      width: 75%
+
+    }
+    h2{
+      margin: auto 0px;
+    }
+}
+
+@media screen and (max-width: 700px){
+  .Navigator{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Header-contents{
+    display: block;
+    margin: 0;
   }
-} */
+
+  .logos{
+    display: block
+  }
+
+  .footer-font{
+    margin: auto 0px;
+  }
+
+  .links{
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .Navigator{
+    display: block;
+  }
+  .links{
+    margin-bottom: 25px;
+  }
+}
