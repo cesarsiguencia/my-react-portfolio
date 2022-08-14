@@ -12,7 +12,7 @@ const Resume = () => {
             <a href={resume} download><img src={image} width="50%"/>
             </a>
 
-            <div>
+            <div className="skills-block">
                 <h3>Web Development Skills</h3>
                 <div className="skill-lists">
                     <div className="list-divs">
@@ -42,6 +42,8 @@ const Resume = () => {
                 </div>
             </div>
         </div>
+
+        
     )
 }
 

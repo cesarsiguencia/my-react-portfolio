@@ -10,7 +10,7 @@ const Portfolio = () => {
             <p className="body-texts">Hover over image to see a short description from one of my featured apps. 
             Click on the image below to deploy application link.</p>
 
-            <div>
+   
                 <div className="app-box">
                     <div className="container_wrapper">
                         <div className="app-description">
@@ -32,9 +32,9 @@ const Portfolio = () => {
                 </div>
 
                 
-            </div>
+ 
 
-            <div>
+  
                 <div className="app-box">
                     <div className="container_wrapper">
                         <div className="app-description">
@@ -56,7 +56,7 @@ const Portfolio = () => {
                 </div>
 
                 
-            </div>
+       
             <Apps ></Apps>
             
         </div>
