@@ -26,7 +26,7 @@ const Portfolio = () => {
                                 </a>
                             </div>
                             <p>Back end developer</p>
-                            
+                            <p className="body-texts">MySQL2, Sequelize, Node.js, Bcrypt, Express, RESTful API's, Dotenv, Env</p>
                             
                             <a target="_blank" href="https://github.com/K-G-J/nft-y">
                             
@@ -64,6 +64,7 @@ const Portfolio = () => {
                             </div>
 
                             <p>Front end developer</p>
+                            <p className="body-texts">HTML, CSS, Javascript, APIs</p>
                         </div>
                     </div>
                     <div className="container_wrapper">
