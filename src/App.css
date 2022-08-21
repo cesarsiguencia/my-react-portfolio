@@ -194,8 +194,23 @@ h1, h3{
   font-family: 'Rock Salt', cursive;
 }
 
+h6{
+  color: white;
+}
+
 li {
   font-size: 20px;
+}
+
+.project-title {
+  display: inline;
+  margin-bottom: 30px;
+ 
+}
+
+.github-links {
+  border-radius: 5px;
+  background: white;
 }
 
 
@@ -250,12 +265,14 @@ li {
 
   .app-description{
     margin: 0 auto;
-    text-align: center
+    text-align: center;
   }
 
   .container--picture{
     width: 100%
   }
+
+
 
 }
 

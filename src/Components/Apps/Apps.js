@@ -1,5 +1,7 @@
 import React from 'react';
 
+import github from '../../media/icons/github-white.png'
+
     const displayApp = () => {
         const applications = [
             {   
@@ -28,7 +30,16 @@ import React from 'react';
                 <div className="app-box">
                     <div className="container_wrapper">
                         <div className="app-description">
-                            <h3>{app.name}</h3>
+                            
+
+                            <div className="project-title">
+                                <h3>{app.name}</h3>
+                                    <a target="_blank" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
+                                        <img className="github-links" width="15%" src={github}>
+                                        </img>
+                                    </a>
+                                </div>
+
                             <p>Sole developer</p>
                         </div>
                     </div>
