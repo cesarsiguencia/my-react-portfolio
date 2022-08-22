@@ -208,17 +208,28 @@ li {
 }
 
 .project-title {
-  display: inline;
+  display: flex;
  
 }
 
 .github-links {
   border-radius: 5px;
   background: white;
+  margin: 20px;
+  width: 60px
 }
 
 .mobile-toggle {
   width: 1%
+}
+
+.project-title-frame{
+  width: 100%;
+}
+
+.github-logos-frame{
+  margin: auto 1px;
+  align-items: center;
 }
 
 
@@ -239,6 +250,16 @@ li {
   .container---blurb{
     font-size: 17px
   }
+
+  .project-title{
+    margin-bottom: 0px;
+    display: block
+  }
+
+  .project-title-frame{
+    width: 100%;
+  }
+  
 }
   
 
@@ -294,9 +315,7 @@ li {
     width: 10%;
   }
    
-  .project-title{
-    margin-bottom: 0px
-  }
+
 
 }
 

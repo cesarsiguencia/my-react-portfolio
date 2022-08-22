@@ -37,9 +37,9 @@ import github from '../../media/icons/github-white.png'
                             
 
                             <div className="project-title">
-                                <h3>{app.name}</h3>
-                                    <a target="_blank" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
-                                        <img className="github-links" width="15%" src={github}>
+                                <h3 className="project-title-frame">{app.name}</h3>
+                                    <a target="_blank" className="github-logos-frame" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
+                                        <img className="github-links"  src={github}>
                                         </img>
                                     </a>
                                 </div>

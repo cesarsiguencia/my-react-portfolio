@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div className="body-divs">
             <h3>Portfolio</h3>
             <p className="body-texts">Hover over image to see a short description from one of my featured apps. 
-            Click on the image below to deploy application link. Click corresponding github logo to be redirected to it's github repository.</p>
+            Click on the image below to deploy application link. Click corresponding github logo to be redirected to its github repository.</p>
 
    
                 <div className="app-box">
@@ -19,9 +19,9 @@ const Portfolio = () => {
                         <div className="app-description">
                             
                             <div className="project-title">
-                            <h3>NFT-y</h3>
-                                <a target="_blank" href="https://github.com/K-G-J/nft-y">
-                                    <img className="github-links" width="15%" src={github}>
+                            <h3 className="project-title-frame"> NFT-y</h3>
+                                <a target="_blank" className="github-logos-frame "href="https://github.com/K-G-J/nft-y">
+                                    <img className="github-links" src={github}>
                                     </img>
                                 </a>
                             </div>
@@ -56,9 +56,9 @@ const Portfolio = () => {
                             
 
                             <div className="project-title">
-                                <h3>Dine-N-Wine</h3>
-                                <a target="_blank" href="https://github.com/cesarsiguencia/dine-n-wine">
-                                    <img className="github-links" width="15%" src={github}>
+                                <h3 className="project-title-frame">Dine-N-Wine</h3>
+                                <a target="_blank" className="github-logos-frame" href="https://github.com/cesarsiguencia/dine-n-wine">
+                                    <img className="github-links" src={github}>
                                     </img>
                                 </a>
                             </div>
