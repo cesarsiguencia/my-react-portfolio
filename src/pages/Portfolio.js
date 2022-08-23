@@ -16,7 +16,7 @@ const Portfolio = () => {
    
                 <div className="app-box">
                     <div className="container_wrapper">
-                        <div className="app-description">
+                        <div className="container-description">
                             
                             <div className="project-title">
                             <h3 className="project-title-frame"> NFT-y</h3>
@@ -52,7 +52,7 @@ const Portfolio = () => {
   
                 <div className="app-box">
                     <div className="container_wrapper">
-                        <div className="app-description">
+                        <div className="container-description">
                             
 
                             <div className="project-title">

@@ -33,7 +33,7 @@ import github from '../../media/icons/github-white.png'
 
                 <div className="app-box">
                     <div className="container_wrapper">
-                        <div className="app-description">
+                        <div className="container-description">
                             
 
                             <div className="project-title">

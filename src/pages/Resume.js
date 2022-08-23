@@ -12,32 +12,29 @@ const Resume = () => {
             <a href={resume} download><img src={image} width="50%"/>
             </a>
 
-            <div className="skills-block">
+            <div className="skills">
                 <h3>Web Development Skills</h3>
-                <div className="skill-lists">
-                    <div className="list-divs">
-                    <p className="body-texts">Front End</p>
-                
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Jquery</li>
-                        <li>Bootstrap</li>
-                        <li>React</li>
-        
+                <div className="skills--lists">
+                    <div className="skills---divs">
+                        <p className="body-texts">Front End</p>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Jquery</li>
+                            <li>Bootstrap</li>
+                            <li>React</li>
                     </div>
 
                     <div className="list-divs">
-                    <p className="body-texts">Back End</p>
-                    
-                        <li>APIs</li>
-                        <li>Node</li>
-                        <li>Express</li>
-                        <li>MySQL, Sequelize</li>
-                        <li>MongoDB</li>
-                        <li>Mongoose</li>
-                        <li>REST</li>
-                        <li>GraphQL</li>
+                        <p className="body-texts">Back End</p>
+                            <li>APIs</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MySQL, Sequelize</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
+                            <li>REST</li>
+                            <li>GraphQL</li>
                     </div>
                 </div>
             </div>
