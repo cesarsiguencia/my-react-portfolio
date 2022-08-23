@@ -66,6 +66,12 @@
   text-align: left;
 }
 
+ul{
+  list-style-type: none;
+  margin-left: 0px;
+  display: inline;
+}
+
 /* Portfolio & apps */
 .container-description{
   margin-left: 20%;
@@ -165,7 +171,7 @@
 
 a {
   width: 100%;
-  color: white
+  /* color: white */
 }
 
 a:link{
@@ -435,7 +441,7 @@ li {
   }
 
   .body-divs{
-   margin: 0;
+   margin: 25px auto;
   }
 
   .body-texts{
@@ -443,7 +449,6 @@ li {
     margin: auto auto
   }
 
-  
   .logos {
     width: 60%;
   }

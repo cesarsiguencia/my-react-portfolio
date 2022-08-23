@@ -17,24 +17,28 @@ const Resume = () => {
                 <div className="skills--lists">
                     <div className="skills---divs">
                         <p className="body-texts">Front End</p>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Jquery</li>
-                            <li>Bootstrap</li>
-                            <li>React</li>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Jquery</li>
+                                <li>Bootstrap</li>
+                                <li>React</li>
+                            </ul>
                     </div>
 
-                    <div className="list-divs">
+                    <div className="skills---divs">
                         <p className="body-texts">Back End</p>
-                            <li>APIs</li>
-                            <li>Node</li>
-                            <li>Express</li>
-                            <li>MySQL, Sequelize</li>
-                            <li>MongoDB</li>
-                            <li>Mongoose</li>
-                            <li>REST</li>
-                            <li>GraphQL</li>
+                            <ul>
+                                <li>APIs</li>
+                                <li>Node</li>
+                                <li>Express</li>
+                                <li>MySQL, Sequelize</li>
+                                <li>MongoDB</li>
+                                <li>Mongoose</li>
+                                <li>REST</li>
+                                <li>GraphQL</li>
+                            </ul>
                     </div>
                 </div>
             </div>
