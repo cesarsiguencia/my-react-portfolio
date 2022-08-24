@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.dbc3f9a7.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.7cfd4c73.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.7cfd4c73.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.476d57d1.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.ff4cc11a.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.ff4cc11a.chunk.js.map",
   "static/js/1.0b5adef5.chunk.js": "/my-react-portfolio/static/js/1.0b5adef5.chunk.js",
   "static/js/1.0b5adef5.chunk.js.map": "/my-react-portfolio/static/js/1.0b5adef5.chunk.js.map",
   "static/js/2.cfcc31dc.chunk.js": "/my-react-portfolio/static/js/2.cfcc31dc.chunk.js",
@@ -24,8 +24,8 @@
   "static/media/Taskmaster-Pro.png": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.png",
   "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
-  "static/css/main.dbc3f9a7.chunk.css.map": "/my-react-portfolio/static/css/main.dbc3f9a7.chunk.css.map",
+  "static/css/main.476d57d1.chunk.css.map": "/my-react-portfolio/static/css/main.476d57d1.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.839086828df7e80473904d737acd908d.js": "/my-react-portfolio/precache-manifest.839086828df7e80473904d737acd908d.js",
+  "precache-manifest.d5e7fdd67ab3cdfa7b518b5d1a5d6ac5.js": "/my-react-portfolio/precache-manifest.d5e7fdd67ab3cdfa7b518b5d1a5d6ac5.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
