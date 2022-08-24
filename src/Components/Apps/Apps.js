@@ -38,14 +38,24 @@ import github from '../../media/icons/github-white.png'
 
                             <div className="project-title">
                                 <h3 className="project-title-frame">{app.name}</h3>
+                            </div>
+
+                            <h5>Sole developer</h5>
+                            <div>
+                                <div className="developer-technologies">
+                                    <p className="body-texts">{app.technologies}</p>
+                        
+                                </div>
+                                <div className="developer-github">
                                     <a target="_blank" className="github-logos-frame" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
-                                        <img className="github-links"  src={github}>
-                                        </img>
+                                            <img className="github-links"  src={github}>
+                                            </img>
                                     </a>
                                 </div>
+                            </div>
 
-                            <p>Sole developer</p>
-                            <p className="body-texts">{app.technologies}</p>
+                       
+                            
                         </div>
                     </div>
                     <div className="container_wrapper">

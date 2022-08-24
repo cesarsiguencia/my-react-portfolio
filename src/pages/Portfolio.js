@@ -19,18 +19,22 @@ const Portfolio = () => {
                         <div className="container-description">
                             
                             <div className="project-title">
-                            <h3 className="project-title-frame"> NFT-y</h3>
-                                <a target="_blank" className="github-logos-frame "href="https://github.com/K-G-J/nft-y">
-                                    <img className="github-links" src={github}>
-                                    </img>
-                                </a>
+                                <h3 className="project-title-frame"> NFT-y</h3> 
                             </div>
-                            <p>Back end developer</p>
-                            <p className="body-texts">MySQL2, Sequelize, Node.js, Bcrypt, Express, RESTful API's, Dotenv, Env</p>
                             
-                            <a target="_blank" href="https://github.com/K-G-J/nft-y">
-                            
-                            </a>
+                            <h5>Back end developer</h5>
+                            <div>
+                                <div className="developer-technologies">
+                                    <p className="body-texts">MySQL2, Sequelize, Node.js, Bcrypt, Express, RESTful API's, Env, Dotenv</p>
+                                </div>
+    
+                                <div className="developer-github">
+                                    <a target="_blank" className="github-logos-frame "href="https://github.com/K-G-J/nft-y">
+                                        <img className="github-links" src={github}>
+                                        </img>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="container_wrapper">
@@ -57,14 +61,22 @@ const Portfolio = () => {
 
                             <div className="project-title">
                                 <h3 className="project-title-frame">Dine-N-Wine</h3>
-                                <a target="_blank" className="github-logos-frame" href="https://github.com/cesarsiguencia/dine-n-wine">
-                                    <img className="github-links" src={github}>
-                                    </img>
-                                </a>
                             </div>
 
-                            <p>Front end developer</p>
-                            <p className="body-texts">HTML, CSS, Javascript, APIs</p>
+                            <h5>Front end developer</h5>
+                            <div>
+                                <div className="developer-technologies">
+                                    <p className="body-texts">HTML, CSS, Javascript, APIs</p>
+                                </div>
+
+                                <div className="developer-github">
+                                    <a target="_blank" className="github-logos-frame" href="https://github.com/cesarsiguencia/dine-n-wine">
+                                        <img className="github-links" src={github}>
+                                        </img>
+                                    </a>
+                                </div>
+                            </div>
+                           
                         </div>
                     </div>
                     <div className="container_wrapper">
