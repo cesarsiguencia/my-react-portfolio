@@ -62,17 +62,35 @@
 .skills--lists{
   display: flex;
   justify-content: space-evenly;
+  margin: 10px auto
 }
 
 .skills---divs{
-  text-align: left;
-}
+ 
 
+  /* text-align: left; */
+}
+/* 
 ul{
   list-style-type: none;
   margin-left: 0px;
   display: inline;
+} */
+
+.technologies{
+  display: flex;
+  /* justify-content: space-around; */
 }
+
+.technologies-logos{
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  border-radius: 50px;
+}
+
+
+
 
 /* Portfolio & apps */
 .container-description{
