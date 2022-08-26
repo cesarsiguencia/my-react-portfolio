@@ -43,6 +43,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   min-height: 91vh;
+  
 }
 
 .body-divs{
@@ -51,7 +52,9 @@
 
 .body-texts{
   font-size: 18px;
-  margin-bottom: 25px;
+  line-height: 1.5;
+  /* letter-spacing: 1px; */
+  /* margin-bottom: 25px; */
 }
 
 
@@ -144,6 +147,51 @@ ul{
   width: 100%;
 }
 
+/* About me */
+.aboutme{
+  display: flex;
+  margin: 20px 20px
+}
+
+.aboutme-blocks{
+  width: 50%;
+  margin: auto 15px;
+}
+
+.aboutme--titles{
+  margin: auto 10px;
+}
+
+.aboutme--quotes{
+  font-style: italic;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.aboutme--facts{
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.aboutme--gifs{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto
+}
+
+.gifs{
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  /* width: 20% */
+}
+
+.profile {
+  border-radius: 20px;
+  border: orange 5px solid;
+}
+
+
 /* Footer */
 
 .App-footer {
@@ -158,6 +206,22 @@ ul{
   display: flex;
   justify-content: space-around;
   width: 25%
+}
+
+.logos-contactpg{
+  width: 100%;
+  padding: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.logos-contactpg:hover{
+  transition: all 250ms ease-in-out;
+  opacity: 1;
+
 }
 
 .github-logos-frame{
@@ -179,13 +243,13 @@ ul{
 }
 
 a {
+  text-decoration: none;
   width: 100%;
   color: black
 }
 
 a:link{
   text-decoration: none;
-  /* color: black; */
 }
 
 a:visited{
@@ -194,7 +258,7 @@ a:visited{
 }
 
 a:active{
-  color: white
+  color: black
 }
 
 a:hover{
@@ -259,6 +323,18 @@ li {
 @media screen and (max-width: 1200px) {
   .container---blurb{
     font-size: 20px
+  }
+
+  .aboutme {
+    display: block
+  }
+
+  .aboutme-blocks{
+    width: 100%
+  }
+
+  .profile{
+    width: 75%
   }
 }
 
