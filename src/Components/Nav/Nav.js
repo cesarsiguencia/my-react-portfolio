@@ -34,7 +34,7 @@ const Nav = () => {
               </Link>
             </h2>
             <h2 id="navtab" className="links">
-              <Link to="/resume">Resume
+              <Link to="/resume">Resume & Skills
               </Link>
             </h2>
           </div>

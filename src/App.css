@@ -84,7 +84,7 @@
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  margin: 5px 5px;
+  margin: 8px 8px;
   /* width: 10%; */
 }
 
@@ -286,10 +286,10 @@ a:hover{
 }
 
 .github-links {
-  border-radius: 5px;
+  border-radius: 50px;
   background: white;
   margin: 20px auto;
-  width: 15%;
+  width: 20%;
 }
 
 
@@ -340,6 +340,10 @@ li {
 }
 
 @media screen and (max-width: 1200px) {
+  .Navigator{
+    width: 75%
+  }
+
   .container---blurb{
     font-size: 20px
   }
@@ -386,21 +390,30 @@ li {
 
 @media screen and (max-width: 950px){
 
-    .Header-contents{
+  .Header-contents{
+    display: block;
+    padding: 25px;
+  }
+  
+  .Navigator{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+    /* .Header-contents{
       display: flex;
-    }
+    } */
 
-    .Navigator{
-      justify-content: space-around;
-      width: 75%
-
-    }
+  
     h2{
       margin: auto 0px;
     }
 }
 
 @media screen and (max-width: 850px){
+
+
   .container---blurb{
     font-size: 14px
   }
@@ -438,16 +451,9 @@ li {
 }
 
 @media screen and (max-width: 800px) {
-  .Navigator{
-    display: flex;
-    width: 100%;
-    margin: 20px auto;
-  }
 
-  .Header-contents{
-    display: block;
-    padding: 25px;
-  }
+
+
 
   .footer-font {
     width: 20%
@@ -486,25 +492,13 @@ li {
     margin: 0px auto
   }
 
-}
-
-@media screen and (max-width: 600px) {
   .Navigator{
     display: block;
-  }
-
-  .container---blurb{
-    font-size: 20px
   }
 
   .Header-contents{
     padding: 2px;
     margin: 0 auto;
-  }
-
-  img {
-    width: 90%;
-    margin: 10px auto;
   }
 
   .mobile-toggle {
@@ -548,6 +542,24 @@ li {
     transition: all 0.5s ease-in-out;
     transform: translateY(-10px) rotate(-45deg);
   }  
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+  .container---blurb{
+    font-size: 20px
+  }
+
+ 
+
+  img {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+
 }
 
 @media screen and (max-width: 500px){
@@ -566,7 +578,7 @@ li {
 
   .body-texts{
     width: 90%;
-    margin: auto auto
+    margin: 10px auto
   }
 
   .logos {
