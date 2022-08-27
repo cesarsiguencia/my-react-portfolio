@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from 'react-router-dom';
 
-import { hamburgerMenu } from "../../utils/button";
+import { hamburgerMenu } from "../../utils/helpers";
 
 
 const Nav = () => {
@@ -22,19 +22,19 @@ const Nav = () => {
           </div>
           <div className="nav-links">  
             <h2 className="links">
-              <Link id="navtab" to="/">About Me
+              <Link onClick={hamburgerMenu} id="navtab" to="/">About Me
               </Link>
             </h2>
             <h2 id="navtab" className="links">
-              <Link to="/portfolio">Portfolio
+              <Link onClick={hamburgerMenu} to="/portfolio">Portfolio
               </Link>
             </h2>
             <h2 id="navtab" className="links"> 
-              <Link to="/contact">Contact
+              <Link onClick={hamburgerMenu} to="/contact">Contact
               </Link>
             </h2>
             <h2 id="navtab" className="links">
-              <Link to="/resume">Resume & Skills
+              <Link onClick={hamburgerMenu} to="/resume">Resume & Skills
               </Link>
             </h2>
           </div>

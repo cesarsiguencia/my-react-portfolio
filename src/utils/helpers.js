@@ -1,3 +1,5 @@
+
+
 export function LowercaseFirstLetter(string) {
     return string.charAt(0).toLowerCase() + string.slice(1);
   }
@@ -16,3 +18,13 @@ export function grabTabName(e){
   console.log(hello)
   // if(tabName)
 }
+
+export function hamburgerMenu () {
+  const btn = document.getElementById("mobile-menu")
+  const menu = document.querySelector(".nav-links")
+
+  btn.classList.toggle("active")
+  menu.classList.toggle("mobile-effect")
+}
+
+
