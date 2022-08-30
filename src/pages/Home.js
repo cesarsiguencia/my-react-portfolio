@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import image from '../media/me/IMG_2178-copy.png'
 
@@ -10,7 +10,32 @@ import spanish from '../media/icons/spanish.png'
 
 import sparrow from '../media/icons/sparrow.gif'
 
+// import { carouselButtons } from '../utils/helpers'
+
 const Home= () => {
+
+    // const[carousel, setCarousel] = useState(0);
+
+    // useEffect(() => {
+    //     carouselButtons() 
+    // })
+
+    const data = ["1","2","3","4"]
+
+    const [currentIndex, setCurrentIndex] = useState(0)
+
+    const carouselInfiniteScroll = () => {
+        if(currentIndex === data.length-1){
+            return setCurrentIndex(0)
+        }
+        return setCurrentIndex(currentIndex+1)
+    }
+
+    useEffect(() => {
+        const interval = setInterval(() => {carouselInfiniteScroll()}, 3000)
+
+        return () => clearInterval(interval)
+    })
 
     return(
         <div className="body-divs">
@@ -62,6 +87,27 @@ const Home= () => {
                             My Favorite Quotes
                         </h3>
                     </div>
+
+                    {/* <div className="carousel">
+                        <div className="carousel-item">Content 1</div>
+                        <div className="carousel-item carousel-item-selected">Content 2</div>
+                        <div className="carousel-item">Content 3</div> */}
+                        {/* <div className="carousel-nav">
+                            <span className="carousel-button"></span>
+                            <span className="carousel-button carousel-button-selected"></span>
+                            <span className="carousel-button"></span>
+                        </div> */}
+                           
+                    {/* </div> */}
+
+                    <div className="carousel-container">
+                        { data.map((item, index) => {
+                            return <h1 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item}</h1>
+                        })}
+
+                    </div>
+
+
                  
                     <p className="aboutme--quotes">
                         "I won't have a problem if you hit high and miss, but I am going to have a real problem if you aim low and hit" 
