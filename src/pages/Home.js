@@ -20,7 +20,25 @@ const Home= () => {
     //     carouselButtons() 
     // })
 
-    const data = ["1","2","3","4"]
+    const data = [
+        {
+            quote: `"I won't have a problem if you hit high and miss, but I am going to have a real problem if you aim low and hit"`, 
+            person: "- Michaelangelo",
+            fact: "My favorite dish of all time is Mediterranean Grilled Octopus with roasted assorted baby potatoes in dashes of rosemary, pasley, garlic, and olive oil."
+        },
+
+        {
+            quote: `"We are what you repeatedly do, excellence then, is not and act, but a habit",
+            `,
+            person: "- Aristotle",
+            fact: "I learned in college through a professor that I have perfect pitch."
+        },
+        {
+            quote: `"When we hit out lowest point, we are open to the greatest change"`,
+            person: "-Legend of Korra Nickelodeon Series",
+            fact: `I'm a little "old school". I like very old cars, enjoy collecting old tech, have a special place in my heart for tape cassetes, and all my favorite music comes from the 70s, 80s, and 90s, including rock, RnB and Hip Hop.`
+        }
+]
 
     const [currentIndex, setCurrentIndex] = useState(0)
 
@@ -32,9 +50,9 @@ const Home= () => {
     }
 
     useEffect(() => {
-        const interval = setInterval(() => {carouselInfiniteScroll()}, 3000)
+        const interval = setInterval(() => {carouselInfiniteScroll()}, 6000)
 
-        return () => clearInterval(interval)
+        // return () => clearInterval(interval)
     })
 
     return(
@@ -100,30 +118,22 @@ const Home= () => {
                            
                     {/* </div> */}
 
-                    <div className="carousel-container">
+                    <div className="carousel-container" >
                         { data.map((item, index) => {
-                            return <h1 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item}</h1>
+                           
+
+                            return <div className="carousel-item">
+                                     <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.quote}</p>
+                                     <h5 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>
+                                        {item.person}
+                                     </h5>
+                                </div>
+                            
+                       
+                       
                         })}
 
                     </div>
-
-
-                 
-                    <p className="aboutme--quotes">
-                        "I won't have a problem if you hit high and miss, but I am going to have a real problem if you aim low and hit" 
-                        <br/>
-                        - Michaelangelo
-                    </p>
-                    <p className="aboutme--quotes">
-                        "We are what you repeatedly do, excellence then, is not and act, but a habit" 
-                        <br/>
-                        - Aristotle 
-                    </p>
-                    <p className="aboutme--quotes">
-                        When we hit out lowest point, we are open to the greatest change" - 
-                        <br/>
-                        Legend of Korra Nickelodeon Series
-                    </p>
                 </div>
 
                 <div className="aboutme-blocks">
@@ -133,20 +143,22 @@ const Home= () => {
                         </h3>
 
                     </div>
-                  
-                    <p className="aboutme--facts">
-                        1 - My favorite dish of all time is Mediterranean Grilled Octopus with roasted assorted baby potatoes in dashes of rosemary, pasley, garlic, and olive oil.
 
-                        <br/>
-                        <br/>
+                    <div className="carousel-container" >
+                        { data.map((item, index) => {
+                           
 
-                        2 - I learned in college through a professor that I have perfect pitch. 
+                            return <div className="carousel-item">
+                                     <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.fact}</p>
+                            
+                                </div>
+                            
+                       
+                       
+                        })}
 
-                        <br/>
-                        <br/>
-
-                        3 - I'm a little "old school". I like very old cars, enjoy collecting old tech, have a special place in my heart for tape cassetes, and all my favorite music comes from the 70s, 80s, and 90s, including rock, RnB and Hip Hop.
-                    </p>
+                    </div>
+                
                 </div>
             </div>
 

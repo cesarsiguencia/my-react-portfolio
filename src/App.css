@@ -253,16 +253,17 @@
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
+  height: 150px;
   
 }
 
 .carousel-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   min-width: 100%;
   width: 100%;
-  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1)
+  transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5)
 }
 
 /* Footer */
