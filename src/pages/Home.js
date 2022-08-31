@@ -27,10 +27,6 @@ const Home= () => {
 
 
             <div className="aboutme">
-
-                <div className="aboutme-blocks">
-                    <img className="profile" src={image} width="90%"/>
-                </div>
          
                 <div className="aboutme-blocks">
                     <p className="body-texts"> Thank you for visiting my page! I'm an aspiring web developer, music producer, and media content creater born and raised in NYC. Currently, I work at an East Harlem elementary school in administration and operations. 
@@ -55,7 +51,9 @@ const Home= () => {
 
                 </div>
 
-             
+                <div className="aboutme-blocks">
+                    <img className="profile" src={image} width="90%"/>
+                </div>
 
             </div>
       
@@ -72,10 +70,7 @@ const Home= () => {
                             My Favorite Quotes
                         </h3>
                     </div>
-                    <div className="carousel-border">
-                        <QuoteCarousel></QuoteCarousel>
-                    </div>
-                    
+                    <QuoteCarousel></QuoteCarousel>
                     
                 </div>
 
@@ -85,23 +80,16 @@ const Home= () => {
                             Fun and Random Facts
                         </h3>
                     </div>
-                    <div className="carousel-border">
                     <FactsCarousel></FactsCarousel>
-                    </div>
-                    
 
                    
                 
                 </div>
             </div>
 
-            <div className="aboutme">
             <div>
                 <img className="profile" src={landscape} width="70%"/>
             </div>
-            </div>
-
-         
         </div>
     )
 }
