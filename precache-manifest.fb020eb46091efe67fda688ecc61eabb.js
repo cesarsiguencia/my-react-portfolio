@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c393d2a06908fb3ea9c0",
-    "url": "/my-react-portfolio/static/css/main.e7f7f532.chunk.css"
+    "revision": "417b21b23402b08f944b",
+    "url": "/my-react-portfolio/static/css/main.363612c2.chunk.css"
   },
   {
-    "revision": "c393d2a06908fb3ea9c0",
-    "url": "/my-react-portfolio/static/js/main.c393d2a0.chunk.js"
+    "revision": "417b21b23402b08f944b",
+    "url": "/my-react-portfolio/static/js/main.417b21b2.chunk.js"
   },
   {
     "revision": "6d901b3e33806cc9ca52",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "257d860cfc3ef5bb848fd3634ead70c3",
+    "revision": "fe31c298ee9a7b40cdd0ede51016277f",
     "url": "/my-react-portfolio/index.html"
   }
 ];
