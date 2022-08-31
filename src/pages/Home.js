@@ -10,50 +10,15 @@ import spanish from '../media/icons/spanish.png'
 
 import sparrow from '../media/icons/sparrow.gif'
 
+import QuoteCarousel from '../Components/Carousels/qoutes'
+
+import FactsCarousel from '../Components/Carousels/facts'
+
 // import { carouselButtons } from '../utils/helpers'
 
 const Home= () => {
 
-    // const[carousel, setCarousel] = useState(0);
-
-    // useEffect(() => {
-    //     carouselButtons() 
-    // })
-
-    const data = [
-        {
-            quote: `"I won't have a problem if you hit high and miss, but I am going to have a real problem if you aim low and hit"`, 
-            person: "- Michaelangelo",
-            fact: "My favorite dish of all time is Mediterranean Grilled Octopus with roasted assorted baby potatoes in dashes of rosemary, pasley, garlic, and olive oil."
-        },
-
-        {
-            quote: `"We are what you repeatedly do, excellence then, is not and act, but a habit",
-            `,
-            person: "- Aristotle",
-            fact: "I learned in college through a professor that I have perfect pitch."
-        },
-        {
-            quote: `"When we hit out lowest point, we are open to the greatest change"`,
-            person: "-Legend of Korra Nickelodeon Series",
-            fact: `I'm a little "old school". I like very old cars, enjoy collecting old tech, have a special place in my heart for tape cassetes, and all my favorite music comes from the 70s, 80s, and 90s, including rock, RnB and Hip Hop.`
-        }
-]
-
-    const [currentIndex, setCurrentIndex] = useState(0)
-
-    const carouselInfiniteScroll = () => {
-        if(currentIndex === data.length-1){
-            return setCurrentIndex(0)
-        }
-        return setCurrentIndex(currentIndex+1)
-    }
-
-    useEffect(() => {
-        const interval = setInterval(() => {carouselInfiniteScroll()}, 6000)
-
-        // return () => clearInterval(interval)
-    })
+    
 
     return(
         <div className="body-divs">
@@ -105,35 +70,8 @@ const Home= () => {
                             My Favorite Quotes
                         </h3>
                     </div>
-
-                    {/* <div className="carousel">
-                        <div className="carousel-item">Content 1</div>
-                        <div className="carousel-item carousel-item-selected">Content 2</div>
-                        <div className="carousel-item">Content 3</div> */}
-                        {/* <div className="carousel-nav">
-                            <span className="carousel-button"></span>
-                            <span className="carousel-button carousel-button-selected"></span>
-                            <span className="carousel-button"></span>
-                        </div> */}
-                           
-                    {/* </div> */}
-
-                    <div className="carousel-container" >
-                        { data.map((item, index) => {
-                           
-
-                            return <div className="carousel-item">
-                                     <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.quote}</p>
-                                     <h5 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>
-                                        {item.person}
-                                     </h5>
-                                </div>
-                            
-                       
-                       
-                        })}
-
-                    </div>
+                    <QuoteCarousel></QuoteCarousel>
+                    
                 </div>
 
                 <div className="aboutme-blocks">
@@ -141,23 +79,10 @@ const Home= () => {
                         <h3>
                             Fun and Random Facts
                         </h3>
-
                     </div>
+                    <FactsCarousel></FactsCarousel>
 
-                    <div className="carousel-container" >
-                        { data.map((item, index) => {
-                           
-
-                            return <div className="carousel-item">
-                                     <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.fact}</p>
-                            
-                                </div>
-                            
-                       
-                       
-                        })}
-
-                    </div>
+                   
                 
                 </div>
             </div>

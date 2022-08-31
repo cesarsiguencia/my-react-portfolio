@@ -222,12 +222,10 @@
 .aboutme--quotes{
   font-style: italic;
   font-size: 22px;
-  margin-bottom: 25px;
 }
 
 .aboutme--facts{
   font-size: 22px;
-  margin-bottom: 25px;
 }
 
 .aboutme--gifs{
@@ -249,21 +247,30 @@
 }
 
 .carousel-container {
-  background-color: orange;
+  border: orange 3px solid;
+  border-radius: 25px;
+}
+
+.carousel--div{
+  width: 80%;
+  margin: 50px auto;
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
-  height: 150px;
   
 }
 
-.carousel-item {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
+.carousel-block{
   min-width: 100%;
   width: 100%;
-  transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5)
+  transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5);
+  margin: auto;
+}
+
+.carousel-item {
+  width: 100%;
+  margin: auto auto;
+  transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5);
 }
 
 /* Footer */
@@ -639,9 +646,9 @@ li {
     font-size: 20px
   }
 
-  .body-divs{
+  /* .body-divs{
    margin: 25px auto;
-  }
+  } */
 
   .body-texts{
     width: 90%;
