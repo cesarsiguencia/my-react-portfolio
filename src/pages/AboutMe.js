@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import image from '../media/me/IMG_2178-copy.png'
 
-import landscape from '../media/me/landscape.png'
+import landscape from '../media/me/home2.png'
 
 import bike from '../media/icons/cycling-bicycle.gif'
 
@@ -16,7 +16,7 @@ import FactsCarousel from '../Components/Carousels/facts'
 
 // import { carouselButtons } from '../utils/helpers'
 
-const Home= () => {
+const About= () => {
 
     
 
@@ -95,15 +95,15 @@ const Home= () => {
                 </div>
             </div>
 
-            <div className="aboutme">
+       
             <div>
                 <img className="profile" src={landscape} width="70%"/>
             </div>
-            </div>
+
 
          
         </div>
     )
 }
 
-export default Home
+export default About
