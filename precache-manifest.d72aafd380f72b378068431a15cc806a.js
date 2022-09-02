@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "417b21b23402b08f944b",
-    "url": "/my-react-portfolio/static/css/main.363612c2.chunk.css"
+    "revision": "7aa8ae2575d5cd9fb6c2",
+    "url": "/my-react-portfolio/static/css/main.2d70b00e.chunk.css"
   },
   {
-    "revision": "417b21b23402b08f944b",
-    "url": "/my-react-portfolio/static/js/main.417b21b2.chunk.js"
+    "revision": "7aa8ae2575d5cd9fb6c2",
+    "url": "/my-react-portfolio/static/js/main.7aa8ae25.chunk.js"
   },
   {
-    "revision": "6d901b3e33806cc9ca52",
-    "url": "/my-react-portfolio/static/js/1.6d901b3e.chunk.js"
+    "revision": "4422e644433f4a61be16",
+    "url": "/my-react-portfolio/static/js/1.4422e644.chunk.js"
   },
   {
-    "revision": "3c987e70e3ce3f02cdfd",
-    "url": "/my-react-portfolio/static/js/2.3c987e70.chunk.js"
+    "revision": "cf5f22c48c3a825df524",
+    "url": "/my-react-portfolio/static/js/2.cf5f22c4.chunk.js"
   },
   {
-    "revision": "fd53d9096fab556b50c6",
-    "url": "/my-react-portfolio/static/js/runtime~main.fd53d909.js"
+    "revision": "3b00b04939c02c8a4565",
+    "url": "/my-react-portfolio/static/js/runtime~main.3b00b049.js"
   },
   {
     "revision": "07883e93734b98cae0f7b9c55d287250",
@@ -40,16 +40,12 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/nft-y.4d83ac8e.png"
   },
   {
-    "revision": "06c78a869e6b73059bdc4337ceab10fa",
-    "url": "/my-react-portfolio/static/media/IMG_9110.06c78a86.png"
-  },
-  {
     "revision": "fbf33b2e9006776a53db2665b24b1714",
     "url": "/my-react-portfolio/static/media/IMG_2178-copy.fbf33b2e.png"
   },
   {
-    "revision": "18c28a7a64774f2829469b62fa8279be",
-    "url": "/my-react-portfolio/static/media/landscape.18c28a7a.png"
+    "revision": "6d8878052652685d722613206d9a3514",
+    "url": "/my-react-portfolio/static/media/home2.6d887805.png"
   },
   {
     "revision": "aa1dbb326324c67fbf98edac6f851755",
@@ -62,6 +58,14 @@ self.__precacheManifest = [
   {
     "revision": "7f49b1d5caa1ff9e28de03cea4ebef59",
     "url": "/my-react-portfolio/static/media/sparrow.7f49b1d5.gif"
+  },
+  {
+    "revision": "06c78a869e6b73059bdc4337ceab10fa",
+    "url": "/my-react-portfolio/static/media/IMG_9110.06c78a86.png"
+  },
+  {
+    "revision": "9add8ebc89a2111988307c6ec22e14fd",
+    "url": "/my-react-portfolio/static/media/home.9add8ebc.png"
   },
   {
     "revision": "6af4cc70229bd7f9fe2ca6931b009ab5",
@@ -116,7 +120,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "fe31c298ee9a7b40cdd0ede51016277f",
+    "revision": "e3e0b5349bbfb313c49dbb6c30ac2c32",
     "url": "/my-react-portfolio/index.html"
   }
 ];
