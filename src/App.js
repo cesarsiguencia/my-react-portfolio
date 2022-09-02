@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css';
 
-
+import AboutMe from './pages/AboutMe'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio';
 import Home from './pages/Home'
@@ -27,8 +27,8 @@ function App() {
           />
 
           <Route
-            path="/my-react-portfolio"
-            element={<Home />}
+            path="/aboutme"
+            element={<AboutMe />}
           />
     
           <Route

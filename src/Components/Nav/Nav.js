@@ -21,8 +21,8 @@ const Nav = () => {
             <div className="mobile-options"></div>
           </div>
           <div className="nav-links">  
-            <h2 className="links">
-              <Link onClick={hamburgerMenu} id="navtab" to="/">About Me
+            <h2 id="navtab" className="links">
+              <Link onClick={hamburgerMenu} to="/aboutme">About Me
               </Link>
             </h2>
             <h2 id="navtab" className="links">
