@@ -23,31 +23,39 @@ const Home = () => {
 
     let bcg1Width
 
-    // const [currentWidth, setCurrentWidth] = useState(0)
-    
 
     window.addEventListener("mousemove", function(e){
-        const bcg1 = document.querySelector("#bcg-1")
+        const bcg1 = document.querySelector(".hello")
         // const xAxis = e.clientX
 
-
+        if(bcg1){
+            
             const xAxis = e.clientX
 
   
-            const name = xAxis/20
+            const name = xAxis
         
             console.log(name)
-            bcg1Width = name + "%"
+            bcg1Width = name + "px"
             bcg1.style.width = bcg1Width
             console.log(bcg1Width)
+        }
+
+
         
       }) 
 
       return (
         <div className="home-div">
             <div className="home-bcgs">
-                <img className="background bcg-2" id="bcg-2" src={home2}/>
-                <img className="background bcg-1" id="bcg-1" src={home} width={bcg1Width}/>
+                <img className="bcg-2" id="bcg-2" src={home2} width="100%"/>
+                <div className="hello">
+                    <img className="bcg-1" id="bcg-1" src={home}/>
+                </div>
+
+                
+     
+         
             </div>
         </div>
     )

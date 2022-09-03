@@ -27,14 +27,14 @@ export function hamburgerMenu () {
   menu.classList.toggle("mobile-effect")
 }
 
-export function backgroundEffect () {
-  const bcg1 = document.querySelector("#bcg-1")
+// export function backgroundEffect () {
+//   const bcg1 = document.querySelector("#bcg-1")
 
-  window.addEventListener("mousemove", function(e){
-    const width = e.clientX + "px"
-    bcg1.style.width = width
-  })
-}
+//   window.addEventListener("mousemove", function(e){
+//     const width = e.clientX + "px"
+//     bcg1.style.width = width
+//   })
+// }
 
 // export function carouselButtons (){
 //   document.querySelectorAll(".carousel").forEach(carousel => {
