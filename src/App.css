@@ -4,13 +4,63 @@
 
 /* Home */
 
-.background {
+.home-div{
+  width: 100%;
+  /* overflow: hidden; */
+  position: relative;
+  height: 100vh;
+}
+
+.home-bcgs {
+  width: 100%;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* .background {
   width: 100%;
   height: 1000px;
   object-fit: cover;
   object-position: center;
+} */
+
+
+
+.bcg-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  z-index: 1;
+  object-fit: cover;
+  object-position: left;
 
 }
+
+.bcg-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  /* background-size: cover; */
+  object-fit: cover;
+  object-position: left;
+  /* z-index: 1; */
+
+}
+
+/* .bcg-2 {
+  position: fixed;
+  height: 1000px;
+  background-size: cover;
+  z-index: 1 
+} */
 
 /* Header & Nav bar */
 
