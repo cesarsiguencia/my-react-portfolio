@@ -22,28 +22,28 @@ function App() {
       <div className="App-body">
         <Routes>
           <Route
-            path="/"
+            path="/my-react-portfolio"
             element={<Home />}
           />
 
           <Route
-            path="/aboutme"
+            path="/my-react-portfolio/aboutme"
             element={<AboutMe />}
           />
     
           <Route
-            path="/portfolio"
+            path="/my-react-portfolio/portfolio"
             element={<Portfolio />}
           />
 
 
           <Route
-            path="/contact"
+            path="/my-react-portfolio/contact"
             element={<Contact />}
           />
 
           <Route
-            path="/resume"
+            path="/my-react-portfolio/resume"
             element={<Resume />}
           />
 

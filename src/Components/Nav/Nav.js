@@ -22,19 +22,19 @@ const Nav = () => {
           </div>
           <div className="nav-links">  
             <h2 id="navtab" className="links">
-              <Link onClick={hamburgerMenu} to="/aboutme">About Me
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/aboutme">About Me
               </Link>
             </h2>
             <h2 id="navtab" className="links">
-              <Link onClick={hamburgerMenu} to="/portfolio">Portfolio
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/portfolio">Portfolio
               </Link>
             </h2>
             <h2 id="navtab" className="links"> 
-              <Link onClick={hamburgerMenu} to="/contact">Contact
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/contact">Contact
               </Link>
             </h2>
             <h2 id="navtab" className="links">
-              <Link onClick={hamburgerMenu} to="/resume">Resume & Skills
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/resume">Resume & Skills
               </Link>
             </h2>
           </div>
