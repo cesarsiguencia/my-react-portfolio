@@ -48,12 +48,22 @@ const Home = () => {
       return (
         <div className="home-div">
             <div className="home-bcgs">
-                <img className="bcg-2" id="bcg-2" src={home2} width="100%"/>
+
+                    <img className="bcg-2" id="bcg-2" src={home2} width="100%"/>
+           
+          
                 <div className="hello">
-                    <img className="bcg-1" id="bcg-1" src={home}/>
+                    <img className="bcg-1" id="bcg-1" src={home} />
                 </div>
 
-                
+                <div className ="hidden-intro">
+                    
+                    <h3>Welcome to my page!</h3>
+                    <div className="aboutme-blocks">
+                        <p className="body-texts">And welcome to my favorite view in my hometown, Hamilton Heights, NYC! Click the links above to be redirected</p>
+                    </div>
+            
+                </div>
      
          
             </div>
