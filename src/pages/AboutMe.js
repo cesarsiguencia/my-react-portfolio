@@ -29,7 +29,7 @@ const About= () => {
             <div className="aboutme">
 
                 <div className="aboutme-blocks">
-                    <img className="profile" src={image} width="90%"/>
+                    <img className="profile" src={image} width="100%"/>
                 </div>
          
                 <div className="aboutme-blocks">
@@ -96,8 +96,11 @@ const About= () => {
             </div>
 
        
-            <div>
-                <img className="profile" src={landscape} width="70%"/>
+            <div className="aboutme">
+                <div className="aboutme-blocks">
+                    <img className="profile" src={landscape} width="100%"/>
+                </div>
+           
             </div>
 
 
