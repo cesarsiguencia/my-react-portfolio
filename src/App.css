@@ -301,7 +301,7 @@
 
 .profile {
   border-radius: 20px;
-  /* border: orange 5px solid; */
+  border: orange 5px solid;
 }
 
 .carousel-border{
@@ -691,8 +691,8 @@ li {
     font-size: 20px
   }
 
-  .profile {
-    width: 100%
+  .profile{
+    width: 95%
   }
 
   .gifs {
