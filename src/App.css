@@ -38,6 +38,11 @@ body{
 
 }
 
+/* .hello-blurb{
+
+
+} */
+
 
 .hello{
   position: absolute;
@@ -46,7 +51,7 @@ body{
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
-  width: 50%;
+  width: 100%;
   height: 100%;
   object-fit: contain;
 }
@@ -85,7 +90,18 @@ body{
 /* Header & Nav bar */
 
 .hidden-intro {
-  height: 0px
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.mouse {
+  position: absolute;
+
+  bottom: 0;
+  font-style: italic;
 }
 
 .App-header{
@@ -562,6 +578,22 @@ li {
     h2{
       margin: auto 0px;
     }
+
+    .hello {
+      height: 0px;
+      position: relative;
+    }
+  
+    .home-bcgs {
+      display: block;
+    }
+  
+  
+    .hidden-intro{
+      position: relative;
+      height: 100%;
+  
+    } 
 }
 
 @media screen and (max-width: 850px){
@@ -633,20 +665,7 @@ li {
 }
 
 @media screen and (max-width: 700px){
-  .hello {
-    height: 0px;
-    position: relative;
-  }
 
-  .home-bcgs {
-    display: block;
-  }
-
-
-  .hidden-intro{
-    height: 100%;
-
-  } 
 
   .footer-font{
     margin: auto 0px;
