@@ -165,7 +165,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="hello">
+                {/* <div className="hello">
                     <img className="bcg-1" id="bcg-1" src={portrait1} />
                     <div className="hidden-intro">
                         <div>
@@ -174,7 +174,7 @@ const Home = () => {
         
 
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
