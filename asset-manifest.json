@@ -1,7 +1,7 @@
 {
   "main.css": "/my-react-portfolio/static/css/main.11179929.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.9c983258.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.9c983258.chunk.js.map",
+  "main.js": "/my-react-portfolio/static/js/main.035b66f7.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.035b66f7.chunk.js.map",
   "static/js/1.9f6f6cec.chunk.js": "/my-react-portfolio/static/js/1.9f6f6cec.chunk.js",
   "static/js/1.9f6f6cec.chunk.js.map": "/my-react-portfolio/static/js/1.9f6f6cec.chunk.js.map",
   "static/js/2.89fb87a6.chunk.js": "/my-react-portfolio/static/js/2.89fb87a6.chunk.js",
@@ -22,7 +22,7 @@
   "static/media/home.png": "/my-react-portfolio/static/media/home.9add8ebc.png",
   "static/media/home-orange.png": "/my-react-portfolio/static/media/home-orange.7410d39a.png",
   "static/media/portrait-1.png": "/my-react-portfolio/static/media/portrait-1.d55caade.png",
-  "static/media/portrait-2.png": "/my-react-portfolio/static/media/portrait-2.7f8457f2.png",
+  "static/media/portrait-2.png": "/my-react-portfolio/static/media/portrait-2.0440270c.png",
   "static/media/cesar-siguencia-resume.pdf": "/my-react-portfolio/static/media/cesar-siguencia-resume.6af4cc70.pdf",
   "static/media/resume.png": "/my-react-portfolio/static/media/resume.9ddddc9c.png",
   "static/media/jquery.png": "/my-react-portfolio/static/media/jquery.b629397a.png",
@@ -38,6 +38,6 @@
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
   "static/css/main.11179929.chunk.css.map": "/my-react-portfolio/static/css/main.11179929.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.3379acc5181aca5030e1c550b78aad52.js": "/my-react-portfolio/precache-manifest.3379acc5181aca5030e1c550b78aad52.js",
+  "precache-manifest.691b3479dea839d59d53d500e84f524b.js": "/my-react-portfolio/precache-manifest.691b3479dea839d59d53d500e84f524b.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
