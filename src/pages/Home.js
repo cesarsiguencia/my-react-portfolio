@@ -165,8 +165,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* <div className="hello">
-                    <img className="bcg-1" id="bcg-1" src={portrait1} />
+                <div className="hello">
+                    <img className="bcg-1" id="bcg-1" src={portrait1}/>
                     <div className="hidden-intro">
                         <div>
                             <h6 className="body-texts hidden-texts">* Slide Mouse Horizontally! *</h6>
@@ -174,7 +174,7 @@ const Home = () => {
         
 
                     </div>
-                </div> */}
+                </div>
 
             </div>
 
