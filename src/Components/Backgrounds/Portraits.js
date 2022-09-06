@@ -1,8 +1,5 @@
 import React, {useState, useEffect} from "react"
 
-// import home from "../../media/me/home.png"
-
-// import home2 from "../../media/me/home-orange.png"
 
 import portrait1 from "../../media/me/portrait-1.png"
 
@@ -10,24 +7,13 @@ import portrait2 from "../../media/me/portrait-2.png"
 
 const PortraitsEffect= () => {
 
-    // const images = [
-    //     {
-    //         initial: {portrait1},
-    //         second: {portrait2}
-    //     },
-    //     {
-    //         initial: {home},
-    //         second: {home2} 
-    //     }
-
-    // ]
 
 
         let backgroundWidth
 
         window.addEventListener("mousemove", function(e){
             const backgroundDiv = document.querySelector(".hello")
-            // const xAxis = e.clientX
+
       
             if(backgroundDiv){
                 

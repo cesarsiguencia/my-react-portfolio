@@ -4,9 +4,6 @@ import home from "../../media/me/home.png"
 
 import home2 from "../../media/me/home-orange.png"
 
-// import portrait1 from "../../media/me/portrait-1.png"
-
-// import portrait2 from "../../media/me/portrait-2.png"
 
 const BackgroundEffect= () => {
 
