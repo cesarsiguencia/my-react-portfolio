@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7e06d5348a7f67ae8c58",
-    "url": "/my-react-portfolio/static/css/main.76e0582f.chunk.css"
+    "revision": "e9c3e1735ca00414cfdc",
+    "url": "/my-react-portfolio/static/css/main.b3632b3b.chunk.css"
   },
   {
-    "revision": "7e06d5348a7f67ae8c58",
-    "url": "/my-react-portfolio/static/js/main.7e06d534.chunk.js"
+    "revision": "e9c3e1735ca00414cfdc",
+    "url": "/my-react-portfolio/static/js/main.e9c3e173.chunk.js"
   },
   {
     "revision": "9f6f6cec55adb720d38c",
     "url": "/my-react-portfolio/static/js/1.9f6f6cec.chunk.js"
   },
   {
-    "revision": "89fb87a6c652ac83b1ee",
-    "url": "/my-react-portfolio/static/js/2.89fb87a6.chunk.js"
+    "revision": "848fdc305e4fec7f2ed7",
+    "url": "/my-react-portfolio/static/js/2.848fdc30.chunk.js"
   },
   {
     "revision": "3b94931bf1e156ab3969",
@@ -72,10 +72,6 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/home-orange.7410d39a.png"
   },
   {
-    "revision": "d55caade6bf6b3f9b116c2d1526813cd",
-    "url": "/my-react-portfolio/static/media/portrait-1.d55caade.png"
-  },
-  {
     "revision": "7f8457f280c9c36ece82bd986ec0e4d8",
     "url": "/my-react-portfolio/static/media/portrait-2.7f8457f2.png"
   },
@@ -132,7 +128,11 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "9ff8a0cd768b80296b5e954e2b0fd024",
+    "revision": "d55caade6bf6b3f9b116c2d1526813cd",
+    "url": "/my-react-portfolio/static/media/portrait-1.d55caade.png"
+  },
+  {
+    "revision": "b6724d54f69e2bb07bc9bbe12c82bef4",
     "url": "/my-react-portfolio/index.html"
   }
 ];
