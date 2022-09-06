@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.b3632b3b.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.09b9baaf.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.09b9baaf.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.53364bc8.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.1da57500.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.1da57500.chunk.js.map",
   "static/js/1.9f6f6cec.chunk.js": "/my-react-portfolio/static/js/1.9f6f6cec.chunk.js",
   "static/js/1.9f6f6cec.chunk.js.map": "/my-react-portfolio/static/js/1.9f6f6cec.chunk.js.map",
   "static/js/2.848fdc30.chunk.js": "/my-react-portfolio/static/js/2.848fdc30.chunk.js",
@@ -36,8 +36,8 @@
   "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
   "static/media/portrait-1.png": "/my-react-portfolio/static/media/portrait-1.d55caade.png",
-  "static/css/main.b3632b3b.chunk.css.map": "/my-react-portfolio/static/css/main.b3632b3b.chunk.css.map",
+  "static/css/main.53364bc8.chunk.css.map": "/my-react-portfolio/static/css/main.53364bc8.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.de9288a0cb0d29658fbc16aea886d8ff.js": "/my-react-portfolio/precache-manifest.de9288a0cb0d29658fbc16aea886d8ff.js",
+  "precache-manifest.798c84318abe0ec4538ae9d734040e9d.js": "/my-react-portfolio/precache-manifest.798c84318abe0ec4538ae9d734040e9d.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
