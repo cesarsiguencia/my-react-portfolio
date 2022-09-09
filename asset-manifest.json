@@ -1,11 +1,11 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.f274adbc.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.d5195809.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.d5195809.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.f07e5760.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.17da9a22.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.17da9a22.chunk.js.map",
   "static/js/1.38ecc02d.chunk.js": "/my-react-portfolio/static/js/1.38ecc02d.chunk.js",
   "static/js/1.38ecc02d.chunk.js.map": "/my-react-portfolio/static/js/1.38ecc02d.chunk.js.map",
-  "static/js/2.cb816779.chunk.js": "/my-react-portfolio/static/js/2.cb816779.chunk.js",
-  "static/js/2.cb816779.chunk.js.map": "/my-react-portfolio/static/js/2.cb816779.chunk.js.map",
+  "static/js/2.ac379946.chunk.js": "/my-react-portfolio/static/js/2.ac379946.chunk.js",
+  "static/js/2.ac379946.chunk.js.map": "/my-react-portfolio/static/js/2.ac379946.chunk.js.map",
   "runtime~main.js": "/my-react-portfolio/static/js/runtime~main.acc09e31.js",
   "runtime~main.js.map": "/my-react-portfolio/static/js/runtime~main.acc09e31.js.map",
   "static/media/github.svg": "/my-react-portfolio/static/media/github.07883e93.svg",
@@ -36,8 +36,8 @@
   "static/media/Taskmaster-Pro.png": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.png",
   "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
-  "static/css/main.f274adbc.chunk.css.map": "/my-react-portfolio/static/css/main.f274adbc.chunk.css.map",
+  "static/css/main.f07e5760.chunk.css.map": "/my-react-portfolio/static/css/main.f07e5760.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.8b6177c9efb0f659d96202e9ecf2485b.js": "/my-react-portfolio/precache-manifest.8b6177c9efb0f659d96202e9ecf2485b.js",
+  "precache-manifest.94f07e6dbe2968ce4b877541930589bd.js": "/my-react-portfolio/precache-manifest.94f07e6dbe2968ce4b877541930589bd.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
