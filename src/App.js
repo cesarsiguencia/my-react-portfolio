@@ -28,10 +28,10 @@ function App() {
 
   
 
-  window.addEventListener("load", () => {
-    const LoadAni = document.querySelector('.loader-wrapper')
-    LoadAni.style.opacity = 0
-  } )
+  // window.addEventListener("load", () => {
+  //   const LoadAni = document.querySelector('.loader-wrapper')
+  //   LoadAni.style.opacity = 0
+  // } )
 
   
 
