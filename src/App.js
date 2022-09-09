@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import './App.css';
 import './loader.css'
-import $ from 'jquery'
+// import $ from 'jquery'
 
 
 import AboutMe from './pages/AboutMe'
@@ -18,13 +18,22 @@ import Header from './Components/Header/Header';
 
 function App() {
 
-  $(window).on("load", function(){
-    $(".loader-wrapper").fadeOut("slow")
-  })
+  // $(window).on("load", function(){
+  //   $(".loader-wrapper").fadeOut("slow")
+  // })
 
-  $(window).on("mobileinit", function(){
-    $(".loader-wrapper").fadeOut("slow")
-  })
+  // $(window).on("mobileinit", function(){
+  //   $(".loader-wrapper").fadeOut("slow")
+  // })
+
+  
+
+  window.addEventListener("load", () => {
+    const LoadAni = document.querySelector('.loader-wrapper')
+    LoadAni.style.opacity = 0
+  } )
+
+  
 
 
 
