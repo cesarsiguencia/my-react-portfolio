@@ -1,4 +1,4 @@
-import $ from 'jquery'
+
 
 export function LowercaseFirstLetter(string) {
     return string.charAt(0).toLowerCase() + string.slice(1);
@@ -25,6 +25,14 @@ export function hamburgerMenu () {
 
   btn.classList.toggle("active")
   menu.classList.toggle("mobile-effect")
+}
+
+export function loader () {
+  const LoadAni = document.querySelector('.loader-wrapper')
+
+  window.addEventListener("load", () => {
+    LoadAni.classList.toggle("loaded")
+  } )
 }
 
 // export function backgroundEffect () {
@@ -57,11 +65,9 @@ export function hamburgerMenu () {
 // }
 
 
-export function loaderAni () {
-  $(window).on("load", function(){
-    $(".loader-wrapper").fadeOut("slow")
-  })
-}
+// export function loaderAni () {
+
+// }
 
 
 

@@ -29,6 +29,11 @@ body{
 
 .loader-box{
   margin: auto;
+  text-align: center;
+}
+
+.loaded {
+  opacity: 0;
 }
 
 /* Home */
