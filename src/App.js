@@ -92,7 +92,7 @@ function App() {
 
     </div>
 
-    <div className="loader-wrapper" >
+    {/* <div className="loader-wrapper" >
       <div className="loader-box">
         <div className="loader">
 
@@ -103,7 +103,7 @@ function App() {
       </div>
    
 
-    </div>
+    </div> */}
     </Router>
   );
 }
