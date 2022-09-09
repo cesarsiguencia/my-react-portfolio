@@ -33,7 +33,7 @@ body{
 }
 
 .loaded {
-  opacity: 0;
+  opacity: 1;
 }
 
 /* Home */

@@ -10,7 +10,7 @@ import Portfolio from './pages/Portfolio';
 import Home from './pages/Home'
 import Resume from './pages/Resume'
 import Footer from './Components/Footer/Footer'
-import { loader } from './utils/helpers'
+// import { loader } from './utils/helpers'
 // import Portfolio from './Components/Portfolio/Portfolio';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -18,24 +18,24 @@ import Header from './Components/Header/Header';
 
 function App() {
 
-  // $(window).on("load", function(){
-  //   $(".loader-wrapper").fadeOut("slow")
-  // })
+  $(window).on("load", function(){
+    $(".loader-wrapper").fadeOut("slow")
+  })
 
-
+  
 
 
   return (
 
 
     
-    <Router>
+    <Router >
 
 
 
 
       
-    <div className="App" onLoad={loader}>
+    <div className="App" >
 
 
 
