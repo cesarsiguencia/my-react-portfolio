@@ -16,6 +16,21 @@ body{
 
 }
 
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+}
+
+.loader-box{
+  margin: auto;
+}
+
 /* Home */
 
 .home-div{
@@ -37,11 +52,6 @@ body{
   object-fit: cover;
 
 }
-
-/* .hello-blurb{
-
-
-} */
 
 
 .hello{

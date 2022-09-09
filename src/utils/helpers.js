@@ -1,4 +1,4 @@
-
+import $ from 'jquery'
 
 export function LowercaseFirstLetter(string) {
     return string.charAt(0).toLowerCase() + string.slice(1);
@@ -55,6 +55,13 @@ export function hamburgerMenu () {
 //   })
 
 // }
+
+
+export function loaderAni () {
+  $(window).on("load", function(){
+    $(".loader-wrapper").fadeOut("slow")
+  })
+}
 
 
 
