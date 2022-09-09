@@ -22,7 +22,11 @@ function App() {
     $(".loader-wrapper").fadeOut("slow")
   })
 
-  
+  $(window).on("mobileinit", function(){
+    $(".loader-wrapper").fadeOut("slow")
+  })
+
+
 
 
   return (
