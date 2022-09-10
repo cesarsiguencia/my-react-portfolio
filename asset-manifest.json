@@ -1,7 +1,7 @@
 {
   "main.css": "/my-react-portfolio/static/css/main.2cec0548.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.2bcf897f.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.2bcf897f.chunk.js.map",
+  "main.js": "/my-react-portfolio/static/js/main.6e76b8c4.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.6e76b8c4.chunk.js.map",
   "static/js/1.4f473d82.chunk.js": "/my-react-portfolio/static/js/1.4f473d82.chunk.js",
   "static/js/1.4f473d82.chunk.js.map": "/my-react-portfolio/static/js/1.4f473d82.chunk.js.map",
   "static/js/2.89fb87a6.chunk.js": "/my-react-portfolio/static/js/2.89fb87a6.chunk.js",
@@ -38,6 +38,6 @@
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
   "static/css/main.2cec0548.chunk.css.map": "/my-react-portfolio/static/css/main.2cec0548.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.53b93a7d7778846a44bf9101fbbfd4d4.js": "/my-react-portfolio/precache-manifest.53b93a7d7778846a44bf9101fbbfd4d4.js",
+  "precache-manifest.1f330f3af5bafcfd3e572c3301672432.js": "/my-react-portfolio/precache-manifest.1f330f3af5bafcfd3e572c3301672432.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
