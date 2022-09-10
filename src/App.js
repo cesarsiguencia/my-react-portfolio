@@ -35,16 +35,16 @@ function App() {
 
   
 
-  // const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false)
 
-  // useEffect(() => {
-  //  setLoading(true)
-  //  setTimeout(() => {
-  //   setLoading(false)
+  useEffect(() => {
+   setLoading(true)
+   setTimeout(() => {
+    setLoading(false)
 
-  //  }, 3000)
+   }, 2000)
 
-  // }, [])
+  }, [])
 
   return (
 
@@ -56,63 +56,84 @@ function App() {
 
 
       
-    <div className="App" >
+  
       
+        {
+          loading ? 
+
+          (
 
 
-
-
-
-
-
-      <Header></Header>
-      <div className="App-body">
-        <Routes>
-          <Route
-            path="/my-react-portfolio"
-            element={<Home />}
-          />
-
-          <Route
-            path="/my-react-portfolio/aboutme"
-            element={<AboutMe />}
-          />
+          <div className="loader-wrapper">
+          <div className="loader-box">
+            <div className="loader">
     
-          <Route
-            path="/my-react-portfolio/portfolio"
-            element={<Portfolio />}
-          />
-
-
-          <Route
-            path="/my-react-portfolio/contact"
-            element={<Contact />}
-          />
-
-          <Route
-            path="/my-react-portfolio/resume"
-            element={<Resume />}
-          />
-
-        </Routes>
-          
-      </div>
-      <Footer></Footer>
-
-    </div>
-
-    {/* <div className="loader-wrapper" >
-      <div className="loader-box">
-        <div className="loader">
-
-        
+            
+            </div>
+            <br/>
+            <h3>I am loading!</h3>
+          </div>
+       
+    
         </div>
-        <br/>
-        <h3>I am loading!</h3>
-      </div>
+
+          )
+
+
+         :
+
+         (
+          <div className="App" >
+          <Header></Header>
+          <div className="App-body">
+            <Routes>
+              <Route
+                path="/my-react-portfolio"
+                element={<Home />}
+              />
+    
+              <Route
+      
+                path="/my-react-portfolio/aboutme"
+                element={ <AboutMe />}
+              />
+        
+              <Route
+                path="/my-react-portfolio/portfolio"
+                element={<Portfolio />}
+              />
+    
+    
+              <Route
+                path="/my-react-portfolio/contact"
+                element={<Contact />}
+              />
+    
+              <Route
+                path="/my-react-portfolio/resume"
+                element={<Resume />}
+              />
+    
+            </Routes>
+              
+          </div>
+          <Footer></Footer>
+          </div>
+       
+         )
+
+        }
+
+
+
+
+
+
+
+
    
 
-    </div> */}
+
     </Router>
   );
 }
