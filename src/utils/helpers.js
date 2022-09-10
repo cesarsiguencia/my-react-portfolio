@@ -27,11 +27,13 @@ export function hamburgerMenu () {
   menu.classList.toggle("mobile-effect")
 }
 
-// export function loader () {
-//   const LoadAni = document.querySelector('.loader-wrapper')
-//   LoadAni.classList.add("loaded")
+export function loader () {
+  const LoadAni = document.querySelector('.loader-wrapper')
 
-// }
+  window.addEventListener("load", () => {
+    LoadAni.classList.toggle("loaded")
+  } )
+}
 
 // export function backgroundEffect () {
 //   const bcg1 = document.querySelector("#bcg-1")

@@ -14,7 +14,6 @@ import QuoteCarousel from '../Components/Carousels/qoutes'
 
 import FactsCarousel from '../Components/Carousels/facts'
 
-// import { carouselButtons } from '../utils/helpers'
 
 const About= () => {
 
