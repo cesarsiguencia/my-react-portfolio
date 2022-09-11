@@ -64,8 +64,6 @@ const Home = () => {
                         <div>
                             <h6 className="body-texts home-pg-font">* Slide Mouse Horizontally! *</h6>
                         </div>
-        
-
                     </div>
                 </div>
 

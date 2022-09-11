@@ -211,7 +211,7 @@ body{
 }
 
 /* Portfolio & apps ---------- */
-.container-description{
+.container--description{
   margin-left: 20%;
   height: 100%;
   display: flex;
