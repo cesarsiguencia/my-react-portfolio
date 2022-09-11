@@ -1,35 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "45e35399cedafad9a6b3",
-    "url": "/my-react-portfolio/static/css/main.2d8332f8.chunk.css"
+    "revision": "e8069d5fc8bb39c86d78",
+    "url": "/my-react-portfolio/static/css/main.731bf5ed.chunk.css"
   },
   {
-    "revision": "45e35399cedafad9a6b3",
-    "url": "/my-react-portfolio/static/js/main.45e35399.chunk.js"
+    "revision": "e8069d5fc8bb39c86d78",
+    "url": "/my-react-portfolio/static/js/main.e8069d5f.chunk.js"
   },
   {
     "revision": "4f473d823a9b02f8d234",
     "url": "/my-react-portfolio/static/js/1.4f473d82.chunk.js"
   },
   {
-    "revision": "89fb87a6c652ac83b1ee",
-    "url": "/my-react-portfolio/static/js/2.89fb87a6.chunk.js"
+    "revision": "8acbcc3905001e2ef69e",
+    "url": "/my-react-portfolio/static/js/2.8acbcc39.chunk.js"
   },
   {
     "revision": "247f684bccda2ee91363",
     "url": "/my-react-portfolio/static/js/runtime~main.247f684b.js"
-  },
-  {
-    "revision": "07883e93734b98cae0f7b9c55d287250",
-    "url": "/my-react-portfolio/static/media/github.07883e93.svg"
-  },
-  {
-    "revision": "df721c2187edc80e4b51abf012cfefc5",
-    "url": "/my-react-portfolio/static/media/linkedin.df721c21.png"
-  },
-  {
-    "revision": "a588d55fdf09e94d788ab1b6d7ff304b",
-    "url": "/my-react-portfolio/static/media/instagram.a588d55f.png"
   },
   {
     "revision": "cb5c284601d618cda57b690b07f5bebe",
@@ -108,6 +96,18 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/mongodb.480e876c.png"
   },
   {
+    "revision": "07883e93734b98cae0f7b9c55d287250",
+    "url": "/my-react-portfolio/static/media/github.07883e93.svg"
+  },
+  {
+    "revision": "df721c2187edc80e4b51abf012cfefc5",
+    "url": "/my-react-portfolio/static/media/linkedin.df721c21.png"
+  },
+  {
+    "revision": "a588d55fdf09e94d788ab1b6d7ff304b",
+    "url": "/my-react-portfolio/static/media/instagram.a588d55f.png"
+  },
+  {
     "revision": "286bf27b5e83261423e08d244f78ffb0",
     "url": "/my-react-portfolio/static/media/Bootcamp-Social.286bf27b.png"
   },
@@ -132,7 +132,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "8840eb16d5bba4981beadc73fbc2cf5d",
+    "revision": "65296fd0a328ad314cd8b123d5d0c6b4",
     "url": "/my-react-portfolio/index.html"
   }
 ];
