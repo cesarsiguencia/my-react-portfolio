@@ -89,7 +89,7 @@ body{
 }
 
 .bcg-1{
-  width: fit-content;
+  /* width: fit-content; */
   height: 100%;
   position: absolute;
   display: flex;
