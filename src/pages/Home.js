@@ -19,7 +19,7 @@ const Home = () => {
   
         if(backgroundDiv){
             
-            const xAxis = e.clientX
+            const xAxis = e.clientX || e.screenX
   
   
             const name = xAxis
