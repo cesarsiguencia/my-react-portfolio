@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
 
                 <div className="hello">
-                    <img className="bcg-1" id="bcg-1" src={portrait1}/>
+                    <img className="bcg-1" id="bcg-1" width="100" src={portrait1}/>
                     <div className="hidden-intro">
                         <div>
                             <h6 className="body-texts home-pg-font">* Slide Mouse Horizontally! *</h6>
