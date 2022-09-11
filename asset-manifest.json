@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.2cec0548.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.6e76b8c4.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.6e76b8c4.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.2d8332f8.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.45e35399.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.45e35399.chunk.js.map",
   "static/js/1.4f473d82.chunk.js": "/my-react-portfolio/static/js/1.4f473d82.chunk.js",
   "static/js/1.4f473d82.chunk.js.map": "/my-react-portfolio/static/js/1.4f473d82.chunk.js.map",
   "static/js/2.89fb87a6.chunk.js": "/my-react-portfolio/static/js/2.89fb87a6.chunk.js",
@@ -23,8 +23,8 @@
   "static/media/home-orange.png": "/my-react-portfolio/static/media/home-orange.7410d39a.png",
   "static/media/portrait-1.png": "/my-react-portfolio/static/media/portrait-1.d55caade.png",
   "static/media/portrait-2.png": "/my-react-portfolio/static/media/portrait-2.0440270c.png",
-  "static/media/cesar-siguencia-resume.pdf": "/my-react-portfolio/static/media/cesar-siguencia-resume.6af4cc70.pdf",
-  "static/media/resume.png": "/my-react-portfolio/static/media/resume.9ddddc9c.png",
+  "static/media/cesar-siguencia-resume.pdf": "/my-react-portfolio/static/media/cesar-siguencia-resume.460c5c1b.pdf",
+  "static/media/resume.png": "/my-react-portfolio/static/media/resume.5ccee09d.png",
   "static/media/jquery.png": "/my-react-portfolio/static/media/jquery.b629397a.png",
   "static/media/nodejs.png": "/my-react-portfolio/static/media/nodejs.6dcf6999.png",
   "static/media/mysql.png": "/my-react-portfolio/static/media/mysql.760d03c4.png",
@@ -36,8 +36,8 @@
   "static/media/Taskmaster-Pro.png": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.png",
   "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
-  "static/css/main.2cec0548.chunk.css.map": "/my-react-portfolio/static/css/main.2cec0548.chunk.css.map",
+  "static/css/main.2d8332f8.chunk.css.map": "/my-react-portfolio/static/css/main.2d8332f8.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.1f330f3af5bafcfd3e572c3301672432.js": "/my-react-portfolio/precache-manifest.1f330f3af5bafcfd3e572c3301672432.js",
+  "precache-manifest.ec40c974d09d738f3010af839e569aa4.js": "/my-react-portfolio/precache-manifest.ec40c974d09d738f3010af839e569aa4.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }

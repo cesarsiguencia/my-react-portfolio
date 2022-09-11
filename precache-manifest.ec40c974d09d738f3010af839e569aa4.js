@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6e76b8c49587240e1f80",
-    "url": "/my-react-portfolio/static/css/main.2cec0548.chunk.css"
+    "revision": "45e35399cedafad9a6b3",
+    "url": "/my-react-portfolio/static/css/main.2d8332f8.chunk.css"
   },
   {
-    "revision": "6e76b8c49587240e1f80",
-    "url": "/my-react-portfolio/static/js/main.6e76b8c4.chunk.js"
+    "revision": "45e35399cedafad9a6b3",
+    "url": "/my-react-portfolio/static/js/main.45e35399.chunk.js"
   },
   {
     "revision": "4f473d823a9b02f8d234",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/portrait-2.0440270c.png"
   },
   {
-    "revision": "6af4cc70229bd7f9fe2ca6931b009ab5",
-    "url": "/my-react-portfolio/static/media/cesar-siguencia-resume.6af4cc70.pdf"
+    "revision": "460c5c1b9840dea9335a2028559f1099",
+    "url": "/my-react-portfolio/static/media/cesar-siguencia-resume.460c5c1b.pdf"
   },
   {
-    "revision": "9ddddc9c2c119e1dd947e2477fa788b9",
-    "url": "/my-react-portfolio/static/media/resume.9ddddc9c.png"
+    "revision": "5ccee09dd20dbad02a43193e2c613601",
+    "url": "/my-react-portfolio/static/media/resume.5ccee09d.png"
   },
   {
     "revision": "b629397a70cdd7b711215af8870177f0",
@@ -132,7 +132,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "1bc56f826469053b04bba4f89f1354f1",
+    "revision": "8840eb16d5bba4981beadc73fbc2cf5d",
     "url": "/my-react-portfolio/index.html"
   }
 ];
