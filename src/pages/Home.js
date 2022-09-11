@@ -49,11 +49,11 @@ const Home = () => {
    
 
                     <div className="hidden-blurb">
-                        <h6 className="body-texts hidden-texts">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
+                        <h6 className="body-texts home-pg-font">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
     
         
     
-                        <h6 className="body-texts">And welcome to my favorite view ever located footsteps from my home, Hamilton Heights, NYC! Scroll down below. </h6>
+                        <h6 className="body-texts home-pg-font">And welcome to my favorite view ever located footsteps from my home, Hamilton Heights, NYC! Scroll down below. </h6>
 
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Home = () => {
                     <img className="bcg-1" id="bcg-1" src={portrait1}/>
                     <div className="hidden-intro">
                         <div>
-                            <h6 className="body-texts hidden-texts">* Slide Mouse Horizontally! *</h6>
+                            <h6 className="body-texts home-pg-font">* Slide Mouse Horizontally! *</h6>
                         </div>
         
 

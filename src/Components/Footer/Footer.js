@@ -9,7 +9,7 @@ const Footer = () => {
     return(
         <footer className="App-footer">
           <div className="footer-font">
-            <p>By Cesar Siguencia,  Powered by React</p>
+            <p className="body-texts">By Cesar Siguencia,  Powered by React</p>
           </div>
           
           <div className="logos">
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-font">
-            <p>©Copyright 2022, All Rights Reserved</p>
+            <p className="body-texts">©Copyright 2022, All Rights Reserved</p>
           </div>
       </footer>
     )
