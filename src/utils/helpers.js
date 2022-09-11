@@ -35,40 +35,4 @@ export function loader () {
   } )
 }
 
-// export function backgroundEffect () {
-//   const bcg1 = document.querySelector("#bcg-1")
-
-//   window.addEventListener("mousemove", function(e){
-//     const width = e.clientX + "px"
-//     bcg1.style.width = width
-//   })
-// }
-
-// export function carouselButtons (){
-//   document.querySelectorAll(".carousel").forEach(carousel => {
-//     const items = carousel.querySelectorAll(".carousel-item")
-  
-//     const buttonsHtml = Array.from(items, () => {
-//       return `<span class="carousel-button"></span>`
-//     })
-  
-//     carousel.insertAdjacentHTML("beforeend", `
-//       <div class="carousel-nav">
-//         ${buttonsHtml.join("")}
-//         </div>
-//         `)
-
-//         console.log("working")
-  
-//   })
-
-// }
-
-
-// export function loaderAni () {
-
-// }
-
-
-
 

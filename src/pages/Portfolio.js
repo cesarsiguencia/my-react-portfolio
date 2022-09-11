@@ -16,10 +16,10 @@ const Portfolio = () => {
    
                 <div className="app-box">
                     <div className="container_wrapper">
-                        <div className="container-description">
+                        <div className="container--description">
                             
                             <div className="project-title">
-                                <h3 className="project-title-frame"> NFT-y</h3> 
+                                <h3 className="project-title--frame"> NFT-y</h3> 
                             </div>
                             
                             <h5>Back end developer</h5>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                                 </div>
     
                                 <div className="developer-github">
-                                    <a target="_blank" className="github-logos-frame "href="https://github.com/K-G-J/nft-y">
+                                    <a target="_blank" href="https://github.com/K-G-J/nft-y">
                                         <img className="github-links" src={github}>
                                         </img>
                                     </a>
@@ -56,11 +56,11 @@ const Portfolio = () => {
   
                 <div className="app-box">
                     <div className="container_wrapper">
-                        <div className="container-description">
+                        <div className="container--description">
                             
 
                             <div className="project-title">
-                                <h3 className="project-title-frame">Dine-N-Wine</h3>
+                                <h3 className="project-title--frame">Dine-N-Wine</h3>
                             </div>
 
                             <h5>Front end developer</h5>
@@ -70,7 +70,7 @@ const Portfolio = () => {
                                 </div>
 
                                 <div className="developer-github">
-                                    <a target="_blank" className="github-logos-frame" href="https://github.com/cesarsiguencia/dine-n-wine">
+                                    <a target="_blank" href="https://github.com/cesarsiguencia/dine-n-wine">
                                         <img className="github-links" src={github}>
                                         </img>
                                     </a>

@@ -33,29 +33,24 @@ const FactsCarousel = () => {
     }
 
     useEffect(() => {
-        const interval = setInterval(() => {carouselInfiniteScroll()}, 12000)
-
-        // return () => clearInterval(interval)
+        setInterval(() => {
+            carouselInfiniteScroll()
+        }, 12000)
     })
 
     return (
-            <div className="carousel-container" >
-                <div className='carousel--div'>
-                    {facts.map((item, index) => {
+        <div className="carousel-container" >
+            <div className='carousel--div'>
+                {facts.map((item, index) => {
 
-                      return <div className="carousel-block">
-                            <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.fact}</p>
+                    return <div className="carousel---block">
+
+                        <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.fact}</p>
 
                         </div>
-                         })}
-                    </div>
-            
-        
-       
-       
-       
-
-    </div>
+                        })}
+            </div>
+        </div>
     )
 
 }

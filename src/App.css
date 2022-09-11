@@ -52,8 +52,6 @@ body{
   height: fit-content;
   position: relative;
   display: flex;
-  /* flex-wrap: nowrap; */
-  /* overflow: hidden; */
   object-fit: cover;
 
 }
@@ -89,38 +87,21 @@ body{
   opacity: 1;
 }
 
-/* .bcg-1 {
-  z-index: 1;
-  object-position: left;
-  overflow: hidden;
-} */ */
+*/
 
 .bcg-2 {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  /* height: 100%; */
-  /* max-width: 100%; */
   background-size: cover;
   z-index: 1;
   object-fit: contain;
   object-position: left;
-  /* display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden; */
-
-
 }
 
-/* .bcg-2 {
-  position: fixed;
-  height: 1000px;
-  background-size: cover;
-  z-index: 1 
-} */
 
-/* Header & Nav bar */
+/* Header & Nav bar ---------- */
 
 .hidden-intro {
   position: absolute;
@@ -199,13 +180,10 @@ body{
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Raleway' , sans-serif;
-
-  /* letter-spacing: 1px; */
-  /* margin-bottom: 25px; */
 }
 
 
-/* Resume Page */
+/* Resume Page -------------------- */
 
 .skills {
     display: flex;
@@ -219,7 +197,6 @@ body{
 }
 
 .technologies{
-  /* display: flex; */
   justify-content: space-around;
   margin: 50px auto
 
@@ -231,15 +208,9 @@ body{
   width: 100px;
   border-radius: 50px;
   margin: 8px 8px;
-  /* width: 10%; */
 }
 
-
-
-
-
-
-/* Portfolio & apps */
+/* Portfolio & apps ---------- */
 .container-description{
   margin-left: 20%;
   height: 100%;
@@ -248,11 +219,6 @@ body{
   justify-content: center;
   text-align: left;
 }
-
-/* .developer_info {
-  display: flex;
-} */
-
 
 .developer-github {
   width: 100%;
@@ -329,35 +295,6 @@ body{
   margin: auto 10px;
 }
 
-.aboutme-carousel{
-  position: relative
-}
-
-/* .carousel-item{
-  height: 300px;
-  background-color: lightblue;
-  display: none
-} */
-
-.carousel-item-selected {
-  display: block;
-}
-
-.carousel-button{
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  background: red;
-  border-radius: 10px;
-  margin: 0 5px;
-  cursor: pointer;
-
-}
-
-.carousel-button-selected {
-  background: orange;
-}
-
 .aboutme--quotes{
   font-style: italic;
   font-size: 22px;
@@ -374,8 +311,6 @@ body{
 }
 
 .gifs{
-  /* width: 150px;
-  height: 150px; */
   border-radius: 200px;
   width: 15%
 }
@@ -385,7 +320,9 @@ body{
   border: orange 5px solid;
 }
 
-.carousel-border{
+/* About Me - Carousels CSS ------------ */
+
+.aboutme--carousel{
   border: orange 3px solid;
   border-radius: 25px;
 }
@@ -405,7 +342,7 @@ body{
   
 }
 
-.carousel-block{
+.carousel---block{
   min-width: 100%;
   width: 100%;
   transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5);
@@ -418,19 +355,16 @@ body{
   transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5);
 }
 
-/* Footer */
+/* Footer ----------------------- */
 
 .App-footer {
   background-color: orange;
   padding: 15px 15px;
   display: flex;
   justify-content: space-around;
-  
-  
-  
 }
 
-/* Pictures and logos */
+/* Pictures and logos ---------------- */
 .logos{
   display: flex;
   justify-content: space-around;
@@ -456,13 +390,6 @@ body{
 .logos-icons{
   margin: auto auto;
 }
-
-.github-logos-frame{
-  /* margin: 0px auto; */
-
-}
-
-
 
 /* Links */
 .App-link {
@@ -524,29 +451,7 @@ h5{
 
 .home-pg-font {
   font-size: 20px;
-  /* font-weight: 300; */
 }
-
-/* Not used  */
-/* .contact-form{
-  align-items: center;
-} */
-
-/* .label-divs{
-  margin: 25px;
-  display: flex;
-  justify-content: space-between;
-} */
-
-
-/* input{
-  width: 75%;
-} */
-
-/* textarea{
-  width: 75%;
-} */
-
 
 
 @media screen and (max-width: 1500px) {
@@ -617,37 +522,29 @@ h5{
     width: 100%;
     margin: 20px auto;
   }
+  
+  h2{
+    margin: auto 0px;
+  }
 
-    /* .Header-contents{
-      display: flex;
-    } */
+  .hello {
+    height: 0px;
+    position: relative;
+  }
 
-  
-    h2{
-      margin: auto 0px;
-    }
+  .home-bcgs {
+    display: block;
+  }
 
-    .hello {
-      height: 0px;
-      position: relative;
-    }
-  
-    .home-bcgs {
-      display: block;
-    }
-  
-  
-    .hidden-intro{
-      position: relative;
-      height: 100%;
-      width: 80%
-  
-    } 
+  .hidden-intro{
+    position: relative;
+    height: 100%;
+    width: 80%
+
+  } 
 }
 
 @media screen and (max-width: 850px){
-
-
   .container---blurb{
     font-size: 14px
   }
@@ -686,9 +583,6 @@ h5{
 
 @media screen and (max-width: 800px) {
 
-
-
-
   .footer-font {
     width: 20%
   }
@@ -714,8 +608,6 @@ h5{
 }
 
 @media screen and (max-width: 700px){
-
-
   .footer-font{
     margin: auto 0px;
     width: 30%
@@ -790,8 +682,6 @@ h5{
 }
 
 @media screen and (max-width: 600px) {
-
-
   .container---blurb{
     font-size: 20px
   }
@@ -803,8 +693,6 @@ h5{
   .gifs {
     width: 25%
   }
-
-
 }
 
 @media screen and (max-width: 500px){

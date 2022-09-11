@@ -33,11 +33,11 @@ import github from '../../media/icons/github-white.png'
 
                 <div className="app-box">
                     <div className="container_wrapper">
-                        <div className="container-description">
+                        <div className="container--description">
                             
 
                             <div className="project-title">
-                                <h3 className="project-title-frame">{app.name}</h3>
+                                <h3 className="project-title--frame">{app.name}</h3>
                             </div>
 
                             <h5>Sole developer</h5>
@@ -47,7 +47,7 @@ import github from '../../media/icons/github-white.png'
                         
                                 </div>
                                 <div className="developer-github">
-                                    <a target="_blank" className="github-logos-frame" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
+                                    <a target="_blank" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
                                             <img className="github-links"  src={github}>
                                             </img>
                                     </a>

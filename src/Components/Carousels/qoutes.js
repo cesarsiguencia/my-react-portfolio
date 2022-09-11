@@ -44,27 +44,22 @@ const QuoteCarousel = () => {
     })
 
     return (
-        <div className="carousel-container" >
-           
-                
+        <div className="carousel-container" >   
 
-                <div className='carousel--div'>
+            <div className='carousel--div'>
                 { quotes.map((item, index) => {
-                return     <div className="carousel-block">
-                            <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.quote}</p>
-                            <h5 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>
-                            {item.person}
-                            </h5>
-                    </div>
-                      })}
-                </div>
-                
-               
-                
-            
-            
-          
 
+                return <div className="carousel---block">
+
+                    <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.quote}</p>
+
+                    <h5 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>
+                    {item.person}
+                    </h5>
+
+                </div>
+                    })}
+            </div>
         </div>
     )
 

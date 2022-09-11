@@ -71,7 +71,7 @@ const About= () => {
                             My Favorite Quotes
                         </h3>
                     </div>
-                    <div className="carousel-border">
+                    <div className="aboutme--carousel">
                         <QuoteCarousel></QuoteCarousel>
                     </div>
                     
@@ -84,7 +84,7 @@ const About= () => {
                             Fun and Random Facts
                         </h3>
                     </div>
-                    <div className="carousel-border">
+                    <div className="aboutme--carousel">
                     <FactsCarousel></FactsCarousel>
                     </div>
                     
