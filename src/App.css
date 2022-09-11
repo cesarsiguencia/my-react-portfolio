@@ -88,11 +88,14 @@ body{
   opacity: 1;
 }
 
-.bcg1{
-  width:100%;
+.bcg-1{
+  width: fit-content;
+  height: 100%;
+  position: absolute;
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
+  
 }
 
 */
