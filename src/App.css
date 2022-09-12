@@ -57,7 +57,7 @@ body{
 }
 
 
-.hello{
+.bcg-1-personal{
   position: absolute;
   top: 0;
   left: 0;
@@ -540,7 +540,7 @@ h4, h5{
     margin: auto 0px;
   }
 
-  .hello {
+  .bcg-1-personal {
     height: 0px;
     position: relative;
   }

@@ -14,9 +14,9 @@ const Home = () => {
     let backgroundWidth
 
     window.addEventListener("mousemove", function(e){
-        const backgroundDiv = document.querySelector(".hello")
+        const backgroundDiv = document.querySelector(".bcg-1-personal")
 
-  
+
         if(backgroundDiv){
             
             const xAxis = e.clientX || e.screenX
@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="hello" width="100">
+                <div className="bcg-1-personal" width="100">
                     <img className="bcg-1" id="bcg-1"  src={portrait1} width ={backgroundWidth}/>
                     <div className="hidden-intro">
                         <div>
