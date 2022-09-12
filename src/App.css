@@ -70,7 +70,7 @@ body{
   /* object-fit: contain; */
 }
 
-.personal{
+.bcg-1-bridge{
   position: absolute;
   top: 0;
   left: 0px;
@@ -83,7 +83,7 @@ body{
   opacity: 0
 }
 
-.personal:hover{
+.bcg-1-bridge:hover{
   transition: all 250ms ease-in-out;
   opacity: 1;
 }
@@ -456,9 +456,9 @@ h1, h3{
   font-family: 'Rock Salt', cursive;
 }
 
-h5{
+h4, h5{
   color: white;
-  margin: 0 0;
+  margin: 10px;
   font-family: copperplate;
 }
 

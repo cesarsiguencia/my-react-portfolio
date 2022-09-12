@@ -45,7 +45,7 @@ const Home = () => {
     
                     <h3>Welcome to my page!</h3>
 
-                    <h5>Hello, Hola, 你好!</h5>
+                    <h4>Hello, Hola, 你好!</h4>
    
 
                     <div className="hidden-blurb">
@@ -72,7 +72,7 @@ const Home = () => {
             <div className="home-bcgs">
                 <img className="bcg-2" id="bcg-2" src={home} width="100%"/>
 
-                <div className="personal">
+                <div className="bcg-1-bridge">
                     <img className="bcg-1" id="bcg-1" src={home2} width="100%"/>
 
                 </div>
