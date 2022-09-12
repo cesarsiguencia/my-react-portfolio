@@ -32,10 +32,10 @@ const About= () => {
                 </div>
          
                 <div className="aboutme-blocks">
-                    <p className="body-texts">I'm an aspiring web developer, music producer, and media content creater born and raised in NYC. Currently, I work at an East Harlem elementary school in administration and operations. 
+                    <p className="body-texts">I'm an aspiring web developer, music producer, and media content creator born and raised in NYC. Currently, I work at an East Harlem elementary school in administration and operations. 
                     <br/>
                     <br/>
-                    I am a Full Stack Web Developer constantly practicing and learning new web development technologies. I enjoy creating productivity apps that help me stay organized and learning about design, the big reasons for why I decided to hop into the web development industry. The greatest reward since starting to code is the immense challenge that coding entails, but the more than satisfactory feeling one gets seeing their project come to full fruition the way it was imagined and being able to explain how it all works. This is what brings me inspiration, perserverance, and committment to continue with this fun and worthwhile industry. I am sure many can correlate with it!
+                    I am a Full Stack Web Developer constantly practicing and learning new web development technologies. I enjoy creating productivity apps that help me stay organized and learning about design, which are the big reasons for why I decided to hop into the web development industry. The greatest reward since starting to code is the immense challenge that coding entails, but the more than satisfactory feeling one gets seeing their project come to full fruition the way it was imagined and being able to explain how it all works. This is what brings me inspiration, perserverance, and committment to continue with this fun and worthwhile industry. I am sure many can correlate with it!
 
                     <br/>
                     <br/>
