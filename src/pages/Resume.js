@@ -25,7 +25,7 @@ const Resume = () => {
             <div className="skills">
                 <div className="skills-blocks"> 
                     <h3>Resume</h3>
-                        <p className="body-texts">Click on the image below to download the PDF version</p>
+                        <p className="body-texts">Click on the image below to download the PDF version.</p>
                         <a href={resume} download><img src={image} width="75%"/>
                         </a>
                 </div>

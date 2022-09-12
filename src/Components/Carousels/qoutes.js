@@ -4,7 +4,7 @@ const QuoteCarousel = () => {
 
     const quotes = [
         {
-            quote:`"I never let my schooling interfere with my education"`,
+            quote:`"I never let my schooling interfere with my education."`,
             person: "-Mark Twain"
         },
         {
@@ -12,17 +12,17 @@ const QuoteCarousel = () => {
             person: "-Thomas Jefferson"
         },
         {
-            quote: `"I won't have a problem if you hit high and miss, but I am going to have a real problem if you aim low and hit"`, 
+            quote: `"I won't have a problem if you hit high and miss, but I am going to have a real problem if you aim low and hit."`, 
             person: "- Michaelangelo",
         },
 
         {
-            quote: `"We are what you repeatedly do, excellence then, is not and act, but a habit",
+            quote: `"We are what you repeatedly do, excellence then, is not and act, but a habit.",
             `,
             person: "- Aristotle",
         },
         {
-            quote: `"When we hit out lowest point, we are open to the greatest change"`,
+            quote: `"When we hit out lowest point, we are open to the greatest change."`,
             person: "-Legend of Korra Nickelodeon Series",
         },
     

@@ -16,7 +16,7 @@ const FactsCarousel = () => {
             fact: "I enjoy taking apart and fixing bicyles and Apple products."
         },
         {
-            fact: `I'm a little "old school". I like very old cars, trains, enjoy collecting old tech, vintage video games, and have a special place in my heart for tape cassetes,`
+            fact: `I'm a little "old school". I like very old cars, trains, enjoy collecting old tech, vintage video games, and have a special place in my heart for tape cassetes.`
         },
         {
             fact: `And to add on to that, all my favorite music comes from the 70s, 80s, and 90s, including rock, RnB and Hip Hop!`
