@@ -17,7 +17,7 @@ const QuoteCarousel = () => {
         },
 
         {
-            quote: `"We are what you repeatedly do, excellence then, is not and act, but a habit."
+            quote: `"We are what you repeatedly do, excellence then, is not an act, but a habit."
             `,
             person: "- Aristotle",
         },

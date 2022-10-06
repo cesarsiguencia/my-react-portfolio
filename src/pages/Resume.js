@@ -1,5 +1,6 @@
 import React from 'react'
-import resume from './cesar-siguencia-resume.pdf'
+import general_resume from './Cesar_Siguencia-Resume-General.pdf'
+import developer_resume from './Cesar_Siguencia-Resume-Developer.pdf'
 
 import image from './resume.png'
 
@@ -25,9 +26,19 @@ const Resume = () => {
             <div className="skills">
                 <div className="skills-blocks"> 
                     <h3>Resume</h3>
-                        <p className="body-texts">Click on the image below to download the PDF version.</p>
-                        <a href={resume} download><img src={image} width="75%"/>
-                        </a>
+                        <p className="body-texts">Click on appropriate resume title to download the PDF version.</p>
+                        <br/>
+
+                        <a href={general_resume} download><h5>General Resume</h5></a>
+
+                        <br/>
+                    
+                        <a href={developer_resume} download><h5>Web Developer / Software Engineer Resume</h5></a>
+
+                        <br/>
+
+                        <img className="resume-style" src={image} width="75%"/>
+                        
                 </div>
                 
                 <div className="skills-blocks">
@@ -57,8 +68,9 @@ const Resume = () => {
                                 <img className="technologies-logos" src={mysql}/>
                                 <img className="technologies-logos" src={sequelize}/>
                                 <img className="technologies-logos" src={mongodb}/>
-                                <img className="technologies-logos" src={mongoose}/>
                                 <img className="technologies-logos" src={graphql}/>
+                                <img className="technologies-logos" src={mongoose}/>
+                                
 
                             </div>
                         </div>

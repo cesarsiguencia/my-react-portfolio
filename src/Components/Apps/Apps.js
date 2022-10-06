@@ -11,7 +11,7 @@ import github from '../../media/icons/github-white.png'
             },
             { 
                 name: 'Taskmaster-Pro',
-                description: 'Take notes the easy way using Taskmaster Pro, which uses Bootstrap and Jquery technologies. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or deleted to the trash bin below.',
+                description: 'Take notes the easy way using Taskmaster Pro, which uses Bootstrap and JQuery technologies. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or deleted to the trash bin below.',
                 technologies: 'Javascript, JQuery, Moment.js,, Bootstrap, HTML, CSS'
             },
             {

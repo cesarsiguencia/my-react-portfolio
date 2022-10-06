@@ -12,7 +12,7 @@ return (
 
         <a className="links" href="mailto:cesar.siguencia@gmail.com">cesar.siguencia@gmail.com</a>
         
-        <p className="body-texts"> The best way to reach me is by email or through a LinkedIn message. I can also be reached through Github and Instagram, links provided at the footer.</p>
+        <p className="body-texts"> The best way to reach me is by email or through a LinkedIn message. Social media links are provided at the footer.</p>
    
 
         <br></br>

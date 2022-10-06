@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div className="body-divs">
             <h3>Portfolio</h3>
             <p className="body-texts">Hover over image to see a short description from one of my featured apps. 
-            Click on the image below to deploy application link. Click corresponding github logo to be redirected to its github repository.</p>
+            Click on the image below to deploy application link. Click corresponding github logo to be redirected to its GitHub repository.</p>
 
    
                 <div className="app-box">

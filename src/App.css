@@ -223,6 +223,10 @@ body{
   margin: 8px 8px;
 }
 
+.resume-style {
+  filter: blur(5px)
+}
+
 /* Portfolio & apps ---------- */
 .container--description{
   margin-left: 20%;
@@ -255,7 +259,8 @@ body{
 }
 
 .container--picture{
-  width: 100%
+  width: 100%;
+  filter: blur(5px)
 }
 
 .container--overlay{
@@ -585,7 +590,8 @@ h4, h5{
   }
 
   .container--picture{
-    width: 100%
+    width: 100%;
+    
   }
 
   .github-links {
