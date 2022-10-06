@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "cd5f7a40089dfdd340d1",
-    "url": "/my-react-portfolio/static/css/main.1533d36f.chunk.css"
+    "revision": "8b3ffc51c9bf3319fe5b",
+    "url": "/my-react-portfolio/static/css/main.e37ff183.chunk.css"
   },
   {
-    "revision": "cd5f7a40089dfdd340d1",
-    "url": "/my-react-portfolio/static/js/main.cd5f7a40.chunk.js"
+    "revision": "8b3ffc51c9bf3319fe5b",
+    "url": "/my-react-portfolio/static/js/main.8b3ffc51.chunk.js"
   },
   {
-    "revision": "4f473d823a9b02f8d234",
-    "url": "/my-react-portfolio/static/js/1.4f473d82.chunk.js"
+    "revision": "38ecc02d009634cff82d",
+    "url": "/my-react-portfolio/static/js/1.38ecc02d.chunk.js"
   },
   {
-    "revision": "8acbcc3905001e2ef69e",
-    "url": "/my-react-portfolio/static/js/2.8acbcc39.chunk.js"
+    "revision": "349bbc4ad33b4c10750b",
+    "url": "/my-react-portfolio/static/js/2.349bbc4a.chunk.js"
   },
   {
-    "revision": "247f684bccda2ee91363",
-    "url": "/my-react-portfolio/static/js/runtime~main.247f684b.js"
+    "revision": "acc09e318aa5df6de5fd",
+    "url": "/my-react-portfolio/static/js/runtime~main.acc09e31.js"
   },
   {
     "revision": "cb5c284601d618cda57b690b07f5bebe",
@@ -68,12 +68,16 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/portrait-2.7295a45e.png"
   },
   {
-    "revision": "460c5c1b9840dea9335a2028559f1099",
-    "url": "/my-react-portfolio/static/media/cesar-siguencia-resume.460c5c1b.pdf"
+    "revision": "e24d71cbaeb379832cbe6c5dcec33ffd",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.e24d71cb.pdf"
   },
   {
-    "revision": "5ccee09dd20dbad02a43193e2c613601",
-    "url": "/my-react-portfolio/static/media/resume.5ccee09d.png"
+    "revision": "e44297ef055c3a703c8db4eb387dc14e",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.e44297ef.pdf"
+  },
+  {
+    "revision": "881b0f15acf739d24d3ec0920df0b408",
+    "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
     "revision": "b629397a70cdd7b711215af8870177f0",
@@ -132,7 +136,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "557986ffe05fb7f9dc6d3389e9aecfa6",
+    "revision": "668e48ac459ee7dcdf4ff75f5845e818",
     "url": "/my-react-portfolio/index.html"
   }
 ];
