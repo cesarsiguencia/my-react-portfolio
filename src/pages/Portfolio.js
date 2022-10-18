@@ -13,48 +13,8 @@ const Portfolio = () => {
             <p className="body-texts">Hover over image to see a short description from one of my featured apps. 
             Click on the image below to deploy application link. Click corresponding github logo to be redirected to its GitHub repository.</p>
 
-   
-                <div className="app-box">
-                    <div className="container_wrapper">
-                        <div className="container--description">
-                            
-                            <div className="project-title">
-                                <h3 className="project-title--frame"> NFT-y</h3> 
-                            </div>
-                            
-                            <h5>Back end developer</h5>
-                            <div>
-                                <div className="developer-technologies">
-                                    <p className="body-texts">MySQL2, Sequelize, Node.js, Bcrypt, Express, RESTful API's, Env, Dotenv</p>
-                                </div>
-    
-                                <div className="developer-github">
-                                    <a target="_blank" href="https://github.com/K-G-J/nft-y">
-                                        <img className="github-links" src={github}>
-                                        </img>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container_wrapper">
-                        <div className="app_image">
-                            <a target="_blank" href='https://nft-y.herokuapp.com/'>
-                                <img className="container--picture" src={require(`../../src/media/app-images/nft-y.png`)}>
-                                </img>  
-                                <div className="container--overlay">
-                                    <p className="container---blurb">Browse through some of the most popular trending NFT groups at the moment, including Bored Ape Yacht Club, and learn about how these new artwork technologies work! Create an account to save NFTs to your favorites and chat with other members about NFT buying and selling opportunities. </p>  
-                                </div> 
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                
- 
-
-  
-                <div className="app-box">
+            <div className="app-box">
                     <div className="container_wrapper">
                         <div className="container--description">
                             
@@ -95,7 +55,84 @@ const Portfolio = () => {
                 
        
             <Apps ></Apps>
-            
+
+                <div className="app-box">
+                        <div className="container_wrapper">
+                            <div className="container--description">
+                                
+                                <div className="project-title">
+                                    <h3 className="project-title--frame"> NFT-y</h3> 
+                                </div>
+                                
+                                <h5>Back end developer</h5>
+                                <div>
+                                    <div className="developer-technologies">
+                                        <p className="body-texts">MySQL2, Sequelize, Node.js, Bcrypt, Express, RESTful API's, Env, Dotenv</p>
+                                    </div>
+        
+                                    <div className="developer-github">
+                                        <a target="_blank" href="https://github.com/K-G-J/nft-y">
+                                            <img className="github-links" src={github}>
+                                            </img>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container_wrapper">
+                            <div className="app_image">
+                                <a target="_blank" href='https://nft-y.herokuapp.com/'>
+                                    <img className="container--picture" src={require(`../../src/media/app-images/nft-y.png`)}>
+                                    </img>  
+                                    <div className="container--overlay">
+                                        <p className="container---blurb">Browse through some of the most popular trending NFT groups at the moment, including Bored Ape Yacht Club, and learn about how these new artwork technologies work! Create an account to save NFTs to your favorites and chat with other members about NFT buying and selling opportunities. </p>  
+                                    </div> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                <div className="app-box">
+                        <div className="container_wrapper">
+                            <div className="container--description">
+                                
+                                <div className="project-title">
+                                    <h3 className="project-title--frame"> Save-My-Notes</h3> 
+                                </div>
+                                
+                                <h5>Back end developer</h5>
+                                <div>
+                                    <div className="developer-technologies">
+                                        <p className="body-texts">NoSQL, Sequelize, Express, RESTful routes</p>
+                                    </div>
+        
+                                    <div className="developer-github">
+                                        <a target="_blank" href="https://github.com/cesarsiguencia/save-my-notes">
+                                            <img className="github-links" src={github}>
+                                            </img>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container_wrapper">
+                            <div className="app_image">
+                                <a target="_blank" href='https://frozen-refuge-80298.herokuapp.com/'>
+                                    <img className="container--picture" src={require(`../../src/media/app-images/save-my-notes.png`)}>
+                                    </img>  
+                                    <div className="container--overlay">
+                                        <p className="container---blurb"> A classic note taking app that uses back end technologies to save your notes in their appropriate order. </p>  
+                                    </div> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                
         </div>
     )
 }
