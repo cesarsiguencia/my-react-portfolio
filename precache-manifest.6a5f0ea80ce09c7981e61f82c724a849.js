@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "8b3ffc51c9bf3319fe5b",
-    "url": "/my-react-portfolio/static/css/main.e37ff183.chunk.css"
+    "revision": "26e9820cf35a5e979d86",
+    "url": "/my-react-portfolio/static/css/main.16c1f380.chunk.css"
   },
   {
-    "revision": "8b3ffc51c9bf3319fe5b",
-    "url": "/my-react-portfolio/static/js/main.8b3ffc51.chunk.js"
+    "revision": "26e9820cf35a5e979d86",
+    "url": "/my-react-portfolio/static/js/main.26e9820c.chunk.js"
   },
   {
-    "revision": "38ecc02d009634cff82d",
-    "url": "/my-react-portfolio/static/js/1.38ecc02d.chunk.js"
+    "revision": "ce47ab81b35290e2776b",
+    "url": "/my-react-portfolio/static/js/1.ce47ab81.chunk.js"
   },
   {
-    "revision": "349bbc4ad33b4c10750b",
-    "url": "/my-react-portfolio/static/js/2.349bbc4a.chunk.js"
+    "revision": "1cb7eb2528af00901bff",
+    "url": "/my-react-portfolio/static/js/2.1cb7eb25.chunk.js"
   },
   {
-    "revision": "acc09e318aa5df6de5fd",
-    "url": "/my-react-portfolio/static/js/runtime~main.acc09e31.js"
+    "revision": "85bbebe6eb3c35bf17aa",
+    "url": "/my-react-portfolio/static/js/runtime~main.85bbebe6.js"
   },
   {
     "revision": "cb5c284601d618cda57b690b07f5bebe",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "4d83ac8ea61a4994bc537f1cc78cf5ce",
     "url": "/my-react-portfolio/static/media/nft-y.4d83ac8e.png"
+  },
+  {
+    "revision": "e422f197c5464dcbb88244919a19b129",
+    "url": "/my-react-portfolio/static/media/save-my-notes.e422f197.png"
   },
   {
     "revision": "39df11f9207351a43283d096c3052381",
@@ -124,6 +128,10 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Run-Buddy.5a5a9d45.png"
   },
   {
+    "revision": "071f6f873c86cdeb323d9dc9c8433def",
+    "url": "/my-react-portfolio/static/media/Show-Me-My-Schedule.071f6f87.png"
+  },
+  {
     "revision": "3ac8c56e3c6ca4b4459d137d6bbc2d18",
     "url": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.png"
   },
@@ -136,7 +144,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "668e48ac459ee7dcdf4ff75f5845e818",
+    "revision": "69bf403d15dff5bd4ffe7725f6b12346",
     "url": "/my-react-portfolio/index.html"
   }
 ];
