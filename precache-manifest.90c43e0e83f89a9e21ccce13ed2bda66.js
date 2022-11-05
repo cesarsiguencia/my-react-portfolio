@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "26e9820cf35a5e979d86",
-    "url": "/my-react-portfolio/static/css/main.16c1f380.chunk.css"
+    "revision": "21b4dbba7cea8e6409af",
+    "url": "/my-react-portfolio/static/css/main.4993a1bc.chunk.css"
   },
   {
-    "revision": "26e9820cf35a5e979d86",
-    "url": "/my-react-portfolio/static/js/main.26e9820c.chunk.js"
+    "revision": "21b4dbba7cea8e6409af",
+    "url": "/my-react-portfolio/static/js/main.21b4dbba.chunk.js"
   },
   {
     "revision": "ce47ab81b35290e2776b",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/portrait-2.7295a45e.png"
   },
   {
-    "revision": "e24d71cbaeb379832cbe6c5dcec33ffd",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.e24d71cb.pdf"
+    "revision": "5d9b36bec373b7f349a56688fa05d19a",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf"
   },
   {
-    "revision": "e44297ef055c3a703c8db4eb387dc14e",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.e44297ef.pdf"
+    "revision": "72593c7b7c4b0dcd78edfcde5e10ee35",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.72593c7b.pdf"
   },
   {
     "revision": "881b0f15acf739d24d3ec0920df0b408",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "69bf403d15dff5bd4ffe7725f6b12346",
+    "revision": "088f0f7d43af9d879799727737cf7ed6",
     "url": "/my-react-portfolio/index.html"
   }
 ];

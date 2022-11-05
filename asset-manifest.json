@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.16c1f380.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.26e9820c.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.26e9820c.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.4993a1bc.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.21b4dbba.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.21b4dbba.chunk.js.map",
   "static/js/1.ce47ab81.chunk.js": "/my-react-portfolio/static/js/1.ce47ab81.chunk.js",
   "static/js/1.ce47ab81.chunk.js.map": "/my-react-portfolio/static/js/1.ce47ab81.chunk.js.map",
   "static/js/2.1cb7eb25.chunk.js": "/my-react-portfolio/static/js/2.1cb7eb25.chunk.js",
@@ -21,8 +21,8 @@
   "static/media/home-orange.png": "/my-react-portfolio/static/media/home-orange.da78317b.png",
   "static/media/portrait-1.png": "/my-react-portfolio/static/media/portrait-1.d55caade.png",
   "static/media/portrait-2.png": "/my-react-portfolio/static/media/portrait-2.7295a45e.png",
-  "static/media/Cesar_Siguencia-Resume-General.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.e24d71cb.pdf",
-  "static/media/Cesar_Siguencia-Resume-Developer.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.e44297ef.pdf",
+  "static/media/Cesar_Siguencia-Resume-General.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf",
+  "static/media/Cesar_Siguencia-Resume-Developer.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.72593c7b.pdf",
   "static/media/resume.png": "/my-react-portfolio/static/media/resume.881b0f15.png",
   "static/media/jquery.png": "/my-react-portfolio/static/media/jquery.b629397a.png",
   "static/media/nodejs.png": "/my-react-portfolio/static/media/nodejs.6dcf6999.png",
@@ -39,8 +39,8 @@
   "static/media/Taskmaster-Pro.png": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.png",
   "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
-  "static/css/main.16c1f380.chunk.css.map": "/my-react-portfolio/static/css/main.16c1f380.chunk.css.map",
+  "static/css/main.4993a1bc.chunk.css.map": "/my-react-portfolio/static/css/main.4993a1bc.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.6a5f0ea80ce09c7981e61f82c724a849.js": "/my-react-portfolio/precache-manifest.6a5f0ea80ce09c7981e61f82c724a849.js",
+  "precache-manifest.90c43e0e83f89a9e21ccce13ed2bda66.js": "/my-react-portfolio/precache-manifest.90c43e0e83f89a9e21ccce13ed2bda66.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
