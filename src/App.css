@@ -195,6 +195,10 @@ body{
   font-family: 'Raleway' , sans-serif;
 }
 
+.bold-and-left{
+  font-weight: bold;
+  text-align: left
+}
 
 /* Resume Page -------------------- */
 
