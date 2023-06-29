@@ -18,6 +18,11 @@ import mongoose from '../media/icons/skills-icons/mongoose.png'
 import bootstrap from '../media/icons/skills-icons/bootstrap.png'
 import api from '../media/icons/skills-icons/api.png'
 import mongodb from '../media/icons/skills-icons/mongodb.png'
+import handlebars from '../media/icons/skills-icons/handlebars.png'
+import nosql from '../media/icons/skills-icons/nosql.png'
+import git from '../media/icons/skills-icons/git.png'
+import github from '../media/icons/skills-icons/github-logo.png'
+import vscode from '../media/icons/skills-icons/vscode.png'
 
 const Resume = () => {
 
@@ -55,6 +60,7 @@ const Resume = () => {
                                 <img className="technologies-logos" src={jquery}/>
                                 <img className="technologies-logos" src={bootstrap}/>
                                 <img className="technologies-logos" src={react}/>
+                                <img className="technologies-logos" src={handlebars}/>
 
                                
                             </div>
@@ -70,8 +76,18 @@ const Resume = () => {
                                 <img className="technologies-logos" src={mongodb}/>
                                 <img className="technologies-logos" src={graphql}/>
                                 <img className="technologies-logos" src={mongoose}/>
+                                <img className="technologies-logos" src={nosql}/>
                                 
 
+                            </div>
+                        </div>
+
+                        <div>
+                            <h5>Developers Technologies</h5>
+                            <div className="technologies">
+                                <img className="technologies-logos" src={git}/>
+                                <img className="technologies-logos" src={github}/>
+                                <img className="technologies-logos" src={vscode}/>
                             </div>
                         </div>
                     </div>

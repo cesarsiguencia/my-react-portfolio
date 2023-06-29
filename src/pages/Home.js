@@ -69,7 +69,7 @@ const Home = () => {
 
             </div>
 
-            <div className="home-bcgs">
+            {/* <div className="home-bcgs">
                 <img className="bcg-2" id="bcg-2" src={home} width="100%"/>
 
                 <div className="bcg-1-bridge">
@@ -77,7 +77,7 @@ const Home = () => {
 
                 </div>
 
-            </div>
+            </div> */}
             
         </div>
 

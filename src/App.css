@@ -1,14 +1,21 @@
+* {
+  --primary-color: #FAFAF9; 
+  --secondary-color: plum;
+  --primary-font: 'Raleway' , sans-serif;
+}
+
 body{
   object-fit: cover;
   height: 100vh;
-  background-color: orange;
+  background-color: var(--secondary-color);
 }
-
 
 #root {
   height: min-content;
   height: 100vh;
 }
+
+
 
 .App {
   text-align: center;
@@ -144,9 +151,6 @@ body{
 }
 
 .App-header{
-  background-color: Orange;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   z-index: 99999;
 }
@@ -176,11 +180,10 @@ body{
 /* body and body elements */
 
 .App-body {
-  background-color: #282c34;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
   /* height: 100%; */
   
 }
@@ -192,7 +195,7 @@ body{
 .body-texts{
   font-size: 18px;
   line-height: 1.5;
-  font-family: 'Raleway' , sans-serif;
+  font-family: var(--primary-font)
 }
 
 .bold-and-left{
@@ -210,14 +213,25 @@ body{
   width: 50%;
 }
 
-.skills--lists{
+.skills--lists > div{
+  padding: 20px 0 0 0;
+  border-bottom: 3px solid orange;
+}
+
+.skills--lists > div:last-child{
+  border-bottom: 0px;
 }
 
 .technologies{
   justify-content: space-around;
-  margin: 50px auto
+  margin: 50px auto;
+  
 
 }
+
+/* .technologies:last-child{
+  border-bottom: 0px;
+} */
 
 /* insert border radius or any height width px before width or pictures will spill out the window*/
 .technologies-logos{
@@ -253,6 +267,11 @@ body{
   padding-bottom: 15px;
   border-bottom: 3px solid orange;
   width: 80%;
+}
+
+.app-box:last-child{
+  border-bottom: 0px
+
 }
 
 .container_wrapper{
@@ -380,7 +399,6 @@ body{
 /* Footer ----------------------- */
 
 .App-footer {
-  background-color: orange;
   padding: 15px 15px;
   display: flex;
   justify-content: space-around;
@@ -419,8 +437,7 @@ body{
 }
 
 .links{
-  color: white;
-  font-family: copperplate;
+  /* font-family: copperplate; */
   font-size: 25px;
 }
 
@@ -444,29 +461,32 @@ a:active{
 }
 
 a:hover{
-  color: white;
   transition: all 250ms ease-in-out;
 }
 
 .github-links {
   border-radius: 50px;
-  background: white;
   margin: 20px auto;
   width: 20%;
 }
 
 
 /* Fonts */
-h2{
-  color: black;
+h1 {
+  font-family: var(--primary-font);
+  font-size: 50px
 }
 
-h1, h3{
+h2{
+  color: black;
+  font-family: var(--primary-font);
+}
+
+h3{
   font-family: 'Rock Salt', cursive;
 }
 
 h4, h5{
-  color: white;
   margin: 10px 0;
   font-family: copperplate;
 }

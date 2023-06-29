@@ -35,7 +35,7 @@ const About= () => {
                     <p className="body-texts">I'm an aspiring web developer, music producer, and media content creator born and raised in NYC. Currently, I work at an East Harlem elementary school in administration and operations. I manage tuition, scholarships, internal school and student data, and work with a variety of students ranging from Pre-Kindergarten 3 to 8th grade.
                     <br/>
                     <br/>
-                    I am a full stack web developer constantly practicing and learning new web development technologies. I enjoy creating productivity apps that help me stay organized and learning about design, which are the big reasons for why I decided to hop into the web development industry. I enjoy coding because the feeling of seeing your hard work and creativity come to full fruition is a reward in itself and being able to explain the technologies behind my work brings me great satisfaction.
+                    I am a full stack web developer constantly practicing and learning new web development technologies. I recently completed a coding bootcamp with Columbia University I enjoy creating productivity apps that help me stay organized and learning about design, which are the big reasons for why I decided to hop into the web development industry. I enjoy coding because the feeling of seeing your hard work and creativity come to full fruition is a reward in itself and being able to explain the technologies behind my work brings me great satisfaction.
                   
                   
                     </p>
