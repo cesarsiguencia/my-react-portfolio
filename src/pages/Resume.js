@@ -31,12 +31,12 @@ const Resume = () => {
             <div className="skills">
                 <div className="skills-blocks"> 
                     <h3>Resume</h3>
+                        <p className="body-texts">Click on the resume title to download the PDF version.</p>
+                        {/* <br/>
                         <p className="body-texts">Click on appropriate resume title to download the PDF version.</p>
                         <br/>
-
                         <a href={general_resume} download><h5>General Resume</h5></a>
-
-                        <br/>
+                        <br/> */}
                     
                         <a href={developer_resume} download><h5>Web Developer / Software Engineer Resume</h5></a>
 
@@ -83,7 +83,7 @@ const Resume = () => {
                         </div>
 
                         <div>
-                            <h5>Developers Technologies</h5>
+                            <h5>Developer Technologies</h5>
                             <div className="technologies">
                                 <img className="technologies-logos" src={git}/>
                                 <img className="technologies-logos" src={github}/>

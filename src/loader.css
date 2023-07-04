@@ -1,20 +1,22 @@
 .loader{
     
-    --color1: #16048F;
-    --color2: #8F6513;
+    --color1: black;
+    
+    /* -color2:#FAFAF9;; */
+    /* --color2: #8F6513;
     --color3: #650B8F;
     --color4: #0B408F;
-    --color5: #718F13;
+    --color5: #718F13; */
     --_mask: no-repeat radial-gradient(#000 68%,#0000 71%);
     width: 200px;
     margin: auto;
     aspect-ratio: 1;
     background: conic-gradient(from 36deg,
       var(--color1)0%,var(--color1)20%,
-      var(--color2)20%,var(--color2)40%,
-      var(--color3)40%,var(--color3)60%,
-      var(--color4)60%,var(--color4)80%,
-      var(--color5)80%)
+      var(--color1)20%,var(--color1)40%,
+      var(--color1)40%,var(--color1)60%,
+      var(--color1)60%,var(--color1)80%,
+      var(--color1)80%)
       no-repeat;
     /*background-size: 200% 200%;*/
     -webkit-mask: var(--_mask),var(--_mask),var(--_mask),var(--_mask),var(--_mask);

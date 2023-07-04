@@ -43,7 +43,7 @@ const Home = () => {
 
                 <div className="hidden-intro">
     
-                    <h3>Welcome to my page!</h3>
+                    <h3>"Welcome to my page!</h3>
 
                     <h4>Hello, Hola, 你好!</h4>
    

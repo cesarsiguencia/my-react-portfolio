@@ -29,7 +29,7 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: var(--secondary-color);
   display: flex;
   align-items: center;
 }
@@ -60,7 +60,10 @@ body{
   position: relative;
   display: flex;
   object-fit: cover;
+}
 
+.home-bcgs > * {
+  color: var(--primary-color)
 }
 
 
