@@ -21,20 +21,24 @@ const Nav = () => {
             <div className="mobile-options"></div>
           </div>
           <div className="nav-links">  
-            <h2 id="navtab" className="links">
-              <Link onClick={hamburgerMenu} to="/my-react-portfolio/aboutme">About Me
+            <h2 id="navtab">
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/aboutme">
+                <h2 className="links links-selected">About Me</h2>
               </Link>
             </h2>
-            <h2 id="navtab" className="links">
-              <Link onClick={hamburgerMenu} to="/my-react-portfolio/portfolio">Portfolio
+            <h2 id="navtab">
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/portfolio">
+                <h2 className="links">Portfolio</h2>
               </Link>
             </h2>
-            <h2 id="navtab" className="links"> 
-              <Link onClick={hamburgerMenu} to="/my-react-portfolio/contact">Contact
+            <h2 id="navtab"> 
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/contact">
+                <h2 className="links">Contact</h2>
               </Link>
             </h2>
-            <h2 id="navtab" className="links">
-              <Link onClick={hamburgerMenu} to="/my-react-portfolio/resume">Resume & Skills
+            <h2 id="navtab">
+              <Link onClick={hamburgerMenu} to="/my-react-portfolio/resume">
+                <h2 className="links">Resume & Skills</h2>
               </Link>
             </h2>
           </div>
