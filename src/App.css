@@ -439,6 +439,11 @@ body{
 }
 
 .links:hover{
+  color: yellow
+
+}
+
+.links-selected{
   color: red
 }
 
