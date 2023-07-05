@@ -16,21 +16,30 @@ const Home = () => {
     window.addEventListener("mousemove", function (e) {
         const backgroundDiv = document.querySelector(".home-bcgs-bg")
 
-
         if (backgroundDiv) {
-
             const xAxis = e.clientX || e.screenX
-
-
             const name = xAxis
-
-            console.log(name)
             backgroundWidth = name + "px"
             backgroundDiv.style.width = backgroundWidth
-            console.log(backgroundWidth)
+        }
+    })
+
+    var homeParallax = () =>{
+        const screenWidth = document.body.clientWidth
+
+        if(screenWidth< 1000){
+    
+                const backgroundParallax = document.querySelector('.home-bcgs-color')
+                
+                backgroundParallax.style = 'transform: translate(50px)';
+
+            
         }
 
-    })
+    }
+
+
+
 
 
 
@@ -38,7 +47,7 @@ const Home = () => {
 
 
         <div className="home-div">
-            <div className="home-bcgs-color">
+            <div className="home-bcgs-color" onLoad={homeParallax}>
                 <img className="bcg-2" id="bcg-2" src={portrait2} width="100%" />
 
                 <div className="hidden-intro">

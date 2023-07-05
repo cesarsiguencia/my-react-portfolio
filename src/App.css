@@ -582,12 +582,18 @@ h4, h5{
   .hidden-intro{
     height: 0px;
     width: 0px;
+    overflow: hidden;
   } 
   
   .pix-1000{
     width: 80%;
     height: 100%;
     margin: 0 auto;
+  }
+
+  .home-bcgs-color{
+    transition: ease-in-out 1s;
+
   }
 }
   
