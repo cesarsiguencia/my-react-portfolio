@@ -10,10 +10,10 @@ return (
         <h3>Contact</h3>
         <p className="body-texts">Let's connect! Please find my contact info here. I will get back within twenty four hours. </p>
 
-        <a className="links" href="mailto:cesar.siguencia@gmail.com">Email: Click HERE to begin message.</a>
+        <a className="links links-contact" href="mailto:cesar.siguencia@gmail.com">Email: Click HERE to begin message.</a>
         <br></br>
         <br></br>
-        <a className="links" href="https://www.linkedin.com/in/cesar-siguencia">LinkedIn: César Siguencia </a>
+        <a className="links links-contact" href="https://www.linkedin.com/in/cesar-siguencia">LinkedIn: César Siguencia </a>
         
         <p className="body-texts"> The best way to reach me is by email or through a LinkedIn message.</p>
    

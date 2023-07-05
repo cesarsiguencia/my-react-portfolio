@@ -435,16 +435,24 @@ body{
 }
 
 .links{
+  transition: ease-in-out 0.2s;
   font-size: 25px;
 }
 
 .links:hover{
-  color: yellow
-
+  font-size: 29px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  /* color: var(--primary-color) */
 }
 
+/* .links-contact:hover{
+  color: var(--secondary-color)
+} */
+
 .links-selected{
-  color: red
+  /* color:var(--primary-color); */
+  color: yellow
 }
 
 a {
