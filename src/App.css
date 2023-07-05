@@ -734,6 +734,9 @@ h4, h5{
     transform: translateY(-10px) rotate(-45deg);
   }  
 
+  /* .bcg-2{
+    background-size: 150%;
+  } */
 }
 
 @media screen and (max-width: 600px) {

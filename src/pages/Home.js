@@ -24,31 +24,50 @@ const Home = () => {
         }
     })
 
-    var homeParallax = () =>{
+    var homeParallax = () => {
+        const backgroundParallax = document.querySelector('.home-bcgs-color')
         const screenWidth = document.body.clientWidth
 
-        if(screenWidth< 1000){
-    
-                const backgroundParallax = document.querySelector('.home-bcgs-color')
-                
-                backgroundParallax.style = 'transform: translate(50px)';
+        // if (screenWidth < 1000) {
 
-            
+        //     const backwards = () => {
+        //         new Promise(() => {
+
+        //             setTimeout(() => {
+        //                 backgroundParallax.style = 'transform: translate(-25px)'
+        //             }, 1000)
+
+        //             setTimeout(() => {
+        //                 backgroundParallax.style = 'transform: translate(0px)'
+        //             }, 2000)
+
+        //         })
+        //     }
+
+        //     function shiftBackground() {
+        //         backgroundParallax.style = 'transform: translate(25px)';
+
+        //         backwards()
+
+        //     }
+        //     shiftBackground()
+        // }
+
+        if (screenWidth < 1000) {
+            backgroundParallax.style = 'filter: blur(10px)'
+
+            setTimeout(() => {
+                backgroundParallax.style = 'filter: blur(0px)'
+            }, 1000)
         }
-
     }
-
-
-
-
-
 
     return (
 
 
         <div className="home-div">
             <div className="home-bcgs-color" onLoad={homeParallax}>
-                <img className="bcg-2" id="bcg-2" src={portrait2} width="100%" />
+                <img className="bcg-2" id="bcg-2" src={portrait2} />
 
                 <div className="hidden-intro">
 
@@ -76,15 +95,15 @@ const Home = () => {
 
             <div className="pix-1000">
 
-                    <h3>"Welcome to my page!</h3>
+                <h3>"Welcome to my page!</h3>
 
-                    <h4>Hello, Hola, 你好!</h4>
+                <h4>Hello, Hola, 你好!</h4>
 
 
-                    <div>
-                        <h6 className="body-texts">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
+                <div>
+                    <h6 className="body-texts">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
 
-                    </div>
+                </div>
             </div>
 
             {/* <div className="home-bcgs">
