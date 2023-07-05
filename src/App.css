@@ -1,5 +1,5 @@
 * {
-  --primary-color: #FAFAF9; 
+  --primary-color: #f8f8f3; 
   --secondary-color: plum;
   --primary-font: 'Raleway' , sans-serif;
 }
@@ -43,9 +43,6 @@ body{
 /* Home */
 
 .home-div{
-  /* width: 100%; */
-  /* overflow: hidden;  */
-  /* object-fit: none; */
   position: relative;
   background-color: var(--primary-color);
  
@@ -103,14 +100,8 @@ body{
 
 .bcg-1{
   width: fit-content;
-
-  /* position: absolute; */
-  /* display: flex;
-  flex-wrap: nowrap; */
   background-size: cover;
   height: 100%;
-  /* overflow: hidden; */
-  
 }
 
 *
@@ -119,8 +110,6 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  /* height: fit-content; */
-  /* background-size: cover; */
   z-index: 1;
   object-fit: contain;
   object-position: left;
@@ -237,9 +226,6 @@ body{
 
 }
 
-/* .technologies:last-child{
-  border-bottom: 0px;
-} */
 
 /* insert border radius or any height width px before width or pictures will spill out the window*/
 .technologies-logos{
@@ -453,16 +439,11 @@ body{
   font-size: 29px;
   text-decoration: underline;
   text-underline-offset: 8px;
-  /* color: var(--primary-color) */
 }
 
-/* .links-contact:hover{
-  color: var(--secondary-color)
-} */
 
 .links-selected{
-  /* color:var(--primary-color); */
-  color: yellow
+  color:var(--primary-color);
 }
 
 a {
@@ -610,11 +591,6 @@ h4, h5{
   }
 }
   
-
-@media screen and (max-width: 950px){
-
-
-}
 
 @media screen and (max-width: 850px){
   .container---blurb{
