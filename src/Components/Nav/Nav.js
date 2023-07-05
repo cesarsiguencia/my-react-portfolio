@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 import { hamburgerMenu } from "../../utils/helpers";
 
 
-const Nav = () => {
-
-  // function toggleMobile(){
-  //   if(e.target.name === "hamburger" ){
-
-  //   }
-  // }
+const Nav = (props) => {
+  const {
+    setTitleClicked,
+    navClicked,
+    setNavClicked
+  } = props
 
   const pages = [
     {
@@ -32,9 +31,7 @@ const Nav = () => {
     }
   ]
 
-  // const x = 0
   const [selectedPage, setSelectedPage] = useState(pages)
-
 
   return (
     <nav className="Navigator">
@@ -44,21 +41,16 @@ const Nav = () => {
         <div className="mobile-options"></div>
       </div>
       <div className="nav-links">
-
         {pages.map((page) => (
           <h2 id="navtab" key={page.name}
-
-            onClick={() => setSelectedPage(page)}>
-
+            onClick={() => {
+              setSelectedPage(page)
+              setTitleClicked(false)
+              setNavClicked(true)
+            }}>
             <Link onClick={hamburgerMenu} to={`/my-react-portfolio/${page.url}`}>
               <h2 className=
-                {`links  
-              
-                ${selectedPage.name === page.name && 'links-selected'}
-              
-              `
-
-                }>{page.name}</h2>
+                {`links ${selectedPage.name === page.name && navClicked && 'links-selected'}`}>{page.name}</h2>
             </Link>
           </h2>
         ))}
@@ -82,11 +74,7 @@ const Nav = () => {
                 <h2 className="links">Resume & Skills</h2>
               </Link>
             </h2> */}
-
-
-
       </div>
-
     </nav>
   )
 }
