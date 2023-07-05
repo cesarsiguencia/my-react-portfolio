@@ -51,10 +51,6 @@ const Home = () => {
                     <div className="hidden-blurb">
                         <h6 className="body-texts home-pg-font">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
 
-
-
-                        <h6 className="body-texts home-pg-font">And welcome to my favorite view ever located footsteps from my home, Hamilton Heights, NYC! Scroll down below. </h6>
-
                     </div>
                 </div>
             </div>
@@ -67,6 +63,19 @@ const Home = () => {
                         <h6 className="body-texts home-pg-font">* Slide Mouse Horizontally! *</h6>
                     </div>
                 </div>
+            </div>
+
+            <div className="pix-1000">
+
+                    <h3>"Welcome to my page!</h3>
+
+                    <h4>Hello, Hola, 你好!</h4>
+
+
+                    <div>
+                        <h6 className="body-texts">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
+
+                    </div>
             </div>
 
             {/* <div className="home-bcgs">
