@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react"
 
-import home from "../media/me/home.png"
-
-import home2 from "../media/me/home-orange.png"
-
 import portrait1 from "../media/me/portrait-1.png"
 
 import portrait2 from "../media/me/portrait-2.png"
@@ -24,9 +20,11 @@ const Home = () => {
         }
     })
 
+    const screenWidth = document.body.clientWidth
+
     var homeParallax = () => {
         const backgroundParallax = document.querySelector('.home-bcgs-color')
-        const screenWidth = document.body.clientWidth
+
 
         // if (screenWidth < 1000) {
 
@@ -62,6 +60,19 @@ const Home = () => {
         }
     }
 
+    var growFont = () => {
+        const selectedFonts = document.querySelector('.home-transitions')
+
+        if(screenWidth > 1000){
+
+            selectedFonts.style = "font-size: 25px"
+            setTimeout(() => {
+                selectedFonts.style = "font-size: 20px"
+            }, 1500)
+        }
+    }
+    setInterval(growFont, 3000)
+
     return (
 
 
@@ -71,7 +82,7 @@ const Home = () => {
 
                 <div className="hidden-intro">
 
-                    <h3>"Welcome to my page!</h3>
+                    <h3 >"Welcome to my page!</h3>
 
                     <h4>Hello, Hola, 你好!</h4>
 
@@ -83,12 +94,12 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="home-bcgs-bg">
+            <div className="home-bcgs-bg" onLoad={growFont}>
                 <img className="bcg-1" id="bcg-1" src={portrait1} width={backgroundWidth} />
 
                 <div className="hidden-intro">
                     <div>
-                        <h6 className="body-texts home-pg-font">* Slide Mouse Horizontally! *</h6>
+                        <h6 className="body-texts home-pg-font home-transitions" >* Slide Mouse Horizontally! *</h6>
                     </div>
                 </div>
             </div>
