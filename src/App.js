@@ -46,6 +46,23 @@ function App() {
 
   }, [])
 
+  const pages = [
+    {
+      name: "About Me"
+    },
+    {
+      name: "Portfolio"
+    },
+    {
+      name: "Contact"
+    },
+    {
+      name:"Resume & Skills"
+    }
+  ]
+
+  const [currentPage, setCurrentPage] = useState(pages)
+
   return (
     <Router >
       {
@@ -62,7 +79,11 @@ function App() {
 
           ) : (
             <div className="App" >
-              <Header></Header>
+              <Header
+                pages={pages}
+                setCurrentPage={setCurrentPage}
+                currentPage={currentPage}
+              ></Header>
               <div className="App-body">
                 <Routes>
                   <Route

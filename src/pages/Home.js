@@ -60,18 +60,36 @@ const Home = () => {
         }
     }
 
+    // const [count, setCount] = useState(0)
+
     var growFont = () => {
+
         const selectedFonts = document.querySelector('.home-transitions')
 
         if(screenWidth > 1000){
-
+    
             selectedFonts.style = "font-size: 25px"
             setTimeout(() => {
                 selectedFonts.style = "font-size: 20px"
             }, 1500)
         }
+
+
     }
-    setInterval(growFont, 3000)
+
+    useEffect(() =>{
+        const selectedFonts = document.querySelector('.home-transitions')
+        setInterval(()=>{
+            if(screenWidth > 1000){
+    
+                selectedFonts.style = "font-size: 25px"
+                setTimeout(() => {
+                    selectedFonts.style = "font-size: 20px"
+                }, 1500)
+            }
+        }, 3000)
+
+    })
 
     return (
 
@@ -97,7 +115,7 @@ const Home = () => {
             <div className="home-bcgs-bg" onLoad={growFont}>
                 <img className="bcg-1" id="bcg-1" src={portrait1} width={backgroundWidth} />
 
-                <div className="hidden-intro">
+                <div className="hidden-intro" >
                     <div>
                         <h6 className="body-texts home-pg-font home-transitions" >* Slide Mouse Horizontally! *</h6>
                     </div>
