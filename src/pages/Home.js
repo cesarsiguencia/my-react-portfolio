@@ -60,22 +60,23 @@ const Home = () => {
         }
     }
 
+
     // const [count, setCount] = useState(0)
 
-    var growFont = () => {
+    // var growFont = () => {
 
-        const selectedFonts = document.querySelector('.home-transitions')
+    //     const selectedFonts = document.querySelector('.home-transitions')
 
-        if(screenWidth > 1000){
+    //     if(screenWidth > 1000){
     
-            selectedFonts.style = "font-size: 25px"
-            setTimeout(() => {
-                selectedFonts.style = "font-size: 20px"
-            }, 1500)
-        }
+    //         selectedFonts.style = "font-size: 25px"
+    //         setTimeout(() => {
+    //             selectedFonts.style = "font-size: 20px"
+    //         }, 1500)
+    //     }
 
 
-    }
+    // }
 
     useEffect(() =>{
         const selectedFonts = document.querySelector('.home-transitions')
@@ -112,7 +113,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="home-bcgs-bg" onLoad={growFont}>
+            <div className="home-bcgs-bg">
                 <img className="bcg-1" id="bcg-1" src={portrait1} width={backgroundWidth} />
 
                 <div className="hidden-intro" >
