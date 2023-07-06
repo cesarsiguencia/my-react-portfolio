@@ -438,6 +438,11 @@ body{
   text-underline-offset: 8px;
 }
 
+.headings:hover{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 
 .links-selected{
   color:var(--primary-color);

@@ -14,7 +14,7 @@ const Header = () => {
 
     <header className="App-header">
       <div className="Header-contents">
-        <h1 onClick={() => {
+        <h1 className="headings" onClick={() => {
           setTitleClicked(true)
           setNavClicked(false)
           }}>
