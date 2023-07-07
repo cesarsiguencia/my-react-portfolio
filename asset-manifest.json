@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.de8b3c74.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.b29cfc7c.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.b29cfc7c.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.26e2f92e.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.bcc1495c.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.bcc1495c.chunk.js.map",
   "static/js/1.2e8f1a6b.chunk.js": "/my-react-portfolio/static/js/1.2e8f1a6b.chunk.js",
   "static/js/1.2e8f1a6b.chunk.js.map": "/my-react-portfolio/static/js/1.2e8f1a6b.chunk.js.map",
   "static/js/2.64412135.chunk.js": "/my-react-portfolio/static/js/2.64412135.chunk.js",
@@ -41,8 +41,8 @@
   "static/media/Weather-Dashboard.png": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
   "static/media/Cesar_Siguencia-Resume-General.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf",
-  "static/css/main.de8b3c74.chunk.css.map": "/my-react-portfolio/static/css/main.de8b3c74.chunk.css.map",
+  "static/css/main.26e2f92e.chunk.css.map": "/my-react-portfolio/static/css/main.26e2f92e.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.7eb2e7412d82ccc3cc18a53d15213e87.js": "/my-react-portfolio/precache-manifest.7eb2e7412d82ccc3cc18a53d15213e87.js",
+  "precache-manifest.555d8eca32e5324731cedc9002469a2e.js": "/my-react-portfolio/precache-manifest.555d8eca32e5324731cedc9002469a2e.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
