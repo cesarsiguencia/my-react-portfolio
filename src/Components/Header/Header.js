@@ -9,59 +9,6 @@ const Header = () => {
   const [titleClicked, setTitleClicked] = useState()
   const [navClicked, setNavClicked] = useState()
 
-
-
-
-
-  // useEffect(() => {
-
-  //   const url = window.location.href.split('/')
-  //   const lastIndex = url[url.length - 1] 
-  
-  //   console.log(lastIndex)
-
-  //   if(lastIndex !== 'my-react-portfolio'){
-  //     console.log('not home!!')
-  //     setUrlIsSub({
-  //       condition: true,
-  //       page: lastIndex
-  //     })
-  //   } else {
-  //     setUrlIsSub({
-  //       condition:false,
-  //       page: null
-  //     })
-  //   }
-  //   console.log(urlIsSub, 'headerpage')
-  // })
-
-
-  // const url = window.location.href.split('/')
-  // const lastIndex = url[url.length - 1] 
-
-  // console.log(lastIndex)
-  
-  // if(lastIndex !== 'my-react-portfolio'){
-  //   console.log('not home!!')
-  //   setUrlIsSub({
-  //     condition: true,
-  //     page: lastIndex
-    
-  //   })
-
-  // } else {
-  //   setUrlIsSub({
-  //     condition:false,
-  //     page: null
-  //   })
-
-  // }
-
-
-
-
-
-
   return (
 
     <header className="App-header">
@@ -74,7 +21,6 @@ const Header = () => {
           <Link to="/my-react-portfolio">César Siguencia</Link>
         </h1>
         <Nav
-          // setTitleClicked={setTitleClicked}
           titleClicked={titleClicked}
           setTitleClicked={setTitleClicked}
           navClicked={navClicked}
