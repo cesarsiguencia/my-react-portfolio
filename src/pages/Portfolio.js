@@ -14,7 +14,7 @@ const Portfolio = () => {
             Click on the image below to deploy application link. Click corresponding github logo to be redirected to its GitHub repository.</p>
 
 
-            <div className="app-box">
+            {/* <div className="app-box">
                     <div className="container_wrapper">
                         <div className="container--description">
                             
@@ -50,10 +50,10 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
-                <div className="app-box">
+                {/* <div className="app-box">
                         <div className="container_wrapper">
                             <div className="container--description">
                                 
@@ -87,7 +87,7 @@ const Portfolio = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 
        
