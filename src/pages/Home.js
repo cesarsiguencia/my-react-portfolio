@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect } from "react"
 
 import portrait1 from "../media/me/portrait-1.png"
 
@@ -24,33 +24,6 @@ const Home = () => {
 
     var homeParallax = () => {
         const backgroundParallax = document.querySelector('.home-bcgs-color')
-
-
-        // if (screenWidth < 1000) {
-
-        //     const backwards = () => {
-        //         new Promise(() => {
-
-        //             setTimeout(() => {
-        //                 backgroundParallax.style = 'transform: translate(-25px)'
-        //             }, 1000)
-
-        //             setTimeout(() => {
-        //                 backgroundParallax.style = 'transform: translate(0px)'
-        //             }, 2000)
-
-        //         })
-        //     }
-
-        //     function shiftBackground() {
-        //         backgroundParallax.style = 'transform: translate(25px)';
-
-        //         backwards()
-
-        //     }
-        //     shiftBackground()
-        // }
-
         if (screenWidth < 1000) {
             backgroundParallax.style = 'filter: blur(10px)'
 
@@ -60,37 +33,19 @@ const Home = () => {
         }
     }
 
-
-    // const [count, setCount] = useState(0)
-
-    // var growFont = () => {
-
-    //     const selectedFonts = document.querySelector('.home-transitions')
-
-    //     if(screenWidth > 1000){
-    
-    //         selectedFonts.style = "font-size: 25px"
-    //         setTimeout(() => {
-    //             selectedFonts.style = "font-size: 20px"
-    //         }, 1500)
-    //     }
-
-
-    // }
-
-    useEffect(() =>{
+    var growFontEffect = useEffect(() => {
         const selectedFonts = document.querySelector('.home-transitions')
-        setInterval(()=>{
-            if(screenWidth > 1000){
-    
-                selectedFonts.style = "font-size: 25px"
-                setTimeout(() => {
-                    selectedFonts.style = "font-size: 20px"
-                }, 1500)
-            }
-        }, 3000)
 
-    })
+        if (screenWidth > 1000) {
+            setInterval(() => {
+                selectedFonts.style = "font-size: 25px"
+            }, 1500)
+
+            setInterval(() => {
+                selectedFonts.style = "font-size: 20px"
+            }, 3000)
+        }
+    }, [])
 
     return (
 
@@ -113,7 +68,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="home-bcgs-bg">
+            <div className="home-bcgs-bg" onLoad={growFontEffect}>
                 <img className="bcg-1" id="bcg-1" src={portrait1} width={backgroundWidth} />
 
                 <div className="hidden-intro" >
@@ -135,17 +90,6 @@ const Home = () => {
 
                 </div>
             </div>
-
-            {/* <div className="home-bcgs">
-                <img className="bcg-2" id="bcg-2" src={home} width="100%"/>
-
-                <div className="bcg-1-bridge">
-                    <img className="bcg-1" id="bcg-1" src={home2} width="100%"/>
-
-                </div>
-
-            </div> */}
-
         </div>
 
     )
