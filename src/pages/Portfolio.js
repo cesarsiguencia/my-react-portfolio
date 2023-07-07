@@ -52,9 +52,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                
-       
-            <Apps ></Apps>
 
                 <div className="app-box">
                         <div className="container_wrapper">
@@ -92,9 +89,11 @@ const Portfolio = () => {
                         </div>
                     </div>
 
+                
+       
+            <Apps ></Apps>
 
-
-                <div className="app-box">
+                {/* <div className="app-box">
                         <div className="container_wrapper">
                             <div className="container--description">
                                 
@@ -128,7 +127,9 @@ const Portfolio = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+
 
 
                     

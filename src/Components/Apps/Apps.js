@@ -23,6 +23,11 @@ import github from '../../media/icons/github-white.png'
                 name: 'Introductory-Javascript-Quiz',
                 description: 'Test your javascript skills with this quick quiz I built! Test yourself as many times as you would like as the app saves your scores at the end of each quiz. But hurry, you only have 60 seconds to answer as many javascript questions as possible. Happy studying!',
                 technologies: 'Javascript, HTML, CSS'
+            },
+            {
+                name: 'Save-My-Notes',
+                description: 'A classic note taking app that uses back end technologies to save your notes in their appropriate order.',
+                technologies: 'NoSQL, Sequelize, Express, RESTful route'
             }
 
         ]
