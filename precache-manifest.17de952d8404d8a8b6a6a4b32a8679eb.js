@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d3b0daccb501be503bdb",
-    "url": "/my-react-portfolio/static/css/main.126a1e32.chunk.css"
+    "revision": "16025c2cb0722e1064a7",
+    "url": "/my-react-portfolio/static/css/main.eefeac63.chunk.css"
   },
   {
-    "revision": "d3b0daccb501be503bdb",
-    "url": "/my-react-portfolio/static/js/main.d3b0dacc.chunk.js"
+    "revision": "16025c2cb0722e1064a7",
+    "url": "/my-react-portfolio/static/js/main.16025c2c.chunk.js"
   },
   {
     "revision": "cc79fa3910fc97852656",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf"
   },
   {
-    "revision": "3c081975a23daadfefc966a9a5569667",
+    "revision": "6b5620073aaaabb16f7531bfd1a6a9f3",
     "url": "/my-react-portfolio/index.html"
   }
 ];
