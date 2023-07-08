@@ -46,7 +46,7 @@ import github from '../../media/icons/github-white.png'
                 developer:'Sole Developer'
             },
             {
-                name: 'Dine-N-Wine',
+                name: "Dine-N'-Wine",
                 description: 'An application representing multiple hot plate recipes from all over the world! Users are able to save receipes that they like under "Favorites", filter receipes by category, or allow the application to pick one by random. In addition, users can look up for macronutrient information, ingredients, and amount per ingredient needed for the recipe that they choose.',
                 technologies: 'HTML, CSS, Javascript, APIs',
                 url: 'https://cesarsiguencia.github.io/dine-n-wine/',
@@ -55,7 +55,9 @@ import github from '../../media/icons/github-white.png'
         ]
 
         const generate = applications.map((app) => {
-            var lowercaseName = app.name.toLowerCase()
+            const lowercaseName = app.name.toLowerCase()
+            const formattedNames = app.name.split('-')
+            const displayedNames = formattedNames.join(' ')
 
             return(
 
@@ -65,7 +67,7 @@ import github from '../../media/icons/github-white.png'
                             
 
                             <div className="project-title">
-                                <h3 className="project-title--frame">{app.name}</h3>
+                                <h3 className="project-title--frame">{displayedNames}</h3>
                             </div>
 
                             <h5>{app.developer}</h5>
