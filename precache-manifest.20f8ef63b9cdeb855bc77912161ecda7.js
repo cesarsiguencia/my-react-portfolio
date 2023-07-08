@@ -1,35 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "bcc1495c4fdfbb93efff",
-    "url": "/my-react-portfolio/static/css/main.26e2f92e.chunk.css"
+    "revision": "0e6934211dc86281f20e",
+    "url": "/my-react-portfolio/static/css/main.7b84c7d3.chunk.css"
   },
   {
-    "revision": "bcc1495c4fdfbb93efff",
-    "url": "/my-react-portfolio/static/js/main.bcc1495c.chunk.js"
+    "revision": "0e6934211dc86281f20e",
+    "url": "/my-react-portfolio/static/js/main.0e693421.chunk.js"
   },
   {
-    "revision": "2e8f1a6b9f28a667d85d",
-    "url": "/my-react-portfolio/static/js/1.2e8f1a6b.chunk.js"
+    "revision": "cc79fa3910fc97852656",
+    "url": "/my-react-portfolio/static/js/1.cc79fa39.chunk.js"
   },
   {
-    "revision": "6441213568e308d637e9",
-    "url": "/my-react-portfolio/static/js/2.64412135.chunk.js"
+    "revision": "83790472d9f7cd9a3aae",
+    "url": "/my-react-portfolio/static/js/2.83790472.chunk.js"
   },
   {
-    "revision": "ac069f7c712d643d3914",
-    "url": "/my-react-portfolio/static/js/runtime~main.ac069f7c.js"
-  },
-  {
-    "revision": "cb5c284601d618cda57b690b07f5bebe",
-    "url": "/my-react-portfolio/static/media/dine-n-wine.cb5c2846.png"
-  },
-  {
-    "revision": "4d83ac8ea61a4994bc537f1cc78cf5ce",
-    "url": "/my-react-portfolio/static/media/nft-y.4d83ac8e.png"
-  },
-  {
-    "revision": "e422f197c5464dcbb88244919a19b129",
-    "url": "/my-react-portfolio/static/media/save-my-notes.e422f197.png"
+    "revision": "4e44b870c22af9602c9e",
+    "url": "/my-react-portfolio/static/js/runtime~main.4e44b870.js"
   },
   {
     "revision": "39df11f9207351a43283d096c3052381",
@@ -120,8 +108,16 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/IMG_9110.c0180b0a.png"
   },
   {
+    "revision": "013a616d8b8603c79f062adf52ac80e5",
+    "url": "/my-react-portfolio/static/media/10000-Days.013a616d.png"
+  },
+  {
     "revision": "286bf27b5e83261423e08d244f78ffb0",
     "url": "/my-react-portfolio/static/media/Bootcamp-Social.286bf27b.png"
+  },
+  {
+    "revision": "cb5c284601d618cda57b690b07f5bebe",
+    "url": "/my-react-portfolio/static/media/Dine-N-Wine.cb5c2846.png"
   },
   {
     "revision": "7ecc07141d34eadc4581d2c705a284dc",
@@ -132,6 +128,10 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Run-Buddy.5a5a9d45.png"
   },
   {
+    "revision": "e422f197c5464dcbb88244919a19b129",
+    "url": "/my-react-portfolio/static/media/Save-My-Notes.e422f197.png"
+  },
+  {
     "revision": "071f6f873c86cdeb323d9dc9c8433def",
     "url": "/my-react-portfolio/static/media/Show-Me-My-Schedule.071f6f87.png"
   },
@@ -140,8 +140,16 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.png"
   },
   {
+    "revision": "c13f105daad89b977759e1f89e54c6e8",
+    "url": "/my-react-portfolio/static/media/Technify-In-Python.c13f105d.png"
+  },
+  {
     "revision": "52774ec9c55fdead73ad0ce54675d8dc",
     "url": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png"
+  },
+  {
+    "revision": "4d83ac8ea61a4994bc537f1cc78cf5ce",
+    "url": "/my-react-portfolio/static/media/nft-y.4d83ac8e.png"
   },
   {
     "revision": "04b736400b0b04c6487916a98e8dd611",
@@ -152,7 +160,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf"
   },
   {
-    "revision": "8a20db6f592051af9b56eba8591c9197",
+    "revision": "e603ddbab23f6a6211b35dfd13901096",
     "url": "/my-react-portfolio/index.html"
   }
 ];
