@@ -482,12 +482,15 @@ a:hover{
 /* Fonts */
 .h1 {
   font-family: var(--primary-font);
-  font-size: 50px
+  font-size: 50px;
+  font-weight: 600;
+
 }
 
 .h2{
   color: black;
   font-family: var(--primary-font);
+  font-weight: 600;
 }
 
 h3{
@@ -564,17 +567,21 @@ h4, h5{
 
   .Header-contents{
     display: block;
-    padding: 25px;
+    /* padding: 25px; */
   }
   
   .Navigator{
     display: flex;
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto;
   }
   
-  h2{
+  .h2{
     margin: auto 0px;
+  }
+
+  .headings{
+    margin: 25px auto;
   }
 
   .home-bcgs-bg {

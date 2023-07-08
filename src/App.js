@@ -75,7 +75,7 @@ function App() {
                 <div className="loader">
                 </div>
                 <br />
-                <p className='h2'>I am loading!</p>
+                <p className='h2 links'>I am loading!</p>
               </div>
             </div>
 
