@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "d07a1f4a4a03eb9d4f83",
-    "url": "/my-react-portfolio/static/css/main.9ba5a05a.chunk.css"
+    "revision": "617010863d44e6518ef3",
+    "url": "/my-react-portfolio/static/css/main.f1dc3b8a.chunk.css"
   },
   {
-    "revision": "d07a1f4a4a03eb9d4f83",
-    "url": "/my-react-portfolio/static/js/main.d07a1f4a.chunk.js"
+    "revision": "617010863d44e6518ef3",
+    "url": "/my-react-portfolio/static/js/main.61701086.chunk.js"
   },
   {
-    "revision": "cc79fa3910fc97852656",
-    "url": "/my-react-portfolio/static/js/1.cc79fa39.chunk.js"
+    "revision": "b4580c6e423a71b044a8",
+    "url": "/my-react-portfolio/static/js/1.b4580c6e.chunk.js"
   },
   {
-    "revision": "83790472d9f7cd9a3aae",
-    "url": "/my-react-portfolio/static/js/2.83790472.chunk.js"
+    "revision": "d1b6d2ab2f4d17a62c74",
+    "url": "/my-react-portfolio/static/js/2.d1b6d2ab.chunk.js"
   },
   {
-    "revision": "4e44b870c22af9602c9e",
-    "url": "/my-react-portfolio/static/js/runtime~main.4e44b870.js"
+    "revision": "c9e9346ba295c7c87c99",
+    "url": "/my-react-portfolio/static/js/runtime~main.c9e9346b.js"
   },
   {
     "revision": "39df11f9207351a43283d096c3052381",
     "url": "/my-react-portfolio/static/media/IMG_2178-copy.39df11f9.png"
-  },
-  {
-    "revision": "341d20822730b49118256dbb4316cc43",
-    "url": "/my-react-portfolio/static/media/home2.341d2082.png"
   },
   {
     "revision": "aa1dbb326324c67fbf98edac6f851755",
@@ -160,7 +156,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf"
   },
   {
-    "revision": "ac7bfe7958b5869d6acfd96e43f254f0",
+    "revision": "801d273fb2ac5615b8234bd7dd0998fd",
     "url": "/my-react-portfolio/index.html"
   }
 ];
