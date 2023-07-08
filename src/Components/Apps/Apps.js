@@ -34,7 +34,7 @@ import github from '../../media/icons/github-white.png'
             {
                 name: 'Technify-In-Python',
                 description: "A simple and intuitive social media website for tech enthusiasts to share valuable links with each other. Users can sign up to create, like, and comment on posts. Users have the freedom to delete and any of their posts while being logged in.",
-                technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, HTML, CSS, Javascript',
+                technologies: 'Python, Flask, PyMySQL, SQLAlchemy, Bcrypt, Dotenv, Gunicorn, HTML, CSS, Javascript',
                 url: 'https://technify-by-cs.up.railway.app/',
                 developer:'Sole Developer'
             },
