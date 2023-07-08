@@ -1,7 +1,7 @@
 * {
   --primary-color: #f8f8f3; 
   --secondary-color: plum;
-  --primary-font: 'Raleway' , sans-serif;
+  --primary-font: 'Raleway';
 }
 
 body{
@@ -430,6 +430,7 @@ body{
 .links{
   transition: ease-in-out 0.2s;
   font-size: 25px;
+  font-family: var(--primary-font);
 }
 
 .links:hover{
