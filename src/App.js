@@ -16,6 +16,8 @@ import Footer from './Components/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 
+
+
 function App() {
 
   // $(window).on("load", function(){
@@ -73,7 +75,7 @@ function App() {
                 <div className="loader">
                 </div>
                 <br />
-                <h2>I am loading!</h2>
+                <p className='h2'>I am loading!</p>
               </div>
             </div>
 
