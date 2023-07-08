@@ -13,13 +13,13 @@ const Header = () => {
 
     <header className="App-header">
       <div className="Header-contents">
-        <h1 className="headings" onClick={() => {
+        <p className="headings h1" onClick={() => {
           setTitleClicked(true)
           setNavClicked(false)
 
           }}>
           <Link to="/my-react-portfolio">César Siguencia</Link>
-        </h1>
+        </p>
         <Nav
           titleClicked={titleClicked}
           setTitleClicked={setTitleClicked}

@@ -480,12 +480,12 @@ a:hover{
 
 
 /* Fonts */
-h1 {
+.h1 {
   font-family: var(--primary-font);
   font-size: 50px
 }
 
-h2{
+.h2{
   color: black;
   font-family: var(--primary-font);
 }

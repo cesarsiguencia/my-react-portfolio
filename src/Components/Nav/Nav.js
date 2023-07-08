@@ -88,8 +88,8 @@ const Nav = (props) => {
               setSelectedPage(page)
             }}>
             <Link onClick={hamburgerMenu} to={`/my-react-portfolio/${page.url}`}>
-              <h2 className=
-                {`links ${!selectedPage ? ( selectedPage == "") : (selectedPage.name === page.name && !titleClicked && navClicked && 'links-selected')}`}>{page.name}</h2>
+              <p className=
+                {`links ${!selectedPage ? ( selectedPage == "") : (selectedPage.name === page.name && !titleClicked && navClicked && 'links-selected')}`}>{page.name}</p>
             </Link>
           </h2>
         ))}
