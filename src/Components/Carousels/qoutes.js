@@ -47,11 +47,11 @@ const QuoteCarousel = () => {
         <div className="carousel-container" >   
 
             <div className='carousel--div'>
-                { quotes.map((item, index) => {
+                {quotes.map((item, index) => {
 
-                return <div className="carousel---block">
+                return <div className="carousel---block" key={index}>
 
-                    <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.quote}</p>
+                    <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}}>{item.quote}</p>
 
                     <h5 className="carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>
                     {item.person}

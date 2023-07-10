@@ -8,7 +8,7 @@ const Footer = () => {
     return(
         <footer className="App-footer">
           <div className="footer-font">
-            <p className="body-texts">Developed By César Siguencia,  Powered by React</p>
+            <p className="body-texts">Developed By César Siguencia using ReactJS</p>
           </div>
           
           <div className="logos">

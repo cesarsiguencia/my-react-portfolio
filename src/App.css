@@ -194,6 +194,7 @@ body{
 
 .bold-and-left{
   font-weight: bold;
+  display: inline;
 }
 
 /* Resume Page -------------------- */
@@ -389,13 +390,19 @@ body{
 /* Footer ----------------------- */
 
 .App-footer {
-  padding: 15px 15px;
+  padding: 15px 0;
   display: flex;
   justify-content: space-around;
 }
 
 .footer-font{
-  width: 20%;
+  width: 30%;
+}
+
+.icon-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Pictures and logos ---------------- */
@@ -653,17 +660,6 @@ h4, h5{
 }
 
 @media screen and (max-width: 800px) {
-
-  .footer-font {
-    
-  }
-
-  .icon-align {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .technologies-logos{
     height: 50px;
     width: 50px

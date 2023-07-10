@@ -83,7 +83,7 @@ const Nav = (props) => {
       </div>
       <div className="nav-links">
         {pages.map((page) => (
-          <p className='h2' id="navtab" key={page.name}
+          <div className='h2' id="navtab" key={page.name}
             onClick={() => {
               setSelectedPage(page)
             }}>
@@ -91,7 +91,7 @@ const Nav = (props) => {
               <p className=
                 {`links ${!selectedPage ? ( selectedPage == "") : (selectedPage.name === page.name && !titleClicked && navClicked && 'links-selected')}`}>{page.name}</p>
             </Link>
-          </p>
+          </div>
         ))}
       </div>
     </nav>

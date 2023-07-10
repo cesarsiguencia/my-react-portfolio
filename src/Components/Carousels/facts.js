@@ -43,9 +43,9 @@ const FactsCarousel = () => {
             <div className='carousel--div'>
                 {facts.map((item, index) => {
 
-                    return <div className="carousel---block">
+                    return <div className="carousel---block" key={index}>
 
-                        <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}} key={index}>{item.fact}</p>
+                        <p className="aboutme--quotes carousel-item" style={{transform:`translate(-${currentIndex * 100}%)`}}>{item.fact}</p>
 
                         </div>
                         })}
