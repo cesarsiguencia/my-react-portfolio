@@ -65,7 +65,7 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages)
 
-  function grayScaleLoad(){
+  var grayScaleLoad = function(){
     const image = document.querySelector('.profile')
 
     if(image){
@@ -80,6 +80,21 @@ function App() {
 
 
     }
+  }
+
+
+
+  var transparentEffect = function(){
+    const bodyDiv = document.querySelector('.body-divs')
+    if(bodyDiv){
+      bodyDiv.style = 'opacity: 1'
+
+      // bodyDiv.addEventListener("scroll", ()=>{
+      //   bodyDiv.style = 'zoom: 150%'
+      // })
+    }
+
+
   }
 
 
@@ -98,7 +113,7 @@ function App() {
             </div>
 
           ) : (
-            <div className="App" >
+            <div className="App" onLoad={transparentEffect}>
               <Header
                 pages={pages}
                 setCurrentPage={setCurrentPage}

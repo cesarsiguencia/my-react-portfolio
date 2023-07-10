@@ -178,12 +178,16 @@ body{
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
+
+  
   /* height: 100%; */
   
 }
 
 .body-divs{
   margin: 30px 30px;
+  opacity: 0;
+  transition: ease-in-out 1s;
 }
 
 .body-texts{
