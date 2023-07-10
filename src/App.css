@@ -349,7 +349,9 @@ body{
 
 .profile {
   border-radius: 20px;
-  border: orange 5px solid;
+  border: orange 5px solid;  
+  filter: grayscale(100%);
+  transition: ease-in-out 0.25s
 }
 
 /* About Me - Carousels CSS ------------ */

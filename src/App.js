@@ -65,6 +65,18 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages)
 
+  function grayScaleLoad(){
+    const image = document.querySelector('.profile')
+
+    if(image){
+      const theBody = document.querySelector('.App-body')
+      theBody.addEventListener("mouseover", ()=>{
+        image.style = 'filter: grayscale(0%)'
+      })
+    }
+  }
+
+
   return (
     <Router >
       {
@@ -86,7 +98,7 @@ function App() {
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
               ></Header>
-              <div className="App-body">
+              <div className="App-body" onLoad={grayScaleLoad}>
                 <Routes>
                   <Route
                     path="/my-react-portfolio"
