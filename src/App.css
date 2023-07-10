@@ -488,8 +488,9 @@ a:hover{
 /* Fonts */
 .h1 {
   font-family: var(--primary-font);
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Shadows Into Light', cursive
 
 }
 

@@ -20,6 +20,7 @@ import api from '../media/icons/skills-icons/api.png'
 import mongodb from '../media/icons/skills-icons/mongodb.png'
 import handlebars from '../media/icons/skills-icons/handlebars.png'
 import nosql from '../media/icons/skills-icons/nosql.png'
+import python from '../media/icons/skills-icons/python.png'
 import git from '../media/icons/skills-icons/git.png'
 import github from '../media/icons/skills-icons/github-logo.png'
 import vscode from '../media/icons/skills-icons/vscode.png'
@@ -41,9 +42,13 @@ const Resume = () => {
                         <a href={developer_resume} download><h5>Web Developer / Software Engineer Resume</h5></a>
 
                         <br/>
-
-                        <img className="resume-style" src={image} width="75%"/>
+                        <p className="body-texts bold-and-left">Languages</p>
+                        <p className="body-texts">Fluent in Spanish, Intermediate literacy in Mandarin Chinese.</p>
+                        <br/>
                         
+                        <img className="resume-style" src={image} width="75%"/>
+                        <br/>
+          
                 </div>
                 
                 <div className="skills-blocks">
@@ -68,8 +73,10 @@ const Resume = () => {
                         <div>
                             <h5>Back End</h5>
                             <div className="technologies">
-                                <img className="technologies-logos" src={api}/>
+                                
                                 <img className="technologies-logos" src={node}/>
+                                <img className="technologies-logos" src={python}/>
+                                <img className="technologies-logos" src={api}/>
                                 <img className="technologies-logos" src={express}/>
                                 <img className="technologies-logos" src={mysql}/>
                                 <img className="technologies-logos" src={sequelize}/>
