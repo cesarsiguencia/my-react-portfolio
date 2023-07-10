@@ -1,7 +1,7 @@
 {
   "main.css": "/my-react-portfolio/static/css/main.f61ddfd3.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.8965ec8c.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.8965ec8c.chunk.js.map",
+  "main.js": "/my-react-portfolio/static/js/main.5fea82f0.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.5fea82f0.chunk.js.map",
   "static/js/1.cc79fa39.chunk.js": "/my-react-portfolio/static/js/1.cc79fa39.chunk.js",
   "static/js/1.cc79fa39.chunk.js.map": "/my-react-portfolio/static/js/1.cc79fa39.chunk.js.map",
   "static/js/2.5c4c227c.chunk.js": "/my-react-portfolio/static/js/2.5c4c227c.chunk.js",
@@ -45,6 +45,6 @@
   "static/media/Cesar_Siguencia-Resume-General.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf",
   "static/css/main.f61ddfd3.chunk.css.map": "/my-react-portfolio/static/css/main.f61ddfd3.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.4539bbada3d0b66523996ea690fc4b77.js": "/my-react-portfolio/precache-manifest.4539bbada3d0b66523996ea690fc4b77.js",
+  "precache-manifest.1a65455de85db57ac512b513206d6f5c.js": "/my-react-portfolio/precache-manifest.1a65455de85db57ac512b513206d6f5c.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
