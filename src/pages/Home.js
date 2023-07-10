@@ -29,7 +29,7 @@ const Home = () => {
 
             setTimeout(() => {
                 backgroundParallax.style = 'filter: blur(0px)'
-            }, 1000)
+            }, 500)
         }
     }
 
@@ -79,15 +79,10 @@ const Home = () => {
             </div>
 
             <div className="pix-1000">
-
                 <h3>"Welcome to my page!</h3>
-
                 <h4>Hello, Hola, 你好!</h4>
-
-
                 <div>
                     <h6 className="body-texts">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
-
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ const displayApp = () => {
     const applications = [
         {
             name: '10000-Days',
-            description: "A full stack website all about my special event I'm hosting for when I turn 10,000 days old. Learn more about the venue of choice and RSVP to save your spot! In addition, interact with invited guests who have confirmed their registation by sharing posts and loving other guests posts for users to hype up the event until the date arrives! Have fun responsibily!",
+            description: "A full stack website all about my special event I'm hosting for when I turn 10,000 days old. Learn more about the venue of choice and RSVP to save your spot! Interact with invited guests who have confirmed their registation by sharing posts and loving posts to hype up the excitement for this once in a lifetime night!",
             technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, HTML, CSS, Javascript',
             url: 'https://10000-days-production.up.railway.app/home',
             developer: 'Sole Developer'
@@ -19,14 +19,14 @@ const displayApp = () => {
         },
         {
             name: 'Taskmaster-Pro',
-            description: 'Take notes the easy way using Taskmaster Pro, which uses Bootstrap and JQuery technologies. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or deleted to the trash bin below.',
+            description: 'Take notes the easy way using Taskmaster Pro. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or the trash bin.',
             technologies: 'Javascript, JQuery, Moment.js,, Bootstrap, HTML, CSS',
             url: 'https://cesarsiguencia.github.io/taskmaster-pro/',
             developer: 'Sole Developer'
         },
         {
             name: "Dine-N-Wine",
-            description: 'An application representing multiple hot plate recipes from all over the world! Users are able to save receipes that they like under "Favorites", filter receipes by category, or allow the application to pick one by random. In addition, users can look up for macronutrient information, ingredients, and amount per ingredient needed for the recipe that they choose.',
+            description: 'An application representing multiple hot plate recipes from all over the world! Users are able to save receipes under "Favorites", filter receipes by category, or allow the application to pick one by random. In addition, users can look up for macronutrient information, ingredients, and dosages.',
             technologies: 'HTML, CSS, PureCSS, Javascript, APIs',
             url: 'https://cesarsiguencia.github.io/dine-n-wine/',
             developer: 'GROUP PROJECT: Front End Developer'
