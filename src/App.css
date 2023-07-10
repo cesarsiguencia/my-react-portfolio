@@ -350,6 +350,8 @@ body{
 .profile {
   border-radius: 20px;
   border: orange 5px solid;
+  filter: grayscale(100%);
+  transition: ease-in-out 0.5s
 }
 
 /* About Me - Carousels CSS ------------ */
@@ -543,7 +545,7 @@ h4, h5{
   }
 
   .profile{
-    width: 90%
+    width: 90%;
   }
 
   .skills{
