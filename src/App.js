@@ -35,8 +35,6 @@ function App() {
   //   LoadAni.style.opacity = 0
   // } )
 
-
-
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
@@ -82,8 +80,6 @@ function App() {
     }
   }
 
-  // const bodyDiv = document.querySelector('.body-divs')
-
   var transparentEffect = function(){
     const bodyDiv = document.querySelector('.body-divs')
     if(bodyDiv){
@@ -91,71 +87,18 @@ function App() {
     }
   }
 
-  // const [scrollZoom, setScrollZoom] = useState(false)
 
-
-
-  // var test = useEffect(() => {
-
-  //     // window.addEventListener('scroll', ()=>{
-  //       setScrollZoom(true)
-  //       const bodyDiv = document.querySelector('.body-divs')
-
-  //       if(bodyDiv){
-  //         console.log(scrollZoom)
-  //         bodyDiv.addEventListener('mouseover', ()=>{
-  //           if(scrollZoom === true && bodyDiv ){
-  //             bodyDiv.style.zoom = '150%'
-  //           }
-          
-  //         })
-  //       }
-
-
-
- 
-  //     // })
-
-  // },[scrollZoom])
-
-  // const ref = useRef()
   const zoomedDiv= document.querySelector('.body-divs')
 
   
 
   const [zoomed, setZoomed] = useState(false)
 
-  // if(zoomed === true){
-  //             zoomedDiv.style.scale = "0.95";
-  //         zoomedDiv.style.opacity = "0.5";
-  // }
 
   const handleZoom = function(){
   }
 
   useEffect(()=>{
-    
-    
-    // if(bodyDiv){
-    //     let entry
-    //     const observer = new IntersectionObserver((entries)=>{
-    //     entry = entries[0];
-    //     console.log(entry)
-    //     console.log(entry.isIntersecting)
-    //     if(entry.isIntersecting === true){
-    //         bodyDiv.style.translate = "0 -50px";
-    //         bodyDiv.style.scale = "0.9";
-    //     } else {
-    //         bodyDiv.style.translate = "0";
-    //         bodyDiv.style.scale = "1";
-    //     }
-    //   })
-    //   observer.observe(bodyDiv)
-
-
-    // }
-
-
     if(zoomedDiv){
       zoomedDiv.style.scale = "1";
       zoomedDiv.style.opacity = "1";
@@ -180,31 +123,9 @@ function App() {
 
 
 
-  // useEffect(()=>{
-  //   const bodyDiv = document.querySelector('.body-divs')
 
-  //   if(bodyDiv){
-  //     const observer = new IntersectionObserver((entries)=>{
-  //       const entry = entries[0];
-  //       console.log('entry', entry)
-  //     })
-  //     observer.observe(bodyDiv)
-  //   }
 
-  // })
 
-  // var zoomOut = function(event){
-  //   console.log('working')
-  //   var zoomValue = scrollZoom
-  //   const bodyDiv = document.querySelector('.body-divs')
-  //   if(bodyDiv){
-      
-  //     setScrollZoom(150)
-  //     bodyDiv.style = `zoom: ${zoomValue}%`
-  //   }
-  //   // setScrollZoom(event.currentTarget.scrollTop)
-  //   console.log('hello')
-  // }
 
 
   return (
