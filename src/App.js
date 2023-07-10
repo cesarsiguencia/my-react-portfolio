@@ -70,9 +70,15 @@ function App() {
 
     if(image){
       const theBody = document.querySelector('.App-body')
+
+      theBody.addEventListener("touchmove", ()=>{
+        image.style = 'filter: grayscale(0%)'
+      })
       theBody.addEventListener("mouseover", ()=>{
         image.style = 'filter: grayscale(0%)'
       })
+
+
     }
   }
 
