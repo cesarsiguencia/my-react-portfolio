@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 
 import image from '../media/me/IMG_2178-copy.png'
 
@@ -14,6 +14,49 @@ import FactsCarousel from '../Components/Carousels/facts'
 
 
 const About = () => {
+
+    const [growGifs, useGrowGifs] = useState(false)
+
+    // if(window.onscroll){
+    //     console.log('scrollling')
+    // }
+
+
+
+
+
+
+
+
+
+    // useEffect(()=>{
+        // const bodyDiv = document.querySelector('.aboutme--gifs')
+        
+        // if(bodyDiv){
+        //     let entry
+        //     const observer = new IntersectionObserver((entries)=>{
+        //     entry = entries[0];
+        //     console.log(entry)
+        //     console.log(entry.isIntersecting)
+        //     if(entry.isIntersecting === true){
+        //         bodyDiv.style.translate = "0 -50px";
+        //         bodyDiv.style.scale = "0.9";
+        //     } else {
+        //         bodyDiv.style.translate = "0";
+        //         bodyDiv.style.scale = "1";
+        //     }
+        //   })
+        //   observer.observe(bodyDiv)
+
+
+        // }
+
+
+    //     const div = ref.current
+
+    //     window.addEventListener("scroll", handleScroll)
+    
+    //   },[handleScroll])
     return (
         <div className="body-divs">
 

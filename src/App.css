@@ -178,16 +178,15 @@ body{
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-
-  
-  /* height: 100%; */
   
 }
 
 .body-divs{
   margin: 30px 30px;
+  transition: ease-in-out 0.3s;
   opacity: 0;
-  transition: ease-in-out 1s;
+
+  zoom: 100%;
 }
 
 .body-texts{
@@ -343,7 +342,9 @@ body{
 .aboutme--gifs{
   display: flex;
   justify-content: space-around;
-  margin: 50px auto
+  margin: 50px auto;
+  transition: ease-in-out 1s;
+  scale: 1
 }
 
 .gifs{
