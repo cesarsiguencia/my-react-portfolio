@@ -194,7 +194,7 @@ body{
 
 .bold-and-left{
   font-weight: bold;
-  display: inline;
+
 }
 
 /* Resume Page -------------------- */
@@ -413,18 +413,13 @@ body{
 }
 
 .logos-contactpg{
-  width: 100%;
-  padding: 50px auto;
-  display: flex;
-  justify-content: space-between;
-  background-color: orange;
-  opacity: 0.5;
-  border-radius: 10px;
+  width: 75%;
 }
 
 .logos-contactpg:hover{
   transition: all 250ms ease-in-out;
-  opacity: 1;
+  width: 100%
+  /* opacity: 1; */
 
 }
 

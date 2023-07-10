@@ -1,33 +1,41 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-import riverbank_morning from '../media/me/IMG_9110.png'
+import me from '../media/me/me-at-park.png'
+import linkedin from '../media/icons/linkedin.png'
+import mail from '../media/icons/mail-icon.png'
+
+
 
 
 const Contact = () => {
 
-return (
-    <div className="body-divs">
-        <h3>Contact</h3>
-        <p className="body-texts">Let's connect! Please find my contact info here. I will get back within twenty four hours. </p>
+    return (
+        <div className="body-divs">
+            <h3>Contact</h3>
 
-        <a className="links links-contact" href="mailto:cesar.siguencia@gmail.com">Email: Click HERE to begin message.</a>
-        <br></br>
-        <br></br>
-        <a className="links links-contact" href="https://www.linkedin.com/in/cesar-siguencia">LinkedIn: César Siguencia </a>
-        
-        <p className="body-texts"> The best way to reach me is by email or through a LinkedIn message.</p>
-   
+            <div className='aboutme'>
 
-        {/* <br></br>
-        <br></br>
-        
-        <div>
-            <img className="profile" src={riverbank_morning} width="75%"></img>
-        </div> */}
-       
-    </div>
+                <div className='aboutme-blocks'>
+                    <p className="body-texts">Let's connect! Click on the email or linkedIn icons to send me a message. I will get back within twenty four hours. </p>
 
-)
+                    <div className="logos" width='50%' style={{ margin: '0 auto', justifyContent: 'space-around', height: '100px' }}>
+                        <a className="icon-align" href="mailto:cesar.siguencia@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img className="logos-icons logos-contactpg" src={mail} width="50" />
+                        </a>
+
+                        <a className="icon-align" href="https://www.linkedin.com/in/c%C3%A9sar-siguencia-b71aabba/" target="_blank" rel="noopener noreferrer">
+                            <img className="logos-icons logos-contactpg" src={linkedin} width="50" />
+                        </a>
+                    </div>
+                    <p className="body-texts"> The best way to reach me is by email or through a LinkedIn message. Please include your name and contact info as well.</p>
+                </div>
+                <div className='aboutme-blocks'>
+                    <img className='profile' src={me} width="100%"></img>
+                </div>
+            </div>
+        </div>
+
+    )
 
 }
 
