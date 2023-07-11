@@ -123,60 +123,43 @@ function App() {
 
   
 
-  const [zoomed, setZoomed] = useState(false)
+  // const [zoomed, setZoomed] = useState(false)
 
   // if(zoomed === true){
   //             zoomedDiv.style.scale = "0.95";
   //         zoomedDiv.style.opacity = "0.5";
   // }
 
-  const handleZoom = function(){
-  }
+  // const handleZoom = function(){
+  // }
 
-  useEffect(()=>{
+  // useEffect(()=>{
     
     
-    // if(bodyDiv){
-    //     let entry
-    //     const observer = new IntersectionObserver((entries)=>{
-    //     entry = entries[0];
-    //     console.log(entry)
-    //     console.log(entry.isIntersecting)
-    //     if(entry.isIntersecting === true){
-    //         bodyDiv.style.translate = "0 -50px";
-    //         bodyDiv.style.scale = "0.9";
-    //     } else {
-    //         bodyDiv.style.translate = "0";
-    //         bodyDiv.style.scale = "1";
-    //     }
-    //   })
-    //   observer.observe(bodyDiv)
 
 
-    // }
 
+  //   if(zoomedDiv){
+  //     zoomedDiv.style.scale = "1";
 
-    if(zoomedDiv){
-      zoomedDiv.style.scale = "1";
-      zoomedDiv.style.opacity = "1";
-      window.addEventListener("scroll", ()=>{
-        console.log('working zoom')
-        console.log(zoomed)
-        setZoomed(true)
-        if(zoomed){
-          // zoomedDiv.style.translate = "0 -50px";
-          zoomedDiv.style.scale = "0.95";
-          zoomedDiv.style.opacity = "0.3";
-        } 
+  //     window.addEventListener("scroll", ()=>{
+  //       console.log('working zoom')
+  //       console.log(zoomed)
+  //       setZoomed(true)
+  //       if(zoomed){
 
-      })
-    } 
+  //         zoomedDiv.style.scale = "0.95";
 
-    setZoomed(false)
+  //       } 
+
+  //     })
+  //   } 
+
+  //   setZoomed(false)
  
    
 
-  },[handleZoom])
+  // },[handleZoom])
 
 
 
