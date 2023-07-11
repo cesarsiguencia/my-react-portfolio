@@ -178,15 +178,19 @@ body{
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
+
   
 }
 
 .body-divs{
   margin: 30px 30px;
-  transition: ease-in-out 0.3s;
-  opacity: 0;
+  transition: ease-in-out 0.5s;
+  scale: 0.97;
+}
 
-  zoom: 100%;
+.body-divs:hover{
+  scale: 1;
+  transition: ease-in-out 0.5s;
 }
 
 .body-texts{

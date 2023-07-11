@@ -35,6 +35,8 @@ function App() {
   //   LoadAni.style.opacity = 0
   // } )
 
+
+
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
@@ -80,49 +82,13 @@ function App() {
     }
   }
 
+
   var transparentEffect = function(){
     const bodyDiv = document.querySelector('.body-divs')
     if(bodyDiv){
       bodyDiv.style = 'opacity: 1'
     }
   }
-
-
-  const zoomedDiv= document.querySelector('.body-divs')
-
-  
-
-  const [zoomed, setZoomed] = useState(false)
-
-
-  const handleZoom = function(){
-  }
-
-  useEffect(()=>{
-    if(zoomedDiv){
-      zoomedDiv.style.scale = "1";
-      zoomedDiv.style.opacity = "1";
-      window.addEventListener("scroll", ()=>{
-        console.log('working zoom')
-        console.log(zoomed)
-        setZoomed(true)
-        if(zoomed){
-          // zoomedDiv.style.translate = "0 -50px";
-          zoomedDiv.style.scale = "0.95";
-          zoomedDiv.style.opacity = "0.3";
-        } 
-
-      })
-    } 
-
-    setZoomed(false)
- 
-   
-
-  },[handleZoom])
-
-
-
 
 
 
