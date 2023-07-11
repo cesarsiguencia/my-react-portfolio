@@ -178,19 +178,18 @@ body{
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-
-  
 }
 
 .body-divs{
   margin: 30px 30px;
   transition: ease-in-out 0.5s;
+  opacity: 0;
   scale: 0.97;
+  filter: grayscale(100%);
 }
 
 .body-divs:hover{
   scale: 1;
-  transition: ease-in-out 0.5s;
 }
 
 .body-texts{
@@ -265,6 +264,7 @@ body{
   padding: 15px 0 15px 0;
   border-bottom: 3px solid orange;
   width: 80%;
+
 }
 
 .app-box:last-child{
@@ -359,7 +359,7 @@ body{
 .profile {
   border-radius: 20px;
   border: orange 5px solid;  
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: ease-in-out 0.25s
 }
 

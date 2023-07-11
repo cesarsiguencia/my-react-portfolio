@@ -66,16 +66,24 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages)
 
   var grayScaleLoad = function(){
-    const image = document.querySelector('.profile')
+    // const image = document.querySelector('.profile')
+    const theBody = document.querySelector('.body-divs')
 
-    if(image){
-      const theBody = document.querySelector('.App-body')
+    if(theBody){
+      
 
       theBody.addEventListener("touchmove", ()=>{
-        image.style = 'filter: grayscale(0%)'
+        theBody.style = 'filter: grayscale(0%)';
+        theBody.style.opacity = 1
+
       })
       theBody.addEventListener("mouseover", ()=>{
-        image.style = 'filter: grayscale(0%)'
+        theBody.style = 'filter: grayscale(0%)';
+        theBody.style.opacity = 1
+      })
+      theBody.addEventListener("mouseout", ()=>{
+        theBody.style = 'filter: grayscale(100%)'
+        theBody.style.opacity = 1
       })
 
 
@@ -86,7 +94,7 @@ function App() {
   var transparentEffect = function(){
     const bodyDiv = document.querySelector('.body-divs')
     if(bodyDiv){
-      bodyDiv.style = 'opacity: 1'
+      bodyDiv.style.opacity= 1
     }
   }
 
