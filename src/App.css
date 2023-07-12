@@ -232,10 +232,12 @@ body{
 
 /* insert border radius or any height width px before width or pictures will spill out the window*/
 .technologies-logos{
+  transition: ease-in-out 1s;
   height: 100px;
   width: 100px;
   border-radius: 50px;
   margin: 8px 8px;
+  scale: 0.2
 }
 
 .resume-style {
@@ -348,14 +350,15 @@ body{
   justify-content: space-around;
   margin: 50px auto;
   transition: ease-in-out 1s;
-  /* scale: 1 */
+
 
 }
 
 .gifs{
   transition: ease-in-out 1s;
   border-radius: 200px;
-  width: 15%
+  width: 15%;
+  scale: 0.2
 }
 
 .profile {
@@ -426,7 +429,9 @@ body{
 }
 
 .logos-contactpg{
+  transition: ease-in-out 1s;
   width: 75%;
+  scale: 0.2
 }
 
 .logos-contactpg:hover{

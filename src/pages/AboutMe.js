@@ -24,15 +24,16 @@ const About = () => {
             let entry
             const observer = new IntersectionObserver((entries)=>{
             entry = entries[0];
+            console.log(entry)
 
             const gifs = document.querySelectorAll('.gifs')
 
             if(gifs){
                 gifs.forEach((gif)=> {
                     if(entry.isIntersecting === true){
-                        gif.style.height = '100px'
+                        gif.style.scale = '1'
                     } else {
-                        gif.style.height= '5px'
+                        gif.style.scale= '0.2'
                     }   
                 })
             }

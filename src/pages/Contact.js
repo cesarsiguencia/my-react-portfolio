@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef, useEffect }from 'react'
 
 import me from '../media/me/me-at-park.png'
 import linkedin from '../media/icons/linkedin.png'
@@ -8,6 +8,33 @@ import mail from '../media/icons/mail-icon.png'
 
 const Contact = () => {
 
+    const myRef = useRef()
+
+    useEffect(()=>{
+        const gifsDiv = document.querySelector('.aboutme')
+        
+        if(gifsDiv){
+            let entry
+            const observer = new IntersectionObserver((entries)=>{
+            entry = entries[0];
+            console.log(entry)
+
+            const gifs = document.querySelectorAll('.logos-contactpg')
+
+            if(gifs){
+                gifs.forEach((gif)=> {
+                    if(entry.isIntersecting === true){
+                        gif.style.scale = '1'
+                    } else {
+                        gif.style.scale= '0.2'
+                    }   
+                })
+            }
+          })
+          observer.observe(myRef.current)
+        }
+      },[])
+
 return (
     <div className="body-divs">
         <h3>Contact</h3>
@@ -16,7 +43,7 @@ return (
                 <div className='aboutme-blocks'>
                     <p className="body-texts">Let's connect! Click on the email or linkedIn icons to send me a message. I will get back within twenty four hours. </p>
 
-                    <div className="logos" width='50%' style={{ margin: '0 auto', justifyContent: 'space-around', height: '100px' }}>
+                    <div className="logos" ref={myRef} width='50%' style={{ margin: '0 auto', justifyContent: 'space-around', height: '100px' }}>
                         <a className="icon-align" href="mailto:cesar.siguencia@gmail.com" target="_blank" rel="noopener noreferrer">
                             <img className="logos-icons logos-contactpg" src={mail} width="50" />
                         </a>

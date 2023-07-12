@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import general_resume from './Cesar_Siguencia-Resume-General.pdf'
 import developer_resume from './Cesar_Siguencia-Resume-Developer.pdf'
 
@@ -26,6 +26,32 @@ import github from '../media/icons/skills-icons/github-logo.png'
 import vscode from '../media/icons/skills-icons/vscode.png'
 
 const Resume = () => {
+    const myRef = useRef()
+
+    useEffect(()=>{
+        const gifsDiv = document.querySelector('.skills--lists')
+        
+        if(gifsDiv){
+            let entry
+            const observer = new IntersectionObserver((entries)=>{
+            entry = entries[0];
+            console.log(entry)
+
+            const gifs = document.querySelectorAll('.technologies-logos')
+
+            if(gifs){
+                gifs.forEach((gif)=> {
+                    if(entry.isIntersecting === true){
+                        gif.style.scale = '1'
+                    } else {
+                        gif.style.scale= '0.2'
+                    }   
+                })
+            }
+          })
+          observer.observe(myRef.current)
+        }
+      },[])
 
     return(
         <div className="body-divs">
@@ -54,11 +80,11 @@ const Resume = () => {
                 <div className="skills-blocks">
                     <h3>Web Development Skills</h3>
 
-                    <div className="skills--lists">
+                    <div className="skills--lists" >
                         <div>
                             <h5>Front End</h5>
                  
-                            <div className="technologies">
+                            <div className="technologies" ref={myRef}>
                                 <img className="technologies-logos" src={html}/>
                                 <img className="technologies-logos" src={css}/>
                                 <img className="technologies-logos" src={js}/>
