@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 
 import image from '../media/me/IMG_2178-copy.png'
 
@@ -15,48 +15,33 @@ import FactsCarousel from '../Components/Carousels/facts'
 
 const About = () => {
 
-    const [growGifs, useGrowGifs] = useState(false)
+    const myRef = useRef()
 
-    // if(window.onscroll){
-    //     console.log('scrollling')
-    // }
-
-
-
-
-
-
-
-
-
-    // useEffect(()=>{
-        // const bodyDiv = document.querySelector('.aboutme--gifs')
+    useEffect(()=>{
+        const gifsDiv = document.querySelector('.aboutme--gifs')
         
-        // if(bodyDiv){
-        //     let entry
-        //     const observer = new IntersectionObserver((entries)=>{
-        //     entry = entries[0];
-        //     console.log(entry)
-        //     console.log(entry.isIntersecting)
-        //     if(entry.isIntersecting === true){
-        //         bodyDiv.style.translate = "0 -50px";
-        //         bodyDiv.style.scale = "0.9";
-        //     } else {
-        //         bodyDiv.style.translate = "0";
-        //         bodyDiv.style.scale = "1";
-        //     }
-        //   })
-        //   observer.observe(bodyDiv)
+        if(gifsDiv){
+            let entry
+            const observer = new IntersectionObserver((entries)=>{
+            entry = entries[0];
 
+            const gifs = document.querySelectorAll('.gifs')
 
-        // }
+            if(gifs){
+                gifs.forEach((gif)=> {
+                    if(entry.isIntersecting === true){
+                        gif.style.height = '100px'
+                    } else {
+                        gif.style.height= '5px'
+                    }   
+                })
+            }
+          })
+          observer.observe(myRef.current)
+        }
+      },[])
 
-
-    //     const div = ref.current
-
-    //     window.addEventListener("scroll", handleScroll)
     
-    //   },[handleScroll])
     return (
         <div className="body-divs">
 
@@ -137,7 +122,9 @@ const About = () => {
                     <p className="body-texts">
                         For almost five years, I've worked at an East Harlem elementary school in operations. On my own time, you can find me weight training, running, cycling, cooking with loved ones, or relaxing at uptown parks birdwatching and sightseeing. I identify as Latino and speak Spanish and English fluently. I can read and speak Chinese at an intermediate level from courses I took in high school, college, and a summer study abroad. </p>
 
-                    <div className="aboutme--gifs">
+                    <div className="aboutme--gifs" ref={myRef} >
+
+                        
                         <img className="gifs" src={bike}>
                         </img>
                         <img className="gifs" src={spanish}>

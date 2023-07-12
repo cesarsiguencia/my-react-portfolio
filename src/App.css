@@ -348,10 +348,12 @@ body{
   justify-content: space-around;
   margin: 50px auto;
   transition: ease-in-out 1s;
-  scale: 1
+  /* scale: 1 */
+
 }
 
 .gifs{
+  transition: ease-in-out 1s;
   border-radius: 200px;
   width: 15%
 }
