@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.b745b7ba.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.928e68ac.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.928e68ac.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.541226c2.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.d46fc4d0.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.d46fc4d0.chunk.js.map",
   "static/js/1.dca74a03.chunk.js": "/my-react-portfolio/static/js/1.dca74a03.chunk.js",
   "static/js/1.dca74a03.chunk.js.map": "/my-react-portfolio/static/js/1.dca74a03.chunk.js.map",
   "static/js/2.1192d3a2.chunk.js": "/my-react-portfolio/static/js/2.1192d3a2.chunk.js",
@@ -43,8 +43,8 @@
   "static/media/nft-y.png": "/my-react-portfolio/static/media/nft-y.4d83ac8e.png",
   "static/media/robot-gladiators.png": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png",
   "static/media/Cesar_Siguencia-Resume-General.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf",
-  "static/css/main.b745b7ba.chunk.css.map": "/my-react-portfolio/static/css/main.b745b7ba.chunk.css.map",
+  "static/css/main.541226c2.chunk.css.map": "/my-react-portfolio/static/css/main.541226c2.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.b5d2d17eeb7d7284be6ff57b6edfdf38.js": "/my-react-portfolio/precache-manifest.b5d2d17eeb7d7284be6ff57b6edfdf38.js",
+  "precache-manifest.ed976df210164fa6228f998c2af38831.js": "/my-react-portfolio/precache-manifest.ed976df210164fa6228f998c2af38831.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
