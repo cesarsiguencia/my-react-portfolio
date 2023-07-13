@@ -428,21 +428,19 @@ body{
   width: 25%
 }
 
-.logos-contactpg{
+.logos-icons{
   transition: ease-in-out 1s;
   width: 75%;
-  scale: 0.2
+  scale: 0.2;
+  margin: 0 auto;
 }
 
-.logos-contactpg:hover{
+.logos-icons:hover{
   transition: all 250ms ease-in-out;
   width: 100%;
 
 }
 
-.logos-icons{
-  margin: auto auto;
-}
 
 /* Links */
 .App-link {
@@ -712,7 +710,8 @@ h4, h5{
 
   .logos {
     justify-content: space-around;
-    margin: 0px auto
+    margin: 0px auto;
+    width: 50%
   }
 
   .Navigator{
@@ -814,13 +813,11 @@ h4, h5{
     margin: 10px auto
   } */
 
-  .logos {
-    width: 60%;
-  }
 
-  .logos-icons{
+
+  /* .logos-icons{
     width: 75%
-  }
+  } */
 
   /* .footer-font {
     width: 40%
