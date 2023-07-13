@@ -21,7 +21,7 @@ import git from '../../media/icons/skills-icons/git.png'
 import github from '../../media/icons/skills-icons/github-logo.png'
 import vscode from '../../media/icons/skills-icons/vscode.png'
 
-const iconEffect = () => {
+const techIcons = () => {
 
     const techArrays = [
         {
@@ -62,5 +62,5 @@ const iconEffect = () => {
     )
 }
 
-export default iconEffect
+export default techIcons
 

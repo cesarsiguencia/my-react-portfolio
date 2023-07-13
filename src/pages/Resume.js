@@ -1,7 +1,7 @@
 import React, {useRef, useEffect} from 'react'
 // import general_resume from './Cesar_Siguencia-Resume-General.pdf'
 import developer_resume from './Cesar_Siguencia-Resume-Developer.pdf'
-import Icons from '../Components/Icons/icons'
+import Icons from '../Components/Tech-Icons/Tech-Icons'
 
 
 import other from '../media/icons/document.png'
