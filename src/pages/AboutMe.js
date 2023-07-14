@@ -1,47 +1,20 @@
-import React, {useState, useRef, useEffect} from 'react'
-
+import React, {useRef, useEffect} from 'react'
 import image from '../media/me/IMG_2178-copy.png'
 
-import bike from '../media/icons/cycling-bicycle.gif'
-
-import spanish from '../media/icons/spanish.png'
-
-import sparrow from '../media/icons/sparrow.gif'
-
 import QuoteCarousel from '../Components/Carousels/qoutes'
-
 import FactsCarousel from '../Components/Carousels/facts'
-
+import { scaleEffect } from '../utils/helpers'
+import Gifs from '../Components/Icons/Gif-Icons'
 
 const About = () => {
 
-    const myRef = useRef()
+    const myRef = useRef() 
 
     useEffect(()=>{
-        const gifsDiv = document.querySelector('.aboutme--gifs')
-        
-        if(gifsDiv){
-            let entry
-            const observer = new IntersectionObserver((entries)=>{
-            entry = entries[0];
-            console.log(entry)
-
-            const gifs = document.querySelectorAll('.technologies-logos')
-
-            if(gifs){
-                gifs.forEach((gif)=> {
-                    if(entry.isIntersecting === true){
-                        gif.style.scale = '1'
-                    } else {
-                        gif.style.scale= '0.2'
-                    }   
-                })
-            }
-          })
-          observer.observe(myRef.current)
-        }
+        const gifsHolder = document.querySelector('.aboutme--gifs')
+        const gifs = document.querySelectorAll('.technologies-logos')
+        scaleEffect(gifsHolder, gifs, myRef)
       },[])
-
     
     return (
         <div className="body-divs">
@@ -120,17 +93,12 @@ const About = () => {
                     <br />
                     <p className="body-texts bold-and-left">Work and Hobbies</p>
 
-                    <p className="body-texts">
+                    <p className="body-texts" ref={myRef}>
                         For almost five years, I've worked at an East Harlem elementary school in operations. On my own time, you can find me weight training, running, cycling, cooking with loved ones, or relaxing at uptown parks birdwatching and sightseeing. I identify as Latino and speak Spanish and English fluently. I can read and speak Chinese at an intermediate level from courses I took in high school, college, and a summer study abroad. </p>
 
-                    <div className="aboutme--gifs" ref={myRef} >
-                        <img className="technologies-logos gifs" src={bike}>
-                        </img>
-                        <img className="technologies-logos gifs" src={spanish}>
-                        </img>
-                        <img className="technologies-logos gifs" src={sparrow}>
-                        </img>
-                    </div>
+                        <div ref={myRef} >
+                            <Gifs></Gifs>
+                        </div>
                 </div>
             </div>
         </div>
