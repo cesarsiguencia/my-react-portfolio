@@ -62,8 +62,10 @@ const Home = () => {
 
 
                     <div className="hidden-blurb">
-                        <h6 className="body-texts home-pg-font">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
-
+                        <h6 className="body-texts home-pg-font">Thank you for visiting my page! Check out the projects I have been working on!</h6>
+                        {/* <div style={{border: '3px solid orange'}} href='./portfolio'>
+                            <p className="body-texts">Go To My Porfolio</p>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -82,7 +84,10 @@ const Home = () => {
                 <h3>"Welcome to my page!</h3>
                 <h4>Hello, Hola, 你好!</h4>
                 <div>
-                    <h6 className="body-texts">Thank you for visiting my page. I hope you enjoy learning about me and will connect with me soon. Click the links above to be redirected. </h6>
+                    <h6 className="body-texts"> Thank you for visiting my page! Check out the projects I have been working on! </h6>
+                    {/* <div style={{border: '3px solid orange', borderRadius: '50px' , margin: '20px auto'}} href='/portfolio'>
+                            <p className="body-texts">Go To My Porfolio</p>
+                        </div> */}
                 </div>
             </div>
         </div>

@@ -20,9 +20,9 @@ const Resume = () => {
     return (
         <div className="body-divs">
             <div className="skills">
-                <div className="skills-blocks" ref={docRef}>
+                <div className="skills-blocks">
                     <h3>Resume</h3>
-                    <p className="body-texts">Click on the document icon to download the PDF version.</p>
+                    <p className="body-texts"ref={docRef}>Click on the document icon to download the PDF version.</p>
 
                     <ClickableIcons></ClickableIcons>
 
