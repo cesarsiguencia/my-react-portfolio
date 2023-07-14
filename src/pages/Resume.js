@@ -26,7 +26,7 @@ const Resume = () => {
                 gifs.forEach((gif)=> {
                     if(entry.isIntersecting === true){
                         gif.style.scale = '1'
-                        icon.style.scale = '0.5'
+                        icon.style.scale = '1'
                     } else {
                         gif.style.scale= '0.2'
                         icon.style.scale = '0.2'

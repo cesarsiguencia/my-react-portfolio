@@ -26,7 +26,7 @@ const Contact = () => {
                 if (gifs) {
                     gifs.forEach((gif) => {
                         if (entry.isIntersecting === true) {
-                            gif.style.scale = '0.7'
+                            gif.style.scale = '1'
                         } else {
                             gif.style.scale = '0.2'
                         }

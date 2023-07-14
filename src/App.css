@@ -354,12 +354,7 @@ body{
 
 }
 
-.gifs{
-  transition: ease-in-out 1s;
-  border-radius: 200px;
-  width: 15%;
-  scale: 0.2
-}
+
 
 .profile {
   border-radius: 20px;
@@ -425,20 +420,32 @@ body{
 .logos{
   display: flex;
   justify-content: space-around;
-  width: 25%
+  width: 40%
 }
 
 .logos-icons{
   transition: ease-in-out 1s;
-  width: 75%;
-  scale: 0.2;
+  height: 75px;
+  width: 75px;
   margin: 0 auto;
+  scale: 0.2;
 }
 
 .logos-icons:hover{
   transition: all 250ms ease-in-out;
-  width: 100%;
+  height: 100px;
+  width: 100px;
+}
 
+.footer-icons{
+  display: flex;
+  justify-content: space-around;
+  width: 25%; 
+  margin: 0 auto
+}
+
+.footer-icons-img{
+  margin: auto auto
 }
 
 
@@ -629,6 +636,10 @@ h4, h5{
   .home-bcgs-color{
     transition: ease-in-out 0.3s;
   }
+
+  .footer-icons{
+    width: 50%; 
+  }
 }
   
 
@@ -675,6 +686,11 @@ h4, h5{
     height: 50px;
     width: 50px
   }
+
+  .gifs{
+  width: 100px;
+  height: 100px;
+}
 }
 
 @media screen and (max-height: 800px){
@@ -689,7 +705,6 @@ h4, h5{
   .App-footer{
     display: block;
     justify-content: center;
-    /* width: 80%; */
     margin: 0 auto;
   }
 
@@ -784,7 +799,8 @@ h4, h5{
   }
 
   .gifs {
-    width: 25%
+    height: 75px;
+    width: 75px;
   }
 
   .bcg-2{
@@ -807,36 +823,16 @@ h4, h5{
   .body-divs{
    margin: 10px 10px;
   }
-/* 
-  .body-texts{
-    width: 95%;
-    margin: 10px auto
-  } */
 
-
-
-  /* .logos-icons{
+  .logos{
     width: 75%
-  } */
-
-  /* .footer-font {
-    width: 40%
-  } */
-
+  }
 }
 
 @media screen and (max-width: 400px){
   .container---blurb{
     font-size: 15px
   }
-
-  /* .logos {
-    display: inline;
-  }
-
-  .logos-icons {
-    width: 25%
-  } */
 
   .icon-align {
     margin: 0 auto;
