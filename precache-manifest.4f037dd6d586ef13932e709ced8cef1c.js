@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d46fc4d09aa7cb21d2c9",
-    "url": "/my-react-portfolio/static/css/main.541226c2.chunk.css"
+    "revision": "393e50c1cb036c05a02d",
+    "url": "/my-react-portfolio/static/css/main.ebd49f63.chunk.css"
   },
   {
-    "revision": "d46fc4d09aa7cb21d2c9",
-    "url": "/my-react-portfolio/static/js/main.d46fc4d0.chunk.js"
+    "revision": "393e50c1cb036c05a02d",
+    "url": "/my-react-portfolio/static/js/main.393e50c1.chunk.js"
   },
   {
     "revision": "dca74a035a2640b5084a",
     "url": "/my-react-portfolio/static/js/1.dca74a03.chunk.js"
   },
   {
-    "revision": "1192d3a2296a7d3a877f",
-    "url": "/my-react-portfolio/static/js/2.1192d3a2.chunk.js"
+    "revision": "44bc032a5b6b341dda5d",
+    "url": "/my-react-portfolio/static/js/2.44bc032a.chunk.js"
   },
   {
     "revision": "7b57c2b434affe37d61e",
@@ -48,20 +48,16 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/mail-icon.128554f2.png"
   },
   {
+    "revision": "72593c7b7c4b0dcd78edfcde5e10ee35",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.72593c7b.pdf"
+  },
+  {
     "revision": "4a6fbd647b1f8b85b6912b49dfc64ef8",
     "url": "/my-react-portfolio/static/media/portrait-1.4a6fbd64.png"
   },
   {
     "revision": "7295a45ec5112cd9aa2e7530411cf496",
     "url": "/my-react-portfolio/static/media/portrait-2.7295a45e.png"
-  },
-  {
-    "revision": "72593c7b7c4b0dcd78edfcde5e10ee35",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.72593c7b.pdf"
-  },
-  {
-    "revision": "881b0f15acf739d24d3ec0920df0b408",
-    "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
     "revision": "b629397a70cdd7b711215af8870177f0",
@@ -98,6 +94,10 @@ self.__precacheManifest = [
   {
     "revision": "a6abeed287993ba97987cc36b4004570",
     "url": "/my-react-portfolio/static/media/vscode.a6abeed2.png"
+  },
+  {
+    "revision": "881b0f15acf739d24d3ec0920df0b408",
+    "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
     "revision": "07883e93734b98cae0f7b9c55d287250",
@@ -156,11 +156,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/robot-gladiators.04b73640.png"
   },
   {
-    "revision": "5d9b36bec373b7f349a56688fa05d19a",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-General.5d9b36be.pdf"
-  },
-  {
-    "revision": "4e4398e13af0580c50d0765d0fbd3211",
+    "revision": "363a79aa07b942c944673b4d97bed659",
     "url": "/my-react-portfolio/index.html"
   }
 ];
