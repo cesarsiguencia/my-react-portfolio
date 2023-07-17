@@ -11,15 +11,15 @@ const Footer = () => {
             <p className="body-texts">Developed By César Siguencia using ReactJS</p>
           </div>
           
-          <div className="logos">
+          <div className="footer-icons">
             <a className="icon-align" href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
-              <img className="footer-icons" src={github} width="50"/>
+              <img className="footer-icons-img" src={github} width="50"/>
             </a> 
             <a className="icon-align" href="https://www.instagram.com/cezzienyc" target="_blank" rel="noopener noreferrer">
-              <img className="footer-icons" src={instagram} width="50"/>
+              <img className="footer-icons-img" src={instagram} width="50"/>
             </a>
             <a className="icon-align" href="https://www.linkedin.com/in/c%C3%A9sar-siguencia-b71aabba/" target="_blank" rel="noopener noreferrer">
-              <img className="footer-icons" src={linkedin} width="50"/>
+              <img className="footer-icons-img" src={linkedin} width="50"/>
             </a>
           </div>
 
