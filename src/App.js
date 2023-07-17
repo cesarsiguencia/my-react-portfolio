@@ -10,8 +10,6 @@ import Portfolio from './pages/Portfolio';
 import Home from './pages/Home'
 import Resume from './pages/Resume'
 import Footer from './Components/Footer/Footer'
-// import { loader } from './utils/helpers'
-// import Portfolio from './Components/Portfolio/Portfolio';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
@@ -35,17 +33,13 @@ function App() {
   //   LoadAni.style.opacity = 0
   // } )
 
-
-
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-
     }, 2000)
-
   }, [])
 
   const pages = [
@@ -70,8 +64,6 @@ function App() {
     const theBody = document.querySelector('.body-divs')
 
     if(theBody){
-      
-
       theBody.addEventListener("touchmove", ()=>{
         theBody.style = 'filter: grayscale(0%)';
         theBody.style.opacity = 1
@@ -85,11 +77,8 @@ function App() {
         theBody.style = 'filter: grayscale(100%)'
         theBody.style.opacity = 1
       })
-
-
     }
   }
-
 
   var transparentEffect = function(){
     const bodyDiv = document.querySelector('.body-divs')
@@ -97,8 +86,6 @@ function App() {
       bodyDiv.style.opacity= 1
     }
   }
-
-
 
   return (
     <Router >
@@ -127,24 +114,18 @@ function App() {
                     path="/my-react-portfolio"
                     element={<Home />}
                   />
-
                   <Route
-
                     path="/my-react-portfolio/aboutme"
                     element={<AboutMe />}
                   />
-
                   <Route
                     path="/my-react-portfolio/portfolio"
                     element={<Portfolio />}
                   />
-
-
                   <Route
                     path="/my-react-portfolio/contact"
                     element={<Contact />}
                   />
-
                   <Route
                     path="/my-react-portfolio/resume"
                     element={<Resume />}
