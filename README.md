@@ -1,13 +1,17 @@
-# Welcome to My React Portfolio
+# Welcome to My Portfolio!
 
-Welcome to my portfolio using React. Here, you will see a list of all my repositories I created during the year 2022 when I first start to learn how to code. You can find my web development skills under my Resume section. You can also learn more about me by navigating through my site and you can contact me by using the Contact Form. 
+Welcome to my portfolio using React. Here, you will see a list of all my best projects throughout the past few months using a variety of technologies, both front and back end. You can find my web development skills and download my resume under Resume & Skills. Under Contact, find the best ways to reach me.
 
-## React Link Deployment
+This app is mobile friendly!
+
+### Link
 https://cesarsiguencia.github.io/my-react-portfolio/
 
-I hope to hear from you soon!
+I hope to connect with you soon!
 
-## Images
+### Images
 ![screenshot-of-app-1](./screenshots/screenshot-1.png)
 
 ![screenshot-of-app-2](./screenshots/screenshot-2.png)
+
+![screenshot-of-app-3](./screenshots/screenshot-3.png)

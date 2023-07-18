@@ -89,8 +89,6 @@ function App() {
 
   const [portfolioClicked, setPortfolioClicked] = useState(false)
 
-
-
   return (
     <Router >
       {
@@ -104,13 +102,13 @@ function App() {
                 pages={pages}
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
+                portfolioClicked={portfolioClicked}
               ></Header>
               <div className="App-body" onLoad={grayScaleLoad}>
                 <Routes>
-                  <Route portfolioClicked={portfolioClicked}
+                  <Route setPortfolioClicked={setPortfolioClicked}
                     path="/my-react-portfolio"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
-
                     ><Home /></React.Suspense>}
                   />
                   <Route
