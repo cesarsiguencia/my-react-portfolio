@@ -384,7 +384,6 @@ body{
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
-  
 }
 
 .carousel---block{
@@ -550,27 +549,23 @@ h4, h5{
   flex-direction: column;
   justify-content: center;
 background-color: orange;
-color: var(--primary-color)
+color: var(--primary-color);
+transition: ease-in-out 1s
 }
 
 
 .portfolio-button{
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
   width: 100%;
   display: block;
   font-size: 35px;
-  border: 3px orange solid;
-  /* border-radius: 50px; */
   margin: auto 0;
-  /* display: flex; */
-  /* flex-wrap: nowrap; */
-  /* overflow: hidden; */
-  /* object-fit: cover; */
-  /* z-index: 3; */
-  
+
+
 }
+
+/* .button-holder:hover{
+  top: 100px;
+} */
 
 
 @media screen and (max-width: 1500px) {

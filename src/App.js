@@ -80,17 +80,21 @@ function App() {
     }
   }
 
-  var transparentEffect = function(){
+  var pageEffects = function(){
+    window.scrollTo(0,0)
+
     const bodyDiv = document.querySelector('.body-divs')
     if(bodyDiv){
       bodyDiv.style.opacity= 1
     }
   }
 
+  const [portfolioClicked, setPortfolioClicked] = useState(false)
+
   return (
     <Router >
       {
-        loading ?
+        loading && !portfolioClicked ?
           (
             <div className="loader-wrapper">
               <div className="loader-box">
@@ -102,7 +106,8 @@ function App() {
             </div>
 
           ) : (
-            <div className="App" onLoad={transparentEffect}>
+            
+            <div className="App" onLoad={pageEffects} portfolioClicked={portfolioClicked} setPortfolioClicked={setPortfolioClicked}>
               <Header
                 pages={pages}
                 setCurrentPage={setCurrentPage}
@@ -110,7 +115,7 @@ function App() {
               ></Header>
               <div className="App-body" onLoad={grayScaleLoad} >
                 <Routes>
-                  <Route
+                  <Route portfolioClicked={portfolioClicked}
                     path="/my-react-portfolio"
                     element={<Home />}
                   />

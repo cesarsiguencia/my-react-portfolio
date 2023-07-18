@@ -1,11 +1,15 @@
 import React, { useEffect } from "react"
 
+import { Link } from 'react-router-dom'
+
 import portrait1 from "../media/me/portrait-1.png"
 
 import portrait2 from "../media/me/portrait-2.png"
 
 
-const Home = () => {
+const Home = (props) => {
+
+    const { setPortfolioClicked} = props
 
     let backgroundWidth
 
@@ -35,23 +39,28 @@ const Home = () => {
 
     var growFontEffect = useEffect(() => {
         const selectedFonts = document.querySelectorAll('.home-transitions')
+        const portfolioHolder = document.querySelector('.button-holder')
 
         selectedFonts.forEach((font) => {
             if (screenWidth > 1000) {
                 setInterval(() => {
                     // font.style = "font-size: 25px"
                     font.style.scale = "0.7"
+                    portfolioHolder.style.backgroundColor = 'black'
                 }, 1500)
 
                 setInterval(() => {
                     // font.style = "font-size: 20px"
                     font.style.scale = "1"
+                    portfolioHolder.style.backgroundColor = 'orange'
                 }, 3000)
             }
 
         })
 
     }, [])
+
+
 
     return (
 
@@ -100,11 +109,11 @@ const Home = () => {
 
             </div >
 
-            <a href='https://cesarsiguencia.github.io/my-react-portfolio/portfolio' >
+            <Link to='/my-react-portfolio/portfolio' onClick={()=> setPortfolioClicked(true)} >
                 <div className="button-holder">
                     <p className="body-texts home-pg-font home-transitions portfolio-button">Go To My Porfolio!</p>
                 </div>
-            </a>
+            </Link>
         </div>
 
 

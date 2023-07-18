@@ -69,7 +69,7 @@ const Nav = (props) => {
       setTitleClicked(false)
       setNavClicked(true)
     }
-  })
+  },[subUrlObjectAtLoad])
 
   return (
     <nav className="Navigator" onClick={()=>{
