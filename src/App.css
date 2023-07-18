@@ -18,17 +18,21 @@ body{
 .App {
   text-align: center;
   height: 100vh;
+  transition: ease-in-out 1s;
+  opacity: 0;
 }
 
 .loader-wrapper {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   background-color: var(--secondary-color);
   display: flex;
   align-items: center;
+  opacity: 1;
+  z-index: 4;
 }
 
 .loader-box{
@@ -42,10 +46,15 @@ body{
 
 /* Home */
 
+.home{
+  transition: ease-in-out 0.5s;
+  opacity: 0
+}
+
 .home-div{
   position: relative;
+
   background-color: var(--primary-color);
- 
 
 }
 
@@ -73,6 +82,10 @@ body{
   object-fit: cover;
   z-index: 1;
 }
+
+
+
+
 
 .pix-1000{
   width: 100%;
@@ -188,6 +201,8 @@ body{
   filter: grayscale(100%);
 }
 
+
+
 .body-divs:hover{
   scale: 1;
 }
@@ -225,8 +240,6 @@ body{
 .technologies{
   justify-content: space-around;
   margin: 50px auto;
-  
-
 }
 
 
@@ -382,7 +395,6 @@ body{
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
-  
 }
 
 .carousel---block{
@@ -506,6 +518,8 @@ a:hover{
 }
 
 
+
+
 /* Fonts */
 .h1 {
   font-family: var(--primary-font);
@@ -531,13 +545,38 @@ h4, h5{
 }
 
 .home-pg-font {
-  font-size: 20px;
+  font-size: 30px;
   color: var(--primary-color)
 }
 
 .home-transitions{
-  transition: ease-in-out 1.5s
+  transition: ease-in-out 1.5s;
+  scale: 1
 }
+
+.button-holder{
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+background-color: orange;
+color: var(--primary-color);
+transition: ease-in-out 1s
+}
+
+
+.portfolio-button{
+  width: 100%;
+  display: block;
+  font-size: 35px;
+  margin: auto 0;
+
+
+}
+
+/* .button-holder:hover{
+  top: 100px;
+} */
 
 
 @media screen and (max-width: 1500px) {

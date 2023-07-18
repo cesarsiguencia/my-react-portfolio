@@ -1,37 +1,21 @@
-import React, { useState, useEffect, useRef, useCallback} from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import './loader.css'
 // import $ from 'jquery'
-
-
-import AboutMe from './pages/AboutMe'
-import Contact from './pages/Contact'
-import Portfolio from './pages/Portfolio';
-import Home from './pages/Home'
-import Resume from './pages/Resume'
+import LoadingPg from './Components/Loading/Loading'
+import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Components/Header/Header';
 
-
+const Home = React.lazy(() => import('./pages/Home'))
+const AboutMe = React.lazy(() => import('./pages/AboutMe'))
+const Portfolio = React.lazy(() => import('./pages/Portfolio'))
+const Contact = React.lazy(() => import('./pages/Contact'))
+const Resume = React.lazy(() => import('./pages/Resume'))
+// const Footer = React.lazy(()=> import('./Components/Footer/Footer'))
 
 function App() {
-
-  // $(window).on("load", function(){
-  //   $(".loader-wrapper").fadeOut("slow")
-  // })
-
-  // $(window).on("mobileinit", function(){
-  //   $(".loader-wrapper").fadeOut("slow")
-  // })
-
-
-
-  // window.addEventListener("load", () => {
-  //   const LoadAni = document.querySelector('.loader-wrapper')
-  //   LoadAni.style.opacity = 0
-  // } )
 
   const [loading, setLoading] = useState(false)
 
@@ -39,9 +23,18 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2000)
-  }, [])
 
+    }, 1000)
+
+    setTimeout(()=>{
+      const application = document.querySelector('.App')
+      if(application){
+        application.style.opacity = 1
+
+      }
+    }, 1200)
+  }, [])
+  
   const pages = [
     {
       name: "About Me"
@@ -53,82 +46,86 @@ function App() {
       name: "Contact"
     },
     {
-      name:"Resume & Skills"
+      name: "Resume & Skills"
     }
   ]
 
   const [currentPage, setCurrentPage] = useState(pages)
 
-  var grayScaleLoad = function(){
-    // const image = document.querySelector('.profile')
+  var grayScaleLoad = function () {
     const theBody = document.querySelector('.body-divs')
+    const homeBody = document.querySelector('.home')
 
-    if(theBody){
-      theBody.addEventListener("touchmove", ()=>{
+    if (theBody) {
+      theBody.addEventListener("touchmove", () => {
         theBody.style = 'filter: grayscale(0%)';
         theBody.style.opacity = 1
 
       })
-      theBody.addEventListener("mouseover", ()=>{
+      theBody.addEventListener("mouseover", () => {
         theBody.style = 'filter: grayscale(0%)';
         theBody.style.opacity = 1
       })
-      theBody.addEventListener("mouseout", ()=>{
+      theBody.addEventListener("mouseout", () => {
         theBody.style = 'filter: grayscale(100%)'
         theBody.style.opacity = 1
       })
     }
-  }
 
-  var transparentEffect = function(){
-    const bodyDiv = document.querySelector('.body-divs')
-    if(bodyDiv){
-      bodyDiv.style.opacity= 1
+    if (homeBody) {
+      homeBody.style.opacity = 1
     }
   }
+
+  var pageEffects = function () {
+    window.scrollTo(0, 0)
+
+
+    const bodyDiv = document.querySelector('.body-divs')
+    if (bodyDiv) {
+      bodyDiv.style.opacity = 1
+    }
+  }
+
+  const [portfolioClicked, setPortfolioClicked] = useState(false)
 
   return (
     <Router >
       {
         loading ?
           (
-            <div className="loader-wrapper">
-              <div className="loader-box">
-                <div className="loader">
-                </div>
-                <br />
-                <p className='h1 links'>I am loading!</p>
-              </div>
-            </div>
-
+            <LoadingPg></LoadingPg>
           ) : (
-            <div className="App" onLoad={transparentEffect}>
+
+            <div className="App" onLoad={pageEffects}>
               <Header
                 pages={pages}
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
+                portfolioClicked={portfolioClicked}
               ></Header>
-              <div className="App-body" onLoad={grayScaleLoad} >
+              <div className="App-body" onLoad={grayScaleLoad}>
                 <Routes>
-                  <Route
+                  <Route setPortfolioClicked={setPortfolioClicked}
                     path="/my-react-portfolio"
-                    element={<Home />}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
+                    ><Home /></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/aboutme"
-                    element={<AboutMe />}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe /></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/portfolio"
-                    element={<Portfolio />}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Portfolio /></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/contact"
-                    element={<Contact />}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Contact /></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/resume"
-                    element={<Resume />}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Resume /></React.Suspense>}
                   />
                 </Routes>
               </div>

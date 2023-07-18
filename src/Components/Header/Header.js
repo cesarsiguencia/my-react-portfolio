@@ -4,10 +4,17 @@ import Nav from '../../Components/Nav/Nav'
 
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header = (props) => {
+
+  const {portfolioClicked} = props
 
   const [titleClicked, setTitleClicked] = useState()
   const [navClicked, setNavClicked] = useState()
+
+  if(portfolioClicked === true){
+    setTitleClicked(false)
+    setNavClicked(true)
+  }
 
   return (
 
@@ -25,6 +32,8 @@ const Header = () => {
           setTitleClicked={setTitleClicked}
           navClicked={navClicked}
           setNavClicked={setNavClicked}
+          // portfolioClicked={portfolioClicked}
+
         >
         </Nav>
 
