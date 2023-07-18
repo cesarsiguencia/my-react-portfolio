@@ -72,6 +72,7 @@ function App() {
   var grayScaleLoad = function(){
     // const image = document.querySelector('.profile')
     const theBody = document.querySelector('.body-divs')
+    const homeBody = document.querySelector('.home')
 
     if(theBody){
       theBody.addEventListener("touchmove", ()=>{
@@ -88,10 +89,15 @@ function App() {
         theBody.style.opacity = 1
       })
     }
+
+    if(homeBody){
+      homeBody.style.opacity = 1
+    }
   }
 
   var pageEffects = function(){
     window.scrollTo(0,0)
+
 
     const bodyDiv = document.querySelector('.body-divs')
     if(bodyDiv){
@@ -100,6 +106,8 @@ function App() {
   }
 
   const [portfolioClicked, setPortfolioClicked] = useState(false)
+
+  
 
   return (
     <Router >

@@ -64,7 +64,7 @@ const Home = (props) => {
 
     return (
 
-        <div onLoad={growFontEffect}>
+        <div onLoad={growFontEffect} className='home'>
             <div className="home-div">
                 <div className="home-bcgs-color" onLoad={homeParallax}>
                     <img className="bcg-2" id="bcg-2" src={portrait2} />

@@ -18,6 +18,8 @@ body{
 .App {
   text-align: center;
   height: 100vh;
+  transition: ease-in-out 0.5;
+  /* opacity: 0; */
 }
 
 .loader-wrapper {
@@ -42,10 +44,15 @@ body{
 
 /* Home */
 
+.home{
+  transition: ease-in-out 0.5s;
+  opacity: 0
+}
+
 .home-div{
   position: relative;
+
   background-color: var(--primary-color);
- 
 
 }
 
@@ -191,6 +198,8 @@ body{
   scale: 0.97;
   filter: grayscale(100%);
 }
+
+
 
 .body-divs:hover{
   scale: 1;
