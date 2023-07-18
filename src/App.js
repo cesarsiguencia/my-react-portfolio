@@ -1,20 +1,30 @@
-import React, { useState, useEffect, useRef, useCallback} from 'react'
+import React, { useState, useEffect} from 'react'
 import './App.css';
 import './loader.css'
 // import $ from 'jquery'
 
 
-import AboutMe from './pages/AboutMe'
-import Contact from './pages/Contact'
-import Portfolio from './pages/Portfolio';
-import Home from './pages/Home'
-import Resume from './pages/Resume'
-import Footer from './Components/Footer/Footer'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import LoadingPg from './Components/Loading/Loading'
+
+
+
+
 import Header from './Components/Header/Header';
 
+import Footer from './Components/Footer/Footer'
 
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+const Home = React.lazy(()=> import('./pages/Home'))
+const AboutMe  = React.lazy(() => import('./pages/AboutMe'))
+const Portfolio = React.lazy(()=> import('./pages/Portfolio'))
+const Contact = React.lazy(()=> import('./pages/Contact'))
+const Resume = React.lazy(()=> import('./pages/Resume'))
+// const Footer = React.lazy(()=> import('./Components/Footer/Footer'))
 
 function App() {
 
@@ -94,18 +104,18 @@ function App() {
   return (
     <Router >
       {
-        loading && !portfolioClicked ?
-          (
-            <div className="loader-wrapper">
-              <div className="loader-box">
-                <div className="loader">
-                </div>
-                <br />
-                <p className='h1 links'>I am loading!</p>
-              </div>
-            </div>
+        // loading && !portfolioClicked ?
+        //   (
+        //     <div className="loader-wrapper">
+        //       <div className="loader-box">
+        //         <div className="loader">
+        //         </div>
+        //         <br />
+        //         <p className='h1 links'>I am loading!</p>
+        //       </div>
+        //     </div>
 
-          ) : (
+        //   ) : (
             
             <div className="App" onLoad={pageEffects} portfolioClicked={portfolioClicked} setPortfolioClicked={setPortfolioClicked}>
               <Header
@@ -113,33 +123,35 @@ function App() {
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
               ></Header>
-              <div className="App-body" onLoad={grayScaleLoad} >
+              <div className="App-body" onLoad={grayScaleLoad}>
                 <Routes>
                   <Route portfolioClicked={portfolioClicked}
                     path="/my-react-portfolio"
-                    element={<Home />}
+                    element={<React.Suspense fallback= {<LoadingPg></LoadingPg>} 
+                  
+                    ><Home/></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/aboutme"
-                    element={<AboutMe />}
+                    element={<React.Suspense fallback= {<LoadingPg></LoadingPg>}><AboutMe/></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/portfolio"
-                    element={<Portfolio />}
+                    element={<React.Suspense fallback= {<LoadingPg></LoadingPg>}><Portfolio/></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/contact"
-                    element={<Contact />}
+                    element={<React.Suspense fallback= {<LoadingPg></LoadingPg>}><Contact/></React.Suspense>}
                   />
                   <Route
                     path="/my-react-portfolio/resume"
-                    element={<Resume />}
+                    element={<React.Suspense fallback= {<LoadingPg></LoadingPg>}><Resume/></React.Suspense>}
                   />
                 </Routes>
               </div>
               <Footer></Footer>
             </div>
-          )
+          // )
       }
     </Router>
   );
