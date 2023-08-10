@@ -99,21 +99,3 @@ const Nav = (props) => {
 }
 
 export default Nav
-
-    // useEffect(() => {
-    //   const urlSplit = window.location.href.split('/')
-    //   const lastIndex = urlSplit[urlSplit.length - 1] 
-    //   console.log(lastIndex)
-      
-    //   if(lastIndex !== 'my-react-portfolio'){
-    //     console.log('not home!!')
-    //     setUrlIsSub({
-    //       condition: true,
-    //       urlSub: lastIndex
-    //     })
-    
-    //   } else {
-    //     return undefined
-    
-    //   }
-    // }, [])

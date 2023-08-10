@@ -5,16 +5,16 @@ const displayApp = () => {
     const applications = [
         {
             name: '10000-Days',
-            description: "A full stack website all about my special event I'm hosting for when I turn 10,000 days old. Learn more about the venue of choice and RSVP to save your spot! Interact with invited guests who have confirmed their registation by sharing posts and loving posts to hype up the excitement for this once in a lifetime night!",
-            technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, HTML, CSS, Javascript',
-            url: 'https://10000-days-production.up.railway.app/home',
+            description: "A full stack website all about my special event I'm hosting for when I turn 10,000 days old. Learn more about the venue of choice and RSVP to save your spot! Interact with invited guests who have confirmed their registation by sharing posts and loving posts to hype up the excitement for this once in a lifetime night! Login in with email: testbot@gmail.com and password:password to try it out!",
+            technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, link-preview-js, HTML, CSS, Javascript',
+            url: 'https://cs-10000-days-33ee2045b3a6.herokuapp.com/',
             developer: 'Sole Developer'
         },
         {
             name: 'Technify-In-Python',
-            description: "A simple and intuitive social media website for tech enthusiasts to share valuable links with each other. Users can sign up to create, like, and comment on posts. Users have the freedom to delete and edit any of their posts while being logged in.",
+            description: "A simple and intuitive social media website for tech enthusiasts to share valuable links with each other. Users can sign up to create, like, and comment on posts. Users have the freedom to delete and edit any of their posts while being logged in. Login in with email: testbot@gmail.com and password:password to try it out!",
             technologies: 'Python, Flask, PyMySQL, SQLAlchemy, Bcrypt, Dotenv, Gunicorn, HTML, CSS, Javascript',
-            url: 'https://technify-by-cs.up.railway.app/',
+            url: 'https://technify-in-python-cce9848f5fbf.herokuapp.com/',
             developer: 'Sole Developer'
         },
         {
@@ -22,6 +22,13 @@ const displayApp = () => {
             description: 'Take notes the easy way using Taskmaster Pro. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or the trash bin.',
             technologies: 'Javascript, JQuery, Moment.js,, Bootstrap, HTML, CSS',
             url: 'https://cesarsiguencia.github.io/taskmaster-pro/',
+            developer: 'Sole Developer'
+        },
+        {
+            name: 'React-Photo-Port',
+            description: 'My first client side project using React. A simple photo gallery website using stock photos. The contact form grabs data and logs it into the console.',
+            technologies: 'ReactJS, Javascript',
+            url: 'https://cesarsiguencia.github.io/react-photo-port/',
             developer: 'Sole Developer'
         },
         {
