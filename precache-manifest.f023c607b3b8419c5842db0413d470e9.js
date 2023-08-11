@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "5624525c20e75643cb41",
+    "revision": "a1dad9b2fbee245dc2e8",
     "url": "/my-react-portfolio/static/css/main.e7529fa5.chunk.css"
   },
   {
-    "revision": "5624525c20e75643cb41",
-    "url": "/my-react-portfolio/static/js/main.5624525c.chunk.js"
+    "revision": "a1dad9b2fbee245dc2e8",
+    "url": "/my-react-portfolio/static/js/main.a1dad9b2.chunk.js"
   },
   {
     "revision": "e9c79a16bb838f530624",
     "url": "/my-react-portfolio/static/js/1.e9c79a16.chunk.js"
   },
   {
-    "revision": "f2c66accb69800823707",
-    "url": "/my-react-portfolio/static/js/2.f2c66acc.chunk.js"
+    "revision": "29525fb4dc4015fb09cb",
+    "url": "/my-react-portfolio/static/js/2.29525fb4.chunk.js"
   },
   {
     "revision": "54e789817cd4e416c90d",
     "url": "/my-react-portfolio/static/js/3.54e78981.chunk.js"
   },
   {
-    "revision": "b3623025f8444b2707e0",
-    "url": "/my-react-portfolio/static/js/4.b3623025.chunk.js"
+    "revision": "6ebf2478cd9ed5a69da7",
+    "url": "/my-react-portfolio/static/js/4.6ebf2478.chunk.js"
   },
   {
-    "revision": "6d3fcdc0e64c600a7f50",
-    "url": "/my-react-portfolio/static/js/5.6d3fcdc0.chunk.js"
+    "revision": "4e03295be99d26fdbb8e",
+    "url": "/my-react-portfolio/static/js/5.4e03295b.chunk.js"
   },
   {
     "revision": "611056058619a3867eae",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/js/7.e6f8ea8b.chunk.js"
   },
   {
-    "revision": "8ca04662eebe5fd51f83",
-    "url": "/my-react-portfolio/static/js/runtime~main.8ca04662.js"
+    "revision": "c86f73b940c833bb90c9",
+    "url": "/my-react-portfolio/static/js/runtime~main.c86f73b9.js"
   },
   {
     "revision": "df721c2187edc80e4b51abf012cfefc5",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/mail-icon.128554f2.png"
   },
   {
-    "revision": "2b4f2aee5f6ab29c3148641ff3ba2933",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.2b4f2aee.pdf"
+    "revision": "999b861337c212440be949ae43ae8ee1",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.999b8613.pdf"
   },
   {
     "revision": "4a6fbd647b1f8b85b6912b49dfc64ef8",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
-    "revision": "dc59bf244a88a5d226cf0297276ac495",
+    "revision": "853a8eb717035a8c4e4dad84b922597e",
     "url": "/my-react-portfolio/index.html"
   }
 ];
