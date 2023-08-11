@@ -15,7 +15,7 @@ const clickableIcons = () => {
         iconsArray = [
             {
                 image: linkedIn,
-                url: "https://www.linkedin.com/in/c%C3%A9sar-siguencia-b71aabba/",
+                url: "https://www.linkedin.com/in/cesar-siguencia/",
                 target: true
             },
             {
