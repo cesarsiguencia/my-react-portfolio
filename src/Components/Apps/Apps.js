@@ -6,7 +6,7 @@ const displayApp = () => {
         {
             name: '10000-Days',
             description: "A full stack website all about my special event I'm hosting for when I turn 10,000 days old. Learn more about the venue of choice and RSVP to save your spot! Interact with invited guests who have confirmed their registation by sharing posts and loving posts to hype up the excitement for this once in a lifetime night! Login in with email: testbot@gmail.com and password:password to try it out!",
-            technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, link-preview-js, HTML, CSS, Javascript',
+            technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, link-preview-js, HTML, CSS, Javascript, MVC model',
             url: 'https://cs-10000-days-33ee2045b3a6.herokuapp.com/',
             developer: 'Sole Developer'
         },

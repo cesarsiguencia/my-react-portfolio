@@ -20,7 +20,7 @@ const clickableIcons = () => {
             },
             {
                 image: mail,
-                url: "mailto:cesar.siguencia@gmail.com",
+                url: "mailto:cd.siguencia@gmail.com",
                 target: true
             }
         ]
