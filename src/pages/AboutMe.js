@@ -98,7 +98,10 @@ const About = () => {
                         </div>
 
                     <p className="body-texts" ref={myRef}>
-                        For almost five years, I've worked at an East Harlem elementary school in operations. On my own time, you can find me weight training, running, cycling, cooking with loved ones, or relaxing at uptown parks birdwatching and sightseeing. I identify as Latino and speak Spanish and English fluently. I can read and speak Chinese at an intermediate level from courses I took in high school, college, and a summer study abroad. </p>
+                        For almost five years, I've worked at an East Harlem elementary & middle school in operations, data management, office support, and even taught some electives! On the side, I enjoy cooking with loved ones, cycling, creating song samples on my computer, playing guitar and piano, bird watching, repairing technology devices, and practicing a consistent exercise regimen.
+                        <br/>
+                        <br/>
+                        I identify as Latino and speak Spanish and English fluently with an intermediate profiency level in Chinese from courses I took in high school, college, and a summer study abroad. </p>
 
 
                 </div>
