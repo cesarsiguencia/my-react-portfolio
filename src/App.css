@@ -213,6 +213,19 @@ body{
   font-family: var(--primary-font)
 }
 
+.body-texts-heroku{
+  font-size: 12px;
+  font-family: var(--primary-font);
+  color: red;
+  font-weight: bold;
+}
+
+.body-texts-creds{
+  font-size: 15px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
 .bold-and-left{
   font-weight: bold;
   display: inline;
