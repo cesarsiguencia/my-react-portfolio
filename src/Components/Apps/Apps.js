@@ -2,20 +2,34 @@ import React from 'react';
 import github from '../../media/icons/github-white.png'
 
 const displayApp = () => {
-    const heroku = {
-        username: 'testbot@gmail.com',
-        password: 'password',
-        disclaimer: "In rare cases, Heroku apps that have been inactive for some time may return an Internal Server Error on the first try. Please don't be discouraged! Simply reload the app again no more than five times. Your understanding is greatly appreciated in advance!"
-    }
+    const heroku_about = "Create an account to test all my app features or login with the sample credentials below:"
+
+    
+
+    const heroku_disclaimer = "In rare cases, Heroku apps that have been inactive for some time may return an Internal Server Error on the first try. Please don't be discouraged! Simply reload the app again no more than five times. Your understanding is greatly appreciated in advance!"
 
     const applications = [
         {
+            name: 'iCanFixIt',
+            description: "This is a full stack MERN website for my side business fixing broken electronic devices. From a young age, I've been fascinated with tearing down my portable devices and have decided to fix or upgrade a few I had in storage by myself. Eventually, others noticed and wanted my services on their devices. I specialize on a variety of Apple products with screen and battery replacements, but not limited to those services.",
+            technologies: 'MERN model, MongoDB, Express, React, Node, Mongoose, React Bootstrap, React Router Dom, Dotenv, Concurrently, Cloudinary API Images, CSS, Javascript',
+            url: 'https://icanfixit-by-cs-a17c7a1ff29b.herokuapp.com/',
+            developer: 'Sole Developer',
+            heroku_cred: {
+                username: 'cez@gmail.com',
+                password: '10001'
+            }
+        },
+        {
             name: '10000-Days',
             description: "A full stack website all about my special event I'm hosting for when I turn 10,000 days old. Learn more about the venue of choice and RSVP to save your spot! Interact with invited guests who have confirmed their registation by sharing posts and loving posts to hype up the excitement for this once in a lifetime night! Login in with the sample credentials provided!",
-            technologies: 'Express, Sequelize, MySQL, Bcrypt, Handlebars, Dotenv, link-preview-js, HTML, CSS, Javascript, MVC model',
+            technologies: 'MVC model, Express, Sequelize, PostgreSQL, Handlebars, Node, Bcrypt, Dotenv, link-preview-js, HTML, CSS, Javascript',
             url: 'https://cs-10000-days-33ee2045b3a6.herokuapp.com/',
             developer: 'Sole Developer',
-            heroku: heroku
+            heroku_cred: {
+                username: 'testbot@gmail.com',
+                password: 'password'
+            }
         },
         {
             name: 'Technify-In-Python',
@@ -23,20 +37,17 @@ const displayApp = () => {
             technologies: 'Python, Flask, PyMySQL, SQLAlchemy, Bcrypt, Dotenv, Gunicorn, HTML, CSS, Javascript',
             url: 'https://technify-in-python-cce9848f5fbf.herokuapp.com/',
             developer: 'Sole Developer',
-            heroku: heroku
+            heroku_disclaimer: heroku_disclaimer,
+            heroku_cred: {
+                username: 'testbot@gmail.com',
+                password: 'password'
+            }
         },
         {
             name: 'Taskmaster-Pro',
             description: 'Take notes the easy way using Taskmaster Pro. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or the trash bin.',
             technologies: 'Javascript, JQuery, Moment.js,, Bootstrap, HTML, CSS',
             url: 'https://cesarsiguencia.github.io/taskmaster-pro/',
-            developer: 'Sole Developer'
-        },
-        {
-            name: 'React-Photo-Port',
-            description: 'My first client side project using React. A simple photo gallery website using stock photos. The contact form grabs data and logs it into the console.',
-            technologies: 'ReactJS, Javascript',
-            url: 'https://cesarsiguencia.github.io/react-photo-port/',
             developer: 'Sole Developer'
         },
         {
@@ -80,14 +91,23 @@ const displayApp = () => {
                             </div>
 
                             {
-                                app.heroku ?
+                                app.heroku_disclaimer &&
                                 (
                                     <div className="developer-technologies">
-                                        <p className='body-texts-heroku'>{app.heroku.disclaimer}</p>
-                                        <p className='body-texts-creds'>Sample Login Username: testbot@gmail.com</p>
-                                        <p className='body-texts-creds'>Sample Login Password: password</p>
+                                        <p className='body-texts-heroku'>{app.heroku_disclaimer}</p>
                                     </div>              
-                                ) :null
+                                )
+                            }
+
+                            {
+                                app.heroku_cred &&
+                                (
+                                    <div className="developer-technologies">
+                                        <p className='body-texts-creds' style={{color:'green'}}>{heroku_about}</p>
+                                        <p className='body-texts-creds'>Username: {app.heroku_cred.username}</p>
+                                        <p className='body-texts-creds'>Password or Zipcode: {app.heroku_cred.password}</p>
+                                    </div>              
+                                )
                             }
 
 

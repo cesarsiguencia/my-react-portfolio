@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import Icons from '../Components/Icons/Tech-Icons'
-import image from './resume.png'
+import image from '../media/resume.png'
 import ClickableIcons from '../Components/Icons/Click-Icons'
 import { scaleEffect } from '../utils/helpers'
 

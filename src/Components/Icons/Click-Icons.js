@@ -3,7 +3,7 @@ import React from "react";
 import document_image from '../../media/icons/document.png'
 import linkedIn from '../../media/icons/linkedin.png'
 import mail from '../../media/icons/mail-icon.png'
-import developer_resume from '../../pages/Cesar_Siguencia-Resume-Developer.pdf'
+import developer_resume from '../../media/Cesar_Siguencia_Resume.pdf'
 
 const clickableIcons = () => {
     const urlsArray = window.location.href.split('/')
