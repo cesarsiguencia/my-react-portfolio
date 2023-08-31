@@ -1,43 +1,43 @@
 self.__precacheManifest = [
   {
-    "revision": "5d2e301c9e730457c3fa",
+    "revision": "db238f86663de74d5411",
     "url": "/my-react-portfolio/static/css/main.c94c03b2.chunk.css"
   },
   {
-    "revision": "5d2e301c9e730457c3fa",
-    "url": "/my-react-portfolio/static/js/main.5d2e301c.chunk.js"
+    "revision": "db238f86663de74d5411",
+    "url": "/my-react-portfolio/static/js/main.db238f86.chunk.js"
   },
   {
-    "revision": "e9c79a16bb838f530624",
-    "url": "/my-react-portfolio/static/js/1.e9c79a16.chunk.js"
+    "revision": "4a143bb7c96f3fab387d",
+    "url": "/my-react-portfolio/static/js/1.4a143bb7.chunk.js"
   },
   {
-    "revision": "29525fb4dc4015fb09cb",
-    "url": "/my-react-portfolio/static/js/2.29525fb4.chunk.js"
+    "revision": "a5414d3bbdcf64473da1",
+    "url": "/my-react-portfolio/static/js/2.a5414d3b.chunk.js"
   },
   {
-    "revision": "3854d6b2db55122e4e99",
-    "url": "/my-react-portfolio/static/js/3.3854d6b2.chunk.js"
+    "revision": "cc7a293cc1d366ddcb44",
+    "url": "/my-react-portfolio/static/js/3.cc7a293c.chunk.js"
   },
   {
-    "revision": "3de494c37fa915fc10ac",
-    "url": "/my-react-portfolio/static/js/4.3de494c3.chunk.js"
+    "revision": "a72786b4155ef50610fa",
+    "url": "/my-react-portfolio/static/js/4.a72786b4.chunk.js"
   },
   {
-    "revision": "1c678198ee0bcd695bfa",
-    "url": "/my-react-portfolio/static/js/5.1c678198.chunk.js"
+    "revision": "0a6980e1490d9f585cc9",
+    "url": "/my-react-portfolio/static/js/5.0a6980e1.chunk.js"
   },
   {
-    "revision": "611056058619a3867eae",
-    "url": "/my-react-portfolio/static/js/6.61105605.chunk.js"
+    "revision": "b5083bf6f82c4cd6ddb9",
+    "url": "/my-react-portfolio/static/js/6.b5083bf6.chunk.js"
   },
   {
     "revision": "e6f8ea8be7772f89e669",
     "url": "/my-react-portfolio/static/js/7.e6f8ea8b.chunk.js"
   },
   {
-    "revision": "7944e61f53a812c71bff",
-    "url": "/my-react-portfolio/static/js/runtime~main.7944e61f.js"
+    "revision": "c6a6e66d293fbc7a3f81",
+    "url": "/my-react-portfolio/static/js/runtime~main.c6a6e66d.js"
   },
   {
     "revision": "df721c2187edc80e4b51abf012cfefc5",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/mail-icon.128554f2.png"
   },
   {
-    "revision": "999b861337c212440be949ae43ae8ee1",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia-Resume-Developer.999b8613.pdf"
+    "revision": "1c004d4234f2149cb4010df812adb2fe",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia_Resume.1c004d42.pdf"
   },
   {
     "revision": "4a6fbd647b1f8b85b6912b49dfc64ef8",
@@ -128,6 +128,10 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.png"
   },
   {
+    "revision": "0de2975023e01dfbe3a44ccdf19a4754",
+    "url": "/my-react-portfolio/static/media/iCanFixIt.0de29750.png"
+  },
+  {
     "revision": "4d83ac8ea61a4994bc537f1cc78cf5ce",
     "url": "/my-react-portfolio/static/media/nft-y.4d83ac8e.png"
   },
@@ -180,7 +184,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
-    "revision": "3fe5469c84be403e4539e8387d15051a",
+    "revision": "0f0540a019c6eea4ee5f1d756133217a",
     "url": "/my-react-portfolio/index.html"
   }
 ];
