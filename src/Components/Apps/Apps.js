@@ -4,8 +4,6 @@ import github from '../../media/icons/github-white.png'
 const displayApp = () => {
     const heroku_about = "Create an account to test all my app features or login with the sample credentials below:"
 
-    
-
     const heroku_disclaimer = "In rare cases, Heroku apps that have been inactive for some time may return an Internal Server Error on the first try. Please don't be discouraged! Simply reload the app again no more than five times. Your understanding is greatly appreciated in advance!"
 
     const applications = [
@@ -35,9 +33,9 @@ const displayApp = () => {
             name: 'Technify-In-Python',
             description: "A simple and intuitive social media website for tech enthusiasts to share valuable links with each other. Users can sign up to create, like, and comment on posts. Users have the freedom to delete and edit any of their posts while being logged in. Login in with the sample credentials provided!",
             technologies: 'Python, Flask, PyMySQL, SQLAlchemy, Bcrypt, Dotenv, Gunicorn, HTML, CSS, Javascript',
-            url: 'https://technify-in-python-cce9848f5fbf.herokuapp.com/',
+            url: 'https://technify-by-cs.up.railway.app/',
             developer: 'Sole Developer',
-            heroku_disclaimer: heroku_disclaimer,
+            // heroku_disclaimer: heroku_disclaimer,
             heroku_cred: {
                 username: 'testbot@gmail.com',
                 password: 'password'
