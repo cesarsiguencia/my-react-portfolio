@@ -1,5 +1,6 @@
 import React, {useRef, useEffect} from 'react'
-import image from '../media/me/IMG_2178-copy.png'
+import image from '../media/me/portrait-2.png'
+
 
 import QuoteCarousel from '../Components/Carousels/qoutes'
 import FactsCarousel from '../Components/Carousels/facts'
@@ -29,7 +30,7 @@ const About = () => {
                 </div>
 
                 <div className="aboutme-blocks">
-                    <p className="body-texts"> Greetings! My name is César (pronunced Say-sar) and I am a full stack web developer with a focus on developing productivity and social media applications. I completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub.
+                    <p className="body-texts"> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub.
                     </p>
                     <br />
 
@@ -81,17 +82,6 @@ const About = () => {
             <div className="aboutme">
                 <div className="aboutme-blocks">
 
-
-                    <p className="body-texts bold-and-left">So why did I choose coding?</p>
-
-                    <p className="body-texts">
-                        When coding, there are undoubtly many challenges, especially when one implements technologies still very foreign to them. But I never get tired of the feel-good/satisfying instant moment I get when something works the way I intended after debugging for some time! It's a simple, yet proud feeling that any developer I'm sure will understand.
-                        <br />
-                        <br />
-                        I have always been curious to see how and why something works. Because of this inquisitive nature, I am able to be persistent, so I know that my success in any developer challenge will be inevitable. This is the fulfillment building applications gives me and why challenges fuel these passions even more. </p>
-                    <br />
-                    <br />
-                    <p className="body-texts bold-and-left">Work and Hobbies</p>
 
                     <div ref={myRef} >
                             <Gifs></Gifs>

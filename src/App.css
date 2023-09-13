@@ -1,13 +1,40 @@
 * {
+  margin: 0;
+  padding: 0;
   --primary-color: #f8f8f3; 
-  --secondary-color: plum;
-  --primary-font: 'Raleway';
+  --secondary-color:rgb(38, 30, 30) ;
+  /* --primary-font: 'Raleway'; */
+  /* --primary-font: 'Poppins', 'sans-serif'; */
+  font-family: 'Poppins', 'sans-serif';
+  /* font-family: 'Raleway' */
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 body{
   object-fit: cover;
   height: 100vh;
   background-color: var(--secondary-color);
+}
+
+body::before {
+		content:""; /* required for ::before */
+		position:fixed; /* don't scroll with page */
+		z-index:-100; /* place behind elements on page */
+		width:100%;
+		height:100%;
+		background-color:#14C2CC;
+		background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+		animation:bg-change 10s infinite;
+}
+
+@keyframes bg-change {
+	0%, 100% {
+		filter:hue-rotate(0deg);
+	}
+	50% {
+		filter:hue-rotate(-45deg);
+	}
 }
 
 #root {
@@ -87,7 +114,7 @@ body{
 
 
 
-.pix-1000{
+/* .pix-1000{
   width: 100%;
   height: 0px;
   overflow: hidden;
@@ -123,11 +150,11 @@ body{
   z-index: 1;
   object-fit: contain;
   object-position: left;
-}
+} */
 
 
 /* Header & Nav bar ---------- */
-
+/* 
 .hidden-intro {
   position: absolute;
   top: 0;
@@ -154,17 +181,22 @@ body{
 
   bottom: 0;
   font-style: italic;
-}
+} */
 
 .App-header{
   top: 0;
-  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+
+
 }
 
 .Header-contents{
   display: flex;
+  width: 100%;
   justify-content: space-between ;
-  margin: auto 10px;
+
+
 }
 
 .Navigator{
@@ -177,12 +209,67 @@ body{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  color: orange
+
 }
 
 .mobile-toggle {
   width: 1%
 }
+
+.header-hero{
+  height: 80vh;
+  background-image: url('https://media.giphy.com/media/gFmkpNCar7TSoauRUs/giphy.gif');
+  background-repeat: repeat-x;
+}
+
+.header-text{
+  padding: 15%;
+  font-size: 30px;
+  color: beige;
+  /* background-color: rgba(0, 0, 0, 0.2) */
+}
+
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.header-text h1 span{
+  color: rgba(255, 0, 0, 0.819)
+}
+
+.header-icons-block{
+  display: flex;
+  justify-content: space-around;
+  width: 25%; 
+  margin: 15px auto;
+  
+}
+
+.header-icons{
+  height: 60px;
+  border-radius: 100px;
+  scale: 0.8;
+  transition: ease-in-out 0.5s;
+
+}
+
+.header-icons:hover{
+  background-color: beige;
+  scale: 1
+}
+
+.header-btn-blocks{
+  display: flex;
+  justify-content: space-between;
+  width: 75%
+}
+
+.header-btns{
+  height:70px;
+  border-radius: 10px;
+}
+
 
 /* body and body elements */
 
@@ -482,7 +569,9 @@ body{
 .links{
   transition: ease-in-out 0.2s;
   font-size: 25px;
-  font-family: var(--primary-font);
+  font-weight: 400;
+  /* font-family: var(--primary-font); */
+  color: white;
 }
 
 .links:hover{
@@ -498,7 +587,7 @@ body{
 
 
 .links-selected{
-  color:var(--primary-color);
+  color: white
 }
 
 a {
@@ -535,26 +624,26 @@ a:hover{
 
 /* Fonts */
 .h1 {
-  font-family: var(--primary-font);
+  /* font-family: var(--primary-font); */
   font-size: 60px;
   font-weight: 700;
-  font-family: 'Shadows Into Light', cursive
+  /* font-family: 'Shadows Into Light', cursive */
 
 }
 
 .h2{
-  color: black;
+  color: white;
   font-family: var(--primary-font);
   font-weight: 600;
 }
 
 h3{
-  font-family: 'Rock Salt', cursive;
+  /* font-family: 'Rock Salt', cursive; */
 }
 
 h4, h5{
   margin: 10px 0;
-  font-family: copperplate;
+  /* font-family: copperplate; */
 }
 
 .home-pg-font {
