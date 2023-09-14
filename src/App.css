@@ -194,7 +194,7 @@ body::before {
   width: 1000px;
   margin: 30px auto;
   transition: ease-in-out 0.5s;
-  /* opacity: 0; */
+  opacity: 0;
   scale: 0.97;
   /* filter: grayscale(100%); */
 }
@@ -236,13 +236,14 @@ body::before {
 .home-btns{
   display: inline-block;
   padding: 10px 10px;;
-  background: linear-gradient(to top, orange 50%, orange 50%);
+  background-color: #14C2CC;
   transition: ease-in-out 0.5s;
 }
 
 .home-btns:hover{
   transform: rotateX(-360deg);
-  color: white
+  background-color: orange;
+  /* font-size: 28px */
 }
 
 /* About on Home Pg */
@@ -392,7 +393,6 @@ body::before {
 .profile {
   border-radius: 20px;
   border: orange 5px solid;  
-  /* filter: grayscale(100%); */
   transition: ease-in-out 0.25s
 }
 

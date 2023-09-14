@@ -20,7 +20,7 @@ import ContactDiv from '../Components/Home-Blocks/Contact'
 
 import PortfolioDiv from "../Components/Apps/Apps"
 
-import { scaleEffect } from "../utils/helpers"
+import { opacityEffect, scaleEffect } from "../utils/helpers"
 
 import ClickableIcons from '../Components/Icons/Click-Icons'
 
@@ -78,9 +78,24 @@ const Home = (props) => {
 
     // }, [])
 
-    const skillsRef = useRef()
-    const projectsRef = useRef()
-    const contactRef = useRef()
+    const aboutOpa = useRef()
+    const projectsOpa = useRef()
+    const contactOpa = useRef()
+
+    useEffect(()=>{
+        const aboutDiv = document.querySelector('#about')
+        const projectsDiv = document.querySelector('#projects')
+        const contactsDiv = document.querySelector('#contact')
+        
+        opacityEffect(aboutDiv, aboutOpa)
+        opacityEffect(projectsDiv, projectsOpa)
+        opacityEffect(contactsDiv, contactOpa)
+    }, [])
+
+
+    const skillsScale = useRef()
+    const projectsScale = useRef()
+    const contactScale = useRef()
 
     useEffect(() => {
         const skillsHolder = document.querySelector('.skills')
@@ -92,11 +107,9 @@ const Home = (props) => {
         const contactHolder = document.querySelector('#contact-block')
         const contactIcons = document.querySelectorAll('.contact-list')
 
-
-
-        scaleEffect(skillsHolder, skillsLogos, skillsRef)
-        scaleEffect(projectsHolder, projectApps, projectsRef)
-        scaleEffect(contactHolder, contactIcons, contactRef)
+        scaleEffect(skillsHolder, skillsLogos, skillsScale)
+        scaleEffect(projectsHolder, projectApps, projectsScale)
+        scaleEffect(contactHolder, contactIcons, contactScale)
     }, [])
 
 
@@ -138,7 +151,7 @@ const Home = (props) => {
             </div>
 
             <div className='App-body'>
-                <div className='body-divs about-home' id='about'>
+                <div className='body-divs about-home' id='about' ref={aboutOpa}>
                     <div className='title-block left'>
                         <div className='title'>
                             <h2>Intro & Skills</h2>
@@ -160,7 +173,7 @@ const Home = (props) => {
                             </div>
                         </div>
 
-                        <div className="col" ref={skillsRef}>
+                        <div className="col" ref={skillsScale}>
                             <h4>Web Development Skills</h4>
 
                             <div className="skills" >
@@ -171,28 +184,28 @@ const Home = (props) => {
                     </div>
                 </div>
 
-                <div className='body-divs projects-home' id='projects'>
+                <div className='body-divs projects-home' id='projects' ref={projectsOpa}>
                     <div className='title-block left'>
                         <div className='title'>
                             <h2>Projects</h2>
                         </div>
                     </div>
 
-                    <div className="section-content" ref={projectsRef}>
+                    <div className="section-content" ref={projectsScale}>
                     <p className="body-texts left">Hover cursor over image or hold and slide on image with your mobile to see a short description of the apps. Click on image below to deploy app.</p>
                             <PortfolioDiv></PortfolioDiv>
                     </div>
 
                 </div>
 
-                <div className='body-divs contact-home' id='contact' >
+                <div className='body-divs contact-home' id='contact' ref={contactOpa}>
                     <div className='title-block left'>
                         <div className='title'>
                             <h2>Contact Me</h2>
                         </div>
                     </div>
 
-                    <div className="section-content" ref={contactRef}>
+                    <div className="section-content" ref={contactScale}>
                         <ContactDiv></ContactDiv>
                     </div>
 

@@ -52,40 +52,6 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages)
 
-  var grayScaleLoad = function () {
-    const theBody = document.querySelector('.body-divs')
-    const homeBody = document.querySelector('.home')
-
-    if (theBody) {
-      theBody.addEventListener("touchmove", () => {
-        theBody.style = 'filter: grayscale(0%)';
-        theBody.style.opacity = 1
-
-      })
-      theBody.addEventListener("mouseover", () => {
-        theBody.style = 'filter: grayscale(0%)';
-        theBody.style.opacity = 1
-      })
-      theBody.addEventListener("mouseout", () => {
-        theBody.style = 'filter: grayscale(100%)'
-        theBody.style.opacity = 1
-      })
-    }
-
-    if (homeBody) {
-      homeBody.style.opacity = 1
-    }
-  }
-
-  var pageEffects = function () {
-    window.scrollTo(0, 0)
-
-
-    const bodyDiv = document.querySelector('.body-divs')
-    if (bodyDiv) {
-      bodyDiv.style.opacity = 1
-    }
-  }
 
   const [portfolioClicked, setPortfolioClicked] = useState(false)
 
@@ -97,14 +63,14 @@ function App() {
             <LoadingPg></LoadingPg>
           ) : (
 
-            <div className="App" onLoad={pageEffects}>
+            <div className="App">
               <Header
                 pages={pages}
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
                 portfolioClicked={portfolioClicked}
               ></Header>
-              <div onLoad={grayScaleLoad}>
+              <div>
                 <Routes>
                   <Route setPortfolioClicked={setPortfolioClicked}
                     path="/my-react-portfolio"
