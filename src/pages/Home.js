@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 // import portrait1 from "../media/me/portrait-1.png"
 
@@ -12,9 +12,11 @@ import LinkedIn from '../media/icons/linkedin.png'
 
 import ClearMail from '../media/icons/clear-mail.png'
 
-import LearnMe from '../media/icons/gifs/learn-me-still.gif'
+import Icons from '../Components/Icons/Tech-Icons'
 
-import ProjectsBtn from '../media/icons/gifs/view-projects-still.gif'
+import Portrait from '../media/me/portrait.png'
+import image from '../media/resume.png'
+import ClickableIcons from '../Components/Icons/Click-Icons'
 
 
 const Home = (props) => {
@@ -98,9 +100,9 @@ const Home = (props) => {
                     </div>
 
                     <div className='header-btns-blocks'>
-                        <div className='header-btns learn-me'></div>
-                        
-                        <div className='header-btns view-projects'></div>
+                        <a className='header-btns learn-me' href='#about'></a>
+
+                        <a className='header-btns view-projects' href='#projects'></a>
 
 
 
@@ -108,14 +110,58 @@ const Home = (props) => {
                 </div>
             </div>
 
+            <div className='App-body'>
+                <div className='body-divs about-home' id='about'>
+                    <div className='about-pg-title-block'>
+                        <div className='about-pg-title'>
+                            <h2>Intro & Skills</h2>
+                        </div>
+                    </div>
 
+                    <div className='body-content'>
+                        <div className='row'>
+                            <img src={Portrait} style={{ height: '250px', borderRadius: '100px' }}></img>
 
+                            <div style={{width: '600px'}}>
+                                <p className="body-texts" style={{textAlign:'left'}}> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub. </p>
+                                <br/>
+                                <Link to="/my-react-portfolio/about">
+                                    <div className="home-btns">
+                                        <h6>Still Curious? Read My Full Bio!</h6>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="col skills-blocks">
+                            <h4>Web Development Skills</h4>
+
+                            <div className="skills--lists" >
+                                <Icons></Icons>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className='body-divs projects-home' id='projects'>
+                    <div className='about-pg-title-block'>
+                        <div className='about-pg-title'>
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+
+                    <div className='skills'>
+                        <div>
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-
-
     )
-
 }
 
 

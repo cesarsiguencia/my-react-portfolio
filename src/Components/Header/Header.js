@@ -29,7 +29,7 @@ const Header = (props) => {
           setNavClicked(false)
 
         }}>
-          <Link to="/my-react-portfolio"><img style={{ height: '100px', borderRadius: '25px' }} src={Title}></img></Link>
+          <Link to="/my-react-portfolio"><img style={{ height: '100px', borderRadius: '10px' }} src={Title}></img></Link>
         </p>
         <Nav
           titleClicked={titleClicked}

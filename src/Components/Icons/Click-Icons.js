@@ -26,7 +26,7 @@ const clickableIcons = () => {
         ]
     }
 
-    if (urlOfSubPage == 'resume') {
+    if (urlOfSubPage == 'my-react-portfolio') {
         iconsArray = [
             {
                 image: document_image,

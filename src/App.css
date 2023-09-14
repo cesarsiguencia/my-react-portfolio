@@ -306,21 +306,65 @@ body::before {
 }
 
 
+/* home pg body */
+
+.about-pg-title-block{
+  display: flex;
+  align-items: left;
+}
+
+.about-pg-title{
+
+  display: inline-block;
+
+
+  background: linear-gradient(to top, #14c3cce0 50%, white 50%);
+}
+
+.body-content{
+  margin: 15px auto;
+}
+
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-btns{
+  display: inline-block;
+  padding: 10px 10px;;
+  background: linear-gradient(to top, orange 50%, orange 50%);
+  transition: ease-in-out 0.5s;
+}
+
+.home-btns:hover{
+  transform: rotateX(-360deg);
+  color: white
+}
+
+
 /* body and body elements */
 
 .App-body {
-  /* background-color: var(--primary-color); */
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
 }
 
 .body-divs{
-  margin: 30px 30px;
+  width: 1000px;
+  margin: 30px auto;
   transition: ease-in-out 0.5s;
-  opacity: 0;
+  /* opacity: 0; */
   scale: 0.97;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 
@@ -356,20 +400,30 @@ body::before {
 /* Resume Page -------------------- */
 
 .skills {
+    margin: 15px auto;
     display: flex;
+
 }
 
-.skills-blocks{
+/* .skills-blocks{
   width: 50%;
+} */
+
+.skills--lists{
+  display: flex;
+  justify-content: space-between;
+
+
 }
 
 .skills--lists > div{
-  padding: 20px 0 0 0;
-  border-bottom: 3px solid orange;
+  /* padding: 20px 0 0 0; */
+  border-right: 3px solid orange;
+  flex: 1
 }
 
 .skills--lists > div:last-child{
-  border-bottom: 0px;
+  border-right: 0px;
 }
 
 .technologies{
@@ -385,7 +439,7 @@ body::before {
   width: 100px;
   border-radius: 50px;
   margin: 8px 8px;
-  scale: 0.2
+  scale: 0.8
 }
 
 .resume-style {

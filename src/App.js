@@ -104,7 +104,7 @@ function App() {
                 currentPage={currentPage}
                 portfolioClicked={portfolioClicked}
               ></Header>
-              <div className="App-body" onLoad={grayScaleLoad}>
+              <div onLoad={grayScaleLoad}>
                 <Routes>
                   <Route setPortfolioClicked={setPortfolioClicked}
                     path="/my-react-portfolio"
