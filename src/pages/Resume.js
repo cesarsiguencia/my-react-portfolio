@@ -5,24 +5,24 @@ import ClickableIcons from '../Components/Icons/Click-Icons'
 import { scaleEffect } from '../utils/helpers'
 
 const Resume = () => {
-    const docRef = useRef()
-    const techRef = useRef()
+    // const docRef = useRef()
+    // const techRef = useRef()
 
-    useEffect(() => {
-        const techDiv = document.querySelector('.skills')
-        const docIcon = document.querySelectorAll('.logos-icons')
-        const logos = document.querySelectorAll('.technologies-logos')
+    // useEffect(() => {
+    //     const techDiv = document.querySelector('.skills')
+    //     const docIcon = document.querySelectorAll('.logos-icons')
+    //     const logos = document.querySelectorAll('.technologies-logos')
 
-        scaleEffect(techDiv, docIcon, docRef)
-        scaleEffect(techDiv, logos, techRef)
-    }, [])
+    //     scaleEffect(techDiv, docIcon, docRef)
+    //     scaleEffect(techDiv, logos, techRef)
+    // }, [])
 
     return (
         <div className="body-divs">
             <div className="skills">
                 <div className="skills-blocks">
                     <h3>Resume</h3>
-                    <p className="body-texts"ref={docRef}>Click on the document icon to download the PDF version.</p>
+                    <p className="body-texts">Click on the document icon to download the PDF version.</p>
 
                     <ClickableIcons></ClickableIcons>
 
@@ -34,7 +34,7 @@ const Resume = () => {
                     <br />
                 </div>
 
-                <div className="skills-blocks" ref={techRef}>
+                <div className="skills-blocks" >
                     <h3>Web Development Skills</h3>
 
                     <div className="skills--lists" >

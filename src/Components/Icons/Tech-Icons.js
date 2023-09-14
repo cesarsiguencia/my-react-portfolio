@@ -44,12 +44,12 @@ const techIcons = () => {
         }
     ]
 
-    const myRef = useRef()
+    // const myRef = useRef()
 
     return (
 
         techArrays.map((singleArray) => {
-            return <div key={singleArray.name} ref={myRef}>
+            return <div key={singleArray.name}>
                 <h5>{singleArray.name}</h5>
                 <div className='technologies'>
                     {singleArray.links.map((tech) => {

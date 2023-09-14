@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 
 import { Link, NavLink } from 'react-router-dom'
 
@@ -16,6 +16,10 @@ import Icons from '../Components/Icons/Tech-Icons'
 
 import Portrait from '../media/me/portrait.png'
 
+import ContactDiv from '../Components/Home-Blocks/Contact'
+
+import { scaleEffect } from "../utils/helpers"
+
 import ClickableIcons from '../Components/Icons/Click-Icons'
 
 
@@ -23,53 +27,67 @@ const Home = (props) => {
 
     const { setPortfolioClicked } = props
 
-    let backgroundWidth
+    // let backgroundWidth
 
-    window.addEventListener("mousemove", function (e) {
-        const backgroundDiv = document.querySelector(".home-bcgs-bg")
+    // window.addEventListener("mousemove", function (e) {
+    //     const backgroundDiv = document.querySelector(".home-bcgs-bg")
 
-        if (backgroundDiv) {
-            const xAxis = e.clientX || e.screenX
-            const name = xAxis
-            backgroundWidth = name + "px"
-            backgroundDiv.style.width = backgroundWidth
-        }
-    })
+    //     if (backgroundDiv) {
+    //         const xAxis = e.clientX || e.screenX
+    //         const name = xAxis
+    //         backgroundWidth = name + "px"
+    //         backgroundDiv.style.width = backgroundWidth
+    //     }
+    // })
 
-    const screenWidth = document.body.clientWidth
+    // const screenWidth = document.body.clientWidth
 
-    var homeParallax = () => {
-        const backgroundParallax = document.querySelector('.home-bcgs-color')
-        if (screenWidth < 1000) {
-            backgroundParallax.style = 'filter: blur(10px)'
+    // var homeParallax = () => {
+    //     const backgroundParallax = document.querySelector('.home-bcgs-color')
+    //     if (screenWidth < 1000) {
+    //         backgroundParallax.style = 'filter: blur(10px)'
 
-            setTimeout(() => {
-                backgroundParallax.style = 'filter: blur(0px)'
-            }, 500)
-        }
-    }
+    //         setTimeout(() => {
+    //             backgroundParallax.style = 'filter: blur(0px)'
+    //         }, 500)
+    //     }
+    // }
 
-    var growFontEffect = useEffect(() => {
-        const selectedFonts = document.querySelectorAll('.home-transitions')
-        const portfolioHolder = document.querySelector('.button-holder')
+    // var growFontEffect = useEffect(() => {
+    //     const selectedFonts = document.querySelectorAll('.home-transitions')
+    //     const portfolioHolder = document.querySelector('.button-holder')
 
-        selectedFonts.forEach((font) => {
-            if (screenWidth > 1000) {
-                setInterval(() => {
-                    // font.style = "font-size: 25px"
-                    font.style.scale = "0.7"
-                    portfolioHolder.style.backgroundColor = 'black'
-                }, 1500)
+    //     selectedFonts.forEach((font) => {
+    //         if (screenWidth > 1000) {
+    //             setInterval(() => {
+    //                 // font.style = "font-size: 25px"
+    //                 font.style.scale = "0.7"
+    //                 portfolioHolder.style.backgroundColor = 'black'
+    //             }, 1500)
 
-                setInterval(() => {
-                    // font.style = "font-size: 20px"
-                    font.style.scale = "1"
-                    portfolioHolder.style.backgroundColor = 'orange'
-                }, 3000)
-            }
+    //             setInterval(() => {
+    //                 // font.style = "font-size: 20px"
+    //                 font.style.scale = "1"
+    //                 portfolioHolder.style.backgroundColor = 'orange'
+    //             }, 3000)
+    //         }
 
-        })
+    //     })
 
+    // }, [])
+
+    const skillsRef = useRef()
+    const contactRef = useRef()
+
+    useEffect(() => {
+        const contactHolder = document.querySelector('#contact-block')
+        const contactIcons = document.querySelectorAll('.contact-list')
+
+        const skillsHolder = document.querySelector('.skills--lists')
+        const skillsLogos = document.querySelectorAll('.technologies-logos')
+
+        scaleEffect(skillsHolder, skillsLogos, skillsRef)
+        scaleEffect(contactHolder, contactIcons, contactRef)
     }, [])
 
 
@@ -133,7 +151,7 @@ const Home = (props) => {
                             </div>
                         </div>
 
-                        <div className="col skills-blocks">
+                        <div className="col skills-blocks" ref={skillsRef}>
                             <h4>Web Development Skills</h4>
 
                             <div className="skills--lists" >
@@ -159,54 +177,15 @@ const Home = (props) => {
 
                 </div>
 
-                <div className='body-divs contact-home' id='contact'>
+                <div className='body-divs contact-home' id='contact' >
                     <div className='title-block left'>
                         <div className='title'>
                             <h2>Contact Me</h2>
                         </div>
                     </div>
 
-                    <div className="body-content">
-                        <div className="col contact-block">
-                            <div className="row contact-list">
-                                <a href="mailto:cd.siguencia@gmail.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='header-icons' src={ClearMail}></img>
-                                </a>
-
-                                <div className="left">
-                                    <h6>cd.siguencia@gmail.com</h6>
-                                    <p className="body-texts">Email is the quickest way to contact me. I respond under 24 hours. Click icon to immediately message me.</p>
-                                </div>
-                            </div>
-
-                            <div className="row contact-list">
-
-                                <a href="https://www.linkedin.com/in/cesar-siguencia/" target="_blank" rel="noopener noreferrer">
-                                    <img className='header-icons' src={LinkedIn}></img>
-                                </a>
-                                <div className='left'>
-                                    <h6>linkedin.com/in/cesar-siguencia</h6>
-                                    <p className="body-texts">Click icon, contact me, and view my entire career profile.</p>
-                                </div>
-                            </div>
-
-                            <div className="row contact-list">
-                                <a href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
-                                    <img className='header-icons' src={GitHub}></img>
-                                </a>
-                                <div className="left">
-                                    <h6>github.com/cesarsiguencia</h6>
-                                    <p className="body-texts">Click icon, contact me, and view my 30+ repositories.</p>
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-                        </div>
+                    <div className="body-content" ref={contactRef}>
+                        <ContactDiv></ContactDiv>
                     </div>
 
                 </div>
