@@ -1,15 +1,25 @@
 import React, { useEffect } from "react"
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
-import portrait1 from "../media/me/portrait-1.png"
+// import portrait1 from "../media/me/portrait-1.png"
 
-import portrait2 from "../media/me/portrait-2.png"
+// import portrait2 from "../media/me/portrait-2.png"
+
+import GitHub from '../media/icons/github.svg'
+
+import LinkedIn from '../media/icons/linkedin.png'
+
+import ClearMail from '../media/icons/clear-mail.png'
+
+import LearnMe from '../media/icons/gifs/learn-me-still.gif'
+
+import ProjectsBtn from '../media/icons/gifs/view-projects-still.gif'
 
 
 const Home = (props) => {
 
-    const { setPortfolioClicked} = props
+    const { setPortfolioClicked } = props
 
     let backgroundWidth
 
@@ -64,57 +74,44 @@ const Home = (props) => {
 
     return (
 
-        <div onLoad={growFontEffect} className='home'>
-            <div className="home-div">
-                <div className="home-bcgs-color" onLoad={homeParallax}>
-                    <img className="bcg-2" id="bcg-2" src={portrait2} />
+        <div>
+            <div className='header-hero'>
+                <div className='header-text'>
 
-                    <div className="hidden-intro">
+                    <h1>My name is C<span className='red-font'>é</span>sar (pronunced Say-sar)</h1>
+                    <p>Full Stack Web Developer</p>
+                    <p className='header-slogan'><strong className='red-font'>C</strong>reative At Heart, <strong className='red-font'>C</strong>onstantly Learning, <strong className='red-font'>Challenges Conquered</strong></p>
+                    <div className='header-icons-block'>
+                        <a href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
+                            <img className='header-icons' src={GitHub}></img>
+                        </a>
+                        <a href="https://www.instagram.com/cezzienyc" target="_blank" rel="noopener noreferrer">
+                            <img className='header-icons' src={ClearMail}></img>
+                        </a>
 
-                        <h3 >"Welcome to my page!</h3>
 
-                        <h4>Hello, Hola, 你好!</h4>
+                        <a href="https://www.linkedin.com/in/cesar-siguencia/" target="_blank" rel="noopener noreferrer">
+                            <img className='header-icons' src={LinkedIn}></img>
+                        </a>
 
 
-                        <div className="hidden-blurb">
-                            <h6 className="body-texts home-pg-font">Thank you for visiting my page! Check out the projects I have been working on!</h6>
-                            {/* <div style={{border: '3px solid orange'}} href='./portfolio'>
-                            <p className="body-texts">Go To My Porfolio</p>
-                        </div> */}
-                        </div>
+                    </div>
+
+                    <div className='header-btns-blocks'>
+                        <div className='header-btns learn-me'></div>
+                        
+                        <div className='header-btns view-projects'></div>
+
+
+
                     </div>
                 </div>
-
-                <div className="home-bcgs-bg">
-                    <img className="bcg-1" id="bcg-1" src={portrait1} width={backgroundWidth} />
-
-                    <div className="hidden-intro" >
-                        <div>
-                            <h6 className="body-texts home-pg-font home-transitions" >* Slide Mouse Horizontally! *</h6>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
 
 
-
-                <div className="pix-1000">
-                    <h3>"Welcome to my page!</h3>
-                    <h4>Hello, Hola, 你好!</h4>
-                    <div>
-                        <h6 className="body-texts"> Thank you for visiting my page! Check out the projects I have been working on! </h6>
-                    </div>
-                </div>
-
-
-            </div >
-
-            <Link to='/my-react-portfolio/portfolio' onClick={()=> setPortfolioClicked(true)} >
-                <div className="button-holder">
-                    <p className="body-texts home-pg-font home-transitions portfolio-button">Go To My Porfolio!</p>
-                </div>
-            </Link>
         </div>
+
 
 
     )

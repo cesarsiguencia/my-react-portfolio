@@ -13,7 +13,7 @@
 body{
   object-fit: cover;
   height: 100vh;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
 }
 
 body::before {
@@ -24,7 +24,7 @@ body::before {
 		height:100%;
 		background-color:#14C2CC;
 		background-image: 
-		radial-gradient(circle farthest-side at top right, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+		radial-gradient(circle farthest-side at top right, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #ff00a2f3);
 		animation:bg-change 10s infinite;
 }
 
@@ -186,7 +186,7 @@ body::before {
 .App-header{
   top: 0;
   width: 100%;
-  height: 100vh;
+  /* height:40vh; */
 
 
 }
@@ -217,7 +217,7 @@ body::before {
 }
 
 .header-hero{
-  height: 80vh;
+  height: 90vh;
   background-image: url('https://media.giphy.com/media/gFmkpNCar7TSoauRUs/giphy.gif');
   background-repeat: repeat-x;
 }
@@ -234,8 +234,10 @@ body::before {
   margin-top: 20px;
 }
 
-.header-text h1 span{
-  color: rgba(255, 0, 0, 0.819)
+
+.red-font{
+  /* color: rgba(255, 0, 0, 0.556) */
+  color: rgb(154, 0, 0)
 }
 
 .header-icons-block{
@@ -244,6 +246,10 @@ body::before {
   width: 25%; 
   margin: 15px auto;
   
+}
+
+.header-slogan{
+  font-size: 20px
 }
 
 .header-icons{
@@ -259,22 +265,51 @@ body::before {
   scale: 1
 }
 
-.header-btn-blocks{
+.header-btns-blocks{
   display: flex;
-  justify-content: space-between;
-  width: 75%
+  width: 700px;
+  margin: 0 auto;
+  justify-content: space-around;
+
 }
 
 .header-btns{
+  display: inline-block;
   height:70px;
+  width: 250px;
   border-radius: 10px;
+  margin: 0 auto;
+}
+
+.learn-me{
+  background-image: url('./media//icons/gifs/learn-me-still.gif');
+  background-size: cover;
+}
+
+.learn-me:hover{
+  transition: ease-in-out 0.5s;
+  transform: rotateX(-360deg);
+  background-image: url('./media//icons/gifs/learn-me-active.gif');
+
+
+}
+
+.view-projects{
+  background-image: url('./media//icons/gifs/view-projects-still.gif');
+  background-size: cover;
+}
+
+.view-projects:hover{
+  background-image: url('./media//icons/gifs/view-projects-active.gif');
+  transition: ease-in-out 0.5s;
+  transform: rotateX(-360deg);
 }
 
 
 /* body and body elements */
 
 .App-body {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
