@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 // import portrait1 from "../media/me/portrait-1.png"
 
@@ -15,7 +15,7 @@ import ClearMail from '../media/icons/clear-mail.png'
 import Icons from '../Components/Icons/Tech-Icons'
 
 import Portrait from '../media/me/portrait.png'
-import image from '../media/resume.png'
+
 import ClickableIcons from '../Components/Icons/Click-Icons'
 
 
@@ -87,7 +87,7 @@ const Home = (props) => {
                         <a href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
                             <img className='header-icons' src={GitHub}></img>
                         </a>
-                        <a href="https://www.instagram.com/cezzienyc" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:cd.siguencia@gmail.com" target="_blank" rel="noopener noreferrer">
                             <img className='header-icons' src={ClearMail}></img>
                         </a>
 
@@ -112,8 +112,8 @@ const Home = (props) => {
 
             <div className='App-body'>
                 <div className='body-divs about-home' id='about'>
-                    <div className='about-pg-title-block'>
-                        <div className='about-pg-title'>
+                    <div className='title-block left'>
+                        <div className='title'>
                             <h2>Intro & Skills</h2>
                         </div>
                     </div>
@@ -122,10 +122,10 @@ const Home = (props) => {
                         <div className='row'>
                             <img src={Portrait} style={{ height: '250px', borderRadius: '100px' }}></img>
 
-                            <div style={{width: '600px'}}>
-                                <p className="body-texts" style={{textAlign:'left'}}> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub. </p>
-                                <br/>
-                                <Link to="/my-react-portfolio/about">
+                            <div style={{ width: '600px' }}>
+                                <p className="body-texts" style={{ textAlign: 'left' }}> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub. </p>
+                                <br />
+                                <Link to="/my-react-portfolio/aboutme">
                                     <div className="home-btns">
                                         <h6>Still Curious? Read My Full Bio!</h6>
                                     </div>
@@ -145,15 +145,67 @@ const Home = (props) => {
                 </div>
 
                 <div className='body-divs projects-home' id='projects'>
-                    <div className='about-pg-title-block'>
-                        <div className='about-pg-title'>
+                    <div className='title-block left'>
+                        <div className='title'>
                             <h2>Projects</h2>
                         </div>
                     </div>
 
-                    <div className='skills'>
-                        <div>
-                            <p>HELLO</p>
+                    <div className="body-content">
+                        <div className="row">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='body-divs contact-home' id='contact'>
+                    <div className='title-block left'>
+                        <div className='title'>
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+
+                    <div className="body-content">
+                        <div className="col contact-block">
+                            <div className="row contact-list">
+                                <a href="mailto:cd.siguencia@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    <img className='header-icons' src={ClearMail}></img>
+                                </a>
+
+                                <div className="left">
+                                    <h6>cd.siguencia@gmail.com</h6>
+                                    <p className="body-texts">Email is the quickest way to contact me. I respond under 24 hours. Click icon to immediately message me.</p>
+                                </div>
+                            </div>
+
+                            <div className="row contact-list">
+
+                                <a href="https://www.linkedin.com/in/cesar-siguencia/" target="_blank" rel="noopener noreferrer">
+                                    <img className='header-icons' src={LinkedIn}></img>
+                                </a>
+                                <div className='left'>
+                                    <h6>linkedin.com/in/cesar-siguencia</h6>
+                                    <p className="body-texts">Click icon, contact me, and view my entire career profile.</p>
+                                </div>
+                            </div>
+
+                            <div className="row contact-list">
+                                <a href="https://github.com/cesarsiguencia" target="_blank" rel="noopener noreferrer">
+                                    <img className='header-icons' src={GitHub}></img>
+                                </a>
+                                <div className="left">
+                                    <h6>github.com/cesarsiguencia</h6>
+                                    <p className="body-texts">Click icon, contact me, and view my 30+ repositories.</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
                         </div>
                     </div>
 

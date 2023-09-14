@@ -308,12 +308,17 @@ body::before {
 
 /* home pg body */
 
-.about-pg-title-block{
-  display: flex;
+.left{
   align-items: left;
+  text-align: left;
 }
 
-.about-pg-title{
+.title-block{
+  display: flex;
+
+}
+
+.title{
 
   display: inline-block;
 
@@ -346,6 +351,21 @@ body::before {
 .home-btns:hover{
   transform: rotateX(-360deg);
   color: white
+}
+
+.contact-block{
+  /* width: 800px; */
+  margin: 0 auto;
+}
+
+.contact-list{
+  display: flex;
+  margin: 25px 0;
+
+}
+
+.contact-list > * {
+  flex: 1
 }
 
 
