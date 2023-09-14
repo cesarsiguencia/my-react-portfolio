@@ -160,9 +160,13 @@ const Home = (props) => {
 
                     <div className='section-content'>
                         <div className='row'>
-                            <img src={Portrait} style={{ height: '250px', borderRadius: '100px' }}></img>
+                            <div className="align-ver">
+                                <img src={Portrait} style={{ height: '250px', borderRadius: '100px' }}></img>
+                            </div>
+                            
 
-                            <div style={{ width: '600px' }}>
+                            <div className='align-ver' style={{ width: '600px' }}>
+                                <div>
                                 <p className="body-texts" style={{ textAlign: 'left' }}> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub. </p>
                                 <br />
                                 <Link to="/my-react-portfolio/aboutme">
@@ -170,8 +174,9 @@ const Home = (props) => {
                                         <h6>Still Curious? Read My Full Bio!</h6>
                                     </div>
                                 </Link>
-                                <br />
-                                <br />
+                                </div>
+                              
+
                             </div>
                         </div>
 

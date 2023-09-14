@@ -44,16 +44,19 @@ const Contact = () => {
 
                 return (
                     <div className="row contact-list" key={contact.title}>
-                        <div>
+                        <div className='align-ver' style={{justifyContent:'center'}}>
                         <a href={contact.url} target="_blank" rel="noopener noreferrer">
                             <img className='header-icons effect-icons' src={contact.icon}></img>
                         </a>
                         </div>
 
 
-                        <div className="left">
+                        <div className="left align-ver">
+                            <div>
+
                             <h6>{contact.title}</h6>
                             <p className="body-texts">{contact.des}</p>
+                            </div>
                         </div>
                     </div>
                 )

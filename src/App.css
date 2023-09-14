@@ -118,7 +118,13 @@ body::before {
 }
 
 .red-font{
-  color: rgb(154, 0, 0)
+  color: rgb(167, 2, 2);
+  text-shadow: white 1px 0 10px;
+}
+
+.about-me-shadow{
+  font-size: 23px;
+  /* text-shadow: black 0px 20px 25px; */
 }
 
 .header-icons-block{
@@ -140,7 +146,7 @@ body::before {
 }
 
 .header-icons:hover{
-  background-color: beige;
+  background-color: white;
   scale: 1
 }
 
@@ -279,7 +285,6 @@ body::before {
 /* insert border radius or any height width px before width or pictures will spill out the window*/
 .technologies-logos{
   display: block;
-
   height: 75px;
   width: 75px;
   border-radius: 50px;
@@ -388,6 +393,8 @@ body::before {
   justify-content: center;
 }
 
+
+
 .aboutme--titles{
   margin: auto 10px;
 }
@@ -406,19 +413,32 @@ body::before {
   justify-content: space-around;
   margin: 50px auto;
   transition: ease-in-out 1s;
+  width: 75%
 }
 
-.profile {
-  border-radius: 20px;
-  border: orange 5px solid;  
-  transition: ease-in-out 0.25s
+.gifs{
+  transition: ease-in-out 0.5s;
+  scale: 0.2
+}
+
+.about-projects{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto
+}
+
+.projects-logos{
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
 }
 
 /* About Me - Carousels CSS ------------ */
 
 .aboutme--carousel{
-  border: orange 3px solid;
-  border-radius: 25px;
+  background-color: #14C2CC;
 }
 
 .carousel-container {
@@ -551,6 +571,18 @@ h5{
     margin: 10px 0;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+.align-ver{
+  display: flex; 
+  align-items: center;
+}
+
+.center{
+  justify-content: center;
+}
 
 @media screen and (max-width: 1200px) {
   .Navigator{

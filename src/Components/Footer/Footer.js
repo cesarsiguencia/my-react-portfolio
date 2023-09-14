@@ -7,7 +7,7 @@ import ClearMail from '../../media/icons/clear-mail.png'
 const Footer = () => {
     return(
         <footer className="App-footer">
-          <div className="footer-font">
+          <div className="footer-font align-ver center">
             <p className="body-texts">Developed By César Siguencia using React</p>
           </div>
           
@@ -23,7 +23,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="footer-font">
+          <div className="footer-font align-ver center">
             <p className="body-texts">©Copyright 2023, All Rights Reserved</p>
           </div>
       </footer>
