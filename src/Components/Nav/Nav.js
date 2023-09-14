@@ -6,6 +6,8 @@ import { hamburgerMenu } from "../../utils/helpers";
 
 import developer_resume from '../../media/Cesar_Siguencia_Resume.pdf'
 
+import doc_icon from "../../media/icons/document.png"
+
 
 const Nav = (props) => {
   // const {
@@ -31,7 +33,8 @@ const Nav = (props) => {
     {
       name: "Resume PDF ",
       url: developer_resume,
-      target: `'' download`
+      target: `'' download`,
+      icon: doc_icon
     }
   ]
 
@@ -96,7 +99,7 @@ const Nav = (props) => {
             // }}
             
             >
-            <a onClick={hamburgerMenu} href={page.url} target={`${page.target ? (`'' download`) : (``)}`} >
+            <a onClick={hamburgerMenu} href={page.url} target={`${page.target ? (`'' download`) : (``)}`} style={{display: 'flex'}}>
               <p 
               
               // className=
@@ -108,6 +111,14 @@ const Nav = (props) => {
                 >
                   
                   {page.name}</p>
+
+                  {page.icon &&
+      
+                      <img src={page.icon} style={{height:'35px', margin: '0 10px'}}></img>
+                    
+                
+                  
+                  }
             </a>
           </div>
         ))}

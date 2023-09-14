@@ -72,131 +72,16 @@ body::before {
 }
 
 /* Home */
-
-.home{
-  transition: ease-in-out 0.5s;
-  opacity: 0
-}
-
-.home-div{
-  position: relative;
-
-  background-color: var(--primary-color);
-
-}
-
-.home-bcgs-color {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  object-fit: cover;
-}
-
-.home-bcgs-color > * {
-  color: var(--primary-color)
-}
-
-
-.home-bcgs-bg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden;
-  object-fit: cover;
-  z-index: 1;
-}
-
-
-
-
-
-/* .pix-1000{
-  width: 100%;
-  height: 0px;
-  overflow: hidden;
-}
-
-.bcg-1-bridge{
-  position: absolute;
-  top: 0;
-  left: 0px;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  opacity: 0
-}
-
-.bcg-1-bridge:hover{
-  transition: all 250ms ease-in-out;
-  opacity: 1;
-}
-
-.bcg-1{
-  width: fit-content;
-  background-size: cover;
-  height: 100%;
-}
-
-.bcg-2 {
-  position: relative;
-  width: 100%;
-  z-index: 1;
-  object-fit: contain;
-  object-position: left;
-} */
-
-
-/* Header & Nav bar ---------- */
-/* 
-.hidden-intro {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  z-index:1 
-
-}
-
-.hidden-blurb {
-  width: 80%;
-  margin: 0 auto;
-}
-
-
-.mouse {
-  position: absolute;
-
-  bottom: 0;
-  font-style: italic;
-} */
-
+/* Header/Hero */
 .App-header{
   top: 0;
   width: 100%;
-  /* height:40vh; */
-
-
 }
 
 .Header-contents{
   display: flex;
   width: 100%;
   justify-content: space-between ;
-
-
 }
 
 .Navigator{
@@ -209,7 +94,6 @@ body::before {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
 }
 
 .mobile-toggle {
@@ -226,7 +110,6 @@ body::before {
   padding: 15%;
   font-size: 30px;
   color: beige;
-  /* background-color: rgba(0, 0, 0, 0.2) */
 }
 
 .header-text h1{
@@ -234,9 +117,7 @@ body::before {
   margin-top: 20px;
 }
 
-
 .red-font{
-  /* color: rgba(255, 0, 0, 0.556) */
   color: rgb(154, 0, 0)
 }
 
@@ -245,7 +126,6 @@ body::before {
   justify-content: space-around;
   width: 25%; 
   margin: 15px auto;
-  
 }
 
 .header-slogan{
@@ -256,8 +136,7 @@ body::before {
   height: 60px;
   border-radius: 100px;
   scale: 0.8;
-  transition: ease-in-out 0.5s;
-
+  transition: ease-in-out 0.2s;
 }
 
 .header-icons:hover{
@@ -270,7 +149,6 @@ body::before {
   width: 700px;
   margin: 0 auto;
   justify-content: space-around;
-
 }
 
 .header-btns{
@@ -290,8 +168,6 @@ body::before {
   transition: ease-in-out 0.5s;
   transform: rotateX(-360deg);
   background-image: url('./media//icons/gifs/learn-me-active.gif');
-
-
 }
 
 .view-projects{
@@ -305,31 +181,47 @@ body::before {
   transform: rotateX(-360deg);
 }
 
+/* Home --------------------------------- */
 
-/* home pg body */
+.App-body {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.body-divs{
+  width: 1000px;
+  margin: 30px auto;
+  transition: ease-in-out 0.5s;
+  /* opacity: 0; */
+  scale: 0.97;
+  /* filter: grayscale(100%); */
+}
+
+.body-divs:hover{
+  scale: 1;
+}
+
+.body-texts{
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--primary-font)
+}
 
 .left{
   align-items: left;
   text-align: left;
 }
 
-.title-block{
-  display: flex;
-
-}
-
 .title{
-
   display: inline-block;
-
-
   background: linear-gradient(to top, #14c3cce0 50%, white 50%);
 }
 
-.body-content{
+.section-content{
   margin: 15px auto;
 }
-
 
 .row{
   display: flex;
@@ -353,8 +245,94 @@ body::before {
   color: white
 }
 
+/* About on Home Pg */
+.skills{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills > div{
+  border-right: 3px solid orange;
+  flex: 1
+}
+
+.skills > div:last-child{
+  border-right: 0px;
+}
+
+.technologies{
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+/* insert border radius or any height width px before width or pictures will spill out the window*/
+.technologies-logos{
+  transition: ease-in-out 1s;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  margin: 8px 8px;
+  scale: 0.8
+}
+
+/* Apps on Home Pg*/
+.projects-display{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-box{
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 15px 0 15px 0;
+  width: 400px;
+  transition: ease-in-out 0.7s;
+  scale: 0.2
+}
+
+.app-box:last-child{
+  border-right: 0px
+}
+
+.container_wrapper{
+  margin: auto auto;
+  border-radius: 5px;
+  position: relative
+}
+
+.container--picture{
+  width: 100%;
+}
+
+.container--picture:hover{
+  filter: blur(0px)
+}
+
+.container--content{
+  margin: 0 10px;
+}
+
+.container--overlay{
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top,  rgba(0,0,0,0.6)65%,  rgba(0,0,0,0));
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container--overlay:hover{
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+}
+
+/* Contact on Home */
 .contact-block{
-  /* width: 800px; */
   margin: 0 auto;
 }
 
@@ -378,193 +356,7 @@ body::before {
   scale: 1
 }
 
-
-/* body and body elements */
-
-.App-body {
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-}
-
-.body-divs{
-  width: 1000px;
-  margin: 30px auto;
-  transition: ease-in-out 0.5s;
-  /* opacity: 0; */
-  scale: 0.97;
-  /* filter: grayscale(100%); */
-}
-
-
-
-.body-divs:hover{
-  scale: 1;
-}
-
-.body-texts{
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: var(--primary-font)
-}
-
-.body-texts-heroku{
-  font-size: 12px;
-  font-family: var(--primary-font);
-  color: red;
-  font-weight: bold;
-}
-
-.body-texts-creds{
-  font-size: 15px;
-  font-family: var(--primary-font);
-  font-weight: bold;
-}
-
-.bold-and-left{
-  font-weight: bold;
-  display: inline;
-}
-
-/* Resume Page -------------------- */
-
-.skills {
-    margin: 15px auto;
-    display: flex;
-
-}
-
-.skills--lists{
-  display: flex;
-  justify-content: space-between;
-
-
-}
-
-.skills--lists > div{
-  border-right: 3px solid orange;
-  flex: 1
-}
-
-.skills--lists > div:last-child{
-  border-right: 0px;
-}
-
-.technologies{
-  justify-content: space-around;
-  margin: 50px auto;
-}
-
-
-/* insert border radius or any height width px before width or pictures will spill out the window*/
-.technologies-logos{
-  transition: ease-in-out 1s;
-  height: 60px;
-  width: 60px;
-  border-radius: 50px;
-  margin: 8px 8px;
-  scale: 0.8
-}
-
-
-/* Portfolio & apps ---------- */
-.container--description{
-  margin-left: 20%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-}
-
-.developer-github {
-  width: 100%;
-  margin: 0px auto;
-}
-
-.app-box{
-  /* display: flex; */
-  margin: 0 auto;
-  margin-top: 5px;
-  padding: 15px 0 15px 0;
-  width: 400px;
-
-  /* border-right: 3px solid orange; */
-
-}
-
-.app-box:last-child{
-  border-right: 0px
-
-}
-
-.container_wrapper{
-  margin: auto auto;
-  /* width: 40%; */
-  border-radius: 5px;
-  position: relative
-}
-
-.container--picture{
-  width: 100%;
-  /* filter: blur(5px); */
-  /* position: relative; */
-}
-
-.container--picture:hover{
-  filter: blur(0px)
-}
-
-.container--content{
-  /* background-color: rgba(153, 151, 151, 0.8) */
-  margin: 0 10px;
-}
-
-.container--overlay{
-  position: absolute;
-  top: 0 ;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(to top,  rgba(0,0,0,0.6)65%,  rgba(0,0,0,0));
-  /* background:  rgba(0,0,0,0.6) ; */
-  opacity: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.container--overlay:hover{
-  opacity: 0;
-  transition: all 250ms ease-in-out;
-}
-
-.projects-display{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.container---blurb{
-  color: white;
-  margin: 0px auto;
-  width: 80%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-
-.project-title {
-  display: flex;
-}
-
-.project-title-frame{
-  width: 100%;
-}
-
-/* About me */
+/* About Page ------------------------------------------------------*/
 .aboutme{
   display: flex;
   margin: 20px 20px;
@@ -595,11 +387,7 @@ body::before {
   justify-content: space-around;
   margin: 50px auto;
   transition: ease-in-out 1s;
-
-
 }
-
-
 
 .profile {
   border-radius: 20px;
@@ -692,17 +480,12 @@ body::before {
   margin: auto auto
 }
 
-
 /* Links */
-.App-link {
-  color: #61dafb;
-}
 
 .links{
   transition: ease-in-out 0.2s;
   font-size: 25px;
   font-weight: 400;
-  /* font-family: var(--primary-font); */
   color: white;
 }
 
@@ -710,22 +493,6 @@ body::before {
   font-size: 29px;
   text-decoration: underline;
   text-underline-offset: 8px;
-}
-
-.headings:hover{
-  text-decoration: underline;
-  text-underline-offset: 8px;
-}
-
-
-.links-selected{
-  color: white
-}
-
-a {
-  text-decoration: none;
-  width: 100%;
-  color: black
 }
 
 a:link{
@@ -737,30 +504,17 @@ a:visited{
   color: black
 }
 
-a:active{
-  color: black
-}
-
-a:hover{
-  transition: all 250ms ease-in-out;
-}
-
 .github-links {
   border-radius: 50px;
   margin: 20px auto;
   width: 20%;
 }
 
-
-
-
 /* Fonts */
 .h1 {
-  /* font-family: var(--primary-font); */
   font-size: 60px;
   font-weight: 700;
   /* font-family: 'Shadows Into Light', cursive */
-
 }
 
 .h2{
@@ -769,63 +523,14 @@ a:hover{
   font-weight: 600;
 }
 
-h3{
-  /* font-family: 'Rock Salt', cursive; */
-}
-
 h4, h5{
   margin: 10px 0;
-  /* font-family: copperplate; */
 }
 
-.home-pg-font {
-  font-size: 30px;
-  color: var(--primary-color)
-}
-
-.home-transitions{
-  transition: ease-in-out 1.5s;
-  scale: 1
-}
-
-.button-holder{
-  height: 75px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-background-color: orange;
-color: var(--primary-color);
-transition: ease-in-out 1s
-}
-
-
-.portfolio-button{
-  width: 100%;
-  display: block;
-  font-size: 35px;
-  margin: auto 0;
-
-
-}
-
-/* .button-holder:hover{
-  top: 100px;
-} */
-
-
-@media screen and (max-width: 1500px) {
-  .container---blurb{
-    font-size: 25px
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .Navigator{
     width: 75%
-  }
-
-  .container---blurb{
-    font-size: 20px
   }
 
   .aboutme {
@@ -845,69 +550,17 @@ transition: ease-in-out 1s
   .skills{
     display: block;
   }
-
-  .skills-blocks{
-    width: 100%;
-    margin: auto auto;
-  }
 }
 
 @media screen and (max-width: 1000px) {
-  .container---blurb{
-    font-size: 17px
-  }
-
-  .project-title{
-    margin-bottom: 0px;
-    display: block
-  }
-
-  .project-title-frame{
-    width: 100%;
-  }
-
   .Header-contents{
     display: block;
-    /* padding: 25px; */
   }
   
   .Navigator{
     display: flex;
     width: 100%;
     margin: 0 auto;
-  }
-  
-  .h2{
-    margin: auto 0px;
-  }
-
-  .headings{
-    margin: 25px auto;
-  }
-
-  .home-bcgs-bg {
-    height: 0px;
-    position: relative;
-  }
-
-  .home-bcgs {
-    display: block;
-  }
-
-  .hidden-intro{
-    height: 0px;
-    width: 0px;
-    overflow: hidden;
-  } 
-  
-  .pix-1000{
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-  }
-
-  .home-bcgs-color{
-    transition: ease-in-out 0.3s;
   }
 
   .footer-icons{
@@ -917,30 +570,16 @@ transition: ease-in-out 1s
   
 
 @media screen and (max-width: 850px){
-  .container---blurb{
-    font-size: 14px
-  }
-
   /* USE BLOCK INSTEAD OF INLINE FOR FLEX FOR BORDER TO SHOW */
   .app-box {
     display: block;
     width: 100%; 
     border-bottom: 3px solid orange;
-
   }
 
   .container_wrapper{
     margin: 0px auto;
     width: 75%;
-  }
-
-  .container---blurb{
-    font-size: 25px
-  }
-
-  .container--description{
-    margin: 0 auto;
-    text-align: center;
   }
 
   .container--picture{
@@ -966,13 +605,6 @@ transition: ease-in-out 1s
 }
 }
 
-@media screen and (max-height: 800px){
-  .bcg1{
-    position: relative;
-    width: 100%
-
-  }
-}
 
 @media screen and (max-width: 700px){
   .App-footer{
@@ -988,12 +620,6 @@ transition: ease-in-out 1s
 
   .links{
     margin-bottom: 25px;
-  }
-
-  .container-description{
-    text-align: center;
-    margin: 0 auto;
-    display: block;
   }
 
   .logos {
@@ -1053,33 +679,12 @@ transition: ease-in-out 1s
     transition: all 0.5s ease-in-out;
     transform: translateY(-10px) rotate(-45deg);
   }  
-
-
-  .bcg-2{
-    object-fit: cover;
-    object-position: 18%;
-    height: 50vh;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .container---blurb{
-    font-size: 20px
-  }
-
-  .profile{
-    width: 95%
-  }
-
   .gifs {
     height: 75px;
     width: 75px;
-  }
-
-  .bcg-2{
-    object-fit: cover;
-    object-position: 15%;
-    height: 40vh;
   }
 }
 
@@ -1087,10 +692,6 @@ transition: ease-in-out 1s
  
   .links{
     margin-bottom: 25px;
-  }
-
-  .container---blurb{
-    font-size: 20px
   }
 
   .body-divs{

@@ -94,54 +94,6 @@ const displayApp = () => {
                     </div>
 
                 </div>
-                {/* <div className="container_wrapper">
-                    <div className="container--description">
-
-
-                        <h5>{app.developer}</h5>
-                        <div>
-                            <div className="developer-technologies">
-                                <p className="body-texts">{app.technologies}</p>
-
-                            </div>
-
-                             {
-                                app.heroku_disclaimer &&
-                                (
-                                    <div className="developer-technologies">
-                                        <p className='body-texts-heroku'>{app.heroku_disclaimer}</p>
-                                    </div>              
-                                )
-                            }
-
-                            {
-                                app.heroku_cred &&
-                                (
-                                    <div className="developer-technologies">
-                                        <p className='body-texts-creds' style={{color:'green'}}>{heroku_about}</p>
-                                        <p className='body-texts-creds'>Username: {app.heroku_cred.username}</p>
-                                        <p className='body-texts-creds'>Password or Zipcode: {app.heroku_cred.password}</p>
-                                    </div>              
-                                )
-                            }
-
-
-
-
-                            
-                            <div className="developer-github">
-                                <a target="_blank" href={`https://github.com/cesarsiguencia/${lowercaseName}`}>
-                                    <img className="github-links" src={github}>
-                                    </img>
-                                </a>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div> */}
-
             </div>
         )
     })

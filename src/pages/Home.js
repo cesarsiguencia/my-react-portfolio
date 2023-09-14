@@ -79,16 +79,23 @@ const Home = (props) => {
     // }, [])
 
     const skillsRef = useRef()
+    const projectsRef = useRef()
     const contactRef = useRef()
 
     useEffect(() => {
+        const skillsHolder = document.querySelector('.skills')
+        const skillsLogos = document.querySelectorAll('.technologies-logos')
+
+        const projectsHolder = document.querySelector('#projects')
+        const projectApps = document.querySelectorAll('.app-box')
+
         const contactHolder = document.querySelector('#contact-block')
         const contactIcons = document.querySelectorAll('.contact-list')
 
-        const skillsHolder = document.querySelector('.skills--lists')
-        const skillsLogos = document.querySelectorAll('.technologies-logos')
+
 
         scaleEffect(skillsHolder, skillsLogos, skillsRef)
+        scaleEffect(projectsHolder, projectApps, projectsRef)
         scaleEffect(contactHolder, contactIcons, contactRef)
     }, [])
 
@@ -138,7 +145,7 @@ const Home = (props) => {
                         </div>
                     </div>
 
-                    <div className='body-content'>
+                    <div className='section-content'>
                         <div className='row'>
                             <img src={Portrait} style={{ height: '250px', borderRadius: '100px' }}></img>
 
@@ -153,10 +160,10 @@ const Home = (props) => {
                             </div>
                         </div>
 
-                        <div className="col skills-blocks" ref={skillsRef}>
+                        <div className="col" ref={skillsRef}>
                             <h4>Web Development Skills</h4>
 
-                            <div className="skills--lists" >
+                            <div className="skills" >
                                 <Icons></Icons>
                             </div>
 
@@ -171,7 +178,7 @@ const Home = (props) => {
                         </div>
                     </div>
 
-                    <div className="body-content">
+                    <div className="section-content" ref={projectsRef}>
                     <p className="body-texts left">Hover cursor over image or hold and slide on image with your mobile to see a short description of the apps. Click on image below to deploy app.</p>
                             <PortfolioDiv></PortfolioDiv>
                     </div>
@@ -185,7 +192,7 @@ const Home = (props) => {
                         </div>
                     </div>
 
-                    <div className="body-content" ref={contactRef}>
+                    <div className="section-content" ref={contactRef}>
                         <ContactDiv></ContactDiv>
                     </div>
 
