@@ -238,11 +238,13 @@ body::before {
   padding: 10px 10px;;
   background-color: #14C2CC;
   transition: ease-in-out 0.5s;
+  scale: 0.9
 }
 
 .home-btns:hover{
   transform: rotateX(-360deg);
   background-color: orange;
+  scale: 1.1
   /* font-size: 28px */
 }
 
@@ -262,18 +264,34 @@ body::before {
 }
 
 .technologies{
-  justify-content: space-around;
-  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.technologies-box{
+  margin: 15px 15px;
+  scale: 0.8;
+  transition: ease-in-out 1s;
 }
 
 /* insert border radius or any height width px before width or pictures will spill out the window*/
 .technologies-logos{
-  transition: ease-in-out 1s;
-  height: 60px;
-  width: 60px;
+  display: block;
+
+  height: 75px;
+  width: 75px;
   border-radius: 50px;
-  margin: 8px 8px;
-  scale: 0.8
+  margin: 0 auto;
+}
+
+.technologies-names{
+  display: inline-block;
+  background-color: #08337ef4;
+  color:beige;
+  font-size: 15px;
+  padding: 3px 15px;
 }
 
 /* Apps on Home Pg*/
@@ -523,8 +541,14 @@ a:visited{
   font-weight: 600;
 }
 
-h4, h5{
+h4{
   margin: 10px 0;
+}
+
+h5{
+    font-family: 'Raleway';
+      /* font-family: "Montserrat", sans-serif; */
+    margin: 10px 0;
 }
 
 

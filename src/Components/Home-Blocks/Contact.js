@@ -44,9 +44,12 @@ const Contact = () => {
 
                 return (
                     <div className="row contact-list" key={contact.title}>
+                        <div>
                         <a href={contact.url} target="_blank" rel="noopener noreferrer">
                             <img className='header-icons effect-icons' src={contact.icon}></img>
                         </a>
+                        </div>
+
 
                         <div className="left">
                             <h6>{contact.title}</h6>

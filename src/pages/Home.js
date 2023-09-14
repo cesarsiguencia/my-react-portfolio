@@ -99,7 +99,7 @@ const Home = (props) => {
 
     useEffect(() => {
         const skillsHolder = document.querySelector('.skills')
-        const skillsLogos = document.querySelectorAll('.technologies-logos')
+        const skillsLogos = document.querySelectorAll('.technologies-box')
 
         const projectsHolder = document.querySelector('#projects')
         const projectApps = document.querySelectorAll('.app-box')
@@ -170,6 +170,8 @@ const Home = (props) => {
                                         <h6>Still Curious? Read My Full Bio!</h6>
                                     </div>
                                 </Link>
+                                <br />
+                                <br />
                             </div>
                         </div>
 
