@@ -16,11 +16,11 @@ const Nav = (props) => {
   const pages = [
     {
       name: "About Me",
-      url: "aboutme"
+      url: "#aboutme"
     },
     {
       name: "Portfolio",
-      url: "portfolio"
+      url: "#portfolio"
     },
     {
       name: "Contact",
@@ -87,7 +87,7 @@ const Nav = (props) => {
             onClick={() => {
               setSelectedPage(page)
             }}>
-            <Link onClick={hamburgerMenu} to={`/my-react-portfolio/${page.url}`}>
+            <Link onClick={hamburgerMenu} to={`/my-react-portfolio${page.url}`}>
               <p className=
                 {`links ${!selectedPage ? ( selectedPage == "") : (selectedPage.name === page.name && !titleClicked && navClicked && 'links-selected')}`}>{page.name}</p>
             </Link>

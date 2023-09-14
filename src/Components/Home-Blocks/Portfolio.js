@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Apps from '../Components/Apps/Apps'
+import Apps from '../Apps/Apps'
 
 
 const Portfolio = () => {

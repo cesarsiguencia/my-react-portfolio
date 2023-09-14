@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const Home = React.lazy(() => import('./pages/Home'))
 const AboutMe = React.lazy(() => import('./pages/AboutMe'))
-const Portfolio = React.lazy(() => import('./pages/Portfolio'))
+const Portfolio = React.lazy(() => import('./Components/Home-Blocks/Portfolio'))
 const Contact = React.lazy(() => import('./Components/Home-Blocks/Contact'))
 const Resume = React.lazy(() => import('./pages/Resume'))
 // const Footer = React.lazy(()=> import('./Components/Footer/Footer'))
@@ -115,10 +115,10 @@ function App() {
                     path="/my-react-portfolio/aboutme"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe /></React.Suspense>}
                   />
-                  <Route
+                  {/* <Route
                     path="/my-react-portfolio/portfolio"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Portfolio /></React.Suspense>}
-                  />
+                  /> */}
                   {/* <Route
                     path="/my-react-portfolio/contact"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Contact /></React.Suspense>}

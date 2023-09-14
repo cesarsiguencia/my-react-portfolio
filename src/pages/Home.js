@@ -18,6 +18,8 @@ import Portrait from '../media/me/portrait.png'
 
 import ContactDiv from '../Components/Home-Blocks/Contact'
 
+import PortfolioDiv from "../Components/Apps/Apps"
+
 import { scaleEffect } from "../utils/helpers"
 
 import ClickableIcons from '../Components/Icons/Click-Icons'
@@ -170,9 +172,8 @@ const Home = (props) => {
                     </div>
 
                     <div className="body-content">
-                        <div className="row">
-
-                        </div>
+                    <p className="body-texts left">Hover cursor over image or hold and slide on image with your mobile to see a short description of the apps. Click on image below to deploy app.</p>
+                            <PortfolioDiv></PortfolioDiv>
                     </div>
 
                 </div>

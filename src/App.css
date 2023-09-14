@@ -435,10 +435,6 @@ body::before {
 
 }
 
-/* .skills-blocks{
-  width: 50%;
-} */
-
 .skills--lists{
   display: flex;
   justify-content: space-between;
@@ -447,7 +443,6 @@ body::before {
 }
 
 .skills--lists > div{
-  /* padding: 20px 0 0 0; */
   border-right: 3px solid orange;
   flex: 1
 }
@@ -472,9 +467,6 @@ body::before {
   scale: 0.8
 }
 
-.resume-style {
-  filter: blur(5px)
-}
 
 /* Portfolio & apps ---------- */
 .container--description{
@@ -492,30 +484,41 @@ body::before {
 }
 
 .app-box{
-  display: flex;
+  /* display: flex; */
   margin: 0 auto;
   margin-top: 5px;
   padding: 15px 0 15px 0;
-  border-bottom: 3px solid orange;
-  width: 80%;
+  width: 400px;
+
+  /* border-right: 3px solid orange; */
 
 }
 
 .app-box:last-child{
-  border-bottom: 0px
+  border-right: 0px
 
 }
 
 .container_wrapper{
   margin: auto auto;
-  width: 40%;
+  /* width: 40%; */
   border-radius: 5px;
-  position: relative;
+  position: relative
 }
 
 .container--picture{
   width: 100%;
-  filter: blur(5px)
+  /* filter: blur(5px); */
+  /* position: relative; */
+}
+
+.container--picture:hover{
+  filter: blur(0px)
+}
+
+.container--content{
+  /* background-color: rgba(153, 151, 151, 0.8) */
+  margin: 0 10px;
 }
 
 .container--overlay{
@@ -524,17 +527,25 @@ body::before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+  background: linear-gradient(to top,  rgba(0,0,0,0.6)65%,  rgba(0,0,0,0));
+  /* background:  rgba(0,0,0,0.6) ; */
+  opacity: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .container--overlay:hover{
-  opacity: 1;
+  opacity: 0;
   transition: all 250ms ease-in-out;
 }
+
+.projects-display{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 .container---blurb{
   color: white;
@@ -542,6 +553,8 @@ body::before {
   width: 80%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
 
 .project-title {
   display: flex;
