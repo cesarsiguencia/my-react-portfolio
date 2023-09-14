@@ -13,6 +13,10 @@ import Gifs from '../Components/Icons/Gif-Icons'
 
 const About = () => {
 
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[])
+
     const aboutOpa = useRef()
     useEffect(() => {
         const aboutDiv = document.querySelector('#about-pg')

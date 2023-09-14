@@ -77,10 +77,18 @@ function App() {
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
                     ><Home /></React.Suspense>}
                   />
+
+<Route
+                    path="/my-react-portfolio#about"
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Home /></React.Suspense>}
+                  />
+
+                  
                   <Route
                     path="/my-react-portfolio/aboutme"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe /></React.Suspense>}
                   />
+
                   {/* <Route
                     path="/my-react-portfolio/portfolio"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Portfolio /></React.Suspense>}

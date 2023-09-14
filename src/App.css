@@ -394,19 +394,12 @@ body::before {
 }
 
 
-
-.aboutme--titles{
-  margin: auto 10px;
-}
-
 .aboutme--quotes{
-  font-style: italic;
   font-size: 22px;
+    font-family: 'Raleway'
+  /* font-family: "Montserrat", sans-serif; */
 }
 
-.aboutme--facts{
-  font-size: 22px;
-}
 
 .aboutme--gifs{
   display: flex;

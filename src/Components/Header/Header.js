@@ -24,13 +24,13 @@ const Header = (props) => {
 
     <header className="App-header">
       <div className="Header-contents">
-        <p onClick={() => {
+        <div onClick={() => {
           setTitleClicked(true)
           setNavClicked(false)
 
         }}>
-          <Link to="/my-react-portfolio"><img style={{ height: '100px', borderRadius: '10px' }} src={Title}></img></Link>
-        </p>
+          <Link to="/my-react-portfolio" className='align-ver center'><img style={{ height: '100px', borderRadius: '10px' }} src={Title}></img></Link>
+        </div>
         <Nav
           titleClicked={titleClicked}
           setTitleClicked={setTitleClicked}
