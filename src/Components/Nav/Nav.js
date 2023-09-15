@@ -37,18 +37,21 @@ const Nav = () => {
 
 
         {pages.map((page) => (
-          <div className='navBtns' id="navtab" key={page.name}>
+          <div className='navBtns align-ver' id="navtab" key={page.name}>
             <NavHashLink onClick={hamburgerMenu}  to={`/my-react-portfolio${page.url}`}>
               <p className='links' >{page.name}</p>
             </NavHashLink>
           </div>
         ))}
 
-        <a className='navBtns' href={developer_resume} target="'' download" style={{ border:'2px solid white'}}>
-          <p className='links' >Resume PDF</p>
-          <div className='align-ver'>
-            <img alt='document icon'src={doc_icon} style={{ display:'block', height: '35px', margin: '0 10px'  }} ></img>
-          </div>
+        <a className='navBtns align-ver' href={developer_resume} target="'' download">
+  
+            <p className='links' >Resume PDF</p>
+            <div className='align-ver'>
+              <img alt='document icon'src={doc_icon} style={{ display:'block', height: '35px', margin: '0 10px'  }} ></img>
+            </div>
+
+         
         
         </a>
       </div>

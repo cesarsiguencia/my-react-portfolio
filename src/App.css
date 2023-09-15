@@ -465,6 +465,10 @@ body::before {
   scale: 1
 }
 
+.navBtns:last-child {
+  border: 2px solid white
+
+}
 .links{
   font-size: 25px;
   font-weight: 400;
