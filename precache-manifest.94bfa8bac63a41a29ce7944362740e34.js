@@ -224,7 +224,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
-    "revision": "9129e40439fcfad590ff77c616aa976a",
+    "revision": "357acd4a8c5b8240fc9586c57f7aa52e",
     "url": "/my-react-portfolio/index.html"
   }
 ];
