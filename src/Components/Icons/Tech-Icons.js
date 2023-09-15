@@ -47,8 +47,6 @@ const techIcons = () => {
         }
     ]
 
-    // const myRef = useRef()
-
     return (
 
         techArrays.map((singleArray) => {

@@ -38,9 +38,7 @@ const QuoteCarousel = () => {
     }
 
     useEffect(() => {
-        const interval = setInterval(() => {carouselInfiniteScroll()}, 9000)
-
-        // return () => clearInterval(interval)
+        setInterval(() => {carouselInfiniteScroll()}, 9000)
     })
 
     return (

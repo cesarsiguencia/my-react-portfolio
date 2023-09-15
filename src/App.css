@@ -3,8 +3,6 @@
   padding: 0;
   --primary-color: #f8f8f3; 
   --secondary-color:rgb(38, 30, 30) ;
-  /* --primary-font: 'Raleway'; */
-  /* --primary-font: 'Poppins', 'sans-serif'; */
   font-family: 'Poppins', 'sans-serif';
   /* font-family: 'Raleway' */
   /* font-family: "Montserrat", sans-serif; */
@@ -13,7 +11,6 @@
 body{
   object-fit: cover;
   height: 100vh;
-  /* background-color: var(--secondary-color); */
 }
 
 body::before {
@@ -37,14 +34,14 @@ body::before {
 	}
 }
 
-#root {
+/* #root {
   height: min-content;
   height: 100vh;
-}
+} */
 
 .App {
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
   transition: ease-in-out 1s;
   opacity: 0;
 }
@@ -55,26 +52,15 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: var(--secondary-color); */
   display: flex;
   align-items: center;
   opacity: 1;
-  z-index: 4;
-}
-
-.loader-box{
-  margin: auto;
-  text-align: center;
-}
-
-.loaded {
-  opacity: 1;
+  z-index: 5;
 }
 
 /* Home */
 /* Header/Hero */
 .App-header{
-  top: 0;
   width: 100%;
 }
 
@@ -110,11 +96,6 @@ body::before {
   padding: 10% 15%;
   font-size: 30px;
   color: beige;
-}
-
-.header-text h1{
-  font-size: 60px;
-  margin-top: 20px;
 }
 
 .red-font{
@@ -513,7 +494,12 @@ body::before {
 /* Links */
 
 .navBtns{
+  display: flex;
+  padding: 10px 10px;
   transition: ease-in-out 0.3s;
+  color: white;
+  font-family: var(--primary-font);
+  font-weight: 600;
   scale: 1
 }
 
@@ -546,16 +532,10 @@ a:visited{
 }
 
 /* Fonts */
-.h1 {
-  font-size: 60px;
-  font-weight: 700;
-  /* font-family: 'Shadows Into Light', cursive */
-}
 
-.h2{
-  color: white;
-  font-family: var(--primary-font);
-  font-weight: 600;
+h1{
+  font-size: 60px;
+  margin-top: 20px;
 }
 
 h4{
@@ -704,6 +684,10 @@ h5{
   .header-text{
     padding: 5%;
   }
+
+  .header-icons-block{
+    width: 50%;
+  }
   
   .header-btns-blocks{
     display: block;  
@@ -763,8 +747,6 @@ h5{
     height: 1px;
     display: none;
   }
-
-
 
   .navBtns{
     justify-content: center;
@@ -851,7 +833,7 @@ h5{
   .header-text{
     padding: 15%;
   }
-  .header-text h1{
+  h1{
     font-size: 35px;
   }
   .app-box{

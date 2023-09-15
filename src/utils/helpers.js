@@ -27,14 +27,6 @@ export function hamburgerMenu() {
   menu.classList.toggle("mobile-effect")
 }
 
-export function loader() {
-  const LoadAni = document.querySelector('.loader-wrapper')
-
-  window.addEventListener("load", () => {
-    LoadAni.classList.toggle("loaded")
-  })
-}
-
 export function opacityEffect(hostDiv, myRef) {
   if (hostDiv) {
     let entry

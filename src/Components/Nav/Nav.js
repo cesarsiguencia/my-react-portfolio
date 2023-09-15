@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-
-import { Link } from 'react-router-dom';
+import React from "react";
 
 import { NavHashLink } from 'react-router-hash-link'
 
@@ -11,13 +9,7 @@ import developer_resume from '../../media/Cesar_Siguencia_Resume.pdf'
 import doc_icon from "../../media/icons/document.png"
 
 
-const Nav = (props) => {
-  // const {
-  //   navClicked,
-  //   setNavClicked,
-  //   titleClicked,
-  //   setTitleClicked,
-  // } = props
+const Nav = () => {
 
   const pages = [
     {
@@ -31,53 +23,8 @@ const Nav = (props) => {
     {
       name: "Contact",
       url: "#contact"
-    },
-    // {
-    //   name: "Resume PDF ",
-    //   url: developer_resume,
-    //   target: `'' download`,
-    //   icon: doc_icon
-    // }
+    }
   ]
-
-  // let subUrlObjectAtLoad
-  // const urlsArray = window.location.href.split('/')
-  // const urlOfSubPage = urlsArray[urlsArray.length - 1] 
-
-  // if(urlOfSubPage!== 'my-react-portfolio'){
-  //   subUrlObjectAtLoad = {
-  //     urlSub: urlOfSubPage,
-  //     urlSubLoaded: true
-  //   }
-  // } else {
-  //   subUrlObjectAtLoad = {
-  //     urlSub: "not a urlSub",
-  //     urlSubLoaded: false
-  //   }
-  // }
-
-  // let currentIndex
-  // const loadedPage = subUrlObjectAtLoad.urlSub
-
-  // if(loadedPage){
-  //   pages.forEach((page) => {
-  //     if(page.url === loadedPage){
-  //       currentIndex = pages.indexOf(page)
-  //     }
-  //   })
-  // }
-
-  // const [selectedPage, setSelectedPage] = useState(pages[currentIndex])
-
-  // useEffect(()=>{
-  //   if(subUrlObjectAtLoad.urlSubLoaded === false){
-  //     setTitleClicked(true)
-  //     setNavClicked(false)
-  //   } else {
-  //     setTitleClicked(false)
-  //     setNavClicked(true)
-  //   }
-  // },[subUrlObjectAtLoad])
 
   return (
     <nav className="Navigator">
@@ -90,17 +37,17 @@ const Nav = (props) => {
 
 
         {pages.map((page) => (
-          <div style={{ display: 'flex', padding: '10px 10px' }} className='h2 navBtns' id="navtab" key={page.name}>
+          <div className='navBtns' id="navtab" key={page.name}>
             <NavHashLink onClick={hamburgerMenu}  to={`/my-react-portfolio${page.url}`}>
               <p className='links' >{page.name}</p>
             </NavHashLink>
           </div>
         ))}
 
-        <a className='h2 navBtns' href={developer_resume} target="'' download" style={{ display: 'flex', border:'2px solid white', padding: '10px 10px' }}>
+        <a className='navBtns' href={developer_resume} target="'' download" style={{ border:'2px solid white'}}>
           <p className='links' >Resume PDF</p>
           <div className='align-ver'>
-          <img src={doc_icon} style={{ display:'inline-block', height: '35px', margin: '0 10px'  }} ></img>
+            <img src={doc_icon} style={{ display:'block', height: '35px', margin: '0 10px'  }} ></img>
           </div>
         
         </a>
