@@ -21,9 +21,9 @@ const Gifs = () => {
     ]
 
     return(
-        <div className="aboutme--gifs">
+        <div className="aboutme-gifs-block">
             { gifs.map((gif)=>{
-                return <img className="technologies-logos gifs" alt={gif.name} src={gif.url} key={gif.name}>
+                return <img className="gifs" alt={gif.name} src={gif.url} key={gif.name}>
                 </img>
             })
                     

@@ -34,11 +34,6 @@ body::before {
 	}
 }
 
-/* #root {
-  height: min-content;
-  height: 100vh;
-} */
-
 .App {
   text-align: center;
   /* height: 100vh; */
@@ -80,6 +75,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 5px 0;
 }
 
 .mobile-toggle {
@@ -148,7 +144,6 @@ body::before {
 
 .learn-me:hover{
   transition: ease-in-out 0.5s;
-  /* transform: rotateX(-360deg); */
   background-image: url('./media//icons/gifs/learn-me-active.gif');
 }
 
@@ -160,7 +155,6 @@ body::before {
 .view-projects:hover{
   background-image: url('./media//icons/gifs/view-projects-active.gif');
   transition: ease-in-out 0.5s;
-  /* transform: rotateX(-360deg); */
 }
 
 /* Home --------------------------------- */
@@ -178,7 +172,6 @@ body::before {
   transition: ease-in-out 0.5s;
   opacity: 0;
   scale: 0.97;
-  /* filter: grayscale(100%); */
 }
 
 .body-divs:hover{
@@ -227,7 +220,6 @@ body::before {
   transform: rotateX(-360deg);
   background-color: orange;
   scale: 1.1
-  /* font-size: 28px */
 }
 
 /* About on Home Pg */
@@ -345,7 +337,6 @@ body::before {
   margin: 25px 0;
   transition: ease-in-out 0.5s;
   scale: 0.2
-
 }
 
 .contact-list > * {
@@ -361,7 +352,7 @@ body::before {
 }
 
 /* About Page ------------------------------------------------------*/
-.aboutme{
+.facts-quotes{
   display: flex;
   margin: 20px 20px;
   justify-content: center;
@@ -373,15 +364,13 @@ body::before {
   justify-content: center;
 }
 
-
 .aboutme--quotes{
   font-size: 22px;
-    font-family: 'Raleway'
+  font-family: 'Raleway'
   /* font-family: "Montserrat", sans-serif; */
 }
 
-
-.aboutme--gifs{
+.aboutme-gifs-block{
   display: flex;
   justify-content: space-around;
   margin: 50px auto;
@@ -390,6 +379,11 @@ body::before {
 }
 
 .gifs{
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
   transition: ease-in-out 0.5s;
   scale: 0.2
 }
@@ -453,39 +447,7 @@ body::before {
   width: 30%;
 }
 
-.icon-align {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 /* Pictures and logos ---------------- */
-.logos{
-  display: flex;
-  justify-content: space-around;
-  width: 40%
-}
-
-.logos-icons{
-  transition: ease-in-out 1s;
-  height: 75px;
-  width: 75px;
-  margin: 0 auto;
-  scale: 0.2;
-}
-
-.logos-icons:hover{
-  transition: all 250ms ease-in-out;
-  height: 100px;
-  width: 100px;
-}
-
-.footer-icons{
-  display: flex;
-  justify-content: space-around;
-  width: 25%; 
-  margin: 0 auto
-}
 
 .footer-icons-img{
   margin: auto auto
@@ -566,16 +528,6 @@ h5{
   .Navigator{
     width: 75%
   }
-
-
-
-  /* .aboutme-blocks{
-    width: 100%;
-    margin: auto auto;
-    margin-bottom: 50px
-  } */
-
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -592,7 +544,6 @@ h5{
   .body-divs{
     margin: 15px auto;
     width: 90%;
-
   }
 
   .header-btns-blocks{
@@ -619,29 +570,23 @@ h5{
   }
 
   .technologies-logos{
-    height: 40px;
-    width: 40px;
+    height: 65px;
+    width: 65px;
   }
 
   .footer-icons{
     width: 50%; 
   }
 
-  .aboutme {
+  .facts-quotes {
     display: block;
   } 
 
-  .aboutme > *{
+  .facts-quotes> *{
     margin: 0 auto;
-  }
-
-  .gifs{
-    width: 100px;
-    height: 100px;
   }
 }
   
-
 @media screen and (max-width: 850px){
   /* USE BLOCK INSTEAD OF INLINE FOR FLEX FOR BORDER TO SHOW */
   .app-box {
@@ -653,21 +598,6 @@ h5{
   .app-box:last-child{
     border-bottom: 0px;
   }
-
-  /* .container_wrapper{
-    margin: 0px auto;
-    width: 75%;
-  }
-
-  .container--picture{
-    width: 100%;
-    
-  }
-
-  .github-links {
-    width: 10%;
-  } */
-
 }
 
 @media screen and (max-width: 800px) {
@@ -676,9 +606,11 @@ h5{
     width: 50px
   }
 
-
+  .gifs{
+    height: 80px; 
+    width: 80px;
+  }
 }
-
 
 @media screen and (max-width: 700px){
   .header-text{
@@ -709,7 +641,6 @@ h5{
   }
 
   .links{
-    /* margin-bottom: 25px; */
     text-align: center;
     justify-content: center;
   }
@@ -805,10 +736,6 @@ h5{
     flex: none
   }
 
-  /* .contact-list{
-    width: 100%;
-  }*/
-
   .contact-logos{
     width: 20%;
     align-items: left
@@ -825,8 +752,6 @@ h5{
   .carousel-container {
     height: 300px;
   } 
-  
-
 }
 
 @media screen and (max-width: 500px){
@@ -872,5 +797,4 @@ h5{
   .footer-icons{
     width: 100%;
   }
-
 }
