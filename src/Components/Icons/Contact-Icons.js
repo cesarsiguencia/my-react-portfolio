@@ -2,9 +2,9 @@ import React from "react";
 
 import GitHub from '../../media/icons/github.svg'
 
-import LinkedIn from '../../media/icons/linkedin.png'
+import LinkedIn from '../../media/icons/linkedin.avif'
 
-import ClearMail from '../../media/icons/clear-mail.png'
+import ClearMail from '../../media/icons/clear-mail.avif'
 
 const ContactBlock = () => {
 

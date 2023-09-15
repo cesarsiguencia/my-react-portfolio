@@ -1,5 +1,5 @@
 import React from 'react';
-import github from '../../media/icons/github-white.png'
+// import github from '../../media/icons/github-white.png'
 
 const displayApp = () => {
     const heroku_about = "Create an account to test all my app features or login with the sample credentials below:"
@@ -81,7 +81,7 @@ const displayApp = () => {
                 <div className="container_wrapper">
                     <div className="app_image">
                         <a target="_blank" href={app.url}>
-                            <img alt={`A screenshot of ${app.name} app`} className="container--picture" src={require(`../../media/app-images/${app.name}.png`)} >
+                            <img alt={`A screenshot of ${app.name} app`} className="container--picture" src={require(`../../media/app-images/${app.name}.avif`)} >
                             </img>
 
 

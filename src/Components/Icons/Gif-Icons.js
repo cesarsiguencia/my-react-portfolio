@@ -1,6 +1,6 @@
 import React from 'react'
 import bike from '../../media/icons/gifs/cycling-bicycle.gif'
-import spanish from '../../media/icons/spanish.png'
+import spanish from '../../media/icons/spanish.avif'
 import sparrow from '../../media/icons/gifs/sparrow.gif'
 
 const Gifs = () => {

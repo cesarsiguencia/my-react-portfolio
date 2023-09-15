@@ -6,7 +6,7 @@ import ContactBlock from "../Components/Icons/Contact-Icons"
 
 import Icons from '../Components/Icons/Tech-Icons'
 
-import Portrait from '../media/me/portrait.png'
+import Portrait from '../media/me/portrait.avif'
 
 import ContactHomeDiv from '../Components/Home-Blocks/Contact'
 

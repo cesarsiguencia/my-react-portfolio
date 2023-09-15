@@ -6,7 +6,7 @@ import { hamburgerMenu } from "../../utils/helpers";
 
 import developer_resume from '../../media/Cesar_Siguencia_Resume.pdf'
 
-import doc_icon from "../../media/icons/document.png"
+import doc_icon from "../../media/icons/document.avif"
 
 
 const Nav = () => {
