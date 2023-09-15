@@ -68,20 +68,20 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/title.dc8a8652.gif"
   },
   {
-    "revision": "8b22e8d88da13a39a986b5bb0e151e0c",
-    "url": "/my-react-portfolio/static/media/learn-me-still.8b22e8d8.gif"
-  },
-  {
-    "revision": "efb2197c6d6bb4f888b79d33813de817",
-    "url": "/my-react-portfolio/static/media/view-projects-still.efb2197c.gif"
-  },
-  {
     "revision": "686a6610ce77ee241ead8143cd81b730",
     "url": "/my-react-portfolio/static/media/learn-me-active.686a6610.gif"
   },
   {
     "revision": "684d10e57b2d711f351d086e6cb69a81",
     "url": "/my-react-portfolio/static/media/view-projects-active.684d10e5.gif"
+  },
+  {
+    "revision": "efb2197c6d6bb4f888b79d33813de817",
+    "url": "/my-react-portfolio/static/media/view-projects-still.efb2197c.gif"
+  },
+  {
+    "revision": "8b22e8d88da13a39a986b5bb0e151e0c",
+    "url": "/my-react-portfolio/static/media/learn-me-still.8b22e8d8.gif"
   },
   {
     "revision": "013a616d8b8603c79f062adf52ac80e5",
@@ -224,7 +224,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/resume.881b0f15.png"
   },
   {
-    "revision": "357acd4a8c5b8240fc9586c57f7aa52e",
+    "revision": "a024d31223ae84d7b5d74afc29489a93",
     "url": "/my-react-portfolio/index.html"
   }
 ];
