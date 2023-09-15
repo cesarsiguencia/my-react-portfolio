@@ -32,12 +32,12 @@ const Nav = (props) => {
       name: "Contact",
       url: "#contact"
     },
-    {
-      name: "Resume PDF ",
-      url: developer_resume,
-      target: `'' download`,
-      icon: doc_icon
-    }
+    // {
+    //   name: "Resume PDF ",
+    //   url: developer_resume,
+    //   target: `'' download`,
+    //   icon: doc_icon
+    // }
   ]
 
   // let subUrlObjectAtLoad
@@ -80,14 +80,7 @@ const Nav = (props) => {
   // },[subUrlObjectAtLoad])
 
   return (
-    <nav className="Navigator"
-
-    // onClick={()=>{
-    //   setNavClicked(true)
-    //   setTitleClicked(false)
-    //   }}
-
-    >
+    <nav className="Navigator">
       <div className="mobile-toggle" id="mobile-menu" onClick={hamburgerMenu}>
         <div className="mobile-options"></div>
         <div className="mobile-options"></div>
@@ -97,28 +90,17 @@ const Nav = (props) => {
 
 
         {pages.map((page) => (
-          <div className='h2' id="navtab" key={page.name}
-          // onClick={() => {
-          //   setSelectedPage(page)
-          // }}            
-          >
-            {/* <a onClick={hamburgerMenu} href={page.url} target={`${page.target ? (`'' download`) : (``)}`} style={{display: 'flex'}}>
-              <p className="links links-selected">{page.name}</p>
-                  {page.icon &&
-                      <img src={page.icon} style={{height:'35px', margin: '0 10px'}}></img>
-                  }
-            </a> */}
-
-            <NavHashLink onClick={hamburgerMenu} style={{display:'flex'}} to={`/my-react-portfolio${page.url}`}>
-              <p className={`links`}>{page.name}</p>
-
-              {page.icon &&
-                <img src={page.icon} style={{ height: '35px', margin: '0 10px' }}></img>
-              }
-
+          <div className='h2 navBtns' id="navtab" key={page.name}>
+            <NavHashLink onClick={hamburgerMenu} style={{ display: 'flex', padding: '10px 10px' }} to={`/my-react-portfolio${page.url}`}>
+              <p className='links' >{page.name}</p>
             </NavHashLink>
           </div>
         ))}
+
+        <a className='h2 navBtns' href={developer_resume} target="'' download" style={{ display: 'flex', border:'2px solid white', padding: '10px 10px' }}>
+          <p className='links' >Resume PDF</p>
+          <img src={doc_icon} style={{ height: '35px', margin: '0 10px'  }}></img>
+        </a>
       </div>
     </nav>
   )

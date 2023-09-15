@@ -46,13 +46,15 @@ const displayApp = () => {
         },
         {
             name: 'Taskmaster-Pro',
+            short_des: 'Stay organized and on time with your tasks using this JQuery powered web app with draggable UI',
             description: 'Take notes the easy way using Taskmaster Pro. Created tasks can be edited, deleted, and assigned due dates which is color coded to show if a due date is approaching or past due. Tasks can also be dragged around the application interface to various statuses, including "Completed", "In Progress" or the trash bin.',
             technologies: 'Javascript, JQuery, Moment.js,, Bootstrap, HTML, CSS',
             url: 'https://cesarsiguencia.github.io/taskmaster-pro/',
             developer: 'Sole Developer'
         },
         {
-            name: "Dine-N-Wine",
+            name: "Dine-N-Wine",       
+            short_des: 'Find quick international recipes using this app built with my first group project',
             description: 'An application representing multiple hot plate recipes from all over the world! Users are able to save receipes under "Favorites", filter receipes by category, or allow the application to pick one by random. In addition, users can look up for macronutrient information, ingredients, and dosages.',
             technologies: 'HTML, CSS, PureCSS, Javascript, APIs',
             url: 'https://cesarsiguencia.github.io/dine-n-wine/',
@@ -60,6 +62,7 @@ const displayApp = () => {
         },
         {
             name: 'Weather-Dashboard',
+            short_des: 'Search and save cities through their weekly weather forecast',
             description: 'Need to check full weather conditions of any city quickly? Use this application that will give you just that along with the temperature, wind speed, UV levels, and humidity. The user can also view the conditions up to five days from today. A convienient city search history is displayed for the user to compare conditions across multiple conditions.',
             technologies: 'Javascript, HTML, CSS, Moment.js, Bootstrap, APIs',
             url: 'https://cesarsiguencia.github.io/weather-dashboard/',

@@ -36,7 +36,7 @@ const About = () => {
 
                 <div className='title-block left'>
                     <div className='title'>
-                        <h2>About Me</h2>
+                        <h2>More About Me</h2>
                     </div>
                 </div>
 
