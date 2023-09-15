@@ -47,7 +47,7 @@ const Contact = () => {
                         <div className="left align-ver contact-des">
                             <div>
 
-                            <h6>{contact.title}</h6>
+                            <p className='contact-name'>{contact.title}</p>
                             <p className="body-texts">{contact.des}</p>
                             </div>
                         </div>

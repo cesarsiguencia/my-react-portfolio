@@ -64,8 +64,8 @@ const Home = () => {
                    <ContactBlock></ContactBlock>
 
                     <div className='header-btns-blocks'>
-                        <a className='header-btns learn-me' href='#about'></a>
-                        <a className='header-btns view-projects' href='#projects'></a>
+                        <a className='header-btns learn-me' href='#about' aria-label='link to about section'></a>
+                        <a className='header-btns view-projects' href='#projects' aria-label='link to projects section'></a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ const Home = () => {
                                 <br />
                                 <Link to="/my-react-portfolio/aboutme">
                                     <div className="home-btns" style={{color: 'black'}}>
-                                        <h5>Still Curious? Read My Full Bio!</h5>
+                                        <p className="h5">Still Curious? Read My Full Bio!</p>
                                     </div>
                                 </Link>
                                 </div>

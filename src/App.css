@@ -84,7 +84,7 @@ body::before {
 
 .header-hero{
   height: 800px;
-  background-image: url('https://media.giphy.com/media/gFmkpNCar7TSoauRUs/giphy.gif');
+  background-image: url('./media/icons/gifs/matrix.gif');
   background-repeat: repeat-x;
 }
 
@@ -504,11 +504,11 @@ h4{
   margin: 10px 0;
 }
 
-h5{
+.h5{
     font-family: 'Raleway';
-      /* font-family: "Montserrat", sans-serif; */
     margin: 10px 0;
-    font-size: 20px
+    font-size: 20px;
+    font-weight: bold
 }
 
 .bold{
@@ -724,11 +724,11 @@ h5{
     width: 75px;
   }
 
-  h5{
+  .h5{
     font-size: 20px
   }
 
-  h6{
+  .contact-name{
     font-size:15px
   }
 
@@ -779,7 +779,7 @@ h5{
 }
 
 @media screen and (max-width: 400px){
-  h6{
+  .contact-name{
     font-size:12px
   }
   .header-btns{

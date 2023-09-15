@@ -51,9 +51,9 @@ const QuoteCarousel = () => {
 
                     <p className="aboutme--quotes carousel-item left" style={{transform:`translate(-${currentIndex * 100}%)`}}>{item.quote}</p>
 
-                    <h5 className="carousel-item" style={{fontStyle: 'italic',transform:`translate(-${currentIndex * 100}%)`}} key={index}>
+                    <p className="h5 carousel-item" style={{fontStyle: 'italic',transform:`translate(-${currentIndex * 100}%)`}} key={index}>
                     {item.person}
-                    </h5>
+                    </p>
 
                 </div>
                     })}

@@ -52,7 +52,7 @@ const techIcons = () => {
 
         techArrays.map((singleArray) => {
             return <div key={singleArray.name}>
-                <h5>{singleArray.name}</h5>
+                <p className='h5'>{singleArray.name}</p>
                 <div className='technologies'>
                     {singleArray.links.map((tech, i) => {
                         return (

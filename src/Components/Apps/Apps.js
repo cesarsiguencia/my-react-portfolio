@@ -88,7 +88,7 @@ const displayApp = () => {
                             <div className='container--overlay'>
                                 <div className='container--content' style={{ color: 'white' }}>
 
-                                    <h5>{displayedNames}</h5>
+                                    <p className='h5'>{displayedNames}</p>
 
                                     <p className='body-texts'>{app.short_des}</p>
                                 </div>
