@@ -159,19 +159,19 @@ const Home = (props) => {
                     </div>
 
                     <div className='section-content'>
-                        <div className='row'>
+                        <div className='row about-box'>
                             <div className="align-ver">
-                                <img src={Portrait} style={{ height: '250px', borderRadius: '100px' }}></img>
+                                <img src={Portrait} style={{ display:'inline-block', height: '250px', borderRadius: '100px', margin: '0 auto'}}></img>
                             </div>
                             
 
-                            <div className='align-ver' style={{ width: '600px' }}>
+                            <div className='align-ver about-des'>
                                 <div>
                                 <p className="body-texts" style={{ textAlign: 'left' }}> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub. </p>
                                 <br />
                                 <Link to="/my-react-portfolio/aboutme">
-                                    <div className="home-btns">
-                                        <h6>Still Curious? Read My Full Bio!</h6>
+                                    <div className="home-btns" style={{color: 'black'}}>
+                                        <h5>Still Curious? Read My Full Bio!</h5>
                                     </div>
                                 </Link>
                                 </div>

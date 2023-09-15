@@ -82,7 +82,7 @@ const About = () => {
                                 <div className='align-ver'>
                                     <p className='body-texts'>
                                         <span className='body-texts bold'>3: </span>
-                                        A MERN application promoting a  <span className='red-font bold about-me-shadow'>new side business</span> as an Apple product fixer, where I will showcase various projects on broken devices I have fixed, including iPods, iPhones, and Apple monitors. I will include a form for anyone to contact me and give me details about the service they wish to receive on their device.
+                                        A MERN application promoting a  <span className='red-font bold about-me-shadow'>new side business</span> as an Apple product repairman, where I will showcase various broken devices I have fixed, including iPods, iPhones, and Apple monitors. 
 
                                     </p>
                                 </div>

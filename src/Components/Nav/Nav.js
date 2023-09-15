@@ -90,8 +90,8 @@ const Nav = (props) => {
 
 
         {pages.map((page) => (
-          <div className='h2 navBtns' id="navtab" key={page.name}>
-            <NavHashLink onClick={hamburgerMenu} style={{ display: 'flex', padding: '10px 10px' }} to={`/my-react-portfolio${page.url}`}>
+          <div style={{ display: 'flex', padding: '10px 10px' }} className='h2 navBtns' id="navtab" key={page.name}>
+            <NavHashLink onClick={hamburgerMenu}  to={`/my-react-portfolio${page.url}`}>
               <p className='links' >{page.name}</p>
             </NavHashLink>
           </div>
@@ -99,11 +99,14 @@ const Nav = (props) => {
 
         <a className='h2 navBtns' href={developer_resume} target="'' download" style={{ display: 'flex', border:'2px solid white', padding: '10px 10px' }}>
           <p className='links' >Resume PDF</p>
-          <img src={doc_icon} style={{ height: '35px', margin: '0 10px'  }}></img>
+          <div className='align-ver'>
+          <img src={doc_icon} style={{ display:'inline-block', height: '35px', margin: '0 10px'  }} ></img>
+          </div>
+        
         </a>
       </div>
     </nav>
   )
-}
+} 
 
 export default Nav

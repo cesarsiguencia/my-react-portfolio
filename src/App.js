@@ -26,15 +26,15 @@ function App() {
 
     }, 1000)
 
-    setTimeout(()=>{
+    setTimeout(() => {
       const application = document.querySelector('.App')
-      if(application){
+      if (application) {
         application.style.opacity = 1
 
       }
     }, 1200)
   }, [])
-  
+
   const pages = [
     {
       name: "About Me"
@@ -78,12 +78,12 @@ function App() {
                     ><Home /></React.Suspense>}
                   />
 
-<Route
+                  <Route
                     path="/my-react-portfolio#about"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Home /></React.Suspense>}
                   />
 
-                  
+
                   <Route
                     path="/my-react-portfolio/aboutme"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe /></React.Suspense>}

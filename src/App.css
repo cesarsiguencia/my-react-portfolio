@@ -255,6 +255,10 @@ body::before {
 }
 
 /* About on Home Pg */
+.about-des{
+  width: 65%
+}
+
 .skills{
   display: flex;
   justify-content: space-between;
@@ -532,10 +536,12 @@ body::before {
 
 a:link{
   text-decoration: none;
+  color: white
 }
 
 a:visited{
   text-decoration: none;
+  color: white
 }
 
 .github-links {
@@ -565,6 +571,7 @@ h5{
     font-family: 'Raleway';
       /* font-family: "Montserrat", sans-serif; */
     margin: 10px 0;
+    font-size: 20px
 }
 
 .bold{
@@ -580,28 +587,20 @@ h5{
   justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .Navigator{
     width: 75%
   }
 
-  .aboutme {
-    display: block
-  }
 
-  .aboutme-blocks{
+
+  /* .aboutme-blocks{
     width: 100%;
     margin: auto auto;
     margin-bottom: 50px
-  }
+  } */
 
-  .profile{
-    width: 90%
-  }
 
-  .skills{
-    display: block;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -615,8 +614,55 @@ h5{
     margin: 0 auto;
   }
 
+  .body-divs{
+    margin: 15px auto;
+    width: 90%;
+
+  }
+
+  .header-btns-blocks{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-des{
+    width: 50%;
+  }
+
+  .skills{
+    display: block;
+  }
+
+  .skills > div{
+    border-right: 0;
+    border-bottom: 3px solid orange;
+  }
+
+  .skills > div:last-child{
+    border-right: 0;
+    border-bottom: 0
+  }
+
+  .technologies-logos{
+    height: 40px;
+    width: 40px;
+  }
+
   .footer-icons{
     width: 50%; 
+  }
+
+  .aboutme {
+    display: block;
+  } 
+
+  .aboutme > *{
+    margin: 0 auto;
+  }
+
+  .gifs{
+    width: 100px;
+    height: 100px;
   }
 }
   
@@ -625,11 +671,15 @@ h5{
   /* USE BLOCK INSTEAD OF INLINE FOR FLEX FOR BORDER TO SHOW */
   .app-box {
     display: block;
-    width: 100%; 
+    width: 60%; 
     border-bottom: 3px solid orange;
   }
 
-  .container_wrapper{
+  .app-box:last-child{
+    border-bottom: 0px;
+  }
+
+  /* .container_wrapper{
     margin: 0px auto;
     width: 75%;
   }
@@ -641,7 +691,7 @@ h5{
 
   .github-links {
     width: 10%;
-  }
+  } */
 
 }
 
@@ -651,14 +701,23 @@ h5{
     width: 50px
   }
 
-  .gifs{
-  width: 100px;
-  height: 100px;
-}
+
 }
 
 
 @media screen and (max-width: 700px){
+  .header-text{
+    padding: 5%;
+  }
+  
+  .header-btns-blocks{
+    display: block;  
+  }
+
+  .header-btns-blocks>*{
+    display: block;
+    margin: 25px auto;
+  }
   .App-footer{
     display: block;
     justify-content: center;
@@ -671,7 +730,9 @@ h5{
   }
 
   .links{
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    text-align: center;
+    justify-content: center;
   }
 
   .logos {
@@ -692,7 +753,7 @@ h5{
   .mobile-toggle {
     width: 100%;
     height: 35px;
-    margin-bottom: 20px
+    margin: 10px 0;
   }
 
   .mobile-options {
@@ -705,6 +766,13 @@ h5{
   .nav-links{
     opacity: 0;
     height: 1px;
+    display: none;
+  }
+
+
+
+  .navBtns{
+    justify-content: center;
   }
 
   .mobile-effect{
@@ -712,9 +780,9 @@ h5{
     opacity: 1;
     text-align: center;
     line-height: 60px;
-    width: 100%;
-    display: table;
     margin: 10px auto;
+    display: table;
+    width: 100%;
   }
 
   #mobile-menu.active .mobile-options:nth-child(2){
@@ -733,35 +801,95 @@ h5{
   }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
+  .about-box{
+    display: block;
+  }
+
+  .about-des{
+    display: block;
+    width: 100%;
+    margin: 25px auto
+  }
   .gifs {
     height: 75px;
     width: 75px;
   }
+
+  h5{
+    font-size: 20px
+  }
+
+  h6{
+    font-size:15px
+  }
+
+  .contact-list > * {
+    flex: none
+  }
+
+  /* .contact-list{
+    width: 100%;
+  }*/
+
+  .contact-logos{
+    width: 20%;
+    align-items: left
+  }
+
+  .contact-des{
+    width: 60%
+  } 
+
+  .aboutme-blocks{
+    width: 100%;
+  }
+  
+  .carousel-container {
+    height: 300px;
+  } 
+  
+
 }
 
 @media screen and (max-width: 500px){
- 
-  .links{
-    margin-bottom: 25px;
+  .header-text{
+    padding: 15%;
   }
-
-  .body-divs{
-   margin: 10px 10px;
+  .header-text h1{
+    font-size: 35px;
+  }
+  .app-box{
+    width: 100%;
   }
 
   .logos{
     width: 75%
   }
+
+  .aboutme--gifs{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px){
+  h6{
+    font-size:12px
+  }
+  .header-btns{
+    height:60px;
+    width: 200px;
+  }
   .container---blurb{
     font-size: 15px
   }
 
   .icon-align {
     margin: 0 auto;
+  }
+
+  .footer-icons{
+    width: 100%;
   }
 
 }
