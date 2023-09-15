@@ -122,11 +122,6 @@ body::before {
   text-shadow: white 1px 0 10px;
 }
 
-.about-me-shadow{
-  font-size: 23px;
-  /* text-shadow: black 0px 20px 25px; */
-}
-
 .header-icons-block{
   display: flex;
   justify-content: space-around;

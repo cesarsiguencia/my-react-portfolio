@@ -1,7 +1,7 @@
 import React from 'react'
-import bike from '../../media/icons/cycling-bicycle.gif'
+import bike from '../../media/icons/gifs/cycling-bicycle.gif'
 import spanish from '../../media/icons/spanish.png'
-import sparrow from '../../media/icons/sparrow.gif'
+import sparrow from '../../media/icons/gifs/sparrow.gif'
 
 const Gifs = () => {
 

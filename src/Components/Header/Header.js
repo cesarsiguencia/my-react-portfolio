@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import Nav from '../../Components/Nav/Nav'
 
-import Title from '../../media/title.gif'
+import Title from '../../media/icons/gifs/title.gif'
 
 
 

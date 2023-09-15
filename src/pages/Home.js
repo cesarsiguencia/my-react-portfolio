@@ -1,10 +1,6 @@
 import React, { useEffect, useRef } from "react"
 
-import { Link, NavLink } from 'react-router-dom'
-
-// import portrait1 from "../media/me/portrait-1.png"
-
-// import portrait2 from "../media/me/portrait-2.png"
+import { Link } from 'react-router-dom'
 
 import GitHub from '../media/icons/github.svg'
 
@@ -22,7 +18,6 @@ import PortfolioDiv from "../Components/Apps/Apps"
 
 import { opacityEffect, scaleEffect } from "../utils/helpers"
 
-import ClickableIcons from '../Components/Icons/Click-Icons'
 
 
 const Home = (props) => {
@@ -167,7 +162,7 @@ const Home = (props) => {
 
                             <div className='align-ver about-des'>
                                 <div>
-                                <p className="body-texts" style={{ textAlign: 'left' }}> I recently completed a coding bootcamp with Columbia University and received my certification in 2022. You can find me practicing and learning about new web development technologies consistently, which is reflected on my most recent projects shown in my portfolio and on my GitHub. </p>
+                                <p className="body-texts left"> Welcome! I create <span className="red-font bold">full stack web applications</span> with an emphasis on <span className="red-font bold"></span>productivity and social media. I completed a Full Stack Web Developer course from <span className="red-font bold"> Columbia University</span> in 2022 where I learned various of the latest and essential developer technologies (see list below). I'm a <span className="red-font bold">life long New Yorker</span> with a knack for music and electronic repairs. Please view my featured projects and if you would like to connect, contact me using any of my contact links. <span className="red-font bold">Can't wait to hear from you!</span> </p>
                                 <br />
                                 <Link to="/my-react-portfolio/aboutme">
                                     <div className="home-btns" style={{color: 'black'}}>

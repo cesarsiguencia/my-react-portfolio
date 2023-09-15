@@ -40,14 +40,11 @@ export function opacityEffect(hostDiv, myRef) {
     let entry
     const observer = new IntersectionObserver((entries) => {
       entry = entries[0];
-
-
-          if (entry.isIntersecting === true) {
-            hostDiv.style.opacity = '1'
-          } else {
-            hostDiv.style.opacity = '0'
-          }
-     
+        if (entry.isIntersecting === true) {
+          hostDiv.style.opacity = '1'
+        } else {
+          hostDiv.style.opacity = '0'
+        }
     })
     observer.observe(myRef.current)
   }

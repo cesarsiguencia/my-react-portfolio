@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import './App.css';
-import './loader.css'
 // import $ from 'jquery'
 import LoadingPg from './Components/Loading/Loading'
 import Header from './Components/Header/Header';
@@ -12,7 +11,6 @@ const Home = React.lazy(() => import('./pages/Home'))
 const AboutMe = React.lazy(() => import('./pages/AboutMe'))
 const Portfolio = React.lazy(() => import('./Components/Home-Blocks/Portfolio'))
 const Contact = React.lazy(() => import('./Components/Home-Blocks/Contact'))
-const Resume = React.lazy(() => import('./pages/Resume'))
 // const Footer = React.lazy(()=> import('./Components/Footer/Footer'))
 
 function App() {
@@ -97,10 +95,7 @@ function App() {
                     path="/my-react-portfolio/contact"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Contact /></React.Suspense>}
                   /> */}
-                  <Route
-                    path="/my-react-portfolio/resume"
-                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Resume /></React.Suspense>}
-                  />
+                
                 </Routes>
               </div>
               <Footer></Footer>

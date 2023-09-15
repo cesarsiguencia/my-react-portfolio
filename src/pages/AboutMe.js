@@ -53,7 +53,7 @@ const About = () => {
                                 <div className='align-ver'>
                                     <p className="body-texts">
                                         <span className='body-texts bold'>1: </span>
-                                        A sign up application for a special event I will be hosting in the fall of 2023 for when I turn exactly <span className='red-font bold about-me-shadow'>10,000 days old</span>!
+                                        A sign up application for a special event I will be hosting in the fall of 2023 for when I turn exactly <span className='red-font bold'>10,000 days old</span>!
                                     </p>
                                 </div>
 
@@ -67,7 +67,7 @@ const About = () => {
                                 <div className='align-ver'>
                                     <p className="body-texts">
                                         <span className='body-texts bold'>2: </span>
-                                        A gallery website on my favorite spots in my neighborhood  <span className='red-font bold about-me-shadow' >Washington Heights</span>, which is iconic in the musical 'In The Heights'.
+                                        A gallery website on my favorite spots in my neighborhood  <span className='red-font bold' >Washington Heights</span>, which is iconic in the musical 'In The Heights'.
                                     </p>
                                 </div>
 
@@ -82,7 +82,7 @@ const About = () => {
                                 <div className='align-ver'>
                                     <p className='body-texts'>
                                         <span className='body-texts bold'>3: </span>
-                                        A MERN application promoting a  <span className='red-font bold about-me-shadow'>new side business</span> as an Apple product repairman, where I will showcase various broken devices I have fixed, including iPods, iPhones, and Apple monitors. 
+                                        A MERN application promoting a  <span className='red-font bold'>new side business</span> as an Apple product repairman, where I will showcase various broken devices I have fixed, including iPods, iPhones, and Apple monitors. 
 
                                     </p>
                                 </div>
