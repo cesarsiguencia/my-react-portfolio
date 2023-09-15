@@ -14,7 +14,7 @@ import PortfolioDiv from "../Components/Apps/Apps"
 
 import { opacityEffect, scaleEffect } from "../utils/helpers"
 
-const Home = () => {
+const Home = ({apps}) => {
 
     const aboutOpa = useRef()
     const projectsOpa = useRef()
@@ -120,7 +120,7 @@ const Home = () => {
 
                     <div className="section-content" ref={projectsScale}>
                     <p className="body-texts left">Hover cursor over image or hold and slide on image to preview image of app. Click on image below to deploy app.</p>
-                            <PortfolioDiv></PortfolioDiv>
+                            <PortfolioDiv applications={apps}></PortfolioDiv>
                     </div>
 
                 </div>

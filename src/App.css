@@ -435,6 +435,8 @@ body::before {
   transition: 1s cubic-bezier(0.1, 0.1, 0.1, 1.5);
 }
 
+/* Projects Page */
+
 /* Footer ----------------------- */
 
 .App-footer {
