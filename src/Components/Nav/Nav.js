@@ -47,7 +47,7 @@ const Nav = () => {
         <a className='navBtns' href={developer_resume} target="'' download" style={{ border:'2px solid white'}}>
           <p className='links' >Resume PDF</p>
           <div className='align-ver'>
-            <img src={doc_icon} style={{ display:'block', height: '35px', margin: '0 10px'  }} ></img>
+            <img alt='document icon'src={doc_icon} style={{ display:'block', height: '35px', margin: '0 10px'  }} ></img>
           </div>
         
         </a>

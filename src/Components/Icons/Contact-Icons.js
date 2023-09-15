@@ -32,7 +32,7 @@ const ContactBlock = () => {
             {contactIcons.map((method)=>{
                 return(
                     <a key={method.name} href={method.url} target="_blank" rel="noopener noreferrer">
-                        <img className='header-icons' src={method.icon}></img>
+                        <img className='header-icons' alt={`${method.name} logo`} src={method.icon}></img>
                     </a>
                 )
             })}

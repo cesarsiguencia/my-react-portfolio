@@ -81,7 +81,7 @@ const displayApp = () => {
                 <div className="container_wrapper">
                     <div className="app_image">
                         <a target="_blank" href={app.url}>
-                            <img className="container--picture" src={require(`../../media/app-images/${app.name}.png`)} >
+                            <img alt={`A screenshot of ${app.name} app`} className="container--picture" src={require(`../../media/app-images/${app.name}.png`)} >
                             </img>
 
 

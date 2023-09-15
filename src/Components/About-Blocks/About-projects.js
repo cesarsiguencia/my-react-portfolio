@@ -10,21 +10,24 @@ const AboutProjects = () => {
             first_des: `A sign up application for a special event I will be hosting in the fall of 2023 for when I turn exactly `,
             red_font: '10,000 days old.',
             second_des: '',
-            icon: balloons
+            icon: balloons,
+            pic: 'balloons'
         },
         {
             name: '2',
             first_des: `A gallery website on my favorite spots in my neighborhood `,
             red_font: 'Washington Heights',
             second_des: `, which is iconic in the musical 'In The Heights'.`,
-            icon: camera
+            icon: camera,
+            pic: 'camera'
         },
         {
             name: '3',
             first_des: `A MERN application promoting a `,
             red_font: 'new side business',
             second_des: ` as an Apple product repairman, where I will showcase various broken devices I have fixed, including iPods, iPhones, and Apple monitors.`,
-            icon: wrench
+            icon: wrench,
+            pic: 'wrench'
         }
 
     ]
@@ -43,7 +46,7 @@ const AboutProjects = () => {
 
 
                             <div className='align-ver'>
-                                <img className='projects-logos' src={app.icon}></img>
+                                <img alt={`Gif of ${app.pic}`}className='projects-logos' src={app.icon}></img>
                             </div>
                         </div>
                     )

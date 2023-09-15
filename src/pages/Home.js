@@ -81,7 +81,7 @@ const Home = () => {
                     <div className='section-content'>
                         <div className='row about-box'>
                             <div className="align-ver">
-                                <img src={Portrait} style={{ display:'inline-block', height: '250px', borderRadius: '100px', margin: '0 auto'}}></img>
+                                <img alt='profile of Cesar' src={Portrait} style={{ display:'inline-block', height: '250px', borderRadius: '100px', margin: '0 auto'}}></img>
                             </div>
                             
 

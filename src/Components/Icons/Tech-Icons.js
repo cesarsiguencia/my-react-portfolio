@@ -12,6 +12,7 @@ import react from '../../media/icons/skills-icons/react.png'
 import sequelize from '../../media/icons/skills-icons/sequelize.png'
 import mongoose from '../../media/icons/skills-icons/mongoose.png'
 import bootstrap from '../../media/icons/skills-icons/bootstrap.png'
+import postgresql from '../../media/icons/skills-icons/postgresql.png'
 import api from '../../media/icons/skills-icons/api.png'
 import mongodb from '../../media/icons/skills-icons/mongodb.png'
 import handlebars from '../../media/icons/skills-icons/handlebars.png'
@@ -23,6 +24,7 @@ import command from '../../media/icons/skills-icons/command.png'
 import insomnia from '../../media/icons/skills-icons/insomnia-icon.png'
 import apollo from '../../media/icons/skills-icons/apollo.png'
 import framework from '../../media/icons/skills-icons/framework.png'
+import { post } from 'jquery'
 
 const techIcons = () => {
 
@@ -36,7 +38,7 @@ const techIcons = () => {
         {
             name: 'Back End',
             links: [
-                { url: node, name: 'Node.js' }, { url: python, name: 'Python' }, { url: api , name:'REST APIs'}, { url: express, name: 'Express'}, { url: mysql , name: 'MySQL'}, { url: sequelize, name: 'Sequelize ORM'}, { url: mongodb, name: 'MongoDB' }, { url: mongoose, name: 'Mongoose ODM' },
+                { url: node, name: 'Node.js' }, { url: python, name: 'Python' }, { url: api , name:'REST APIs'}, { url: express, name: 'Express'}, { url: mysql , name: 'MySQL'}, {url:postgresql, name: 'PostgreSQL'},{ url: sequelize, name: 'Sequelize ORM'}, { url: mongodb, name: 'MongoDB' }, { url: mongoose, name: 'Mongoose ODM' },
             ]
         },
         {
@@ -56,8 +58,8 @@ const techIcons = () => {
                     {singleArray.links.map((tech, i) => {
                         return (
 
-                        <div className='technologies-box'>
-                            <img className='technologies-logos' src={tech.url} key={i} alt={tech.url}>
+                        <div className='technologies-box' key={i}>
+                            <img alt={`${tech.name} development technology logo`} className='technologies-logos' src={tech.url}>
                             </img>
                             <p className='technologies-names'>{tech.name}</p>
                         </div>
