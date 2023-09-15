@@ -172,7 +172,7 @@ body::before {
 
 .learn-me:hover{
   transition: ease-in-out 0.5s;
-  transform: rotateX(-360deg);
+  /* transform: rotateX(-360deg); */
   background-image: url('./media//icons/gifs/learn-me-active.gif');
 }
 
@@ -184,7 +184,7 @@ body::before {
 .view-projects:hover{
   background-image: url('./media//icons/gifs/view-projects-active.gif');
   transition: ease-in-out 0.5s;
-  transform: rotateX(-360deg);
+  /* transform: rotateX(-360deg); */
 }
 
 /* Home --------------------------------- */
