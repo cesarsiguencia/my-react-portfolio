@@ -101,13 +101,13 @@ body::before {
 }
 
 .header-hero{
-  height: 90vh;
+  height: 800px;
   background-image: url('https://media.giphy.com/media/gFmkpNCar7TSoauRUs/giphy.gif');
   background-repeat: repeat-x;
 }
 
 .header-text{
-  padding: 15%;
+  padding: 10% 15%;
   font-size: 30px;
   color: beige;
 }
@@ -222,7 +222,7 @@ body::before {
 
 .title{
   display: inline-block;
-  background: linear-gradient(to top, #14c3cce0 50%, white 50%);
+  background: linear-gradient(to top, #14c3cce0 50%, #f8f8f3 50%);
 }
 
 .section-content{
@@ -610,7 +610,7 @@ h5{
   
   .Navigator{
     display: flex;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
   }
 
@@ -782,7 +782,7 @@ h5{
     line-height: 60px;
     margin: 10px auto;
     display: table;
-    width: 100%;
+    width: 90%;
   }
 
   #mobile-menu.active .mobile-options:nth-child(2){
@@ -869,6 +869,10 @@ h5{
 
   .aboutme--gifs{
     width: 100%;
+  }
+
+  .technologies-logos{
+    margin-bottom: 5px
   }
 }
 

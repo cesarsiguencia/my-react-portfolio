@@ -199,7 +199,7 @@ const Home = (props) => {
                     </div>
 
                     <div className="section-content" ref={projectsScale}>
-                    <p className="body-texts left">Hover cursor over image or hold and slide on image with your mobile to see a short description of the apps. Click on image below to deploy app.</p>
+                    <p className="body-texts left">Hover cursor over image or hold and slide on image to preview image of app. Click on image below to deploy app.</p>
                             <PortfolioDiv></PortfolioDiv>
                     </div>
 
