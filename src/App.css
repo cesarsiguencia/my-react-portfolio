@@ -288,30 +288,16 @@ body::before {
 }
 
 .app-box{
-  margin: 0 auto;
-  margin-top: 5px;
-  padding: 15px 0 15px 0;
+  margin: 25px auto;
   width: 400px;
+  height: 450px;
   transition: ease-in-out 0.7s;
-  scale: 0.2
+  scale: 0.2;
+  overflow:hidden
 }
 
-.app-box:last-child{
-  border-right: 0px
-}
-
-.container_wrapper{
-  margin: auto auto;
-  border-radius: 5px;
-  position: relative
-}
-
-.container--picture{
-  width: 100%;
-}
-
-.container--picture:hover{
-  filter: blur(0px)
+.app-box> img {
+  width: 100%
 }
 
 .container--content{
@@ -323,7 +309,6 @@ body::before {
   top: 0 ;
   left: 0;
   height: 100%;
-  width: 100%;
   background: linear-gradient(to top,  rgba(0,0,0,0.6)65%,  rgba(0,0,0,0));
   opacity: 1;
   display: flex;
@@ -488,9 +473,14 @@ body::before {
 
 /* Projects Page */
 
-.single-app-image{
+.single-app-image-div{
   height: 600px;
-  width: 450px
+  width: 450px;
+  overflow: hidden;
+}
+
+.single-app-image{
+  width: 100%
 }
 
 
@@ -664,13 +654,10 @@ h4{
   /* USE BLOCK INSTEAD OF INLINE FOR FLEX FOR BORDER TO SHOW */
   .app-box {
     display: block;
-    width: 60%; 
-    border-bottom: 3px solid orange;
+    width: 80%; 
   }
 
-  .app-box:last-child{
-    border-bottom: 0px;
-  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -842,6 +829,10 @@ h4{
     width: 100%;
   }
 
+  .app-box > img{
+    width: 500px;
+  }
+
   .logos{
     width: 75%
   }
@@ -854,7 +845,7 @@ h4{
     margin-bottom: 5px
   }
 
-  .single-app-image{
+  .single-app-image-div{
     height: 350px;
     width: 250px
 

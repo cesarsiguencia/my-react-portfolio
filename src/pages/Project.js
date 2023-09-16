@@ -96,7 +96,13 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                                 </div>
 
                                 <div className="col align-ver center">
-                                    <img className='single-app-image' style={{margin: '25px auto'}} alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
+                                    <div className='align-ver'>
+                                    <div className="align-ver single-app-image-div">
+                                        <img className='single-app-image' alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
+                                    </div>
+                                    </div>
+                                 
+                                    
                                 </div>
 
                             </div>
