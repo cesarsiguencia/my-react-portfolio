@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react"
+import React, { useState, useEffect, useRef } from "react"
 
 import { Link } from 'react-router-dom'
 
@@ -14,17 +14,17 @@ import PortfolioDiv from "../Components/Apps/Apps"
 
 import { opacityEffect, scaleEffect } from "../utils/helpers"
 
-const Home = ({apps}) => {
+const Home = ({ apps }) => {
 
     const aboutOpa = useRef()
     const projectsOpa = useRef()
     const contactOpa = useRef()
 
-    useEffect(()=>{
+    useEffect(() => {
         const aboutDiv = document.querySelector('#about')
         const projectsDiv = document.querySelector('#projects')
         const contactsDiv = document.querySelector('#contact')
-        
+
         opacityEffect(aboutDiv, aboutOpa)
         opacityEffect(projectsDiv, projectsOpa)
         opacityEffect(contactsDiv, contactOpa)
@@ -50,18 +50,58 @@ const Home = ({apps}) => {
         scaleEffect(contactHolder, contactIcons, contactScale)
     }, [])
 
+    const [projectTrigger, setProjectTrigger] = useState(false)
+
+    const [detectProjectBtnId, setDetectProjectBtnId] = useState()
+
+    const closeProjectBtns = (e) => {
+        const currentElement = e.target
+        console.log('what i am pressing', e.target)
+    
+
+
+        if (projectTrigger === true) {
+            console.log('saved comp',detectProjectBtnId)
+
+            const selectedProject = document.querySelector(`[project-id='${detectProjectBtnId}']`)
+            if (currentElement !== selectedProject) {
+                selectedProject.style.display = 'none'
+                selectedProject.style.height = '0px'
+
+            } 
+
+            if (currentElement === document.querySelector(`[app-id='${detectProjectBtnId}']`) ){
+                selectedProject.style.display = 'flex'
+                selectedProject.style.height = '100%'
+                selectedProject.style.width = '100%'
+
+            } 
+            // setProjectTrigger(false)
+
+
+        }
+
+
+
+
+
+    }
 
 
     return (
 
-        <div>
+        <div
+
+            onClick={(e) => closeProjectBtns(e)}
+
+        >
             <div className='header-hero'>
                 <div className='header-text'>
 
                     <h1>My name is C<span className='red-font'>é</span>sar (pronunced Say-sar)</h1>
                     <p>Full Stack Web Developer</p>
                     <p className='header-slogan'><strong className='red-font'>C</strong>reative At Heart, <strong className='red-font'>C</strong>onstantly Learning, <strong className='red-font'>Challenges Conquered</strong></p>
-                   <ContactBlock></ContactBlock>
+                    <ContactBlock></ContactBlock>
 
                     <div className='header-btns-blocks'>
                         <a className='header-btns learn-me' href='#about' aria-label='link to about section'></a>
@@ -81,21 +121,21 @@ const Home = ({apps}) => {
                     <div className='section-content'>
                         <div className='row about-box'>
                             <div className="align-ver">
-                                <img alt='profile of Cesar' src={Portrait} style={{ display:'inline-block', height: '250px', borderRadius: '100px', margin: '0 auto'}}></img>
+                                <img alt='profile of Cesar' src={Portrait} style={{ display: 'inline-block', height: '250px', borderRadius: '100px', margin: '0 auto' }}></img>
                             </div>
-                            
+
 
                             <div className='align-ver about-des'>
                                 <div>
-                                <p className="body-texts left"> Welcome! I create <span className="red-font bold">full stack web applications</span> with an emphasis on <span className="red-font bold"></span>productivity and social media. I completed a Full Stack Web Developer course from <span className="red-font bold"> Columbia University</span> in 2022 where I learned various of the latest and essential developer technologies (see list below). I'm a <span className="red-font bold">life long New Yorker</span> with a knack for music and electronic repairs. Please view my featured projects and if you would like to connect, contact me using any of my contact links. <span className="red-font bold">Can't wait to hear from you!</span> </p>
-                                <br />
-                                <Link to="/my-react-portfolio/aboutme">
-                                    <div className="home-btns" style={{color: 'black'}}>
-                                        <p className="h5">Still Curious? Read My Full Bio!</p>
-                                    </div>
-                                </Link>
+                                    <p className="body-texts left"> Welcome! I create <span className="red-font bold">full stack web applications</span> with an emphasis on <span className="red-font bold"></span>productivity and social media. I completed a Full Stack Web Developer course from <span className="red-font bold"> Columbia University</span> in 2022 where I learned various of the latest and essential developer technologies (see list below). I'm a <span className="red-font bold">life long New Yorker</span> with a knack for music and electronic repairs. Please view my featured projects and if you would like to connect, contact me using any of my contact links. <span className="red-font bold">Can't wait to hear from you!</span> </p>
+                                    <br />
+                                    <Link to="/my-react-portfolio/aboutme">
+                                        <div className="home-btns" style={{ color: 'black' }}>
+                                            <p className="h5">Still Curious? Read My Full Bio!</p>
+                                        </div>
+                                    </Link>
                                 </div>
-                              
+
 
                             </div>
                         </div>
@@ -118,9 +158,9 @@ const Home = ({apps}) => {
                         </div>
                     </div>
 
-                    <div className="section-content" ref={projectsScale}>
-                    <p className="body-texts left">Hover cursor over image or hold and slide on image to preview image of app. Click on image below to deploy app.</p>
-                            <PortfolioDiv applications={apps}></PortfolioDiv>
+                    <div className="section-content" ref={projectsScale} id='closeOptionsTrigger'>
+                        <p className="body-texts left">Hover cursor over image or hold and slide on image to preview image of app. Click on image below to deploy app.</p>
+                        <PortfolioDiv applications={apps} setProjectTrigger={setProjectTrigger} setDetectProjectBtnId={setDetectProjectBtnId}></PortfolioDiv>
                     </div>
 
                 </div>
