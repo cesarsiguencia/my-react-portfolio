@@ -1,31 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "e4573ecb86bb8d771989",
-    "url": "/my-react-portfolio/static/css/main.b637ce30.chunk.css"
+    "revision": "7393ba925adb0c0c7392",
+    "url": "/my-react-portfolio/static/css/main.2d920f87.chunk.css"
   },
   {
-    "revision": "e4573ecb86bb8d771989",
-    "url": "/my-react-portfolio/static/js/main.e4573ecb.chunk.js"
+    "revision": "7393ba925adb0c0c7392",
+    "url": "/my-react-portfolio/static/js/main.7393ba92.chunk.js"
   },
   {
-    "revision": "98e768d54662544a0eb7",
-    "url": "/my-react-portfolio/static/js/1.98e768d5.chunk.js"
+    "revision": "4f97d7cc54692b5226a1",
+    "url": "/my-react-portfolio/static/js/1.4f97d7cc.chunk.js"
   },
   {
-    "revision": "8b3b4e989826e87cff8d",
-    "url": "/my-react-portfolio/static/js/2.8b3b4e98.chunk.js"
+    "revision": "aa4547149371988d36c7",
+    "url": "/my-react-portfolio/static/js/2.aa454714.chunk.js"
   },
   {
-    "revision": "dc7bb8f51bdaf8f413fe",
-    "url": "/my-react-portfolio/static/js/3.dc7bb8f5.chunk.js"
+    "revision": "cd8e75914aa252696c62",
+    "url": "/my-react-portfolio/static/js/3.cd8e7591.chunk.js"
   },
   {
-    "revision": "f2d5fe1bfec75075e2b3",
-    "url": "/my-react-portfolio/static/js/4.f2d5fe1b.chunk.js"
+    "revision": "e5388bd092541ed1d166",
+    "url": "/my-react-portfolio/static/js/4.e5388bd0.chunk.js"
   },
   {
-    "revision": "6534670211947726f5fa",
-    "url": "/my-react-portfolio/static/js/runtime~main.65346702.js"
+    "revision": "90cd5425a0ef4f4956ca",
+    "url": "/my-react-portfolio/static/js/5.90cd5425.chunk.js"
+  },
+  {
+    "revision": "73b60cc800b04149affd",
+    "url": "/my-react-portfolio/static/js/runtime~main.73b60cc8.js"
   },
   {
     "revision": "07883e93734b98cae0f7b9c55d287250",
@@ -56,10 +60,6 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/title.dc8a8652.gif"
   },
   {
-    "revision": "684d10e57b2d711f351d086e6cb69a81",
-    "url": "/my-react-portfolio/static/media/view-projects-active.684d10e5.gif"
-  },
-  {
     "revision": "8b22e8d88da13a39a986b5bb0e151e0c",
     "url": "/my-react-portfolio/static/media/learn-me-still.8b22e8d8.gif"
   },
@@ -72,8 +72,48 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/learn-me-active.686a6610.gif"
   },
   {
+    "revision": "684d10e57b2d711f351d086e6cb69a81",
+    "url": "/my-react-portfolio/static/media/view-projects-active.684d10e5.gif"
+  },
+  {
     "revision": "7327afd2e1ceb05148cf0aeb7373f39e",
     "url": "/my-react-portfolio/static/media/matrix.7327afd2.gif"
+  },
+  {
+    "revision": "013a616d8b8603c79f062adf52ac80e5",
+    "url": "/my-react-portfolio/static/media/10000-Days.013a616d.avif"
+  },
+  {
+    "revision": "cb5c284601d618cda57b690b07f5bebe",
+    "url": "/my-react-portfolio/static/media/Dine-N-Wine.cb5c2846.avif"
+  },
+  {
+    "revision": "7ecc07141d34eadc4581d2c705a284dc",
+    "url": "/my-react-portfolio/static/media/Introductory-Javascript-Quiz.7ecc0714.avif"
+  },
+  {
+    "revision": "64e65444c628e6381666f45171020732",
+    "url": "/my-react-portfolio/static/media/React-Photo-Port.64e65444.avif"
+  },
+  {
+    "revision": "071f6f873c86cdeb323d9dc9c8433def",
+    "url": "/my-react-portfolio/static/media/Show-Me-My-Schedule.071f6f87.avif"
+  },
+  {
+    "revision": "3ac8c56e3c6ca4b4459d137d6bbc2d18",
+    "url": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.avif"
+  },
+  {
+    "revision": "c13f105daad89b977759e1f89e54c6e8",
+    "url": "/my-react-portfolio/static/media/Technify-In-Python.c13f105d.avif"
+  },
+  {
+    "revision": "52774ec9c55fdead73ad0ce54675d8dc",
+    "url": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.avif"
+  },
+  {
+    "revision": "0de2975023e01dfbe3a44ccdf19a4754",
+    "url": "/my-react-portfolio/static/media/iCanFixIt.0de29750.avif"
   },
   {
     "revision": "12a68de0c396dc86cb4af157dc5674fd",
@@ -176,42 +216,6 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/portrait.1a96a149.avif"
   },
   {
-    "revision": "013a616d8b8603c79f062adf52ac80e5",
-    "url": "/my-react-portfolio/static/media/10000-Days.013a616d.avif"
-  },
-  {
-    "revision": "cb5c284601d618cda57b690b07f5bebe",
-    "url": "/my-react-portfolio/static/media/Dine-N-Wine.cb5c2846.avif"
-  },
-  {
-    "revision": "7ecc07141d34eadc4581d2c705a284dc",
-    "url": "/my-react-portfolio/static/media/Introductory-Javascript-Quiz.7ecc0714.avif"
-  },
-  {
-    "revision": "64e65444c628e6381666f45171020732",
-    "url": "/my-react-portfolio/static/media/React-Photo-Port.64e65444.avif"
-  },
-  {
-    "revision": "071f6f873c86cdeb323d9dc9c8433def",
-    "url": "/my-react-portfolio/static/media/Show-Me-My-Schedule.071f6f87.avif"
-  },
-  {
-    "revision": "3ac8c56e3c6ca4b4459d137d6bbc2d18",
-    "url": "/my-react-portfolio/static/media/Taskmaster-Pro.3ac8c56e.avif"
-  },
-  {
-    "revision": "c13f105daad89b977759e1f89e54c6e8",
-    "url": "/my-react-portfolio/static/media/Technify-In-Python.c13f105d.avif"
-  },
-  {
-    "revision": "52774ec9c55fdead73ad0ce54675d8dc",
-    "url": "/my-react-portfolio/static/media/Weather-Dashboard.52774ec9.avif"
-  },
-  {
-    "revision": "0de2975023e01dfbe3a44ccdf19a4754",
-    "url": "/my-react-portfolio/static/media/iCanFixIt.0de29750.avif"
-  },
-  {
     "revision": "aa1dbb326324c67fbf98edac6f851755",
     "url": "/my-react-portfolio/static/media/cycling-bicycle.aa1dbb32.gif"
   },
@@ -236,7 +240,11 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/ballons.8182318d.gif"
   },
   {
-    "revision": "40323c2b0ef25c4931ae7ce9b8fac237",
+    "revision": "14bb66f73b2af6bdc7be94605b4780dc",
+    "url": "/my-react-portfolio/static/media/launch.14bb66f7.avif"
+  },
+  {
+    "revision": "93d8f9810a9387b5972ec003d41743ee",
     "url": "/my-react-portfolio/index.html"
   }
 ];
