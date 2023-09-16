@@ -158,7 +158,7 @@ const Home = ({ apps, bodyBtnsData }) => {
                     </div>
 
                     <div className="section-content" ref={projectsScale} id='closeOptionsTrigger'>
-                        <p className="body-texts left">Hover cursor over image or hold and slide on image to preview image of app. Click on image below to deploy app.</p>
+                        <p className="body-texts left">Press on app image to test app or to learn more in depth information.</p>
                         <PortfolioDiv applications={apps} setProjectTrigger={setProjectTrigger} setDetectProjectBtnId={setDetectProjectBtnId}></PortfolioDiv>
                     </div>
 

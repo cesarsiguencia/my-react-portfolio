@@ -43,13 +43,19 @@ const displayApp = ({applications, setProjectTrigger, setDetectProjectBtnId}) =>
                                 </div>
                             </div>
 
-                            <div className='app-options-box col' project-id={i}>
+                            <div className='app-options-box' project-id={i}>
                                 <a className='app-options align-ver center' style={{backgroundColor:'rgba(20, 194, 204, 0.8)'}}  target='_blank' href={app.url} >
-                                    <p className='links'>Deploy App</p>
+                                    <div className='projectBtns'>
+                                    <p className='links h3'>Deploy App</p>
+                                    </div>
+                                    
                                 </a>
 
                                 <Link to={`/my-react-portfolio/${app.name}`} className='app-options align-ver center' style={{backgroundColor:'rgba(255, 165, 0, 0.8)'}}>
-                                    <p className='links'>Learn More</p>
+                                    <div className='projectBtns'>
+                                    <p className='links h3'>Learn More</p>
+                                    </div>
+                                    
                                 </Link>
 
                             </div>

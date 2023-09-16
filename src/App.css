@@ -359,6 +359,22 @@ body::before {
   width: 100%
 }
 
+.projectBtns{
+  display: flex;
+  /* padding: 10px 10px; */
+  transition: ease-in-out 0.3s;
+  color: white;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  scale: 1
+}
+
+.projectBtns:hover{
+  scale: 1.15;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 
 
 /* Contact on Home */
@@ -545,6 +561,12 @@ a:visited{
 h1{
   font-size: 60px;
   margin-top: 20px;
+}
+
+.h3{
+  font-family: 'Raleway';
+  font-size: 28px;
+  font-weight: bold
 }
 
 h4{

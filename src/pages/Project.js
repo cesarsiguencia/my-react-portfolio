@@ -75,9 +75,9 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                                             </a>
                                         </div>
 
-                                        <div>
+                                        <div style={{ padding: '15px 10px', border: '5px solid rgb(167, 2, 2)'}}>
                                             {singleApp.heroku_cred &&
-                                                <div>
+                                                <div >
                                                     <p className="h5 left">This app requires credentials!</p>
                                                     <p className="body-texts left">To experience all the features of the app, <span className="red-font bold">create a new account</span> or <span className="red-font bold">use the sample credentials </span>of the test account below:</p>
 
@@ -96,7 +96,7 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                                 </div>
 
                                 <div className="col align-ver center">
-                                    <img className='single-app-image' alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
+                                    <img className='single-app-image' style={{margin: '25px auto'}} alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
                                 </div>
 
                             </div>
