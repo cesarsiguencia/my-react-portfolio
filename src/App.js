@@ -103,12 +103,17 @@ function App() {
     // },
     to_top:{
       url: '#header',
-      font: 'Return to the top',
+      font: 'Return To The top',
       extend: true
     },
     to_projects:{
       url: '#projects',
       font: 'View Projects In Action!',
+      extend: true
+    },
+    to_more_projects:{
+      url: '#projects',
+      font: 'View More Projects!',
       extend: true
     },
     home: {
@@ -118,7 +123,7 @@ function App() {
     },
     about: {
       url: 'aboutme',
-      font: 'Still curious? Read my Full Bio!',
+      font: 'Still Curious? Read My Full Bio!',
       extend: false
     }
 
@@ -156,7 +161,7 @@ function App() {
                         element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
                         ><ProjectPg
                             singleApp={page}
-                            bodyBtnsData={bodyBtns.home}
+                            bodyBtnsData={bodyBtns.to_more_projects}
                           /></React.Suspense>}
                       >
 
