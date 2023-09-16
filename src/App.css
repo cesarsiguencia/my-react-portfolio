@@ -88,12 +88,6 @@ body::before {
   background-repeat: repeat-x;
 }
 
-/* .header-hero{
-  height: 800px;
-  background-image: url('./media/icons/gifs/matrix.gif');
-  background-repeat: repeat-x;
-} */
-
 .header-text{
   padding: 10% 15%;
   font-size: 30px;
