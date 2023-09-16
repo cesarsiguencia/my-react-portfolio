@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{76:function(e,a,n){"use strict";n.r(a);var t=n(1),r=n.n(t);a.default=function(){return r.a.createElement("div",{className:"header-hero"},r.a.createElement("div",{className:"header-text"},r.a.createElement("h1",null,r.a.createElement("strong",{className:"red-font"},"404")," | Page not found"),r.a.createElement("p",{className:"header-slogan"},"The link may be broken or does not exist.")))}}}]);
+//# sourceMappingURL=4.969efd5f.chunk.js.map
