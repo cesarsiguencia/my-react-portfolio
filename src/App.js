@@ -63,7 +63,6 @@ function App() {
       technologies: ['Python', 'Flask', 'PyMySQL', 'SQLAlchemy', 'Bcrypt', 'Dotenv', 'Gunicorn', 'HTML', 'CSS', 'Javascript'],
       url: 'https://technify-by-cs.up.railway.app/',
       developer: 'Sole Developer',
-      // heroku_disclaimer: heroku_disclaimer,
       heroku_cred: {
         username: 'testbot@gmail.com',
         password: 'password'
@@ -83,7 +82,7 @@ function App() {
       description: 'An application representing multiple hot plate recipes from all over the world! Users are able to save receipes under "Favorites", filter receipes by category, or allow the application to pick one by random. In addition, users can look up for macronutrient information, ingredients, and dosages.',
       technologies: ['HTML', 'CSS', 'PureCSS', 'Javascript', 'APIs'],
       url: 'https://cesarsiguencia.github.io/dine-n-wine/',
-      developer: 'GROUP PROJECT: Front End Developer'
+      developer: 'GROUP PROJECT | Front End Developer'
     },
     {
       name: 'Weather-Dashboard',
@@ -98,9 +97,6 @@ function App() {
 
   const bodyBtns = {
 
-    // from_home: {
-    //   url: '#header'
-    // },
     to_top:{
       url: '#header',
       font: 'Return To The top',
@@ -173,12 +169,12 @@ function App() {
 
                   <Route
                     path="/*"
-                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 /></React.Suspense>}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 goHome={bodyBtns.home}/></React.Suspense>}
                   />
 
                   <Route
                     path="/my-react-portfolio/*"
-                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 /></React.Suspense>}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 goHome={bodyBtns.home}/></React.Suspense>}
                   />
 
 
