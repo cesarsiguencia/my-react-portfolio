@@ -99,6 +99,11 @@ body::before {
   text-shadow: white 1px 0 10px;
 }
 
+.green-font{
+  color: rgb(9, 136, 9);
+  text-shadow: white 1px 0 10px;
+}
+
 .header-icons-block{
   display: flex;
   justify-content: space-around;
@@ -437,6 +442,12 @@ body::before {
 
 /* Projects Page */
 
+.single-app-image{
+  height: 600px;
+  width: 450px
+}
+
+
 /* Footer ----------------------- */
 
 .App-footer {
@@ -537,6 +548,10 @@ h4{
 }
 
 @media screen and (max-width: 1000px) {
+  .singleApp-block{
+    display: block;
+  }
+  
   .Header-contents{
     display: block;
   }
@@ -781,6 +796,12 @@ h4{
 
   .technologies-logos{
     margin-bottom: 5px
+  }
+
+  .single-app-image{
+    height: 350px;
+    width: 250px
+
   }
 }
 
