@@ -5,8 +5,9 @@ import FactsCarousel from '../Components/Carousels/facts'
 import { opacityEffect, scaleEffect } from '../utils/helpers'
 import Gifs from '../Components/Icons/Gif-Icons'
 import AboutProjects from '../Components/About-Blocks/About-projects'
+import BodyBtn from '../Components/Body-Btns/Body-Btns'
 
-const About = () => {
+const About = ({bodyBtnsData}) => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -44,6 +45,11 @@ const About = () => {
                             <p className="body-texts bold">Some of the current projects I am working on include the following: </p>
                             <AboutProjects></AboutProjects>
                         </div>
+
+                        <div className='row'> 
+                            <BodyBtn toPage={bodyBtnsData.to_projects}></BodyBtn>
+                        </div>
+                        
                 </div>
 
                 <div className="facts-quotes">
@@ -102,6 +108,11 @@ const About = () => {
                         <br />
                         <br />
                         I identify as Latino and speak Spanish and English fluently with an intermediate profiency level in Chinese from courses I took in high school, college, and a summer study abroad. </p>
+                        <br/>
+                        <div className='row'>
+                        <BodyBtn toPage={bodyBtnsData.home}></BodyBtn>
+                        </div>
+                    
                 </div>
             </div>
 

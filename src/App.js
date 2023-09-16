@@ -95,6 +95,35 @@ function App() {
     }
   ]
 
+
+  const bodyBtns = {
+
+    // from_home: {
+    //   url: '#header'
+    // },
+    to_top:{
+      url: '#header',
+      font: 'Return to the top',
+      extend: true
+    },
+    to_projects:{
+      url: '#projects',
+      font: 'View Projects In Action!',
+      extend: true
+    },
+    home: {
+      url: '#header',
+      font: 'Return home',
+      extend: true
+    },
+    about: {
+      url: 'aboutme',
+      font: 'Still curious? Read my Full Bio!',
+      extend: false
+    }
+
+  }
+
   return (
     <Router >
       {
@@ -111,13 +140,13 @@ function App() {
                   <Route
                     path="/my-react-portfolio"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
-                    ><Home apps={applications} /></React.Suspense>}
+                    ><Home apps={applications} bodyBtnsData={bodyBtns} /></React.Suspense>}
                   />
 
 
                   <Route
                     path="/my-react-portfolio/aboutme"
-                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe /></React.Suspense>}
+                    element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe bodyBtnsData={bodyBtns}/></React.Suspense>}
                   />
 
                   {applications.map((page, i) => {
@@ -127,6 +156,7 @@ function App() {
                         element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
                         ><ProjectPg
                             singleApp={page}
+                            bodyBtnsData={bodyBtns.home}
                           /></React.Suspense>}
                       >
 
@@ -137,7 +167,7 @@ function App() {
                   })}
 
                   <Route
-                    path="/"
+                    path="/*"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 /></React.Suspense>}
                   />
 

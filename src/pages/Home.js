@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react"
 
-import { Link } from 'react-router-dom'
+import { HashLink } from "react-router-hash-link"
 
 import ContactBlock from "../Components/Icons/Contact-Icons"
 
@@ -14,7 +14,9 @@ import PortfolioDiv from "../Components/Apps/Apps"
 
 import { opacityEffect, scaleEffect } from "../utils/helpers"
 
-const Home = ({ apps }) => {
+import BodyBtn from '../Components/Body-Btns/Body-Btns'
+
+const Home = ({ apps, bodyBtnsData }) => {
 
     const aboutOpa = useRef()
     const projectsOpa = useRef()
@@ -129,11 +131,8 @@ const Home = ({ apps }) => {
                                 <div>
                                     <p className="body-texts left"> Welcome! I create <span className="red-font bold">full stack web applications</span> with an emphasis on <span className="red-font bold"></span>productivity and social media. I completed a Full Stack Web Developer course from <span className="red-font bold"> Columbia University</span> in 2022 where I learned various of the latest and essential developer technologies (see list below). I'm a <span className="red-font bold">life long New Yorker</span> with a knack for music and electronic repairs. Please view my featured projects and if you would like to connect, contact me using any of my contact links. <span className="red-font bold">Can't wait to hear from you!</span> </p>
                                     <br />
-                                    <Link to="/my-react-portfolio/aboutme">
-                                        <div className="home-btns" style={{ color: 'black' }}>
-                                            <p className="h5">Still Curious? Read My Full Bio!</p>
-                                        </div>
-                                    </Link>
+
+                                    <BodyBtn toPage={bodyBtnsData.about}></BodyBtn>
                                 </div>
 
 
@@ -175,6 +174,10 @@ const Home = ({ apps }) => {
                     <div className="section-content" ref={contactScale}>
                         <ContactHomeDiv></ContactHomeDiv>
                     </div>
+
+                    <br/>
+
+                    <BodyBtn toPage = {bodyBtnsData.to_top} ></BodyBtn>
 
                 </div>
             </div>

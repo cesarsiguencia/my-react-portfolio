@@ -2,8 +2,9 @@ import React, { useEffect, useState, useRef } from "react";
 import { opacityEffect } from "../utils/helpers";
 import GitHubLogo from '../media/icons/github.svg'
 import LaunchLogo from '../media/icons/launch.avif'
+import BodyBtn from '../Components/Body-Btns/Body-Btns'
 
-const projectPg = ({ singleApp }) => {
+const projectPg = ({ singleApp, bodyBtnsData }) => {
 
     const [returnedName, setReturnedName] = useState()
 
@@ -102,6 +103,10 @@ const projectPg = ({ singleApp }) => {
                         </div>
                     </>
                 }
+                <br/>
+                <div className="row">
+                    <BodyBtn toPage={bodyBtnsData}></BodyBtn>
+                </div>
             </div>
         </div>
 

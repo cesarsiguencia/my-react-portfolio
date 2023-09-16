@@ -218,13 +218,18 @@ body::before {
   padding: 10px 10px;;
   background-color: #14C2CC;
   transition: ease-in-out 0.5s;
-  scale: 0.9
+  scale: 0.9;
+  text-align:center
 }
 
 .home-btns:hover{
   transform: rotateX(-360deg);
   background-color: rgb(255, 165, 0);
   scale: 1.1
+}
+
+.extend-btns{
+  width: 500px;
 }
 
 /* About on Home Pg */
@@ -441,6 +446,7 @@ body::before {
   height: 200px;
   display: flex;
   justify-content: center;
+  border: 3px solid orange
 }
 
 .carousel--div{
@@ -797,6 +803,10 @@ h4{
   .carousel-container {
     height: 300px;
   } 
+
+  .extend-btns{
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 500px){
