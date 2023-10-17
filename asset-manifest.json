@@ -1,7 +1,7 @@
 {
   "main.css": "/my-react-portfolio/static/css/main.e1a644e2.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.576e71ba.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.576e71ba.chunk.js.map",
+  "main.js": "/my-react-portfolio/static/js/main.6208f02f.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.6208f02f.chunk.js.map",
   "static/js/1.621d905f.chunk.js": "/my-react-portfolio/static/js/1.621d905f.chunk.js",
   "static/js/1.621d905f.chunk.js.map": "/my-react-portfolio/static/js/1.621d905f.chunk.js.map",
   "static/js/2.3f5b7406.chunk.js": "/my-react-portfolio/static/js/2.3f5b7406.chunk.js",
@@ -20,7 +20,7 @@
   "static/media/linkedin.avif": "/my-react-portfolio/static/media/linkedin.df721c21.avif",
   "static/media/clear-mail.avif": "/my-react-portfolio/static/media/clear-mail.302beefb.avif",
   "static/media/loading.gif": "/my-react-portfolio/static/media/loading.c0adbf27.gif",
-  "static/media/Cesar_Siguencia_Resume.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia_Resume.66f995c3.pdf",
+  "static/media/Cesar_Siguencia_Resume.pdf": "/my-react-portfolio/static/media/Cesar_Siguencia_Resume.b7fbdc55.pdf",
   "static/media/document.avif": "/my-react-portfolio/static/media/document.41e5fe22.avif",
   "static/media/title.gif": "/my-react-portfolio/static/media/title.dc8a8652.gif",
   "static/media/App.css": "/my-react-portfolio/static/media/matrix.7327afd2.gif",
@@ -67,6 +67,6 @@
   "static/media/launch.avif": "/my-react-portfolio/static/media/launch.14bb66f7.avif",
   "static/css/main.e1a644e2.chunk.css.map": "/my-react-portfolio/static/css/main.e1a644e2.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.cfdcdec2543dfcf7e47bbc238f34b2f7.js": "/my-react-portfolio/precache-manifest.cfdcdec2543dfcf7e47bbc238f34b2f7.js",
+  "precache-manifest.9ad616c6fc59b8865dc2028ff9e22d3d.js": "/my-react-portfolio/precache-manifest.9ad616c6fc59b8865dc2028ff9e22d3d.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }

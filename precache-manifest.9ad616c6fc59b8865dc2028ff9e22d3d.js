@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "576e71ba3cdc45692e30",
+    "revision": "6208f02f154a7ff08c7b",
     "url": "/my-react-portfolio/static/css/main.e1a644e2.chunk.css"
   },
   {
-    "revision": "576e71ba3cdc45692e30",
-    "url": "/my-react-portfolio/static/js/main.576e71ba.chunk.js"
+    "revision": "6208f02f154a7ff08c7b",
+    "url": "/my-react-portfolio/static/js/main.6208f02f.chunk.js"
   },
   {
     "revision": "621d905fbbbee198cee5",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/loading.c0adbf27.gif"
   },
   {
-    "revision": "66f995c34c3f22f732f882dd94d98cae",
-    "url": "/my-react-portfolio/static/media/Cesar_Siguencia_Resume.66f995c3.pdf"
+    "revision": "b7fbdc5577de842b8efd46027a22f68d",
+    "url": "/my-react-portfolio/static/media/Cesar_Siguencia_Resume.b7fbdc55.pdf"
   },
   {
     "revision": "41e5fe227d26a19d07840e6dae5bb19b",
@@ -68,16 +68,16 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/learn-me-still.8b22e8d8.gif"
   },
   {
-    "revision": "684d10e57b2d711f351d086e6cb69a81",
-    "url": "/my-react-portfolio/static/media/view-projects-active.684d10e5.gif"
-  },
-  {
     "revision": "686a6610ce77ee241ead8143cd81b730",
     "url": "/my-react-portfolio/static/media/learn-me-active.686a6610.gif"
   },
   {
     "revision": "efb2197c6d6bb4f888b79d33813de817",
     "url": "/my-react-portfolio/static/media/view-projects-still.efb2197c.gif"
+  },
+  {
+    "revision": "684d10e57b2d711f351d086e6cb69a81",
+    "url": "/my-react-portfolio/static/media/view-projects-active.684d10e5.gif"
   },
   {
     "revision": "7327afd2e1ceb05148cf0aeb7373f39e",
@@ -248,7 +248,7 @@ self.__precacheManifest = [
     "url": "/my-react-portfolio/static/media/launch.14bb66f7.avif"
   },
   {
-    "revision": "ff5020d1f03a2139c44ea5a257b37ab3",
+    "revision": "97018f7a4f72e07fe26a5f4bcd87381d",
     "url": "/my-react-portfolio/index.html"
   }
 ];
