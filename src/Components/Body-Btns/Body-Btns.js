@@ -5,7 +5,7 @@ const homeBtn = ({toPage}) => {
 
     
     return (
-        <HashLink to={`/my-react-portfolio/${toPage.url}`}>
+        <HashLink className='hash-links' to={`/my-react-portfolio/${toPage.url}`}>
             <div className={`home-btns ${toPage.extend && 'extend-btns'}`}
             
             

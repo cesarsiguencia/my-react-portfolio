@@ -36,7 +36,7 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                             </div>
 
                             <div className="row singleApp-block">
-                                <div className="col align-ver">
+                                <div className="col align-ver center">
                                     <div>
                                         <h4 className="left">Role: {singleApp.developer}</h4>
 
@@ -54,8 +54,8 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                                         </div>
 
                                         <div>
-                                            <a target='_blank' style={{display:'inline-block'}} href={`https://github.com/cesarsiguencia/${singleApp.name}`}>
-                                                <div className="home-btns center" style={{ color: 'black', display: 'flex', width: '300px', margin: '15px auto' }}>
+                                            <a target='_blank' className="hash-links" href={`https://github.com/cesarsiguencia/${singleApp.name}`}>
+                                                <div className="home-btns center" style={{ color: 'black', display: 'flex',  margin: '15px auto' }}>
 
                                                     <p className="h5">Visit GitHub Repository</p>
                                                     <div className="align-ver">
@@ -64,8 +64,8 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                                                 </div>
                                             </a>
 
-                                            <a target='_blank'  style={{display:'inline-block'}} href={singleApp.url}>
-                                                <div className="home-btns center" style={{ color: 'black', display: 'flex', width: '300px', margin: '15px auto' }}>
+                                            <a target='_blank' className="hash-links"  href={singleApp.url}>
+                                                <div className="home-btns center" style={{ color: 'black', display: 'flex',  margin: '15px auto' }}>
 
                                                     <p className="h5">Deploy App</p>
                                                     <div className="align-ver">
@@ -97,9 +97,9 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
 
                                 <div className="col align-ver center">
                                     <div className='align-ver'>
-                                    <div className="align-ver single-app-image-div">
-                                        <img className='single-app-image' alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
-                                    </div>
+                                        <div className="align-ver single-app-image-div">
+                                            <img className='single-app-image' alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
+                                        </div>
                                     </div>
                                  
                                     
@@ -110,9 +110,9 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                     </>
                 }
                 <br/>
-                <div className="row">
+    
                     <BodyBtn toPage={bodyBtnsData}></BodyBtn>
-                </div>
+       
             </div>
         </div>
 
