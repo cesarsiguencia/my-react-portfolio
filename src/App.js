@@ -42,7 +42,8 @@ function App() {
       heroku_cred: {
         username: 'cez@gmail.com',
         password: '10001'
-      }
+      },
+      demo: "https://drive.google.com/file/d/1_0FVgUyds6AZcGe751tFelJHap19wQQb/preview"
     },
     {
       name: '10000-Days',
@@ -54,7 +55,8 @@ function App() {
       heroku_cred: {
         username: 'testbot@gmail.com',
         password: 'password'
-      }
+      },
+      demo: "https://drive.google.com/file/d/1S-mit3Pax7fOO4-itVq0T8AfWKIcHFy-/preview"
     },
     {
       name: 'Technify-In-Python',
@@ -66,7 +68,8 @@ function App() {
       heroku_cred: {
         username: 'testbot@gmail.com',
         password: 'password'
-      }
+      },
+      demo: "https://drive.google.com/file/d/1dgE4WgaUUo373DLhJAB0Ok5GjlZZDOFY/preview"
     },
     {
       name: 'Taskmaster-Pro',

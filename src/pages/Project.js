@@ -53,6 +53,22 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
 
                                         </div>
 
+                                        <div >
+                                            {singleApp.heroku_cred &&
+                                                <div style={{ padding: '15px 10px', margin: '15px', border: '5px solid rgb(167, 2, 2)'}}>
+                                                    <p className="h5 left">This app requires credentials!</p>
+                                                    <p className="body-texts left">To experience all the features of the app, <span className="red-font bold">create a new account</span> or <span className="red-font bold">use the sample credentials </span>of the test account below:</p>
+
+                                                    <div style={{ margin: '15px auto' }}>
+                                                        <p className="body-texts left bold">Username: <span className="green-font">{singleApp.heroku_cred.username}</span></p>
+                                                        <p className="body-texts left bold"> Password or Zipcode: <span className="green-font">{singleApp.heroku_cred.password}</span></p>
+                                                    </div>
+
+
+                                                </div>
+                                            }
+                                        </div>
+
                                         <div>
                                             <a target='_blank' className="hash-links" href={`https://github.com/cesarsiguencia/${singleApp.name}`}>
                                                 <div className="home-btns center" style={{ color: 'black', display: 'flex',  margin: '15px auto' }}>
@@ -75,31 +91,32 @@ const projectPg = ({ singleApp, bodyBtnsData }) => {
                                             </a>
                                         </div>
 
-                                        <div >
-                                            {singleApp.heroku_cred &&
-                                                <div style={{ padding: '15px 10px', border: '5px solid rgb(167, 2, 2)'}}>
-                                                    <p className="h5 left">This app requires credentials!</p>
-                                                    <p className="body-texts left">To experience all the features of the app, <span className="red-font bold">create a new account</span> or <span className="red-font bold">use the sample credentials </span>of the test account below:</p>
 
-                                                    <div style={{ margin: '15px auto' }}>
-                                                        <p className="body-texts left bold">Username: <span className="green-font">{singleApp.heroku_cred.username}</span></p>
-                                                        <p className="body-texts left bold"> Password or Zipcode: <span className="green-font">{singleApp.heroku_cred.password}</span></p>
-                                                    </div>
-
-
-                                                </div>
-                                            }
-                                        </div>
 
                                     </div>
 
                                 </div>
 
                                 <div className="col align-ver center">
-                                    <div className='align-ver'>
+                                    <div>
                                         <div className="align-ver single-app-image-div">
                                             <img className='single-app-image' alt={`Full view of the ${returnedName} app`} src={require(`../media/app-images/${singleApp.name}.avif`)}></img>
                                         </div>
+
+                                        {singleApp.demo &&
+                                            <div className="demo">
+                                                <p className="h5">Watch the Short Demo Below:</p>
+                                            
+                                                <div className="videoWrapper">
+                                                    <iframe src={singleApp.demo}>
+
+                                                    </iframe>
+                                                </div>
+
+                                            </div>
+                                        }
+
+
                                     </div>
                                  
                                     
